@@ -22,10 +22,10 @@
   /* generic Style */
       :root {
         --main-color: #b9c6bd;
+        --main-active-color: #1d7c98;
         --main-typo-color: #3e5258;
         --main-default-spacing: 24px;
         --header-default-height: 72px;
-        --header-nav-active-color: #fff;
     }
 
     .greyscale {
@@ -59,8 +59,12 @@
     }
 
     a {
-      color: var(--main-typo-color);
+      color: var(--main-active-color);
       text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     /* Layouting */
@@ -68,11 +72,7 @@
       margin: auto;
       min-width: 100%;
       min-height: 100vh;
-      text-align: center;
-    }
-
-    .container.first {
-      padding-top: var(--header-default-height)
+      padding: var(--header-default-height) 0 var(--main-default-spacing) 0;
     }
 
     .content {
@@ -95,6 +95,7 @@
       top: 0;
       left: 0;
       width: 100%;
+      z-index: 3;
     }
 
     .toolbar-logo-container {
@@ -105,6 +106,16 @@
 
     .toolbar-nav-container {
       display: none;
+    }
+
+    /* First Container */
+    .container.first .cover-image {
+      max-width: 100%;
+    }
+
+    /* Content */
+    .content h1 {
+      text-align: center;
     }
 
     /* Responsive mq :::::: mobile first */
@@ -147,7 +158,7 @@
       }
 
       .nav-tab-indicator {
-        background: var(--header-nav-active-color);
+        background: var(--main-active-color);
         bottom: 0;
         height: 4px;
         left: 0;
@@ -160,7 +171,7 @@
 
       /* Header navigation active modifier class */
       .nav-tab-bar-item.active .nav-tab {
-        color: var(--header-nav-active-color);
+        color: var(--main-active-color);
       }
 
       .nav-tab-bar-item.active .nav-tab-indicator {
@@ -182,7 +193,7 @@
     <div class="toolbar-logo-container"><img src="assets/logo-nav.png" alt=""></div>
     <nav class="toolbar-nav-container nav-tab-bar" role="navigation">
       <ul class="nav-tab-bar-list">
-        <li class="nav-tab-bar-item"><a class="nav-tab" href="#anchor">L'aquaponie
+        <li class="nav-tab-bar-item"><a class="nav-tab" href="#aquaponie-comment-ca-marche">L'aquaponie
           <span class="nav-tab-indicator"></span></a></li>
         <li class="nav-tab-bar-item"><a class="nav-tab" href="#anchor">Nos installations
           <span class="nav-tab-indicator"></span></a></li>
@@ -192,9 +203,15 @@
     </nav>
   </header>
   <main class="main" role="main">
-    <section class="container first" style="background-color: #afafaf1f">
+    <section id="aquaponie-comment-ca-marche" class="container first" style="background: #afafaf1f">
       <div class="content">
+        <img src="assets/cycle-aquaponie-schema.png" alt="Schéma présentant le fonctionnement de l'agriculture avec nos kits aquaponiques : la rencontre entre l'hydroponie et la pisciculture." class="cover-image">
         <h1>L'aquaponie, c'est quoi ?</h1>
+        <p>Un paragraphe explicatif en soutient au schéma (volé pour l'occasion, dans l'idéal sans texte dans l'image), accessible et présentant le principe de l'aquaponie.<br>
+        J'imagine quelques chose de simple. En terme de quantité, mon conseil est de rester "rapide" et concis.<br>
+        Pas plus de 2 paragraphes de 3 phrases chacun max ou quelque chose de visuellement similaire en terme de "densité d'information". </p>
+        <p>Mots clés à placer dans tout le site et dans l'idéal : culture, système, énergie solaire, agriculture, fitration, aquarium, maison, professionnels, collectivités, pisciculture, hydroponie, et tout ce qui vous semble pertinent à donner aux moteurs de recherche. <br>
+          Source : <a href="https://trends.google.fr/trends/explore?q=aquaponie&geo=FR" target="_blank">https://trends.google.fr/trends/explore?q=aquaponie&geo=FR</a></p>
       </div>
     </section>
     <section class="container" style="background-color: white">
