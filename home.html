@@ -157,6 +157,11 @@
         transition: color .1s cubic-bezier(.4,0,.2,1);
       }
 
+      .nav-tab:hover {
+        text-decoration: none;
+        color: var(--main-active-color);
+      }
+
       .nav-tab-indicator {
         background: var(--main-active-color);
         bottom: 0;
@@ -170,11 +175,11 @@
       }
 
       /* Header navigation active modifier class */
-      .nav-tab-bar-item.active .nav-tab {
+      .nav-tab.active {
         color: var(--main-active-color);
       }
 
-      .nav-tab-bar-item.active .nav-tab-indicator {
+      .nav-tab.active .nav-tab-indicator {
         transform: scaleY(1);
       }
     }
@@ -195,9 +200,9 @@
       <ul class="nav-tab-bar-list">
         <li class="nav-tab-bar-item"><a class="nav-tab" href="#aquaponie-comment-ca-marche">L'aquaponie
           <span class="nav-tab-indicator"></span></a></li>
-        <li class="nav-tab-bar-item"><a class="nav-tab" href="#anchor">Nos installations
+        <li class="nav-tab-bar-item"><a class="nav-tab" href="#nos-installations-et-kits-aquaponiques">Nos installations
           <span class="nav-tab-indicator"></span></a></li>
-        <li class="nav-tab-bar-item"><a class="nav-tab" href="#anchor">Notre atelier
+        <li class="nav-tab-bar-item"><a class="nav-tab" href="#notre-atelier">Notre atelier
           <span class="nav-tab-indicator"></span></a></li>
       </ul>
     </nav>
@@ -214,12 +219,12 @@
           Source : <a href="https://trends.google.fr/trends/explore?q=aquaponie&geo=FR" target="_blank">https://trends.google.fr/trends/explore?q=aquaponie&geo=FR</a></p>
       </div>
     </section>
-    <section class="container" style="background-color: white">
+    <section id="nos-installations-et-kits-aquaponiques" class="container" style="background-color: white">
       <div class="content">
         <h1>Nos installations et kits</h1>
       </div>
     </section>
-    <section class="container" style="background-color: #d4d29047">
+    <section id="notre-atelier" class="container" style="background-color: #d4d29047">
       <div class="content">
         <h1>Notre atelier aquaponique </h1>
       </div>
@@ -228,5 +233,29 @@
   <footer role="contentinfo">
     <h1>Nos partenaires | Vegeto dans la presse</h1>
   </footer>
+  <script type="text/javascript">
+    window.onload = function() {
+      let navTab = document.getElementsByClassName('nav-tab');
+      let hashRequested = window.location.hash;
+      const ACTIVE_CLASS = 'active';
+
+      for (var i = 0; i < navTab.length; i++) {
+          navTab[i].addEventListener('click', function() {
+              removeActiveClass();
+              this.classList.add(ACTIVE_CLASS);
+          });
+
+          if (navTab[i].getAttribute('href') === hashRequested) {
+            navTab[i].classList.add(ACTIVE_CLASS);
+          }
+      }
+
+      function removeActiveClass() {
+        for (var i = 0; i < navTab.length; i++) {
+            navTab[i].classList.remove(ACTIVE_CLASS);
+        }
+      }
+    };
+  </script>
 </body>
 </html>
