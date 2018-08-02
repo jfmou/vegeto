@@ -175,7 +175,8 @@
     }
 
     /* Gallery Skin on tablet and more */
-    .gallery-container {
+    .gallery-container,
+    .workshop-container {
       display: flex;
       flex-wrap: wrap;
       margin: 0 calc(-1 * var(--main-default-spacing));
@@ -189,6 +190,13 @@
 
     .gallery-container .column a {
       margin-bottom: calc(2* var(--main-default-spacing))
+    }
+
+    .workshop-container .column {
+      flex: 1;
+      width: 50%;
+      padding: 0 var(--main-default-spacing);
+      min-height: 300px;
     }
   }
 

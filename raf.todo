@@ -1,7 +1,9 @@
 * Split mandatory css and inline it for faster loading times
-* Animate logo from mobile to desktop ?
+* Animate logo for mobile and/or desktop ?
 * jQuery custom build ?
-
-Package cli command in a single makefile :
-* generate small thumbnails (forces max width of img in 350px and rename with suffix -small while keeping basename):
+* Bosser typo en tout genre et illustration
+* Title on images in gallery
+* jQuery nav handling based on https://jsfiddle.net/mekwall/up4nu/
+* Package cli command in a single makefile :
+ generate small thumbnails (forces max width of img in 350px and rename with suffix -small while keeping basename):
 convert img/*.jpg -resize 350x -set filename:base "%[basename]" "img/%[filename:base]-small.jpg"
