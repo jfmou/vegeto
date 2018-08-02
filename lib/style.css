@@ -3,12 +3,9 @@
       --main-color: #b9c6bd;
       --main-typo-color: #3e5258;
       --main-active-color: #1d7c98;
+      --main-disabled-color: #3e52588c;
       --main-default-spacing: 24px;
       --header-default-height: 72px;
-  }
-
-  .greyscale {
-    --main-color: #d0d0d0;
   }
 
   * {
@@ -31,10 +28,14 @@
     background-color: white;
     color: var(--main-typo-color);
     display: flex;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Gothic A1', arial, sans-serif;
     font-size: 23px;
     flex-direction: column;
     height: 100%;
+  }
+
+  h1 {
+    font-weight: normal;
   }
 
   a {
@@ -58,7 +59,7 @@
     margin: 0 auto;
     max-width: 840px;
     overflow: hidden;
-    padding: 0 16px;
+    padding: 0 var(--main-default-spacing);
     width: 100%;
   }
 
@@ -129,7 +130,7 @@
 
     .nav-tab {
       font-size: 20px;
-      color: #9e9e9e;
+      color: #3e52588c;
       display: inline-block;
       line-height: var(--header-default-height);
       position: relative;
@@ -138,11 +139,11 @@
 
     .nav-tab:hover {
       text-decoration: none;
-      color: var(--main-active-color);
+      color: var(--main-typo-color);
     }
 
     .nav-tab-indicator {
-      background: var(--main-active-color);
+      background: var(--main-typo-color);
       bottom: 0;
       height: 4px;
       left: 0;
@@ -155,7 +156,7 @@
 
     /* Header navigation active modifier class */
     .nav-tab.active {
-      color: var(--main-active-color);
+      color: var(--main-typo-color);
     }
 
     .nav-tab.active .nav-tab-indicator {
@@ -167,6 +168,5 @@
   @media screen and (min-width: 921px) {
     .content {
         max-width: 1240px;
-        padding: 0 40px;
     }
   }
