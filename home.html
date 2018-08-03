@@ -97,31 +97,8 @@
     Une disposition en deux colonnes avec largeurs maximum, comme le bloc d'au-dessus.
     Pour les logos des partenaires. Ainsi que les petits logos des journaux qui vous ont fait de beaux articles.
   </footer>
-  <script type="text/javascript">
-    window.onload = function() {
-      let navTab = document.getElementsByClassName('nav-tab');
-      let hashRequested = window.location.hash;
-      const ACTIVE_CLASS = 'active';
-
-      for (var i = 0; i < navTab.length; i++) {
-          navTab[i].addEventListener('click', function() {
-              removeActiveClass();
-              this.classList.add(ACTIVE_CLASS);
-          });
-
-          if (navTab[i].getAttribute('href') === hashRequested) {
-            navTab[i].classList.add(ACTIVE_CLASS);
-          }
-      }
-
-      function removeActiveClass() {
-        for (var i = 0; i < navTab.length; i++) {
-            navTab[i].classList.remove(ACTIVE_CLASS);
-        }
-      }
-    };
-  </script>
   <script src="lib/jquery-3.3.1.min.js"></script>
+  <script src="lib/script.js"></script>
   <link rel="stylesheet" href="lib/jquery.fancybox.min.css" />
   <script src="lib/jquery.fancybox.min.js"></script>
 </body>
