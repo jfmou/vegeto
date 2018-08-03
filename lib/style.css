@@ -106,11 +106,19 @@
   .gallery-container .column img {
     display: block;
     width: 100%;
+    border-radius: 2px;
   }
 
   .gallery-container .column a {
     display: block;
     margin-bottom: var(--main-default-spacing);
+  }
+
+  .workshop-container iframe {
+    border: 2px solid var(--main-color);
+    border-radius: 2px;
+    height: 350px;
+    width: 100%;
   }
 
   /* Responsive mq :::::: mobile first */
@@ -201,6 +209,10 @@
       width: 50%;
       padding: 0 var(--main-default-spacing);
       min-height: 300px;
+    }
+
+    .workshop-container iframe {
+      height: 450px;
     }
   }
 
