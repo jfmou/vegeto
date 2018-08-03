@@ -24,6 +24,10 @@
       padding: 0;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: white;
     color: var(--main-typo-color);
