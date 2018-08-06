@@ -3,7 +3,6 @@ TODO / braindump
 * Animate logo for mobile and/or desktop ?
 * jQuery custom build ?
 * Bosser typo en tout genre et illustration
-* Title on images in gallery
 * Package cli command in a single makefile :
 
 ```bash
@@ -12,4 +11,7 @@ ls | cat -n | while read n f; do mv "$f" "$n.jpg"; done
 
  # generate small thumbnails (forces max width of img in 350px and rename with suffix -small while keeping basename):
 convert img/*.jpg -resize 350x -set filename:base "%[basename]" "img/%[filename:base]-small.jpg"
+
+# Generate base64 inline img based on base imagine
+base64 <path/to/img>
 ```
