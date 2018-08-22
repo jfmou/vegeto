@@ -14,4 +14,6 @@ convert img/*.jpg -resize 350x -set filename:base "%[basename]" "img/%[filename:
 
 # Generate base64 inline img based on base imagine
 base64 <path/to/img>
+
+convert <Name> -quality 50 <name>.jpg
 ```

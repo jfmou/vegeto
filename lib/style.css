@@ -33,7 +33,7 @@
     color: var(--main-typo-color);
     display: flex;
     font-family: 'Gothic A1', arial, sans-serif;
-    font-size: 23px;
+    font-size: 19px;
     flex-direction: column;
     height: 100%;
   }
@@ -123,6 +123,10 @@
     width: 100%;
   }
 
+  .workshop-container .column:last-child {
+    margin-top: var(--main-default-spacing);
+  }
+
   .complementary-container {
     padding-bottom: calc(2* var(--main-default-spacing));
   }
@@ -135,6 +139,14 @@
   /* Responsive mq :::::: mobile first */
   @media screen and (min-width: 521px) {
     /* generic Style */
+    body {
+      font-size: 23px;
+    }
+
+    .workshop-container .column:last-child {
+      margin-top: inherit;
+    }
+
     /* Layouting */
     /* Header */
     .toolbar {
@@ -228,7 +240,8 @@
     }
 
     .workshop-container iframe {
-      height: 450px;
+      max-height: 513px;
+      height: 41vw;
     }
   }
 
