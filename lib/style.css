@@ -1,11 +1,11 @@
 /* generic Style */
     :root {
-      --main-color: #b9c6bd;
-      --main-typo-color: #3e5258;
-      --main-active-color: #1d7c98;
+      --main-color: #a0b0a5;
+      --main-active-color: #304146;
+      --main-typo-color: var(--main-active-color);
       --main-disabled-color: #3e52588c;
-      --main-default-spacing: 24px;
-      --header-default-height: 72px;
+      --main-default-spacing: 20px;
+      --header-default-height: 85px;
   }
 
   * {
@@ -69,28 +69,21 @@
   }
 
   /* Header */
-  .toolbar {
+  .logo-container {
     background-color: var(--main-color);
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
-    display: flex;
-    flex-direction: column;
+    border-bottom: 5px solid var(--main-active-color);
     height: var(--header-default-height);
-    justify-content: space-between;
     position: fixed;
-    top: 0;
-    left: 0;
+    padding: var(--main-default-spacing);
     width: 100%;
     z-index: 3;
   }
 
-  .toolbar-logo-container {
-    height: 100%;
-    text-align: center;
-    padding-top: 9px;
-  }
-
-  .toolbar-nav-container {
-    display: none;
+  .logo-container svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 395px;
+    width: 100%;
   }
 
   /* Content */
@@ -147,72 +140,6 @@
       margin-top: inherit;
     }
 
-    /* Layouting */
-    /* Header */
-    .toolbar {
-      flex-direction: row;
-    }
-
-    .toolbar-logo-container {
-        align-items: center;
-        display: -ms-flexbox;
-        display: flex;
-        height: var(--header-default-height);
-        margin-right: auto;
-        padding:0 0 0 var(--main-default-spacing);
-    }
-
-    /* Header navigation */
-    .toolbar-nav-container {
-      display: block;
-      margin-left: auto;
-      padding-right: var(--main-default-spacing);
-    }
-
-    .nav-tab-bar-item {
-      display: inline-block;
-      padding: 0 16px;
-    }
-
-    .nav-tab-bar-item:last-child {
-      padding-right: 0px;
-    }
-
-    .nav-tab {
-      font-size: 20px;
-      color: #3e52588c;
-      display: inline-block;
-      line-height: var(--header-default-height);
-      position: relative;
-      transition: color .1s cubic-bezier(.4,0,.2,1);
-    }
-
-    .nav-tab:hover {
-      text-decoration: none;
-      color: var(--main-typo-color);
-    }
-
-    .nav-tab-indicator {
-      background: var(--main-typo-color);
-      bottom: 0;
-      height: 4px;
-      left: 0;
-      position: absolute;
-      right: 0;
-      transform: scaleY(0);
-      transform-origin: bottom;
-      transition: transform 235ms cubic-bezier(.4,0,.2,1);
-    }
-
-    /* Header navigation active modifier class */
-    .nav-tab.active {
-      color: var(--main-typo-color);
-    }
-
-    .nav-tab.active .nav-tab-indicator {
-      transform: scaleY(1);
-    }
-
     /* Gallery Skin on tablet and more */
     .gallery-container,
     .workshop-container,
@@ -249,6 +176,6 @@
   @media screen and (min-width: 921px) {
     /* avoid lines to be too wide to be readable */
     .content {
-        max-width: 1240px;
+        max-width: 890px;
     }
   }
