@@ -15,4 +15,9 @@ base64 <path/to/img>
 
 # Generate a .jpg reduce by 50% on quality
 convert <Name> -quality 50 <name>.jpg
+
+# Generate a .WebP
+convert YellowFlower.jpg YellowFlower--WebP.webp
+
+
 ```
