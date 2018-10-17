@@ -1,9 +1,7 @@
 TODO / braindump
-* Split mandatory css and inline it for faster loading times
-* Animate logo for mobile and/or desktop ?
-* jQuery custom build ?
-* Bosser typo en tout genre et illustration
+
 * Package cli command in a single makefile :
+* Delete .galery-container
 
 ```bash
 # List and Rename every .jpg picture in current folder as a sequence (1.jpg, 2.jpg, 3.jpg, ...) :

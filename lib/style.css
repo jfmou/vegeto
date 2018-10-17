@@ -1,3 +1,5 @@
+@import "font.css";
+
 /* generic Style */
     :root {
       --main-color: #a0b0a5;
@@ -5,6 +7,7 @@
       --main-typo-color: var(--main-active-color);
       --main-disabled-color: #3e52588c;
       --main-default-spacing: 20px;
+      --main-p-spacing: 30px;
       --header-default-height: 85px;
   }
 
@@ -13,15 +16,14 @@
   }
 
   body, html {
-    height: 100%;
     margin: 0;
     padding: 0;
   }
 
   ul, ol {
     list-style: none;
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
   }
 
   html {
@@ -31,16 +33,10 @@
   body {
     background-color: white;
     color: var(--main-typo-color);
-    display: flex;
-    font-family: 'Gothic A1', arial, sans-serif;
-    font-size: 19px;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  h1 {
-    font-size: 2em;
-    font-weight: normal;
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
   }
 
   a {
@@ -54,10 +50,14 @@
 
   /* Layouting */
   .container {
+    background-color: #fafafa;
     margin: auto;
     min-width: 100%;
-    min-height: 100vh;
-    padding: var(--header-default-height) 0 var(--main-default-spacing) 0;
+    padding: calc(var(--header-default-height) + 15px) 0 70px 0;
+  }
+
+  .container.first {
+    background-color: white;
   }
 
   .content {
@@ -72,7 +72,7 @@
   .logo-container {
     background-color: var(--main-color);
     border-bottom: 5px solid var(--main-active-color);
-    height: var(--header-default-height);
+    max-height: var(--header-default-height);
     position: fixed;
     padding: var(--main-default-spacing);
     width: 100%;
@@ -87,13 +87,76 @@
   }
 
   /* Content */
-  .content h1 {
-    text-align: center;
+  .top-separator {
+    display: inline-block;
+    padding-top: var(--main-default-spacing);
+    position: relative;
   }
 
-  /* First Container */
-  .container.first .cover-image {
-    max-width: 100%;
+  .top-separator:after {
+    background-color: var(--main-color);
+    top: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: calc(50% - 40px);
+    position: absolute;
+    width: 80px;
+  }
+
+  .content h1 {
+    color: var(--main-color);
+    font-family: 'Signika', arial, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: var(--main-p-spacing);
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  .content h1::after {
+    background-color: var(--main-color);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: calc(50% - 75px);
+    position: absolute;
+    width: 150px;
+  }
+
+  .content > p {
+    margin: var(--main-p-spacing) auto;
+    max-width: 890px;
+  }
+
+  .content li {
+    padding-bottom: calc(var(--main-p-spacing) / 2);
+    position: relative;
+    margin-bottom: calc(var(--main-p-spacing) / 2);
+  }
+
+  .content li::after {
+    background-color: var(--main-active-color);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: calc(50% - 10px);
+    position: absolute;
+    width: var(--main-default-spacing);
+  }
+
+  .content li:last-child::after {
+    display: none;
+  }
+
+  .cover-image {
+    display: block;
+    margin: 30px auto ;
+    width: 100%;
+    max-width: 350px;
   }
 
   .column img {
@@ -103,7 +166,7 @@
   }
 
   /* Gallery Skin */
-  .gallery-container .column a {
+  .row .column a {
     display: block;
     margin-bottom: var(--main-default-spacing);
   }
@@ -132,16 +195,13 @@
   /* Responsive mq :::::: mobile first */
   @media screen and (min-width: 521px) {
     /* generic Style */
-    body {
-      font-size: 23px;
-    }
 
     .workshop-container .column:last-child {
       margin-top: inherit;
     }
 
     /* Gallery Skin on tablet and more */
-    .gallery-container,
+    .row,
     .workshop-container,
     .complementary-container {
       display: flex;
@@ -149,13 +209,17 @@
       margin: 0 calc(-1 * var(--main-default-spacing));
     }
 
-    .gallery-container .column {
+    .row .column {
       flex: 1;
       width: 33%;
       padding: 0 var(--main-default-spacing);
     }
 
-    .gallery-container .column a {
+    .row .column > p {
+      margin-top: 0;
+    }
+
+    .row .column a {
       margin-bottom: calc(2* var(--main-default-spacing))
     }
 
@@ -176,6 +240,6 @@
   @media screen and (min-width: 921px) {
     /* avoid lines to be too wide to be readable */
     .content {
-        max-width: 890px;
+        max-width: 1140px;
     }
   }
