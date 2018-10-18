@@ -225,17 +225,21 @@
     background-color: #fff;
   }
 
-  .our-team-gallery {
+  .row.our-team-gallery {
     margin: 60px 0 40px 0;
   }
 
-  .complementary-container {
-    padding-bottom: calc(2* var(--main-default-spacing));
+  .row.training-gallery {
+    margin-top: 30px;
   }
 
-  footer #baseline {
-    text-align: center;
-    font-size: 16px;
+  .row.training-gallery a {
+    display: inline-block;
+  }
+
+  .row.training-gallery p {
+    max-width: 300px;
+    margin-top: 0;
   }
 
   /* Responsive mq :::::: mobile first */
@@ -243,8 +247,7 @@
     /* generic Style */
 
     /* Gallery Skin on tablet and more */
-    .row,
-    .complementary-container {
+    .row {
       display: flex;
       flex-wrap: wrap;
       margin: 0 calc(-1 * var(--main-default-spacing));
@@ -281,12 +284,6 @@
 
     .row .column > p {
       margin-top: 0;
-    }
-
-    .complementary-container .column {
-      flex: 1;
-      width: 50%;
-      padding: 0 var(--main-default-spacing);
     }
   }
 

@@ -168,7 +168,6 @@
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg">
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_6_Fleur-small.jpg">
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_8-small.jpg">
-
           </div>
           <div class="column">
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg">
@@ -240,24 +239,32 @@
           </div>
         </div>
         <p>Nous nous sommes formés notamment chez :</p>
+        <div class="row training-gallery" role="complementary">
+          <div class="column">
+            <a href="http://lessourciers.com/" target="_blank" rel="noreferrer">
+            <img src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
+            <p><i>Première ferme hydroponique écologique de France.</i></p></a>
+          </div>
+          <div class="column">
+            <a href="http://bioaquafarm.co.uk/" target="_blank" rel="noreferrer">
+            <img src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo des sourcies">
+            <p><i>Plus ancienne ferme aquaponique d'Europe en activité.</i></p></a>
+          </div>
+          <div class="column">
+            <a href="https://aquaponie.net/" target="_blank" rel="noreferrer">
+            <img src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo des sourcies">
+            <p><i>Fondateur de la première ferme aquaponique de France.</i></p></a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer role="complementary">
+  <section id="nos-partenaires" class="container" role="complementary">
     <div class="content">
-      <div class="complementary-container">
-        <div class="column">
-          <h1>Nos partenaires</h1>
-          Une disposition en deux colonnes avec largeurs maximum, comme le bloc d'au-dessus.
-          Pour les logos des partenaires. Ainsi que les petits logos des journaux qui vous ont fait de beaux articles.
-        </div>
-        <div class="column">
-          <h1>Vegeto dans la presse</h1>
-          Une disposition en deux colonnes avec largeurs maximum, comme le bloc d'au-dessus.
-          Pour les logos des partenaires. Ainsi que les petits logos des journaux qui vous ont fait de beaux articles.
-        </div>
-      </div>
-      <p id="baseline" role="contentinfo">&#9829; <br>Le respect de votre vie privée et le partage sont importants pour nous. <br>Nous ne collectons aucune de vos données personnelles et n'utilisons que des solutions opensources.<br> <a href="mentions-legales.html" title="Accéder à nos mentions légales">mentions légales</a></p>
+    </div>
+  </section
+  <footer >
+    <div class="content">
     </div>
   </footer>
   <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
