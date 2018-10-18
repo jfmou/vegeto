@@ -66,14 +66,10 @@
 
   /* Layouting */
   .container {
-    background-color: #fafafa;
+    background-color: white;
     margin: auto;
     min-width: 100%;
     padding: calc(var(--header-default-height) + 15px) 0 70px 0;
-  }
-
-  .container.first {
-    background-color: white;
   }
 
   .content {
@@ -169,6 +165,11 @@
   .graphic-separator {
     border-bottom: 2px solid var(--main-color);
     margin-top: 10px;
+  }
+
+  /* Prestations part */
+  #nos-prestations {
+    background-color: #fafafa;
   }
 
   /* Products Gallery */

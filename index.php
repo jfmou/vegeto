@@ -114,7 +114,7 @@
     </svg>
   </header>
   <main class="main" role="main">
-    <section id="quest-ce-que-laquaponie" class="container first">
+    <section id="quest-ce-que-laquaponie" class="container">
       <div class="content">
         <?php
           $fishes = ['KOI', 'PERCHE'];
@@ -242,27 +242,35 @@
         <div class="row training-gallery" role="complementary">
           <div class="column">
             <a href="http://lessourciers.com/" target="_blank" rel="noreferrer">
-            <img src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
+            <img class="lazy-load" data-src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
             <p><i>Première ferme hydroponique écologique de France.</i></p></a>
           </div>
           <div class="column">
             <a href="http://bioaquafarm.co.uk/" target="_blank" rel="noreferrer">
-            <img src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo des sourcies">
+            <img class="lazy-load" data-src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo des sourcies">
             <p><i>Plus ancienne ferme aquaponique d'Europe en activité.</i></p></a>
           </div>
           <div class="column">
             <a href="https://aquaponie.net/" target="_blank" rel="noreferrer">
-            <img src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo des sourcies">
+            <img class="lazy-load" data-src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo des sourcies">
             <p><i>Fondateur de la première ferme aquaponique de France.</i></p></a>
           </div>
         </div>
       </div>
     </section>
+    <section id="nos-partenaires" class="container" role="complementary">
+      <div class="content">
+        <h1>Nos partenaires</h1>
+        <div class="partners-gallery">
+          <div class="row">
+            <div class="column">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-  <section id="nos-partenaires" class="container" role="complementary">
-    <div class="content">
-    </div>
-  </section
   <footer >
     <div class="content">
     </div>
