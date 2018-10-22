@@ -266,7 +266,46 @@
         <div class="partners-gallery">
           <div class="row">
             <div class="column">
-
+              <a href="http://ptce-aliss.fr/" target="_blank" title="Accéder au site d'ALISS, une coopérative d'associations territoriales" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_Aliss.jpg" alt="Logo de l'association ALISS">
+              </a>
+            </div>
+            <div class="column">
+              <a href="https://www.hermitagelelab.com/" target="_blank" title="Accéder au site de l'hermitage, laboratoire d'initiatives et d'expérimentations pour tout.te.s" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_LHermitage.jpg" alt="Logo du laboratoire d'initiative l'Hermitage">
+              </a>
+            </div>
+            <div class="column">
+              <a href="https://www.floraled.fr/" target="_blank" title="Accéder au site de Floraled, éclairages LED pour plantes et auquariums" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_Floraled.jpg" alt="Logo de Floraled">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.afaup.org/" target="_blank" title="Accéder au site de l'AFAUP, l'Association Française d'Agriculture Urbaine Professionnelle" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_AFAUP.jpg" alt="Logo de l'AFAUP">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <a href="http://www.economie.grandsoissons.com/" target="_blank" title="Accéder au site du GrandSoissons">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_GrandSoissons.jpg" alt="Logo du Grands Soissons">
+              </a>
+            </div>
+            <div class="column">
+              <a href="https://www.aisne.cci.fr/" target="_blank" title="Accéder au site de la CCI de l'Aisne" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_CCI_Aisne.jpg" alt="Logo de la Chambre du Commerce et de l'Industrie de l'Aisne">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://www.aquaponiefrance.com/" target="_blank" title="Accéder au site d'Aquaponie France, la fédération française d'aquaponie" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_AquaponieFrance.jpg" alt="Logo d'Aquaponie France, la fédération française d'aquaponie">
+              </a>
+            </div>
+            <div class="column">
+              <a href="http://picardieforever.com/" target="_blank" title="Accéder au site de Picardie For Ever, association de promotion des artistes et artisans d'art en Picardie" rel="nofollow">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_PFE.jpg" alt="Logo de Picardie For Ever">
+              </a>
             </div>
           </div>
         </div>

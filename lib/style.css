@@ -249,6 +249,14 @@
     padding-top: 0;
   }
 
+  .partners-gallery img {
+    margin-bottom: 0;
+  }
+
+  .partners-gallery a {
+    margin-bottom: var(--main-default-spacing);
+  }
+
   /* Responsive mq :::::: mobile first */
   @media screen and (min-width: 521px) {
     /* generic Style */
