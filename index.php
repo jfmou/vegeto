@@ -157,7 +157,7 @@
         <p>Nous fabriquons des <b>installations sur-mesure</b>, allant du système <b>domestique</b> à la ferme <b>commerciale</b>.<br>
         Nous proposons également une <b>gamme de modèles standards clés en main</b>.</p>
         <p>Au delà de la fabrication artisanale dans notre atelier, nous réalisons chacune des étapes du processus d'installation de systèmes aquaponiques : étude préliminaire et conception, construction et montage sur place, entretien des réalisations et formation.</p>
-        <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des vbaleurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
+        <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
         <div class="row gallery">
           <div class="column">
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_1-small.jpg">
