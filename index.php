@@ -119,7 +119,7 @@
         <?php
           $fishes = ['KOI', 'PERCHE'];
           $rand_int = rand(0, 1);
-          echo "<img src=\"assets/Vegeto_illustration_700x1000px_{$fishes[$rand_int]}-small.jpg\" alt=\"Illustration représentant notre activité : la communion entre l'hydroponie et la aquaculture.\" class=\"cover-image\">";
+          echo "<img src=\"assets/img/Vegeto_illustration_700x1000px_{$fishes[$rand_int]}-small.jpg\" alt=\"Illustration représentant notre activité : la communion entre l'hydroponie et la aquaculture.\" class=\"cover-image\">";
         ?>
         <h1>Qu'est-ce que l'aquaponie ?</h1>
         <p><b>L'aquaponie est une forme d'agriculture écologiquement intensive qui combine l'aquaculture</b>, l'élevage de poissons ou d'autres d'espèces aquatiques, <b>et l'hydroponie</b>, la culture de végétaux hors-sol.</p>
@@ -241,18 +241,18 @@
         <p>Nous nous sommes formés notamment chez :</p>
         <div class="row training-gallery" role="complementary">
           <div class="column">
-            <a href="http://lessourciers.com/" target="_blank" rel="noreferrer">
+            <a href="http://lessourciers.com/" target="_blank" rel="noreferrer" title="Accéder au site des sourciers">
             <img class="lazy-load" data-src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
             <p><i>Première ferme hydroponique écologique de France.</i></p></a>
           </div>
           <div class="column">
-            <a href="http://bioaquafarm.co.uk/" target="_blank" rel="noreferrer">
-            <img class="lazy-load" data-src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo des sourcies">
+            <a href="http://bioaquafarm.co.uk/" target="_blank" rel="noreferrer" title="Accéder au site de bioaquafarm">
+            <img class="lazy-load" data-src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo de bioaquafarm">
             <p><i>Plus ancienne ferme aquaponique d'Europe en activité.</i></p></a>
           </div>
           <div class="column">
-            <a href="https://aquaponie.net/" target="_blank" rel="noreferrer">
-            <img class="lazy-load" data-src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo des sourcies">
+            <a href="https://aquaponie.net/" target="_blank" rel="noreferrer" title="Accéder au site d'aquaponie.net">
+            <img class="lazy-load" data-src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo d'aquaponie.net">
             <p><i>Fondateur de la première ferme aquaponique de France.</i></p></a>
           </div>
         </div>
