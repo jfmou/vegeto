@@ -312,8 +312,12 @@
       </div>
     </section>
   </main>
-  <footer >
+  <footer>
     <div class="content">
+      <address><b>VEGETO</b><br>
+      ZI Les étomelles - Avenue Flandres Dunkerque - 02 200 Villeneuve-St-Germain<br>
+      G. 06 60 84 51 55 | R. 06 41 68 10 52 | <a href="&#109;&#97;&#105;&#76;&#116;&#79;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail à l'adresse suivante">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></address>
+      <p class="baseline"><span class="copyleft">&copy;</span> 2018 Vegeto | &#9829; Le respect de votre vie privée et le partage sont importants pour nous. Nous ne collectons aucune de vos données personnelles et n'utilisons que des solutions open-sources.</p>
     </div>
   </footer>
   <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
