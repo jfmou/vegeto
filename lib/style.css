@@ -225,6 +225,29 @@
     text-decoration: underline;
   }
 
+  .socials-links li {
+    display: inline-block;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .socials-links li + li {
+    margin-left: var(--main-default-spacing);
+  }
+
+  .socials-links li:after {
+    display: none;
+  }
+
+  .socials-links a {
+    display: inline-block;
+  }
+
+  .socials-links svg {
+    width: 40px;
+  }
+
   /* Us part */
   #qui-sommes-nous {
     background-color: #fff;
