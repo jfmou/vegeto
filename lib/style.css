@@ -231,18 +231,15 @@
   }
 
   .row.our-team-gallery {
-    margin: 60px 0 40px 0;
+    margin: 60px auto 40px;
   }
 
-  .row.training-gallery {
-    margin-top: 30px;
-  }
-
-  .row.training-gallery a {
+  .training-gallery .row a,
+  .partners-gallery .row a {
     display: inline-block;
   }
 
-  .row.training-gallery p {
+  .training-gallery .row p {
     max-width: 300px;
     margin-top: 0;
   }
@@ -260,17 +257,12 @@
     .row {
       display: flex;
       flex-wrap: wrap;
-      margin: 0 calc(-1 * var(--main-default-spacing));
-    }
-
-    .row {
       max-width: 1020px;
       margin: 0 auto;
     }
 
     .column {
       flex: 1;
-      width: 33%;
       padding: 0 calc(var(--main-default-spacing) / 2);
     }
 
@@ -282,10 +274,6 @@
       max-width: 680px;
       margin-left: auto;
       margin-right: auto;
-    }
-
-    .prebuild-products .column {
-      width: 50%;
     }
 
     .prebuild-products .column + .column {

@@ -184,14 +184,14 @@
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Primeur-small.jpg" alt="Photo de notre système Primeur">
                 <p><span class="top-separator">Primeur</span><br>
-                  Ce système aquaponique au fonctionnement simple et à l'entretien minime en fait une installation parfaite pour les débutants. Il permet de cultuver divers types de plantes sur un mètre carré tout en élevant des poissons dans un volume de 600 litres. La surface de culture peut être doublée avec l'ajout en option d'un bac de culture en sub-irrigation.</p>
+                  Ce système aquaponique au fonctionnement simple et à l'entretien minime en fait une installation parfaite pour les débutants. Il permet de cultiver divers types de plantes sur un mètre carré tout en élevant des poissons dans un volume de 600 litres. La surface de culture peut être doublée avec l'ajout en option d'un bac de culture en sub-irrigation.</p>
               </div>
             </div>
             <div class="column">
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Herbarium-small.jpg" alt="Photo de notre système Herbarium">
                 <p><span class="top-separator">Herbarium</span><br>
-                  Cette installation sous la forme de mobilier intérieur est destinée à la culture d'herbes aromatiques et de petites plantes pour son domicile; un hall d'accueil, un restaurant ou un bar. Avec sa faible surface, vous pourrez produire des végétaux toute l'année tout en pouvant profiter du plaisir d'un aquarium.</p>
+                  Cette installation sous la forme de mobilier intérieur est destinée à la culture d'herbes aromatiques et de petites plantes pour son domicile ; un hall d'accueil, un restaurant ou un bar. Avec sa faible surface, vous pourrez produire des végétaux toute l'année tout en profitant du plaisir d'un aquarium.</p>
               </div>
             </div>
           </div>
@@ -200,7 +200,7 @@
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_GardeManger-small.jpg" alt="Photo de notre système Garde-manger">
                 <p><span class="top-separator">Garde-manger</span><br>
-                  Cette installation est parfaitement adaptée à la production autonome d'aliments pour une famille ou une petite communauté. Avec l'utilisation de radeaux flottants, vous pourrez cultiver une très large gamme de végétaus sur quater mètres carrés tout en pouvant vous offrir régulièrement un repas de vos poissons. Ce système est modulable pouvant être agrandi ou dupliqué sur demande.</p>
+                  Cette installation est parfaitement adaptée à la production autonome d'aliments pour une famille ou une petite communauté. Avec l'utilisation de radeaux flottants, vous pourrez cultiver une très large gamme de végétaux sur quatre mètres carrés tout en vous offrant régulièrement un repas de vos poissons. Ce système est modulable pouvant être agrandi ou dupliqué sur demande.</p>
                 </div>
             </div>
             <div class="column">
@@ -239,21 +239,23 @@
           </div>
         </div>
         <p>Nous nous sommes formés notamment chez :</p>
-        <div class="row training-gallery" role="complementary">
-          <div class="column">
-            <a href="http://lessourciers.com/" target="_blank" rel="noreferrer" title="Accéder au site des sourciers">
-            <img class="lazy-load" data-src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
-            <p><i>Première ferme hydroponique écologique de France.</i></p></a>
-          </div>
-          <div class="column">
-            <a href="http://bioaquafarm.co.uk/" target="_blank" rel="noreferrer" title="Accéder au site de bioaquafarm">
-            <img class="lazy-load" data-src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo de bioaquafarm">
-            <p><i>Plus ancienne ferme aquaponique d'Europe en activité.</i></p></a>
-          </div>
-          <div class="column">
-            <a href="https://aquaponie.net/" target="_blank" rel="noreferrer" title="Accéder au site d'aquaponie.net">
-            <img class="lazy-load" data-src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo d'aquaponie.net">
-            <p><i>Fondateur de la première ferme aquaponique de France.</i></p></a>
+        <div class="training-gallery" role="complementary">
+          <div class="row" >
+            <div class="column">
+              <a href="http://lessourciers.com/" target="_blank" rel="nofollow" title="Accéder au site des sourciers">
+                <img class="lazy-load" data-src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
+                <p><i>Première ferme hydroponique écologique de France.</i></p></a>
+            </div>
+            <div class="column">
+              <a href="http://bioaquafarm.co.uk/" target="_blank" rel="nofollow" title="Accéder au site de bioaquafarm">
+                <img class="lazy-load" data-src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo de bioaquafarm">
+                <p><i>Plus ancienne ferme aquaponique d'Europe en activité.</i></p></a>
+            </div>
+            <div class="column">
+              <a href="https://aquaponie.net/" target="_blank" rel="nofollow" title="Accéder au site d'aquaponie.net">
+                <img class="lazy-load" data-src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo d'aquaponie.net">
+                <p><i>Fondateur de la première ferme aquaponique de France.</i></p></a>
+              </div>
           </div>
         </div>
       </div>
