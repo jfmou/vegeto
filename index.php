@@ -9,7 +9,6 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<meta name="description" content="Solutions aquaponiques pour profesionnels et particuliers">
-  <meta name="robots" content="noindex, nofollow">
 	<!-- Facebook OpenGraph Data -->
   <meta property="og:title" content="Végéto | Solutions aquaponiques">
   <meta property="og:type" content="website">
@@ -160,22 +159,24 @@
         <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
         <div class="row gallery">
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_1-small.jpg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_4-small.jpg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_7_Ribecourt-small.jpg">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_1-small.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_4-small.jpg"
+            alt="Cultures sur eaux à l'aide de Rafts">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_7_Ribecourt-small.jpg"
+            alt="Systèmex verticaux et horizontaux à taille industrielle">
           </div>
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_6_Fleur-small.jpg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_8-small.jpg">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_6_Fleur-small.jpg" alt="Culture verticale de fleur">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_8-small.jpg" alt="Système racinaire dense grâce au principe de raft">
           </div>
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_5_Poissons-small.jpg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_9-small.jpg">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg" alt="Basilic sous leds en intérieur">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_5_Poissons-small.jpg" alt="Carpes koï dans notre système oasis">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_9-small.jpg" alt="Notre système oasis vous permet de faire pousser jusqu'à 160 plants">
           </div>
         </div>
-        <img src="assets/Vegeto_illustration_300x220px-small.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator">
+        <img data-src="assets/img/Vegeto_illustration_300x220px-small.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator lazy-load">
         <p><b>Systèmes clés en main :</b></p>
         <p>Nos systèmes sont fabriqués et assemblés dans notre atelier. Les installations sont livrées et installées par nos soins ou expédiées selon la distance géographique. Nous fournissons l'ensemble des consommables requis en aquaponie (poissons, semences, plants, nourriture pour poissons, tests physico-chimiques...).</p>
         <div class="prebuild-products">
@@ -220,7 +221,7 @@
         <p>par mail : <a href="&#109;&#97;&#105;&#76;&#116;&#79;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail à l'adresse suivante">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></p>
         <p>par téléphone : <a href="tel:+33663845155" title="Nous contacter au 06 63 84 51 55">06 63 84 51 55</a> ou au <a href="tel:+33641681052" title="Nous contacter au 06 41 68 10 52">06 41 68 10 52</a></p>
         <ul class="socials-links">
-          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer,nofollow" target="_blank">
+          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer,nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -230,7 +231,7 @@
           	c0-1.1,0-2,0-3c0-2.8,2.2-3.6,4.1-3.6H25h0v3.5c-0.3,0-1.3,0-1.9,0c-0.1,0-1.2-0.1-1.2,1c0,0.5,0,2,0,2H25L24.7,19.9z"/>
           </svg>
         </a></li>
-        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer,nofollow" target="_blank">
+        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer,nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -248,7 +249,7 @@
           </g>
           </svg>
         </a></li>
-        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer,nofollow" target="_blank">
+        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer,nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -270,30 +271,30 @@
         <p>Nous sommes deux associés :<br> <b>Guillaume</b> (à gauche), artisan en chef, et <b>Raphaël</b> (à droite), ingénieur en biologie.</p>
         <div class="row our-team-gallery">
           <div class="column">
-            <img src="assets/img/Vegeto_640x640px_Guillaume-small.jpg" alt="Photo de Guillaume, notre artisan en chef">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Guillaume-small.jpg" alt="Photo de Guillaume, notre artisan en chef">
           </div>
           <div class="column">
-            <img src="assets/img/Vegeto_640x640px_Equipe-small.jpg" alt="Photo de notre équipe, dans notre serre aquaponique">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Equipe-small.jpg" alt="Photo de notre équipe, dans notre serre aquaponique">
           </div>
           <div class="column">
-            <img src="assets/img/Vegeto_640x640px_Raphael-small.jpg" alt="Photo de notre équipe, dans notre serre aquaponique">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Raphael-small.jpg" alt="Photo de notre équipe, dans notre serre aquaponique">
           </div>
         </div>
         <p>Nous nous sommes formés notamment chez :</p>
         <div class="training-gallery" role="complementary">
           <div class="row" >
             <div class="column">
-              <a href="http://lessourciers.com/" target="_blank" rel="nofollow" title="Accéder au site des sourciers">
+              <a href="http://lessourciers.com/" target="_blank" rel="nofollow, noopener" title="Accéder au site des sourciers">
                 <img class="lazy-load" data-src="assets/img/Logo_320x120px_LesSourciers.jpg" alt="Logo des sourcies">
                 <p><i>Première ferme hydroponique écologique de France.</i></p></a>
             </div>
             <div class="column">
-              <a href="http://bioaquafarm.co.uk/" target="_blank" rel="nofollow" title="Accéder au site de bioaquafarm">
+              <a href="http://bioaquafarm.co.uk/" target="_blank" rel="nofollow, noopener" title="Accéder au site de bioaquafarm">
                 <img class="lazy-load" data-src="assets/img/Logo_320x120px_BioaquaFarm.jpg" alt="Logo de bioaquafarm">
                 <p><i>Plus ancienne ferme aquaponique d'Europe en activité.</i></p></a>
             </div>
             <div class="column">
-              <a href="https://aquaponie.net/" target="_blank" rel="nofollow" title="Accéder au site d'aquaponie.net">
+              <a href="https://aquaponie.net/" target="_blank" rel="nofollow, noopener" title="Accéder au site d'aquaponie.net">
                 <img class="lazy-load" data-src="assets/img/Logo_320x120px_AquaponieNet.jpg" alt="Logo d'aquaponie.net">
                 <p><i>Fondateur de la première ferme aquaponique de France.</i></p></a>
               </div>
@@ -307,44 +308,44 @@
         <div class="partners-gallery">
           <div class="row">
             <div class="column">
-              <a href="http://ptce-aliss.fr/" target="_blank" title="Accéder au site d'ALISS, une coopérative d'associations territoriales" rel="nofollow">
+              <a href="http://ptce-aliss.fr/" target="_blank" title="Accéder au site d'ALISS, une coopérative d'associations territoriales" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_Aliss.jpg" alt="Logo de l'association ALISS">
               </a>
             </div>
             <div class="column">
-              <a href="https://www.hermitagelelab.com/" target="_blank" title="Accéder au site de l'hermitage, laboratoire d'initiatives et d'expérimentations pour tout.te.s" rel="nofollow">
+              <a href="https://www.hermitagelelab.com/" target="_blank" title="Accéder au site de l'hermitage, laboratoire d'initiatives et d'expérimentations pour tout.te.s" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_LHermitage.jpg" alt="Logo du laboratoire d'initiative l'Hermitage">
               </a>
             </div>
             <div class="column">
-              <a href="https://www.floraled.fr/" target="_blank" title="Accéder au site de Floraled, éclairages LED pour plantes et auquariums" rel="nofollow">
+              <a href="https://www.floraled.fr/" target="_blank" title="Accéder au site de Floraled, éclairages LED pour plantes et auquariums" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_Floraled.jpg" alt="Logo de Floraled">
               </a>
             </div>
             <div class="column">
-              <a href="http://www.afaup.org/" target="_blank" title="Accéder au site de l'AFAUP, l'Association Française d'Agriculture Urbaine Professionnelle" rel="nofollow">
+              <a href="http://www.afaup.org/" target="_blank" title="Accéder au site de l'AFAUP, l'Association Française d'Agriculture Urbaine Professionnelle" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_AFAUP.jpg" alt="Logo de l'AFAUP">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="column">
-              <a href="http://www.economie.grandsoissons.com/" target="_blank" title="Accéder au site du GrandSoissons">
+              <a href="http://www.economie.grandsoissons.com/" target="_blank" title="Accéder au site du GrandSoissons" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_GrandSoissons.jpg" alt="Logo du Grands Soissons">
               </a>
             </div>
             <div class="column">
-              <a href="https://www.aisne.cci.fr/" target="_blank" title="Accéder au site de la CCI de l'Aisne" rel="nofollow">
+              <a href="https://www.aisne.cci.fr/" target="_blank" title="Accéder au site de la CCI de l'Aisne" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_CCI_Aisne.jpg" alt="Logo de la Chambre du Commerce et de l'Industrie de l'Aisne">
               </a>
             </div>
             <div class="column">
-              <a href="http://www.aquaponiefrance.com/" target="_blank" title="Accéder au site d'Aquaponie France, la fédération française d'aquaponie" rel="nofollow">
+              <a href="http://www.aquaponiefrance.com/" target="_blank" title="Accéder au site d'Aquaponie France, la fédération française d'aquaponie" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_AquaponieFrance.jpg" alt="Logo d'Aquaponie France, la fédération française d'aquaponie">
               </a>
             </div>
             <div class="column">
-              <a href="http://picardieforever.com/" target="_blank" title="Accéder au site de Picardie For Ever, association de promotion des artistes et artisans d'art en Picardie" rel="nofollow">
+              <a href="http://picardieforever.com/" target="_blank" title="Accéder au site de Picardie For Ever, association de promotion des artistes et artisans d'art en Picardie" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_PFE.jpg" alt="Logo de Picardie For Ever">
               </a>
             </div>
@@ -357,7 +358,7 @@
     <div class="content">
       <div class="wrapper">
         <ul class="socials-links">
-          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer,nofollow" target="_blank">
+          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer,nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -367,7 +368,7 @@
           	c0-1.1,0-2,0-3c0-2.8,2.2-3.6,4.1-3.6H25h0v3.5c-0.3,0-1.3,0-1.9,0c-0.1,0-1.2-0.1-1.2,1c0,0.5,0,2,0,2H25L24.7,19.9z"/>
           </svg>
         </a></li>
-        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer,nofollow" target="_blank">
+        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer,nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -385,7 +386,7 @@
           </g>
           </svg>
         </a></li>
-        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer,nofollow" target="_blank">
+        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer,nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
