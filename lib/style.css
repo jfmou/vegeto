@@ -299,6 +299,11 @@
     margin-bottom: 30px;
   }
 
+  footer .socials-links {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
   .copyleft {
     display: inline-block;
     transform: rotate(180deg);
@@ -349,5 +354,16 @@
     /* avoid lines to be too wide to be readable */
     .content {
         max-width: 1140px;
+    }
+
+    footer .socials-links {
+      text-align: initial;
+      margin-bottom: 0px;
+    }
+
+    footer .wrapper {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
     }
   }
