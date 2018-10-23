@@ -20,6 +20,10 @@
     padding: 0;
   }
 
+  header, section, main, footer {
+    display: block;
+  }
+
   ul, ol {
     list-style: none;
     margin: 0;
