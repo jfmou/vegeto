@@ -192,7 +192,7 @@
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Herbarium-small.jpg" alt="Photo de notre système Herbarium">
                 <p><span class="top-separator">Herbarium</span><br>
-                  Cette installation sous la forme de mobilier intérieur est destinée à la culture d'herbes aromatiques et de petites plantes pour son domicile ; un hall d'accueil, un restaurant ou un bar. Avec sa faible surface, vous pourrez produire des végétaux toute l'année tout en profitant du plaisir d'un aquarium.</p>
+                  Cette installation sous la forme de mobilier intérieur est destinée à la culture d'herbes aromatiques et de petites plantes pour son domicile, un hall d'accueil, un restaurant ou un bar. Avec sa faible surface, vous pourrez produire des végétaux toute l'année tout en profitant du plaisir d'un aquarium.</p>
               </div>
             </div>
           </div>
@@ -201,7 +201,7 @@
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_GardeManger-small.jpg" alt="Photo de notre système Garde-manger">
                 <p><span class="top-separator">Garde-manger</span><br>
-                  Cette installation est parfaitement adaptée à la production autonome d'aliments pour une famille ou une petite communauté. Avec l'utilisation de radeaux flottants, vous pourrez cultiver une très large gamme de végétaux sur quatre mètres carrés tout en vous offrant régulièrement un repas de vos poissons. Ce système est modulable pouvant être agrandi ou dupliqué sur demande.</p>
+                  Cette installation est parfaitement adaptée à la production autonome d'aliments pour une famille ou une petite communauté. Avec l'utilisation de radeaux flottants, vous pourrez cultiver une très large gamme de végétaux sur quatre mètres carrés en vous offrant régulièrement un repas de vos poissons. Ce système est modulable pouvant être agrandi ou dupliqué sur demande.</p>
                 </div>
             </div>
             <div class="column">
@@ -280,7 +280,7 @@
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Raphael-small.jpg" alt="Photo de notre équipe, dans notre serre aquaponique">
           </div>
         </div>
-        <p>Nous nous sommes formés notamment chez :</p>
+        <p>Nous nous sommes notamment formés chez :</p>
         <div class="training-gallery" role="complementary">
           <div class="row" >
             <div class="column">
