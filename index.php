@@ -18,6 +18,7 @@
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="400" />
   <link rel="stylesheet" href="lib/style.css">
+  <link rel="stylesheet" href="lib/fonts.css">
   <link rel="canonical" href="https://www.vegeto-aquaponie.fr/"/>
 </head>
 <body>
