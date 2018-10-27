@@ -405,11 +405,10 @@
       <p class="baseline"><span class="copyleft">&copy;</span> 2018 Végéto | &#9829; Le respect de votre vie privée et le partage sont importants pour nous. Nous ne collectons aucune de vos données personnelles et n'utilisons que des solutions open-sources.</p>
     </div>
   </footer>
-  <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
-  <script type="text/javascript" src="lib/jquery.lazy.min.js"></script>
+  <script type="text/javascript" src="lib/lazy.min.js"></script>
   <script type="text/javascript">
-    $(function() {
-      $('img.lazy-load').lazy();
+    var myLazyLoad = new LazyLoad({
+      elements_selector: ".lazy-load"
     });
   </script>
 </body>
