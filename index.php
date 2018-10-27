@@ -19,6 +19,7 @@
   <meta property="og:image:height" content="400" />
   <link rel="stylesheet" href="lib/style.css">
   <link rel="stylesheet" href="lib/fonts.css">
+  <script type="text/javascript" src="lib/lazy.min.js"></script>
   <link rel="canonical" href="https://www.vegeto-aquaponie.fr/"/>
 </head>
 <body>
@@ -406,7 +407,6 @@
       <p class="baseline"><span class="copyleft">&copy;</span> 2018 Végéto | &#9829; Le respect de votre vie privée et le partage sont importants pour nous. Nous ne collectons aucune de vos données personnelles et n'utilisons que des solutions open-sources.</p>
     </div>
   </footer>
-  <script type="text/javascript" src="lib/lazy.min.js"></script>
   <script type="text/javascript">
     var myLazyLoad = new LazyLoad({
       elements_selector: ".lazy-load"
