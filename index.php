@@ -2,18 +2,18 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Végéto | Solutions aquaponiques</title>
+  <title>Végéto | Aquaponie & solutions aquaponiques</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="theme-color" content="rgb(185, 198, 189)">
   <meta name="msapplication-navbutton-color" content="rgb(185, 198, 189)">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta name="description" content="Solutions aquaponiques pour profesionnels et particuliers">
+	<meta name="description" content="Entreprise du Soissonnais spécialisée dans l'Aquaponie. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers.">
 	<!-- Facebook OpenGraph Data -->
-  <meta property="og:title" content="Végéto | Solutions aquaponiques">
+  <meta property="og:title" content="Végéto | Aquaponie & solutions aquaponiques">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.vegeto-aquaponie.fr/">
-  <meta property="og:description" content="Solutions aquaponiques pour professionnels et particuliers">
+  <meta property="og:description" content="Entreprise du Soissonnais spécialisée dans l'Aquaponie. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers.">
 	<meta property="og:image" content="https://www.vegeto-aquaponie.fr/assets/img/logo-og.png">
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="400" />
