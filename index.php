@@ -19,6 +19,7 @@
   <meta property="og:image:height" content="400" />
   <link rel="stylesheet" href="lib/style.css">
   <link rel="stylesheet" href="lib/fonts.css">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
   <script type="text/javascript" src="lib/lazy.min.js"></script>
   <link rel="canonical" href="https://www.vegeto-aquaponie.fr/"/>
 </head>
@@ -339,11 +340,6 @@
             <div class="column">
               <a href="https://www.aisne.cci.fr/" target="_blank" title="Accéder au site de la CCI de l'Aisne" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_CCI_Aisne.jpg" alt="Logo de la Chambre du Commerce et de l'Industrie de l'Aisne">
-              </a>
-            </div>
-            <div class="column">
-              <a href="http://www.aquaponiefrance.com/" target="_blank" title="Accéder au site d'Aquaponie France, la fédération française d'aquaponie" rel="nofollow, noopener">
-                <img class="lazy-load" data-src="assets/img/Logo_235x80px_AquaponieFrance.jpg" alt="Logo d'Aquaponie France, la fédération française d'aquaponie">
               </a>
             </div>
             <div class="column">
