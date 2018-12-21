@@ -162,10 +162,10 @@
         <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
         <div class="row gallery">
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_1-small.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
+            <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_PakChoy.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
             <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_4-small.jpg"
             alt="Cultures sur eaux à l'aide de Rafts">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_7_Ribecourt-small.jpg"
+            <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_Ribecourt.jpg"
             alt="Systèmex verticaux et horizontaux à taille industrielle">
           </div>
           <div class="column">
