@@ -257,7 +257,7 @@
   }
 
   .row.our-team-gallery {
-    margin: 60px auto 40px;
+    margin: 60px auto calc(var(--main-default-spacing) * 2);
   }
 
   .training-gallery .row a,
@@ -331,6 +331,14 @@
     .column {
       flex: 1;
       padding: 0 calc(var(--main-default-spacing) / 2);
+    }
+
+    .schematic-explanations {
+      flex-direction: row-reverse;
+    }
+
+    .schematic-text-container {
+      padding-top: calc(var(--main-default-spacing) * 2);
     }
 
     .row .column > p {
