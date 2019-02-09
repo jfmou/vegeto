@@ -181,7 +181,8 @@
         </div>
         <img data-src="assets/img/Vegeto_illustration_300x220px-small.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator lazy-load">
         <p><b>Systèmes clés en main :</b></p>
-        <p>Nos systèmes sont fabriqués et assemblés dans notre atelier. Les installations sont livrées et installées par nos soins ou expédiées selon la distance géographique. Nous fournissons l'ensemble des consommables requis en aquaponie (poissons, semences, plants, nourriture pour poissons, tests physico-chimiques...).</p>
+        <p>Nos systèmes sont fabriqués et assemblés dans notre atelier. Les installations sont livrées et installées par nos soins. Nous fournissons l'ensemble des consommables requis en aquaponie (poissons, semences, plants, nourriture pour poissons, tests physico-chimiques...).</p>
+        <p>Nous vous proposons également des ensembles aquaponiques complets en partenariat avec les serres <b>Hélio</b>. L'aménagement intérieur est alors modulable sur-mesure.</p>
         <div class="prebuild-products">
           <div class="row">
             <div class="column">
