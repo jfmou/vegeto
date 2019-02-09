@@ -227,6 +227,27 @@
         </div>
       </div>
     </section>
+    <section id="nos-prestations" class="container">
+      <div class="content">
+        <img data-src="assets/img/Vegeto_illustration_300x220px-small.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator lazy-load">
+        <p><b>Une Serre Dôme®: qu'est-ce que c'est?</b></p>
+        <p>La Serre Dôme®, un moyen parfait de nourrir les jardiniers avec des fruits et légumes frais toute l'année, dans le monde entier, par tous les temps et n'utilisant aucune électricité ni énergie fossile. Les 7 éléments inclus dans son kit la rendent autonome, et lui confèrent un fort pouvoir de rendement tout en préservant les ressources énergétiques de notre planète.</p>
+        <p>La Serre Dôme® est une serre à la fine pointe de la technologie perfectionnée depuis plus de 25 ans. Son design unique et innovant signifie que la Serre Dôme nécessite peu ou pas de chauffage, car il dépend de la puissance naturelle du soleil pour vous permettre de créer votre propre jardin intérieur. La forme du dôme lui permet de résister à des vents de plus de 130 km/h et à plus de 2m de neige en une seule tempête!</p>
+        <p>De 4.5m à 12.5m de diamètre, découvrez leurs modèles et leur concept! Livrée en kit pour les petits modèles ou assemblée en une semaine par leurs monteurs, elle saura vous donner entière satisfaction et créera un jardin d’hiver dont vous ne pourrez plus vous passer!</p>
+        <p>Tarifs à partir de 5310€, visitez le site <b>www.serresdomes.com</b> pour plus d’informations!</p>
+        <p>PS: vous pouvez voir ci-dessus à quoi pourrait ressembler un aménagement en aquaponie d'une Serre Dôme®.</p>
+        <div class="row gallery">
+          <div class="column">
+            <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_PakChoy.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
+          </div>
+          <div class="column">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
+          </div>
+          <div class="column">
+            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg" alt="Basilic sous leds en intérieur">
+          </div>
+        </div>
+    </section>
     <section id="bloc-contact" class="contact-container">
       <div class="content">
         <h1>Pour plus de renseignements, contactez-nous :</h1>
