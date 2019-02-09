@@ -346,9 +346,13 @@
     }
 
     .prebuild-products {
-      max-width: 680px;
+      max-width: 1020px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .prebuild-products .row:last-child {
+      max-width: 680px;
     }
 
     .prebuild-products .column + .column {

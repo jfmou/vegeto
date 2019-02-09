@@ -199,8 +199,6 @@
                   Cette installation sous la forme de mobilier intérieur est destinée à la culture d'herbes aromatiques et de petites plantes pour son domicile, un hall d'accueil, un restaurant ou un bar. Avec sa faible surface, vous pourrez produire des végétaux toute l'année tout en profitant du plaisir d'un aquarium.</p>
               </div>
             </div>
-          </div>
-          <div class="row">
             <div class="column">
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_GardeManger-small.jpg" alt="Photo de notre système Garde-manger">
@@ -208,11 +206,21 @@
                   Cette installation est parfaitement adaptée à la production autonome d'aliments pour une famille ou une petite communauté. Avec l'utilisation de radeaux flottants, vous pourrez cultiver une très large gamme de végétaux sur quatre mètres carrés en vous offrant régulièrement un repas de vos poissons. Ce système est modulable pouvant être agrandi ou dupliqué sur demande.</p>
                 </div>
             </div>
+          </div>
+          <div class="row">
             <div class="column">
               <div class="product">
                 <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Oasis-small.jpg" alt="Photo de notre système Oasis">
                 <p><span class="top-separator">Oasis</span><br>
                   C'est notre modèle référence en matière de culture verticale. Disposant d'assises et d'une pergola végétalisée, il permet de faire pousser jusqu'à 160 plants sur des tours verticales. Son aspect esthétique s'intègre parfaitement en extérieur dans des parcs, jardins ou cours comme en intérieur avec un éclairage LED.</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="product">
+                <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Oasis-small.jpg" alt="Photo de notre système Oasis">
+                <p><span class="top-separator">Sereno</span><br>
+                  Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923. Une serre aquaponique Hélio de 20m² représente par exemple 6m² de culture et 1200L de bassins. Surfaces disponibles de 6 à 40 m².</p>
+                <p><i>Plus d'informations: <b>www.helio.fr</b></i><p>
               </div>
             </div>
           </div>
