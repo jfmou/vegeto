@@ -170,13 +170,30 @@
     margin-top: 10px;
   }
 
-  /* Prestations part */
   #nos-prestations {
-    background-color: #fafafa;
+    padding: unset;
   }
 
   #nos-prestations .gallery {
     margin-top: 60px;
+  }
+
+  .content-wrapper {
+    padding-bottom: 70px;
+  }
+
+  .introduction-prestations-wrapper,
+  .serre-dome-wrapper {
+    background-color: #fafafa;
+  }
+
+  .introduction-prestations-wrapper {
+    padding-top: calc(var(--header-default-height) + 15px);
+  }
+
+  .prebuild-products-wrapper,
+  .serre-dome-wrapper {
+    padding-top: 50px;
   }
 
   /* Products Gallery */
@@ -343,6 +360,10 @@
 
     .row .column > p {
       margin-top: 0;
+    }
+
+    .content.prebuild-product-container {
+      background-color:
     }
 
     .prebuild-products {

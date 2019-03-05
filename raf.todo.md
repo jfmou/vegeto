@@ -13,8 +13,8 @@ convert img/*.jpg -resize 350x -set filename:base "%[basename]" "img/%[filename:
 # Generate base64 inline img based on base imagine
 base64 <path/to/img>
 
-# Generate a .jpg reduce by 50% on quality
-convert <Name> -quality 50 <name>.jpg
+# Generate a .jpg reduce by 80% on quality
+convert <Name> -quality 80 <name>.jpg
 
 # Generate a .WebP
 convert YellowFlower.jpg YellowFlower--WebP.webp

@@ -154,31 +154,36 @@
       </div>
     </section>
     <section id="nos-prestations" class="container">
-      <div class="content">
-        <h1>Nos prestations</h1>
-        <p>Nous fabriquons des <b>installations sur-mesure</b>, allant du système <b>domestique</b> à la ferme <b>commerciale</b>.<br>
-        Nous proposons également une <b>gamme de modèles standards clés en main</b>.</p>
-        <p>Au delà de la fabrication artisanale dans notre atelier, nous réalisons chacune des étapes du processus d'installation de systèmes aquaponiques : étude préliminaire et conception, construction et montage sur place, entretien des réalisations et formation.</p>
-        <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
-        <div class="row gallery">
-          <div class="column">
-            <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_PakChoy.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_4-small.jpg"
-            alt="Cultures sur eaux à l'aide de Rafts">
-            <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_Ribecourt.jpg"
-            alt="Systèmex verticaux et horizontaux à taille industrielle">
-          </div>
-          <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_6_Fleur-small.jpg" alt="Culture verticale de fleur">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_8-small.jpg" alt="Système racinaire dense grâce au principe de raft">
-          </div>
-          <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg" alt="Basilic sous leds en intérieur">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_5_Poissons-small.jpg" alt="Carpes koï dans notre système oasis">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_9-small.jpg" alt="Notre système oasis vous permet de faire pousser jusqu'à 160 plants">
+      <div class="content-wrapper introduction-prestations-wrapper">
+        <div class="content">
+          <h1>Nos prestations</h1>
+          <p>Nous fabriquons des <b>installations sur-mesure</b>, allant du système <b>domestique</b> à la ferme <b>commerciale</b>.<br>
+          Nous proposons également une <b>gamme de modèles standards clés en main</b>.</p>
+          <p>Au delà de la fabrication artisanale dans notre atelier, nous réalisons chacune des étapes du processus d'installation de systèmes aquaponiques : étude préliminaire et conception, construction et montage sur place, entretien des réalisations et formation.</p>
+          <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
+          <div class="row gallery">
+            <div class="column">
+              <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_PakChoy.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_4-small.jpg"
+              alt="Cultures sur eaux à l'aide de Rafts">
+              <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_Ribecourt.jpg"
+              alt="Systèmex verticaux et horizontaux à taille industrielle">
+            </div>
+            <div class="column">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_6_Fleur-small.jpg" alt="Culture verticale de fleur">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_8-small.jpg" alt="Système racinaire dense grâce au principe de raft">
+            </div>
+            <div class="column">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg" alt="Basilic sous leds en intérieur">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_5_Poissons-small.jpg" alt="Carpes koï dans notre système oasis">
+              <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_9-small.jpg" alt="Notre système oasis vous permet de faire pousser jusqu'à 160 plants">
+            </div>
           </div>
         </div>
+      </div>
+      <div class="content-wrapper prebuild-products-wrapper">
+        <div class="content">
         <img data-src="assets/img/Vegeto_illustration_300x220px-small.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator lazy-load">
         <p><b>Systèmes clés en main :</b></p>
         <p>Nos systèmes sont fabriqués et assemblés dans notre atelier. Les installations sont livrées et installées par nos soins. Nous fournissons l'ensemble des consommables requis en aquaponie (poissons, semences, plants, nourriture pour poissons, tests physico-chimiques...).</p>
@@ -217,36 +222,37 @@
             </div>
             <div class="column">
               <div class="product">
-                <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Oasis-small.jpg" alt="Photo de notre système Oasis">
+                <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_Helio-small.jpg" alt="Photo de notre partenaires Helio représentant la serre Sereno">
                 <p><span class="top-separator">Sereno</span><br>
-                  Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923. Une serre aquaponique Hélio de 20m² représente par exemple 6m² de culture et 1200L de bassins. Surfaces disponibles de 6 à 40 m².</p>
-                <p><i>Plus d'informations: <b>www.helio.fr</b></i><p>
+                  Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923. Une serre aquaponique Hélio de 20 m² représente par exemple 5 m² de culture et 1200 L de bassins. Surfaces disponibles de 6 à 40 m².</p>
+                <p><i>Plus d'informations: <b><a href="https://www.serreenbois.com/" rel="nofollow,noopener" target="_blank">www.helio.fr</a></b></i><p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="nos-prestations" class="container">
-      <div class="content">
-        <img data-src="assets/img/Vegeto_illustration_300x220px-small.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator lazy-load">
-        <p><b>Une Serre Dôme®: qu'est-ce que c'est?</b></p>
+      </div>
+      <div class="content-wrapper serre-dome-wrapper">
+        <div class="content">
+        <img data-src="assets/img/Vegeto_illustration_150x110px.png" alt="Séparateur graphique représentant des plantes." class="graphic-separator lazy-load">
+        <p><b>Une Serre Dôme® : qu'est-ce que c'est?</b></p>
         <p>La Serre Dôme®, un moyen parfait de nourrir les jardiniers avec des fruits et légumes frais toute l'année, dans le monde entier, par tous les temps et n'utilisant aucune électricité ni énergie fossile. Les 7 éléments inclus dans son kit la rendent autonome, et lui confèrent un fort pouvoir de rendement tout en préservant les ressources énergétiques de notre planète.</p>
-        <p>La Serre Dôme® est une serre à la fine pointe de la technologie perfectionnée depuis plus de 25 ans. Son design unique et innovant signifie que la Serre Dôme nécessite peu ou pas de chauffage, car il dépend de la puissance naturelle du soleil pour vous permettre de créer votre propre jardin intérieur. La forme du dôme lui permet de résister à des vents de plus de 130 km/h et à plus de 2m de neige en une seule tempête!</p>
-        <p>De 4.5m à 12.5m de diamètre, découvrez leurs modèles et leur concept! Livrée en kit pour les petits modèles ou assemblée en une semaine par leurs monteurs, elle saura vous donner entière satisfaction et créera un jardin d’hiver dont vous ne pourrez plus vous passer!</p>
-        <p>Tarifs à partir de 5310€, visitez le site <b>www.serresdomes.com</b> pour plus d’informations!</p>
-        <p>PS: vous pouvez voir ci-dessus à quoi pourrait ressembler un aménagement en aquaponie d'une Serre Dôme®.</p>
+        <p>La Serre Dôme® est une serre à la fine pointe de la technologie perfectionnée depuis plus de 25 ans. Son design unique et innovant signifie que la Serre Dôme nécessite peu ou pas de chauffage, car il dépend de la puissance naturelle du soleil pour vous permettre de créer votre propre jardin intérieur. La forme du dôme lui permet de résister à des vents de plus de 130 km/h et à plus de 2 m de neige en une seule tempête!</p>
+        <p>De 4,5 m à 12,5 m de diamètre, découvrez leurs modèles et leur concept! Livrée en kit pour les petits modèles ou assemblée en une semaine par leurs monteurs, elle saura vous donner entière satisfaction et créera un jardin d’hiver dont vous ne pourrez plus vous passer!</p>
+        <p>Tarifs à partir de 5310 €, visitez le site <b><a href="https://www.serresdomes.com" rel="nofollow,noopener" target="_blank">www.serresdomes.com</a></b> pour plus d’informations!</p>
+        <p>Vous pouvez voir ci-dessus à quoi pourrait ressembler un aménagement en aquaponie d'une Serre Dôme®.</p>
         <div class="row gallery">
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/src/Vegeto_640x640px_PakChoy.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
+            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_1-small.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
           </div>
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_Blida_biodome-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
+            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_2-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
           </div>
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_640x640px_3_Raft-small.jpg" alt="Basilic sous leds en intérieur">
+            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_3b.jpg" alt="Basilic sous leds en intérieur">
           </div>
         </div>
+      </div>
     </section>
     <section id="bloc-contact" class="contact-container">
       <div class="content">
@@ -362,6 +368,11 @@
             </div>
           </div>
           <div class="row">
+            <div class="column">
+              <a href="http://www.aquaponiefrance.com/" target="_blank" title="Accéder au site d'Aquaponie France" rel="nofollow, noopener">
+                <img class="lazy-load" data-src="assets/img/Logo_235x80px_AquaponieFrance.jpg" alt="Logo de la fédération d'Aquaponie Française'">
+              </a>
+            </div>
             <div class="column">
               <a href="http://www.economie.grandsoissons.com/" target="_blank" title="Accéder au site du GrandSoissons" rel="nofollow, noopener">
                 <img class="lazy-load" data-src="assets/img/Logo_235x80px_GrandSoissons.jpg" alt="Logo du Grands Soissons">
