@@ -225,7 +225,7 @@
                 <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_Helio-small.jpg" alt="Photo de notre partenaires Helio représentant la serre Sereno">
                 <p><span class="top-separator">Sereno</span><br>
                   Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923. Une serre aquaponique Hélio de 20 m² représente par exemple 5 m² de culture et 1200 L de bassins. Surfaces disponibles de 6 à 40 m².</p>
-                <p><i>Plus d'informations: <b><a href="https://www.serreenbois.com/" rel="nofollow,noopener" target="_blank">www.helio.fr</a></b></i><p>
+                <p><i>Plus d'informations: <b><a href="https://www.serreenbois.com/" rel="nofollow, noopener" target="_blank" title="Accéder au site d'Helio">www.helio.fr</a></b></i><p>
               </div>
             </div>
           </div>
@@ -239,7 +239,7 @@
         <p>La Serre Dôme®, un moyen parfait de nourrir les jardiniers avec des fruits et légumes frais toute l'année, dans le monde entier, par tous les temps et n'utilisant aucune électricité ni énergie fossile. Les 7 éléments inclus dans son kit la rendent autonome, et lui confèrent un fort pouvoir de rendement tout en préservant les ressources énergétiques de notre planète.</p>
         <p>La Serre Dôme® est une serre à la fine pointe de la technologie perfectionnée depuis plus de 25 ans. Son design unique et innovant signifie que la Serre Dôme nécessite peu ou pas de chauffage, car il dépend de la puissance naturelle du soleil pour vous permettre de créer votre propre jardin intérieur. La forme du dôme lui permet de résister à des vents de plus de 130 km/h et à plus de 2 m de neige en une seule tempête!</p>
         <p>De 4,5 m à 12,5 m de diamètre, découvrez leurs modèles et leur concept! Livrée en kit pour les petits modèles ou assemblée en une semaine par leurs monteurs, elle saura vous donner entière satisfaction et créera un jardin d’hiver dont vous ne pourrez plus vous passer!</p>
-        <p>Tarifs à partir de 5310 €, visitez le site <b><a href="https://www.serresdomes.com" rel="nofollow,noopener" target="_blank">www.serresdomes.com</a></b> pour plus d’informations!</p>
+        <p>Tarifs à partir de 5310 €, visitez le site <b><a href="https://www.serresdomes.com" rel="nofollow, noopener" target="_blank" title="Accéder au site des Serres Dômes">www.serresdomes.com</a></b> pour plus d’informations!</p>
         <p>Vous pouvez voir ci-dessus à quoi pourrait ressembler un aménagement en aquaponie d'une Serre Dôme®.</p>
         <div class="row gallery">
           <div class="column">
@@ -260,7 +260,7 @@
         <p>par mail : <a href="&#109;&#97;&#105;&#76;&#116;&#79;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail à l'adresse suivante">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></p>
         <p>par téléphone : <a href="tel:+33663845155" title="Nous contacter au 06 63 84 51 55">06 63 84 51 55</a> ou au <a href="tel:+33641681052" title="Nous contacter au 06 41 68 10 52">06 41 68 10 52</a></p>
         <ul class="socials-links">
-          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer,nofollow, noopener" target="_blank">
+          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer, nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -270,7 +270,7 @@
           	c0-1.1,0-2,0-3c0-2.8,2.2-3.6,4.1-3.6H25h0v3.5c-0.3,0-1.3,0-1.9,0c-0.1,0-1.2-0.1-1.2,1c0,0.5,0,2,0,2H25L24.7,19.9z"/>
           </svg>
         </a></li>
-        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer,nofollow, noopener" target="_blank">
+        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer, nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -288,7 +288,7 @@
           </g>
           </svg>
         </a></li>
-        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer,nofollow, noopener" target="_blank">
+        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer, nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -397,7 +397,7 @@
     <div class="content">
       <div class="wrapper">
         <ul class="socials-links">
-          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer,nofollow, noopener" target="_blank">
+          <li><a href="https://www.facebook.com/vegeto02" title="Suivez notre actualité sur notre page Facebook" rel="noreferrer, nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -407,7 +407,7 @@
           	c0-1.1,0-2,0-3c0-2.8,2.2-3.6,4.1-3.6H25h0v3.5c-0.3,0-1.3,0-1.9,0c-0.1,0-1.2-0.1-1.2,1c0,0.5,0,2,0,2H25L24.7,19.9z"/>
           </svg>
         </a></li>
-        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer,nofollow, noopener" target="_blank">
+        <li><a href="https://instagram.com/veget_0" title="Retrouvez nos plus beaux clichés sur Instagram" rel="noreferrer, nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
@@ -425,7 +425,7 @@
           </g>
           </svg>
         </a></li>
-        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer,nofollow, noopener" target="_blank">
+        <li><a href="https://www.linkedin.com/company/vegeto-solutions-aquaponiques/" title="Suivez notre actualité pro sur notre page LinkedIn" rel="noreferrer, nofollow, noopener" target="_blank">
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
           <style type="text/css">
