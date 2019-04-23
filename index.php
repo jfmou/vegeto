@@ -243,13 +243,13 @@
         <p>Vous pouvez voir ci-dessus à quoi pourrait ressembler un aménagement en aquaponie d'une Serre Dôme®.</p>
         <div class="row gallery">
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_1-small.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
+            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_1-small.jpg" alt="Projection 3D de notre dôme alors à l'étape d'étude">
           </div>
           <div class="column">
             <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_2-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
           </div>
           <div class="column">
-            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_3b.jpg" alt="Basilic sous leds en intérieur">
+            <img class="lazy-load" data-src="assets/img/Vegeto_350x350px_SerresDomes_3b.jpg" alt="Première culture dans notre dôme strasbourgeois">
           </div>
         </div>
       </div>
@@ -439,7 +439,7 @@
         </ul>
         <address><b>VÉGÉTO</b><br>
         ZI Les étomelles - Avenue Flandres Dunkerque - 02 200 Villeneuve-St-Germain<br>
-        G. 06 60 84 51 55 | R. 06 41 68 10 52 | <a href="&#109;&#97;&#105;&#76;&#116;&#79;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail à l'adresse suivante">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></address>
+        G. 06 63 84 51 55 | R. 06 41 68 10 52 | <a href="&#109;&#97;&#105;&#76;&#116;&#79;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail à l'adresse suivante">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></address>
       </div>
       <p class="baseline"><span class="copyleft">&copy;</span> 2018 Végéto | &#9829; Le respect de votre vie privée et le partage sont importants pour nous. Nous ne collectons aucune de vos données personnelles et n'utilisons que des solutions open-sources.</p>
     </div>
