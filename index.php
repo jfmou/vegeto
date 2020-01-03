@@ -8,12 +8,12 @@
   <meta name="msapplication-navbutton-color" content="rgb(185, 198, 189)">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta name="description" content="Entreprise du Soissonnais spécialisée dans l'Aquaponie. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers.">
+	<meta name="description" content="Entreprise spécialisée dans l'Aquaponie, située entre Soissons et Compiègne. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers.">
 	<!-- Facebook OpenGraph Data -->
   <meta property="og:title" content="Végéto | Aquaponie & solutions aquaponiques">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.vegeto-aquaponie.fr/">
-  <meta property="og:description" content="Entreprise du Soissonnais spécialisée dans l'Aquaponie. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers.">
+  <meta property="og:description" content="Entreprise spécialisée dans l'Aquaponie, située entre Soissons et Compiègne. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers.">
 	<meta property="og:image" content="https://www.vegeto-aquaponie.fr/assets/img/logo-og.png">
   <meta property="og:image:width" content="400" />
   <meta property="og:image:height" content="400" />
@@ -28,12 +28,12 @@
     <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 386 40"
        xml:space="preserve"
-       aria-labelledby="uniqueTitleID uniqueDescID">
+       aria-labelledby="title-logo desc-logo">
     <style type="text/css">
     	.st0{fill:#304146;}
     </style>
-    <title id="uniqueTitleID">Logo de Végéto solutions aquaponiques</title>
-    <desc id="uniqueDescID">Logo de l'entreprise Végéto solutions aquaponiques, spécialisée dans la conception et la réalisation de système pour profesionnels et particuliers</desc>
+    <title id="title-logo">Logo de Végéto solutions aquaponiques</title>
+    <desc id="desc-logo">Logo de l'entreprise Végéto solutions aquaponiques, spécialisée dans la conception et la réalisation de système pour profesionnels et particuliers</desc>
     <g>
     	<g>
     		<g>
@@ -305,7 +305,7 @@
     <section id="qui-sommes-nous" class="container">
       <div class="content">
         <h1>Qui sommes-nous ?</h1>
-        <p>Installée près de Soissons, Végéto est une entreprise de l'<b>Économie Sociale et Solidaire</b>.</p>
+        <p>Installée au sein du tiers-lieu L'Hermitage, Végéto est une entreprise de l'<b>Économie Sociale et Solidaire</b>.</p>
         <p>Nos réalisations sont ainsi fabriquées au maximum avec des matières premières issues de <b>fournisseurs locaux aux pratiques durables</b>.</p>
         <p>Nous sommes deux associés :<br> <b>Guillaume</b> (à gauche), artisan en chef, et <b>Raphaël</b> (à droite), ingénieur en biologie.</p>
         <div class="row our-team-gallery">
@@ -438,7 +438,7 @@
         </a></li>
         </ul>
         <address><b>VÉGÉTO</b><br>
-        ZI Les étomelles - Avenue Flandres Dunkerque - 02 200 Villeneuve-St-Germain<br>
+        17, rue de l'hermitage - 60 350 Autrêches<br>
         G. 06 63 84 51 55 | R. 06 41 68 10 52 | <a href="&#109;&#97;&#105;&#76;&#116;&#79;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail à l'adresse suivante">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></address>
       </div>
       <p class="baseline"><span class="copyleft">&copy;</span> 2018 Végéto | &#9829; Le respect de votre vie privée et le partage sont importants pour nous. Nous ne collectons aucune de vos données personnelles et n'utilisons que des solutions open-sources.</p>
