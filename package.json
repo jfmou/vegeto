@@ -3,13 +3,11 @@
   "version": "0.0.1",
   "description": "11ty powered vegeto website",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "build": "rm -rf dist/ && npx eleventy && npm run build-assets",
-    "build-assets": "cp -a ./lib ./assets dist/",
-    "dev": "npm run build-assets && npx eleventy --serve",
+    "clean": "rm -rf ./dist/ && mkdir ./dist",
+    "build": "npm run clean && npx eleventy && npm run build-assets && mv ./dist/index.html ./dist/index.php",
+    "build-assets": "cp -a ./lib ./assets ./dist/",
+    "dev": "npm run clean && npm run build-assets && npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
