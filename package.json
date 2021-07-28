@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf ./dist/ && mkdir ./dist",
     "build": "npm run clean && npx eleventy && npm run build-assets && mv ./dist/index.html ./dist/index.php",
-    "build-assets": "cp -a ./lib ./assets ./dist/",
+    "build-assets": "cp -a ./assets ./dist/",
     "dev": "npm run clean && npm run build-assets && npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },
