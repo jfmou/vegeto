@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "npx eleventy && npm run build-assets",
+    "build": "rm -rf dist/ && npx eleventy && npm run build-assets",
     "build-assets": "cp -a ./lib ./assets dist/",
     "dev": "npm run build-assets && npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
