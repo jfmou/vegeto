@@ -1,0 +1,28 @@
+{
+  "name": "vegeto",
+  "version": "0.0.1",
+  "description": "11ty powered vegeto website",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npx eleventy && npm run build-assets",
+    "build-assets": "cp -a ./lib ./assets dist/",
+    "dev": "npm run build-assets && npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfmou/vegeto.git"
+  },
+  "author": "jeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfmou/vegeto/issues"
+  },
+  "homepage": "https://github.com/jfmou/vegeto#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
