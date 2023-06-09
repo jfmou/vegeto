@@ -7,7 +7,6 @@ export default defineConfig({
   branch,
   clientId: null, // Get this from tina.io
   token: null, // Get this from tina.io
-
   build: {
     outputFolder: "admin",
     publicFolder: "dist",
@@ -15,7 +14,7 @@ export default defineConfig({
   media: {
     tina: {
       mediaRoot: "assets",
-      publicFolder: "dist",
+      publicFolder: "src",
     },
   },
   schema: {
@@ -27,30 +26,58 @@ export default defineConfig({
         defaultItem: () => {
           return {
             // When a new post is created the title field will be set to "New post"
-            tags: ['realisation'],
-            layout: 'realisation_layout.html'
+            tags: ['Réalisation']
           }
         },
         fields: [
           {
             type: "string",
             name: "title",
-            label: "Title",
+            label: "Titre",
             isTitle: true,
             required: true,
           },
           {
-            type: "datetime",
-            name: "date",
-            label: "Date",
+            type: "string",
+            name: "location",
+            label: "Localisation",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "baseline",
+            label: "Sous-titre"
+          },
+          {
+            type: "image",
+            name: "mainImg",
+            label: "Image principale",
             required: true,
           },
           {
             type: "string",
             name: "tags",
-            label: "Tags",
+            label: "Catégories",
             list: true,
             required: true,
+            options: [
+              {
+                value: "Réalisation",
+                label: "Réalisation"
+              },
+              {
+                value: "Conception",
+                label: "Conception"
+              },
+              {
+                value: "Installation",
+                label: "Installation"
+              },
+              {
+                value: "Transmission",
+                label: "Transmission"
+              },
+            ]
           },
           {
             type: "rich-text",
@@ -59,40 +86,64 @@ export default defineConfig({
             isBody: true,
           },
           {
+            label: "Bouton d'action",
+            name: "cta",
+            type: "object",
+            fields: [
+              {
+                label: "Texte du bouton",
+                name: "text",
+                type: "string"
+              }, 
+              {
+                label: "Lien cible",
+                name: "link",
+                type: "string"
+              }
+            ],
+          },
+          {
             label: 'Livre d\'or',
             name: 'testimonial',
             type: 'object',
             fields: [
               {
-                label: 'Author',
-                name: 'author',
-                type: 'string',
-              },
-              {
-                label: 'Role',
-                name: 'role',
-                type: 'string',
-              },
-              {
-                label: 'Quote',
+                label: 'Citation',
                 name: 'quote',
                 type: 'string',
                 ui: {
                   component: 'textarea',
                 },
               },
+              {
+                label: "Image",
+                type: "image",
+                name: "image"
+              },
+              {
+                label: 'Auteur',
+                name: 'author',
+                type: 'string',
+              },
+              {
+                label: 'Rôle',
+                name: 'role',
+                type: 'string',
+              }
             ],
           },
           {
-            type: "string",
-            name: "layout",
-            label: "Layout technique",
-            options: [
-              {
-                label: "Réalisation",
-                value: "realisation_layout.html"
-              }
-            ]
+            type: "datetime",
+            name: "date",
+            label: "Date (Utilisé pour afficher les articles par date décroissante)",
+            required: true,
+          },
+          {
+            name: 'draft',
+            label: 'Brouillon',
+            type: 'boolean',
+            required: true,
+            description: "Si coché, l'article ne sera pas publié",
           },
         ],
       },

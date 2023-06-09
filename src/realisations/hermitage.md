@@ -2,7 +2,6 @@
 title: L'hermitage
 tags:
   - realisation
-layout: realisation_layout.html
 date: 2023-05-28T22:00:00.000Z
 ---
 

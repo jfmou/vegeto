@@ -1,6 +1,5 @@
 ---
 title: Donner des cours c'est cool
-layout: realisation_layout.html
 tags:
   - étude
   - realisation
