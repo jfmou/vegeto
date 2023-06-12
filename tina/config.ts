@@ -23,6 +23,7 @@ export default defineConfig({
         name: "realisation",
         label: "Realisations",
         path: "src/realisations",
+        format: "md",
         defaultItem: () => {
           return {
             // When a new post is created the title field will be set to "New post"
