@@ -13,6 +13,7 @@
   ```sh
   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
   ...
+
   $ source ~/.bashrc # ou .zshrc si vous utilisez zsh
   ...
 
@@ -46,6 +47,7 @@
 ```sh
 $ git fetch
 ...
+
 $ git checkout origin/master -B master
 ...
 ```
