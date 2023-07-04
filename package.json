@@ -1,0 +1,31 @@
+{
+  "name": "vegeto",
+  "version": "0.0.1",
+  "description": "11ty powered vegeto website",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist/ && mkdir ./dist",
+    "build": "npm run clean && npx eleventy && npm run build-assets && mv ./dist/index.html ./dist/index.php",
+    "build-assets": "cp -a ./assets ./dist/",
+    "dev": "npm run clean && npx tinacms dev -c \"npx eleventy --serve\"",
+    "debug": "DEBUG=* npx eleventy",
+    "test-serve-prod": "rm -rf ./dist/admin && mv ./dist/index.html ./dist/index.php && php -S  localhost:8081 --docroot ./dist",
+    "save": "git checkout -B f/new-content && git commit -m 'new content' .",
+    "publish": "git push origin f/new-content"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfmou/vegeto.git"
+  },
+  "author": "jeff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfmou/vegeto/issues"
+  },
+  "homepage": "https://github.com/jfmou/vegeto#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@tinacms/cli": "^1.5.17",
+    "tinacms": "^1.5.8"
+  }
+}

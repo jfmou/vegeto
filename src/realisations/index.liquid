@@ -1,0 +1,14 @@
+---
+layout: base_layout
+title: Réalisations
+eleventyImport:
+  collections: ["realisation"]
+---
+{% for realisation in collections.realisation %}
+  <article>
+    <h1>
+      <a href="{{ realisation.url | url }}">{{ realisation.data.title }}</a>
+    </h1>
+    {{ realisation.data.date }}
+  </article>
+{% endfor %}
