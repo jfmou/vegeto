@@ -13,7 +13,7 @@ draft: false
 testimonial:
   quote: |-
     Wahou quel kiff de taffer avec Végéto c'est des bggg.
-    Ma société stonks désormais.
+    Ma société stonks désormais !
   author: Bélinda Sabatier
   role: Porteuse du projet NewBizGreens
 ---
