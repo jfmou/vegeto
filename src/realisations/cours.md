@@ -3,7 +3,12 @@ title: Donner des cours c'est cool
 tags:
   - étude
   - realisation
+  - Transmission
 date: 2023-06-05T22:00:00.000Z
+location: autreches
+baseline: Bioponie
+mainImg: /assets/logo-transparent.png
+draft: true
 ---
 
 ## Vive lasalle beauvais
