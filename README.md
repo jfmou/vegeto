@@ -1,5 +1,17 @@
 # ✍️ Comment ajouter du contenu
 
+- [✍️ Comment ajouter du contenu](#️-comment-ajouter-du-contenu)
+    - [1. un environement UNIX / OSX avec bash ou shell](#1-un-environement-unix--osx-avec-bash-ou-shell)
+    - [2. node.js LTS](#2-nodejs-lts)
+    - [3. git](#3-git)
+  - [🌐 Récupérer la dernière version du site](#-récupérer-la-dernière-version-du-site)
+  - [🤖 lancer le serveur](#-lancer-le-serveur)
+  - [🎰 ouvrir l'interface d'administration dans un navigateur à jour](#-ouvrir-linterface-dadministration-dans-un-navigateur-à-jour)
+  - [✅ effectuer les modifications et les enregistrer dans "Tina"](#-effectuer-les-modifications-et-les-enregistrer-dans-tina)
+  - [💾 les sauvegarder dans git](#-les-sauvegarder-dans-git)
+  - [🚀 les publier sur github](#-les-publier-sur-github)
+  - [⛙ fusionner les modifications avec la base de code](#-fusionner-les-modifications-avec-la-base-de-code)
+
 <details>
   <summary>Pré-requis</summary>
 
@@ -13,6 +25,7 @@
   ```sh
   $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
   ...
+
 
   $ source ~/.bashrc # ou .zshrc si vous utilisez zsh
   ...
