@@ -28,5 +28,8 @@
     "@tinacms/cli": "^1.5.17",
     "html-minifier-terser": "^7.2.0",
     "tinacms": "^1.5.8"
+  },
+  "devDependencies": {
+    "markdown-it-eleventy-img": "^0.10.1"
   }
 }
