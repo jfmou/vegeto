@@ -22,9 +22,9 @@ testimonial:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis velit efficitur dolor fermentum tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-Nunc sed nunc dolor. Pellentesque maximus erat quis mauris blandit condimentum. Etiam posuere purus.
+![](/assets/img/Vegeto_350x350px_SerresDomes_1-small.jpg)
 
-![](</assets/img/Screenshot 2023-06-09 at 17.27.48.png>)![](</assets/img/Screenshot 2023-06-09 at 17.27.52.png>)![](</assets/img/Screenshot 2023-06-09 at 17.27.55.png>)
+Nunc sed nunc dolor. Pellentesque maximus erat quis mauris blandit condimentum. Etiam posuere purus.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis velit efficitur dolor fermentum tempor. Orci varius natoque penatibus.
 

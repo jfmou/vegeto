@@ -13,7 +13,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "assets",
+      mediaRoot: "assets/img",
       publicFolder: "src",
     },
   },
@@ -149,5 +149,13 @@ export default defineConfig({
         ],
       },
     ],
+  },
+  search: {
+    tina: {
+      indexerToken: '<Your Search Token>',
+      stopwordLanguages: ['fra']
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100
   },
 });
