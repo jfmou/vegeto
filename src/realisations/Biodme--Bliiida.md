@@ -12,9 +12,17 @@ cta:
 date: 2023-06-01T22:00:00.000Z
 draft: true
 testimonial:
-  quote: Témoignage
-  author: Jérémie Bellot
-  role: Architecte concepteur et installateur du dôme
+  quote: >
+    Raphaël et Guillaume nous ont permis de sauter le pas en toute confiance !
+
+    Le dôme a été un superbe outil de médiation et de dégustation de melons,
+    menthe, courges, ciboulette, sauge, piments...  
+
+    Ils ont également formé une partie de notre équipa au soin des carpes, des
+    plantes et des systèmes en montrant avec patience et pédagogie la cohérence
+    et l'imbrication de ces ressources.
+  author: Camille Pereira
+  role: 'Ex-cheffe de projets culturels à BLIIIDA '
 ---
 
 BLIIIDA est un tiers-lieu de création, de production et d’innovation artistique et numérique situé à Metz.
