@@ -10,7 +10,7 @@
     "dev": "npm run clean && npx tinacms dev -c \"npx eleventy --serve\"",
     "debug": "DEBUG=* npx eleventy",
     "test-serve-prod": "rm -rf ./dist/admin && mv ./dist/index.html ./dist/index.php && php -S  localhost:8081 --docroot ./dist",
-    "save": "git checkout -B f/new-content && git commit -m 'new content' .",
+    "save": "git checkout -B f/new-content-$(git config user.email)-$(date +\"%s\") && git commit -m 'new content' .",
     "publish": "git push origin f/new-content"
   },
   "repository": {
