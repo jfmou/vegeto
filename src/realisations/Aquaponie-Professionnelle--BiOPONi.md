@@ -10,7 +10,7 @@ cta:
   text: BiOPONi
   link: 'https://bioponi.com/'
 testimonial:
-  quote: Témoignage
+  quote: Témoignage - Test
   author: Félix Haget
   role: Fondateur de BiOPONi et agréé expert en aquaponie
 date: 2019-12-31T23:00:00.000Z
