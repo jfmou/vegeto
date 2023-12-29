@@ -93,3 +93,4 @@ $ npm run publish
 ## ⛙ fusionner les modifications avec la base de code
 
 => [https://github.com/jfmou/vegeto/pulls](https://github.com/jfmou/vegeto/pulls) pour valider les modifications et les intégrer à la branche commune :)
+Onglet "Pull Request", créer pull request "New Pull Request", "Base:Master - Compare:new-content", "merge pull request", "confirm merge"
