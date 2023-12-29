@@ -2,7 +2,7 @@
 title: HECTAR
 location: Lévis-Saint-Nom
 baseline: Conseil
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-conception-hectar-1.jpg
 tags:
   - Réalisation
   - Conception
@@ -28,6 +28,8 @@ HECTAR est un établissement d'enseignement supérieur privé spécialisé da
 Sur le site de plus de 600 hectares HECTAR est composé d’un campus de formation, un accélérateur de startups, des espaces de séminaires et pédagogiques, une ferme pilote en agriculture régénératrice.
 
 Parmi les formations, HECTAR Tremplin est un programme personnalisé de 5 semaines dédié aux entrepreneurs agricoles pour maturer leur projet. Dans ce cadre, chaque porteur de projet dispose de 20h de mentoring avec un mentor transverse.
+
+![](/assets/vegeto-conception-hectar-2.jpg)![](/assets/vegeto-conception-hectar-4.jpg)![](/assets/vegeto-conception-hectar-3.jpg)
 
 Ainsi, nous avons pu accompagner Bélinda Sabatier, porteuse d’un projet de ferme hydroponique de haute technologie à moyenne échelle pour cultiver des fruits et légumes sains, nutritifs et abordables.
 
