@@ -78,7 +78,7 @@ $ npm install && npm run dev
 
 ## ✅ effectuer les modifications et les enregistrer dans "Tina"
 
-## 💾 les sauvegarder dans git
+## 💾 les sauvegarder dans git (ouvrir une nouvelle interface Ubuntu en gardant la première ouverte)
 
 ```sh
 $ npm run save
