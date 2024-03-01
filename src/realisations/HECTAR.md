@@ -17,6 +17,7 @@ testimonial:
     posture entrepreneuriale (phasage, planification, business model) et d'état
     d'esprit (un soutien appréciable lorsque le doute s'est installé). Un mentor
     que je recommande sans réserve. Merci Raphaël !
+  image: /assets/vegeto-conception-hectar-team.png
   author: Belinda Sabatier
   role: Porteuse d’un projet de ferme hydroponique
 date: 2019-12-31T23:00:00.000Z

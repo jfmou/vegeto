@@ -2,7 +2,7 @@
 title: La Ferme Aquaponique du Beauvaisis
 location: Achy
 baseline: Étude d’avant-projet
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-conception-beauvesis-1.jpg
 tags:
   - Réalisation
   - Conception
@@ -22,6 +22,7 @@ testimonial:
 
     C’est pourquoi nous ne pouvons que les recommander pour la réalisation
     d’étude pour tous ceux qui souhaiteraient créer un projet.
+  image: /assets/vegeto-conception-beauvesis-team.png
   author: Ariane et Gaëtan
   role: 'Co-porteurs du projet de la Ferme Aquaponique du Beauvaisis '
 date: 2023-04-04T22:00:00.000Z
@@ -30,7 +31,9 @@ draft: true
 
 Cette prestation nous a été commandée par un couple de particuliers pour la conception complète d'une installation aquaponique commerciale proche de Beauvais afin de pourvoir deux temps-plein, et produisant des truites et divers végétaux en circuits courts.
 
-Disposant déjà d’un terrain appartenant précédemment à un pépiniériste et équipé de deux serres maraîchères et de bâtiments, l’objectif a été de concevoir une installation sur-mesure s’adaptant à l’existant avec comme priorité l’ergonomie des conditions de travail.
+**Disposant déjà d’un terrain appartenant précédemment à un pépiniériste et équipé de deux serres maraîchères et de bâtiments**, l’objectif a été de concevoir une installation sur-mesure s’adaptant à l’existant avec comme priorité l’ergonomie des conditions de travail.
+
+![](/assets/vegeto-conception-beauvesis-2.jpg)![](/assets/vegeto-conception-beauvesis-3.jpg)![](/assets/vegeto-conception-beauvesis-4.jpg)
 
 L’étude d’avant-projet détaillée a consisté en termes de livrables en un rapport d’une quarantaine de pages, des tableaux des données de dimensionnement, des investissement chiffrés et sourcés avec devis joints, des charges et des produits, d’un compte de résultat et de tableaux de pilotage du compartiment piscicole, ainsi que les modélisations 3D, les plans 2D des circuits hydrauliques et d’oxygénation, et une note sur les dispositifs de subvention.
 

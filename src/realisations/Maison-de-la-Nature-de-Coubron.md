@@ -2,7 +2,7 @@
 title: Maison de la Nature de Coubron
 location: Seine-Saint-Denis
 baseline: Installation extérieure
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-installation-maison-nature-1.jpg
 tags:
   - Réalisation
   - Installation
@@ -17,6 +17,7 @@ testimonial:
 
     Une très belle rencontre avec une équipe disponible et à l’écoute de notre
     projet. Je recommande vivement. 
+  image: /assets/vegeto-installation-maison-nature-team.png
   author: Milko Arsic
   role: >-
     Fondateur et président de l’Association de la Maison de la Nature et de
@@ -25,9 +26,11 @@ date: 2023-01-01T23:00:00.000Z
 draft: true
 ---
 
-La mairie de la commune de Coubron (93) et l'Association de la Maison de la Nature et de l'Environnement de Coubron en Seine-Saint-Denis ont établi une collaboration pour la mise en place d'une installation aquaponique sur une parcelle de la commune. 
+**La mairie de la commune de Coubron (93) et l'Association de la Maison de la Nature et de l'Environnement** de Coubron en Seine-Saint-Denis ont établi une collaboration pour la mise en place d'une installation aquaponique sur une parcelle de la commune. 
 
 L'installation est à vocation productive mais également pédagogique avec l'accueil de scolaires du département.
+
+![](/assets/vegeto-installation-maison-nature-4.jpg)![](/assets/vegeto-installation-maison-nature-3.jpg)![](/assets/vegeto-installation-maison-nature-5.jpg)
 
 Notre travail a été d'aménager deux serres de 50m² en aquaponie avec un système piscicole extérieur entre les deux serres. L'installation est accessible PMR. 
 

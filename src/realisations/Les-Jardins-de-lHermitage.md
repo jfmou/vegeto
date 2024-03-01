@@ -2,7 +2,7 @@
 title: Les Jardins de l’Hermitage
 location: Autrêches
 baseline: Étude d’avant-projet
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-conception-hermitage-1.jpg
 tags:
   - Réalisation
   - Conception
@@ -33,15 +33,18 @@ testimonial:
     l'aquaponie. 
 
     Ne pas hésiter à leur faire appel dès l'amont de votre projet aquaponique !
+  image: /assets/vegeto-conception-hermitage-team.png
   author: Michel Pernot Du Breuil
   role: 'Fondateur de SENS à l’origine de la création des Jardins de l’Hermitage '
 date: 2023-04-18T22:00:00.000Z
 draft: true
 ---
 
-La Société Civile d'Exploitation Agricole « les Jardins de l'Hermitage » est une micro-ferme agro-écologique située au sein du tiers-lieu « l'Hermitage » où sont également nos locaux, à Autrêches dans l’Oise.
+**La Société Civile d'Exploitation Agricole « les Jardins de l'Hermitage » est une micro-ferme agro-écologique **située au sein du tiers-lieu « l'Hermitage » où sont également nos locaux, à Autrêches dans l’Oise.
 
 La ferme a aujourd’hui essentiellement une activité de maraîchage sur un modèle bio-intensif en Agriculture Biologique, avec une commercialisation en circuit court via différentes AMAP depuis 2020.
+
+![](/assets/vegeto-conception-hermitage-2.jpg)![](/assets/vegeto-conception-hermitage-3.jpg)![](/assets/vegeto-conception-hermitage-4.jpg)
 
 Végéto a réalisé une étude de conception d'une serre aquaponique commerciale intégrée à la ferme maraîchère permettant notamment de rémunérer un travailleur minimum à temps-plein, d’irriguer une partie des cultures en pleine terre en plus des cultures hydroponiques, et d’accueillir des Personnes à Mobilité Réduite.
 
