@@ -14,6 +14,7 @@ testimonial:
 
     Nous sommes désormais en cours de démarches administratives pour débuter les
     travaux de construction.
+  image: /assets/vegeto-conception-ferme-rose-team.png
   author: Xavier Coplo
   role: Co-porteur du projet de La Ferme Aquaponique de Rose
 date: 2023-06-25T22:00:00.000Z

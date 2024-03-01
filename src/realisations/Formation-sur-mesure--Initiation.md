@@ -2,7 +2,7 @@
 title: Formation sur-mesure – Initiation
 location: France
 baseline: Formation
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-transmission-initiation-1.jpg
 tags:
   - Réalisation
   - Transmission
@@ -16,13 +16,14 @@ testimonial:
     productions végétales, et les bactéries. Encore une fois super complet,
     maintenant on est des AS de l’aquaponie. Merci pour l’accueil à l’Hermitage
     !
+  image: /assets/vegeto-transmission-initiation-team.png
   author: Martin Michaux
   role: Fondateur et vice-président de Le Dôme
 date: 2023-06-04T22:00:00.000Z
 draft: true
 ---
 
-Nous proposons des formations à la carte pour accompagner vos projets de l‘idée à leur déploiement.
+Nous proposons des **formations à la carte pour accompagner vos projets de l‘idée à leur déploiement**.
 
 Les formations peuvent prendre place sur votre site ou au tiers-lieu de l‘Hermitage ayant l‘avantage d‘héberger plusieurs exemples de systèmes aquaponiques réalisés par nos soins ainsi que d‘offrir des solutions de salle, de restauration, et d‘hébergement.
 

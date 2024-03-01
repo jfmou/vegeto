@@ -2,15 +2,13 @@
 title: Les Étangs de Lachaussée
 location: Lachaussée
 baseline: Pré-étude
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-conception-etang-lachaussee-1.jpg
 tags:
   - Réalisation
   - Conception
 cta:
   text: LES ÉTANGS DE LACHAUSSÉE
   link: 'https://www.facebook.com/esat.etangsdelachaussee.7'
-date: 2023-06-30T22:00:00.000Z
-draft: true
 testimonial:
   quote: >
     A Metz sur le site de BLIIIDA, j'ai pu rencontrer l'entreprise Végéto qui
@@ -27,15 +25,20 @@ testimonial:
 
     Aujourd'hui, nous sommes au regret de ne pas avoir eu les fonds
     d'investissement pour ce si beau projet.
+  image: /assets/vegeto-conception-etang-lachaussee-team.png
   author: Fabrice André
   role: >-
     Moniteur éducateur en horticulture de plantes hélophytes à l’ESAT Les Etangs
     de Lachaussée
+date: 2023-06-30T22:00:00.000Z
+draft: true
 ---
 
-L’Établissement et Service d'Aide par le Travail (ESAT) des étangs de Lachaussée est un établissement médico-social dans la Meuse ayant pour objectif l'insertion sociale et professionnelle des adultes handicapés. 
+**L’Établissement et Service d'Aide par le Travail (ESAT) des étangs de Lachaussée est un établissement médico-social** dans la Meuse ayant pour objectif l'insertion sociale et professionnelle des adultes handicapés. 
 
 Situé au sein d'un site classé Réserve Naturelle avec un étang de 300 hectares, cet établissement mène historiquement une activité de pisciculture en étang, ainsi que diverses productions et de transformation alimentaire et de restauration sur le site. Une quarantaine de personnes en situation de handicap sont employées sur le site.
+
+![](/assets/vegeto-conception-etang-lachaussee-2.jpg)![](/assets/vegeto-conception-etang-lachaussee-3.jpg)![](/assets/vegeto-conception-etang-lachaussee-4.jpg)
 
 Le travail d’étude a porté sur la réhabilitation d'anciens bassins piscicoles non utilisés en un système aquaponique d’échelle commerciale avec des cultures végétales sous serre attenant aux bassins, ainsi que la création d'un système de culture de plantes aquatiques issues de la Réserve Naturelle. L’objectif était d’offrir une nouvelle activité économique en remplacement de l’élevage de volailles et de lapin en gardant une cohérence avec les activités historiques du site et les enjeux environnementaux, et ce dans des conditions de travail ergonomiques.
 
