@@ -10,7 +10,7 @@ cta:
   text: BiOPONi
   link: 'https://bioponi.com/'
 testimonial:
-  quote: Témoignage - Test
+  quote: "Raphaël transmet sa passion aux stagiaires et s'implique dans la filière. Il participe à la vulgarisation de notre méthode et connaît la diversité des modèles et échelles existants. Parfaitement adapté aux modèles semi-pro, il est force de proposition et un gestionnaire de projet appliqué\_et\_structuré."
   image: /assets/vegeto-transmission-bioponi-team.png
   author: Félix Haget
   role: Fondateur de BiOPONi et agréé expert en aquaponie
