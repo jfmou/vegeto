@@ -7,9 +7,17 @@ tags:
   - Réalisation
   - Conception
 testimonial:
-  quote: à venir...
-  author: Ryad Hamiche
-  role: Co-fondateur de la Ferme du Sens
+  quote: >-
+    Nous tenions à exprimer toute notre gratitude et notre profonde satisfaction
+    à la société Végéto pour le travail fournit et l'engagement sans faille tout
+    au long de l'étude de projet d’aquaponie. Nous sommes convaincus que grâce à
+    vos efforts, nous pourrons réaliser des avancements significatifs dans ce
+    domaine passionnant.
+
+    En plus de la qualité professionnelle du service nous avons la chance
+    d’avoir la qualité humaine ce qui devient de plus en plus rare de nos jours
+  author: Ryad Hamiche et Lyemme Bouguerra
+  role: Co-fondateurs de la Ferme du Sens
 date: 2023-11-05T23:00:00.000Z
 draft: true
 ---
@@ -24,4 +32,5 @@ Le but de cette étude d’avant-projet détaillé est de concevoir le design et
 
 Végéto a ainsi conçu une installation aquaponique de 1250m² comprenant un compartiment d’élevage piscicole, un compartiment de culture hydroponique comprenant des cultures en NFT, radeaux en eaux profondes et en gouttières suspendues, ainsi qu’un espace pépinière.
 
-Les travaux de la ferme aquaponique devraient débuter courant 2024.
+Le volet actuel du projet porte en priorité sur la pépinière en 2024, avec
+un potentiel développement par la suite du volet aquaponique.
