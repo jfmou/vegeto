@@ -16,7 +16,7 @@ testimonial:
 
     En plus de la qualité professionnelle du service nous avons la chance
     d’avoir la qualité humaine ce qui devient de plus en plus rare de nos jours
-  author: Ryad Hamiche et Lyemme Bouguerra
+  author: Ryad Hamiche et Lyeme Bouguerra
   role: Co-fondateurs de la Ferme du Sens
 date: 2023-11-05T23:00:00.000Z
 draft: true
