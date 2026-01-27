@@ -4,8 +4,8 @@ location: Tours
 baseline: Conseil
 mainImg: /assets/vegeto-conception-serre-dignite-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 cta:
   text: LA SERRE DE LA DIGNITÉ
   link: 'https://www.maisons-de-la-dignite.com/serre-de-la-dignité'

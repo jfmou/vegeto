@@ -4,8 +4,8 @@ location: Saône-et-Loire
 baseline: Étude d’avant-projet
 mainImg: /assets/vegeto-conception-ferme-sens-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 testimonial:
   quote: >-
     Nous tenions à exprimer toute notre gratitude et notre profonde satisfaction

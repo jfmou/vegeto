@@ -4,8 +4,8 @@ location: Autrêches
 baseline: Atelier
 mainImg: /assets/vegeto-transmission-oriente-vivant-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 testimonial:
   quote: >-
     J’ai effectué un atelier d’aquaponie avec Raphaël dans le cadre d’un

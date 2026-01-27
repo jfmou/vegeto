@@ -4,8 +4,8 @@ location: Maine-et-Loire
 baseline: Pré-étude
 mainImg: /assets/logo-transparent.png
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 testimonial:
   quote: >-
     Après avoir côtoyé Raphaël en 2023 dans le cadre de notre formation de

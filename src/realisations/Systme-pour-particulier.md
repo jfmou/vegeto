@@ -4,8 +4,8 @@ location: Pouzauges
 baseline: Installation extérieure
 mainImg: /assets/vegeto-installation-particuliers-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 testimonial:
   quote: >-
     J’ai fait appel à la société Végéto afin d’installer une serre aquaponique

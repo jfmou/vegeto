@@ -26,8 +26,7 @@ export default defineConfig({
         format: "md",
         defaultItem: () => {
           return {
-            // When a new post is created the title field will be set to "New post"
-            tags: ['Réalisation']
+            tags: ['realisation']
           }
         },
         fields: [
@@ -63,19 +62,19 @@ export default defineConfig({
             required: true,
             options: [
               {
-                value: "Réalisation",
+                value: "realisation",
                 label: "Réalisation"
               },
               {
-                value: "Conception",
+                value: "conception",
                 label: "Conception"
               },
               {
-                value: "Installation",
+                value: "installation",
                 label: "Installation"
               },
               {
-                value: "Transmission",
+                value: "transmission",
                 label: "Transmission"
               },
             ]

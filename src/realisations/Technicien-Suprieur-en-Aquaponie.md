@@ -4,8 +4,8 @@ location: Louverné
 baseline: Enseignement
 mainImg: /assets/vegeto-transmission-tech-sup-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 cta:
   text: ECHOLOGIA - AQUAPONIA
   link: 'https://www.echologia.com/'

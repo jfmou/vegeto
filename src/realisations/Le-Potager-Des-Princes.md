@@ -4,8 +4,8 @@ location: Chantilly
 baseline: Installation extérieure
 mainImg: /assets/vegeto-installation-potager-princes-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: LE POTAGER DES PRINCES
   link: 'https://www.potagerdesprinces.com/'

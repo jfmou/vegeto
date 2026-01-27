@@ -4,8 +4,8 @@ location: Metz
 baseline: Installation extérieure
 mainImg: /assets/vegeto-installation-biodome-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: BLIIIDA
   link: 'https://www.bliiida.fr/'

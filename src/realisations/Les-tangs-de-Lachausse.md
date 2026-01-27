@@ -4,8 +4,8 @@ location: Lachaussée
 baseline: Pré-étude
 mainImg: /assets/vegeto-conception-etang-lachaussee-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 cta:
   text: LES ÉTANGS DE LACHAUSSÉE
   link: 'https://www.facebook.com/esat.etangsdelachaussee.7'

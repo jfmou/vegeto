@@ -4,8 +4,8 @@ location: Achy
 baseline: Étude d’avant-projet
 mainImg: /assets/vegeto-conception-beauvesis-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 testimonial:
   quote: >
     Tout a commencé le jour où nous nous sommes décidés à aller rendre visite à

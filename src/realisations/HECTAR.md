@@ -4,8 +4,8 @@ location: Lévis-Saint-Nom
 baseline: Conseil
 mainImg: /assets/vegeto-conception-hectar-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 cta:
   text: HECTAR
   link: 'https://www.hectar.co/nos-formations/bootcamp-entrepreneur-agricole'

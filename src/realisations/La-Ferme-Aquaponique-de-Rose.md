@@ -4,8 +4,8 @@ location: Vendée
 baseline: Pré-étude
 mainImg: /assets/logo-transparent.png
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 testimonial:
   quote: >
     En effet, l’entreprise Végéto nous a établi un dossier de pré-étude et notre

@@ -4,8 +4,8 @@ location: Hartennes-et-Taux
 baseline: Installation extérieure
 mainImg: /assets/vegeto-installation-gaec-manscourt-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: LE GAEC MANSCOURT
   link: 'https://www.facebook.com/people/Gaec-Manscourt/100010747593854/'

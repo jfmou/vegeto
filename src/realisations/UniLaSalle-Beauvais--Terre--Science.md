@@ -4,8 +4,8 @@ location: Beauvais
 baseline: Enseignement
 mainImg: /assets/vegeto-transmission-unilasalle-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 cta:
   text: UNILASALLE BEAUVAIS
   link: 'https://beauvais.unilasalle.fr/'

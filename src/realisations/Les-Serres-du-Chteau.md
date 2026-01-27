@@ -4,8 +4,8 @@ location: Ribécourt
 baseline: Installation extérieure
 mainImg: /assets/vegeto-installation-serre-ribecourt-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: LES SERRES DU CHÂTEAU
   link: 'https://www.facebook.com/lesserresduchateau'

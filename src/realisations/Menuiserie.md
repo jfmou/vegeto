@@ -4,8 +4,8 @@ location: France
 baseline: Installations extérieures
 mainImg: /assets/vegeto-installation-menuiserie-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: ID & COPEAUX
   link: 'https://www.facebook.com/idetcopeaux02/'

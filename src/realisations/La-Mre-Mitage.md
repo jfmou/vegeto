@@ -4,8 +4,8 @@ location: Autrêches
 baseline: Installation intérieure
 mainImg: /assets/vegeto-installation-mere-mitage-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: LA MÈRE-MITAGE
   link: 'https://www.facebook.com/LaMereMitage'

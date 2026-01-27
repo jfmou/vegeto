@@ -4,8 +4,8 @@ location: Île-de-France
 baseline: Conseil - Pré-étude
 mainImg: /assets/vegeto-conception-aqway-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 testimonial:
   quote: >-
     L’accompagnement de VEGETO a été un véritable soutien dans l’élaboration de

@@ -4,8 +4,8 @@ location: Autrêches
 baseline: Étude d’avant-projet
 mainImg: /assets/vegeto-conception-hermitage-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 cta:
   text: LES JARDINS DE L’HERMITAGE
   link: >-

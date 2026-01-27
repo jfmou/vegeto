@@ -4,8 +4,8 @@ location: Honnecourt-sur-Escaut
 baseline: Étude d’avant-projet
 mainImg: /assets/vegeto-conception-cambresis-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 cta:
   text: LA FERME AQUAPONIQUE DU CAMBRÉSIS
   link: 'https://www.facebook.com/fermeaquaponiquecambresis/'

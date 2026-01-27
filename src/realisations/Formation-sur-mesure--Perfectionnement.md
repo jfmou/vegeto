@@ -4,8 +4,8 @@ location: France
 baseline: Formation
 mainImg: /assets/vegeto-transmission-perfectionnement-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 cta:
   text: LILOTOPIA
   link: 'https://lilotopia.org/'

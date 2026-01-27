@@ -4,8 +4,8 @@ location: Monde
 baseline: Formation
 mainImg: /assets/vegeto-transmission-bioponi-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 cta:
   text: BiOPONi
   link: 'https://bioponi.com/'

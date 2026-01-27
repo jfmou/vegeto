@@ -4,8 +4,8 @@ location: Chantilly
 baseline: Étude d’avant-projet
 mainImg: /assets/vegeto-conception-jaden-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 cta:
   text: CHANTILLY NATURE
   link: 'https://www.jadenchantilly.fr/'

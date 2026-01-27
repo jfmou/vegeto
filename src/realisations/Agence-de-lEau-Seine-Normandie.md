@@ -4,8 +4,8 @@ location: Compiègne
 baseline: Installation intérieure
 mainImg: /assets/vegeto-installation-agence-eau-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 cta:
   text: L’AGENCE DE L’EAU SEINE-NORMANDIE
   link: 'https://www.eau-seine-normandie.fr/'

@@ -4,8 +4,8 @@ location: Saint-Ouen
 baseline: Installation intérieure
 mainImg: /assets/vegeto-installation-l-oreal-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 testimonial:
   quote: >-
     Outre leur expertise incontestable et le sérieux du travail réalisé, c’est

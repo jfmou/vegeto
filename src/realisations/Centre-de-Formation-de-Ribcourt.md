@@ -4,8 +4,8 @@ location: Ribécourt
 baseline: Enseignement
 mainImg: /assets/vegeto-transmission-ribecourt-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 cta:
   text: LE CENTRE DE FORMATION DE RIBÉCOURT
   link: 'https://horticole-ribecourt-dreslincourt.ac-amiens.fr/'

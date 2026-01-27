@@ -4,8 +4,8 @@ location: Seine-Saint-Denis
 baseline: Installation extérieure
 mainImg: /assets/vegeto-installation-maison-nature-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 testimonial:
   quote: >-
     Nous avons missionné Végéto dans le cadre de notre association pour la

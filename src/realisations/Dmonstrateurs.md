@@ -4,8 +4,8 @@ location: Autrêches
 baseline: Installations intérieures-extérieures
 mainImg: /assets/vegeto-installation-demonstrateurs-1.jpg
 tags:
-  - Réalisation
-  - Installation
+  - realisation
+  - installation
 date: 2023-06-30T22:00:00.000Z
 draft: true
 ---

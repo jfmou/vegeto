@@ -4,8 +4,8 @@ location: France
 baseline: Formation
 mainImg: /assets/vegeto-transmission-initiation-1.jpg
 tags:
-  - Réalisation
-  - Transmission
+  - realisation
+  - transmission
 testimonial:
   quote: >-
     Merci beaucoup pour cette formation très complète ! Une journée retraçant

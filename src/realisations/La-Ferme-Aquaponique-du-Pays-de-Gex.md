@@ -4,8 +4,8 @@ location: Versonnex
 baseline: Étude d’avant-projet
 mainImg: /assets/vegeto-conception-pays-de-gex-1.jpg
 tags:
-  - Réalisation
-  - Conception
+  - realisation
+  - conception
 cta:
   text: LA FERME AQUAPONIQUE DU PAYS DE GEX
   link: 'https://www.facebook.com/LaFAPG'
