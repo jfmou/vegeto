@@ -10,13 +10,7 @@ cta:
   text: ECHOLOGIA - AQUAPONIA
   link: 'https://www.echologia.com/'
 testimonial:
-  quote: >-
-    C'est avec plaisir que nous faisons intervenir Raphaël de la société Végéto
-    dont l'expérience, le professionnalisme et la passion pour l'aquaponie ne
-    sont plus à démontrer ! Ses interventions de qualité sur le dimensionnement
-    de système aquaponique apporte un réel plus pour les stagiaires en formation
-    qui peuvent appréhender ce sujet difficile avec un regard complémentaire
-    très intéressant.
+  quote: 'C''est avec plaisir que nous faisons intervenir Raphaël de la société Végéto dont l''expérience, le professionnalisme et la passion pour l''aquaponie ne sont plus à démontrer ! Ses interventions de qualité sur le dimensionnement de système aquaponique apporte un réel plus pour les stagiaires en formation qui peuvent appréhender ce sujet difficile avec un regard complémentaire très intéressant.'
   image: /assets/vegeto-transmission-tech-sup-team.png
   author: Guillaume Beucher
   role: Co-fondateur et co-directeur d’Echologia et Aquaponia
@@ -31,5 +25,3 @@ Aquaponia a ainsi mis en place depuis 2020 deux formations professionnalisantes 
 ![](/assets/vegeto-transmission-tech-sup-2.jpg)![](/assets/vegeto-transmission-tech-sup-3.jpg)
 
 Ainsi, nous intervenons auprès des apprenants techniciens pour l’enseignement du dimensionnement du rapport entre les boucles piscicoles et horticoles en plus de la présentation de nos activités et de nos projets accompagnés.
-
-EN SAVOIR PLUS SUR

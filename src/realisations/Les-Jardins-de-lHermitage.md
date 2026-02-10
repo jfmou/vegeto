@@ -8,30 +8,15 @@ tags:
   - conception
 cta:
   text: LES JARDINS DE L’HERMITAGE
-  link: >-
-    https://www.facebook.com/Les-Jardins-de-lHermitage-Autrêches-60-106825681550704
+  link: 'https://www.facebook.com/Les-Jardins-de-lHermitage-Autrêches-60-106825681550704'
 testimonial:
-  quote: >
-    Lors du travail de conception et de dimensionnement de la ferme maraîchère
-    des Jardins de l'Hermitage, l'expertise de la société Vegeto Aquaponie nous
-    a été fort utile. Notamment pour :
-
-    - concevoir le mode de production en symbiose entre la production en pleine
-    terre et la production hors sol
-
-    - dimensionner le projet aquaponique pour qu'il permette de consolider
-    techniquement et financièrement le projet d'ensemble, sur la base d'un ETP
-
-    - dimensionner l'investissement et établir le modèle économique, conjuguant
-    production végétale et piscicole, et formation. 
-
-    - nous conseiller sur le montage financier, notamment l'accès à de
-    potentielles subventions d'investissement. 
-
-    Nous avons pu apprécier l'expertise de Raphaël et Guillaume, leur capacité
-    d'adaptation au contexte, et leur formidable réseau de professionnels de
-    l'aquaponie. 
-
+  quote: |
+    Lors du travail de conception et de dimensionnement de la ferme maraîchère des Jardins de l'Hermitage, l'expertise de la société Vegeto Aquaponie nous a été fort utile. Notamment pour :
+    - concevoir le mode de production en symbiose entre la production en pleine terre et la production hors sol
+    - dimensionner le projet aquaponique pour qu'il permette de consolider techniquement et financièrement le projet d'ensemble, sur la base d'un ETP
+    - dimensionner l'investissement et établir le modèle économique, conjuguant production végétale et piscicole, et formation. 
+    - nous conseiller sur le montage financier, notamment l'accès à de potentielles subventions d'investissement. 
+    Nous avons pu apprécier l'expertise de Raphaël et Guillaume, leur capacité d'adaptation au contexte, et leur formidable réseau de professionnels de l'aquaponie. 
     Ne pas hésiter à leur faire appel dès l'amont de votre projet aquaponique !
   image: /assets/vegeto-conception-hermitage-team.png
   author: Michel Pernot Du Breuil
@@ -40,7 +25,7 @@ date: 2023-04-18T22:00:00.000Z
 draft: true
 ---
 
-**La Société Civile d'Exploitation Agricole « les Jardins de l'Hermitage » est une micro-ferme agro-écologique **située au sein du tiers-lieu « l'Hermitage » où sont également nos locaux, à Autrêches dans l’Oise.
+**La Société Civile d'Exploitation Agricole** **« les Jardins de l'Hermitage » est une micro-ferme agro-écologique** située au sein du tiers-lieu « l'Hermitage » où sont également nos locaux, à Autrêches dans l’Oise.
 
 La ferme a aujourd’hui essentiellement une activité de maraîchage sur un modèle bio-intensif en Agriculture Biologique, avec une commercialisation en circuit court via différentes AMAP depuis 2020.
 

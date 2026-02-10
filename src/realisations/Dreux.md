@@ -1,19 +1,19 @@
 ---
-title: Dreux
-location: Dreux
-baseline: Dreux
-mainImg: /assets/VEGETO_website_20181009_infos.jpg
+title: Maison des Espaces Naturels
+location: Écluzelles
+baseline: Installation extérieure
+mainImg: /assets/20250417_200920.jpg
 tags:
   - realisation
   - installation
-date: 2026-02-04T15:05:23.662Z
+date: 2025-05-26T14:05:23.662Z
 draft: false
 ---
 
-**La Mère-Mitage est le café-cantine associatif du tiers-lieu L’Hermitage** au sein duquel notre entreprise est installée. C’est le lieu pivot du site accueillant les usagers et visiteurs du site pour un café, un repas ou une soirée conviviale en fonction de la programmation culturelle.
+La Maison des Espaces Naturels de l’Agglo du Pays de Dreux est un espace d’accueil pédagogique et de découverte de la faune et de la flore situé sur les berges du plan d’eau de Mézières-Écluzelles, principalement à destination de groupes scolaires.
 
-Un système aquaponique au design épuré y a été intégré afin d’ajouter une touche décorative avec notamment la culture de plantes grimpantes, de représenter les entrepreneurs du site, et de produire toute l’année des herbes aromatiques entrant dans la confection des repas proposés à un tarif solidaire.
+Dans le cadre d’animations régulières sur un parcours extérieur ludique, nous avons été sollicités pour réaliser une installation aquaponique permettant d’illustrer les écosystèmes aquatiques et de produire des légumes pour les repas d’accueil. 
 
-![](/assets/vegeto-installation-mere-mitage-2.jpg)
+L’installation est composée d’un grand bassin abritant des espèces piscicoles présentes dans le plan d’eau (carpes, tanches, gardons…), et de cultures suspendues en gouttières afin de visualiser le chemin de l’eau. 
 
-L’installation correspond à un « aquarium optimisé » avec un aquarium ornemental à mi-hauteur irriguant 5 gouttières de culture apparentes le tout surélevé sur un coffret de rangement et intégré dans une structure bois légère. L’ensemble de l’éclairage a été fourni par Floraled.
+Le suivi de l’installation et les animations sont assurées par les PEP (Pupilles de l’Enseignement Publique), association de solidarité pour l’enfance et gestionnaires du site, et nous effectuons un suivi et une maintenance à travers plusieurs interventions annuelles.

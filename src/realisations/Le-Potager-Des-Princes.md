@@ -10,16 +10,10 @@ cta:
   text: LE POTAGER DES PRINCES
   link: 'https://www.potagerdesprinces.com/'
 testimonial:
-  quote: >
-    L’aquaponie LA solution pour l’avenir ? Je ne sais pas mais ce dont je suis
-    sûr c’est que ce sera une des solutions pour une future transition piscicole
-    et maraîchère.
-
-    Mais pour cela il nous faudra être bien conseillé. Végéto fût notre conseil
-    et c’est pourquoi je me permets de croire en cette technique.
-
-    Je vous souhaite de choisir comme moi l’entreprise qui vous aidera
-    pleinement.
+  quote: |
+    L’aquaponie LA solution pour l’avenir ? Je ne sais pas mais ce dont je suis sûr c’est que ce sera une des solutions pour une future transition piscicole et maraîchère.
+    Mais pour cela il nous faudra être bien conseillé. Végéto fût notre conseil et c’est pourquoi je me permets de croire en cette technique.
+    Je vous souhaite de choisir comme moi l’entreprise qui vous aidera pleinement.
   image: /assets/vegeto-installation-potager-princes-team.png
   author: Serge
   role: Jardinier en chef émérite du Potager des Princes
@@ -38,5 +32,3 @@ Disposant de bassins avec des carpes koï et de nombreux espaces de production d
 Cette installation est un exemple d'adaptation à l'existant et de valorisation d'espaces non exploités, car nous nous sommes appuyés sur un bâtiment non utilisé pour y accoler une serre de production horticole.
 
 Le bâtiment pré-existant abrite ainsi le compartiment piscicole et la serre abrite le compartiment hydroponique. L’ensemble accueille des visites guidées par le jardinier en chef du site.
-
-EN SAVOIR PLUS SUR

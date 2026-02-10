@@ -10,10 +10,7 @@ cta:
   text: UNILASALLE BEAUVAIS
   link: 'https://beauvais.unilasalle.fr/'
 testimonial:
-  quote: >-
-    Très bonne pédagogie exercée dans le module d’aquaponie au sein de notre
-    école d’ingénieurs en agronomie. Personnel très professionnel et très à
-    l’écoute des étudiants. Bon équilibre théorie-pratique. Un grand merci.
+  quote: Très bonne pédagogie exercée dans le module d’aquaponie au sein de notre école d’ingénieurs en agronomie. Personnel très professionnel et très à l’écoute des étudiants. Bon équilibre théorie-pratique. Un grand merci.
   image: /assets/vegeto-transmission-unilasalle-team.png
   author: José Rodriguez
   role: Enseignant-Chercheur en Physiologie Animale et Responsable 1ère Année
@@ -28,5 +25,3 @@ Dans le cadre de leurs études, les étudiants doivent choisir un module de ving
 Le programme comprend une partie théorique, la visite de la FADA ([https://aquaponienormandie.com/](https://aquaponienormandie.com/)), ferme aquaponique commerciale pionnière en France, et un travail par groupes de conception de systèmes aquaponiques divers et variés.
 
 Également, nous intervenons auprès des étudiants en quatrième année en Parcours Sciences Animales pour un cours magistral sur l’aquaponie.
-
-EN SAVOIR PLUS

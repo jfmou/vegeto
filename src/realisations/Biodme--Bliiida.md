@@ -10,15 +10,10 @@ cta:
   text: BLIIIDA
   link: 'https://www.bliiida.fr/'
 testimonial:
-  quote: >
+  quote: |
     Raphaël et Guillaume nous ont permis de sauter le pas en toute confiance !
-
-    Le dôme a été un superbe outil de médiation et de dégustation de melons,
-    menthe, courges, ciboulette, sauge, piments...  
-
-    Ils ont également formé une partie de notre équipa au soin des carpes, des
-    plantes et des systèmes en montrant avec patience et pédagogie la cohérence
-    et l'imbrication de ces ressources.
+    Le dôme a été un superbe outil de médiation et de dégustation de melons, menthe, courges, ciboulette, sauge, piments...  
+    Ils ont également formé une partie de notre équipa au soin des carpes, des plantes et des systèmes en montrant avec patience et pédagogie la cohérence et l'imbrication de ces ressources.
   author: Camille Pereira
   role: 'Ex-cheffe de projets culturels à BLIIIDA '
 date: 2023-06-01T22:00:00.000Z
@@ -34,5 +29,3 @@ Dans le cadre du festival FuturOklatsh sur le thème de “Produire et consommer
 Les différents modules correspondent à un système central basé sur la verticalité, un système périphérique horizontal et un bac de culture en sol vivant couplé au système aquaponique horizontal.
 
 Les installations ont été exploitées par l’équipe du tiers-lieu puis une association de réseau de jardins partagés et participatifs en Moselle, et les aliments produits ont été valorisés au sein du restaurant du site pendant plusieurs années.
-
-EN SAVOIR PLUS SUR

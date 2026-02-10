@@ -25,5 +25,3 @@ Avec 5000m² de culture de fraises en hydroponie, l’exploitant a été séduit
 ![](/assets/vegeto-installation-gaec-manscourt-3.jpg)![](/assets/vegeto-installation-gaec-manscourt-4.jpg)![](/assets/vegeto-installation-gaec-manscourt-2.jpg)
 
 Nous avons ainsi conçu et réalisé un prototype avec un compartiment piscicole d’élevage de truites connecté à 1800 fraisiers. Par la suite le projet est de construire un élevage piscicole professionnel afin de convertir l'ensemble des serres chapelles en aquaponie.
-
-EN SAVOIR PLUS SUR
