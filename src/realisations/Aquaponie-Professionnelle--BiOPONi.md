@@ -27,5 +27,3 @@ En tant qu’organisme de formation, BiOPONi prodigue des formations en Aquaponi
 Dans ce cadre, nous sommes partenaires de BiOPONi depuis 2022 en tant que co-formateur pendant toute la durée de chaque session. 
 
 Contactez-nous pour plus d‘informations (financement éligible à VIVEA).
-
-EN SAVOIR PLUS SUR

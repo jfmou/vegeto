@@ -10,16 +10,9 @@ cta:
   text: LILOTOPIA
   link: 'https://lilotopia.org/'
 testimonial:
-  quote: >-
+  quote: |-
     Formateur passionné et passionnant.
-
-    Prêts à prendre une belle bouffée d'air en plein cœur d'un Tiers-lieu rural
-    très inspirant, une troupe de lilotopien.nes s'est retrouvée à apprendre les
-    aspects historiques & pratiques de l'aquaponie puis à partager nos
-    expériences de gestion d'un bassin d'aquaponie, avec celles de Raphaël....
-    Ce qui nous a questionné et permis de reprendre de bonnes habitudes entre
-    membres de Lilotopia sur nos productions à la ferme urbaine de Chaud
-    Bouillon
+    Prêts à prendre une belle bouffée d'air en plein cœur d'un Tiers-lieu rural très inspirant, une troupe de lilotopien.nes s'est retrouvée à apprendre les aspects historiques & pratiques de l'aquaponie puis à partager nos expériences de gestion d'un bassin d'aquaponie, avec celles de Raphaël.... Ce qui nous a questionné et permis de reprendre de bonnes habitudes entre membres de Lilotopia sur nos productions à la ferme urbaine de Chaud Bouillon
   image: /assets/vegeto-transmission-perfectionnement-team.png
   author: Alix Réquillart
   role: Présidente de Lilotopia
@@ -34,5 +27,3 @@ Sur ce format, nous avons par exemple été sollicités par Lilotopia pour prodi
 ![](/assets/vegeto-transmission-perfectionnement-2.jpg)![](/assets/vegeto-transmission-perfectionnement-3.jpg)![](/assets/vegeto-transmission-perfectionnement-4.jpg)
 
 Lilotopia est une association développant depuis 2021 une ferme urbaine pédagogique et inclusive de démonstration et d‘expérimentation dans un espace éphémère de 1800m² au cœur d‘une ancienne friche industrielle de Lille. L‘association y mène des activités de production alimentaire, des visites, des ateliers, de l‘accompagnement de projets ainsi que le développement d‘une vie associative.
-
-EN SAVOIR PLUS SUR

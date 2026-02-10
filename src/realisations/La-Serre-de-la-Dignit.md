@@ -10,24 +10,13 @@ cta:
   text: LA SERRE DE LA DIGNITÉ
   link: 'https://www.maisons-de-la-dignite.com/serre-de-la-dignité'
 testimonial:
-  quote: >
-    L'accompagnement par Végéto a été un phare pour l'installation de la Serre
-    de la Dignité.
-
-    En effet, leur expérience nous a permis de choisir les systèmes
-    hydroponiques les mieux adaptés à notre choix de production.
-
-    Une aide pour le choix des plantations avec l'importance et la plus-value
-    sur des produits tels que le Mesclun.
-
-    Nous avons été conseillés sur l’importance du choix de matériaux de qualité
-    et avons reçu une liste de différents prestataires en hydroponie.
-
-    Des rendez-vous en visio ont été utiles et nous avons eu des réponses à nos
-    questions après l'installation.
-
-    Merci à vous pour votre souci de nous apporter les meilleures réponses afin
-    de personnaliser au plus près votre accompagnement.
+  quote: |
+    L'accompagnement par Végéto a été un phare pour l'installation de la Serre de la Dignité.
+    En effet, leur expérience nous a permis de choisir les systèmes hydroponiques les mieux adaptés à notre choix de production.
+    Une aide pour le choix des plantations avec l'importance et la plus-value sur des produits tels que le Mesclun.
+    Nous avons été conseillés sur l’importance du choix de matériaux de qualité et avons reçu une liste de différents prestataires en hydroponie.
+    Des rendez-vous en visio ont été utiles et nous avons eu des réponses à nos questions après l'installation.
+    Merci à vous pour votre souci de nous apporter les meilleures réponses afin de personnaliser au plus près votre accompagnement.
   image: /assets/vegeto-conception-serre-dignite-team.png
   author: Fatima Medjahed
   role: Présidente des Maisons de la Dignité
@@ -48,5 +37,3 @@ Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de consei
 L’entreprise Terra Aquatica a ensuite poursuit l’accompagnement et la fourniture du matériel de culture.
 
 L’équipe de bénévoles de la Serre de la Dignité a ensuite entrepris le chantier d’installation des systèmes hydroponiques, et la serre est depuis en production !
-
-EN SAVOIR PLUS SUR

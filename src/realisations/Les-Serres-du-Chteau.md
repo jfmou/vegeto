@@ -10,10 +10,7 @@ cta:
   text: LES SERRES DU CHÂTEAU
   link: 'https://www.facebook.com/lesserresduchateau'
 testimonial:
-  quote: >-
-    Merci à l’équipe Végéto pour son professionnalisme et le travail efficace
-    qu’ils ont fourni. Respect de la commande et délais tenus. Une superbe
-    entreprise que je recommande, je suis très satisfait.
+  quote: 'Merci à l’équipe Végéto pour son professionnalisme et le travail efficace qu’ils ont fourni. Respect de la commande et délais tenus. Une superbe entreprise que je recommande, je suis très satisfait.'
   image: /assets/vegeto-installation-serre-ribecourt-team.png
   author: Gaëtan Esclavont
   role: 'Chef d’exploitation de la serre '
@@ -32,5 +29,3 @@ Nous avons été sollicités pour la construction d’un système aquaponique af
 L’installation a depuis été le support de centaines d’heures de cours et de formation aux apprenants de l’établissement.
 
 La rénovation de la boucle piscicole sera effectuée en 2023 et d’autres espèces piscicoles que des carpes colorées seront élevées (truites notamment).
-
-EN SAVOIR PLUS SUR

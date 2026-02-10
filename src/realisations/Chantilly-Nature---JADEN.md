@@ -10,10 +10,7 @@ cta:
   text: CHANTILLY NATURE
   link: 'https://www.jadenchantilly.fr/'
 testimonial:
-  quote: >-
-    Belle rencontre avec Raphaël et Guillaume de Végéto qui par leur expertise,
-    leur écoute et leur disponibilité ont tout de suite compris nos besoins et
-    conçu une installation aquaponique de 240m² juste magnifique.
+  quote: 'Belle rencontre avec Raphaël et Guillaume de Végéto qui par leur expertise, leur écoute et leur disponibilité ont tout de suite compris nos besoins et conçu une installation aquaponique de 240m² juste magnifique.'
   image: /assets/vegeto-conception-jaden-team.png
   author: Charles Ancelin
   role: Co-fondateur de JADEN et vice-président des Jardins Familiaux de l’Oise
@@ -30,5 +27,3 @@ Un terrain de 4000m² situé au sein des Jardins Familiaux de l’Oise, associat
 Végéto a ainsi conçu une installation aquaponique de 240m² comprenant un espace d’élevage piscicole extérieur, une serre Hélio comprenant des bacs de culture végétale (en aquaponie et en vermiponie), un espace d’accueil et un aquarium géant à semis, ainsi qu’un espace de culture végétale extérieur.
 
 Les travaux d’implantation du végétal, des zones humides et des bâtis sur le terrain ont débuté en 2022 et le chantier du système aquaponique se déroulera courant 2023.
-
-EN SAVOIR PLUS SUR

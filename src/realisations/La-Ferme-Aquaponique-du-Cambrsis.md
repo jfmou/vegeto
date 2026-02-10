@@ -12,9 +12,7 @@ cta:
 testimonial:
   quote: Témoignage
   author: Coralie Burrow
-  role: >-
-    Co-fondatrice de la Ferme Aquaponique du Cambrésis et chercheur en
-    environnement 
+  role: 'Co-fondatrice de la Ferme Aquaponique du Cambrésis et chercheur en environnement '
 date: 2023-02-14T23:00:00.000Z
 draft: true
 ---
@@ -29,5 +27,3 @@ Le premier volet de l’étude est un dossier d’étude de faisabilité (recher
 Le second volet consiste en l’étude d’avant-projet détaillé de la ferme aquaponique (plans 2D, chiffrage des investissements avec devis, calcul des charges et des produits, prévisionnel financier sommaire…), aboutissant à la validation du projet d’une serre de culture de 500m² connectée aux bacs d’élevage piscicoles. 
 
 Les travaux de réalisation de l’installation ont depuis démarré pour un lancement de la production prévu prochainement.
-
-EN SAVOIR PLUS SUR
