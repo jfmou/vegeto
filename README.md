@@ -58,7 +58,7 @@
 ## 🌐 Récupérer la dernière version du site
 
 ```sh
-$ git fetch
+$ git fetch --prune
 ...
 
 $ git checkout origin/master -B master
