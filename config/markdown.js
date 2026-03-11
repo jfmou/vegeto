@@ -18,7 +18,7 @@ markdownIt.renderer.rules.image = function (tokens, idx, options, env, self) {
 
   const token = tokens[idx]
   let imgSrc = token.attrGet('src')
-  const imgAlt = token.content
+  const imgAlt = token.content || 'Image'
   const imgTitle = token.attrGet('title')
 
   const htmlOpts = { alt: imgAlt, loading: 'lazy', decoding: 'async' }
@@ -59,9 +59,33 @@ markdownIt.renderer.rules.image = function (tokens, idx, options, env, self) {
   }
 
   const metadata = Image.statsSync(imgSrc, imgOpts)
+
+  /** Créer un tableau plat de tous les chemins de sortie */
+  const outputPaths = Object.keys(metadata).reduce((acc, key) => {
+    return [
+      ...acc,
+      ...metadata[key].map((resource) => {
+        return resource.outputPath;
+      }),
+    ];
+  }, []);
+
+  let hasImageBeenOptimized = true;
+
+  for (const outputPath of outputPaths) {
+    let fileToCheck = path.resolve(__dirname, '..', outputPath);
+
+    if (!fs.existsSync(fileToCheck)) {
+      hasImageBeenOptimized = false;
+    }
+  }
   
+  if (!hasImageBeenOptimized) {
+    Image(imgSrc, imgOpts);
+  }
+
   const generated = Image.generateHTML(metadata, {
-    sizes: parsed.sizes || IMG_DEFAULT_SIZES,
+    sizes: parsed.sizes || 'min(100%, 840px)',
     ...htmlOpts
   })
 

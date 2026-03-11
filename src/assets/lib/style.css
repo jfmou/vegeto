@@ -336,6 +336,7 @@
 
   /* Realisation Layout */
   .realisation-header {
+    margin-top: calc(var(--main-p-spacing) *2);
     margin-bottom: var(--main-p-spacing);
     text-align: left;
     padding-left: var(--main-default-spacing);
