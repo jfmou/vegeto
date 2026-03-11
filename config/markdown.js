@@ -59,36 +59,7 @@ markdownIt.renderer.rules.image = function (tokens, idx, options, env, self) {
   }
 
   const metadata = Image.statsSync(imgSrc, imgOpts)
-
-  /** Creating a flat array of all the output paths from the metadata object. */
-  const outputPaths = Object.keys(metadata).reduce((acc, key) => {
-    return [
-    ...acc,
-    ...metadata[key].map((resource) => {
-        return resource.outputPath;
-    }),
-    ];
-  }, []);
-  console.log(imgSrc, outputPaths, metadata)
-
-  let hasImageBeenOptimized = true;
-
-  for (const outputPath of outputPaths) {
-    /** Edit the output file path resolving, depending of this file */
-    let fileToCheck = path.resolve(__dirname, '..', outputPath);
-
-    if (!fs.existsSync(fileToCheck)) {
-      console.log(fileToCheck, 'ko');
-
-      hasImageBeenOptimized = false;
-    }
-  }
   
-  if (!hasImageBeenOptimized) {
-    console.log('img not optimised')
-    Image(imgSrc, imgOpts);
-  }
-
   const generated = Image.generateHTML(metadata, {
     sizes: parsed.sizes || IMG_DEFAULT_SIZES,
     ...htmlOpts

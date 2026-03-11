@@ -337,13 +337,41 @@
   /* Realisation Layout */
   .realisation-header {
     margin-bottom: var(--main-p-spacing);
+    text-align: left;
+    padding-left: var(--main-default-spacing);
+    border-left: 4px solid var(--main-color);
+  }
+
+  .realisation-header h1 {
+    margin-bottom: var(--main-default-spacing);
+    text-align: left;
+    color: var(--main-active-color);
+    padding: 0;
+  }
+
+  .realisation-header h1::after {
+    display: none;
+  }
+
+  .realisation-location {
+    font-size: 16px;
+    color: var(--main-color);
+    margin: 0;
+  }
+
+  .realisation-tags {
+    font-size: 14px;
+    color: var(--main-active-color);
+    margin: 0 0 var(--main-p-spacing) 0;
+    text-transform: capitalize;
   }
 
   .realisation-main-image {
     display: block;
     margin: var(--main-p-spacing) auto;
-    width: 100%;
-    max-width: 420px;
+    width: calc(100% + calc(var(--main-default-spacing) * 2));
+    margin-left: calc(var(--main-default-spacing) * -1);
+    margin-right: calc(var(--main-default-spacing) * -1);
   }
 
   .realisation-main-image img,
@@ -355,14 +383,65 @@
 
   .realisation-body {
     margin: var(--main-p-spacing) 0;
+    display: flow-root;
+    text-align: left
   }
 
   .realisation-body p {
-    margin: var(--main-p-spacing) auto;
+    margin: 0 auto var(--main-p-spacing);
+    float: left;
+    max-width: 100%;
+  }
+
+  .realisation-body img,
+  .realisation-body figure,
+  .realisation-body picture {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
   }
 
   .realisation-body figure {
     margin: var(--main-p-spacing) 0;
+  }
+
+  .realisation-body picture {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: var(--main-p-spacing) 0;
+  }
+
+  /* Mobile: images stack vertically with spacing */
+  .realisation-body picture:has(+ picture) {
+    margin-bottom: var(--main-default-spacing);
+  }
+
+  .realisation-body picture + picture {
+    margin-bottom: var(--main-default-spacing);
+  }
+
+  .realisation-body picture + picture + picture {
+    margin-bottom: var(--main-p-spacing);
+  }
+
+  /* Hide empty p tags before and after image groups */
+  .realisation-body p:has(+ picture:has(+ picture)) {
+    display: none;
+  }
+
+  .realisation-body p:empty {
+    display: none;
+  }
+
+  /* Mobile: reset 3-column layout to stacked */
+  .realisation-body picture + picture,
+  .realisation-body picture + picture + picture {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: var(--main-p-spacing);
   }
 
   .realisation-body figcaption {
@@ -379,49 +458,59 @@
   }
 
   .testimonial-content {
-    max-width: 840px;
     margin: 0 auto;
-  }
-
-  .testimonial-quote {
-    font-size: 18px;
-    font-style: italic;
-    color: var(--main-typo-color);
-    margin: 0 0 var(--main-p-spacing) 0;
-    line-height: 1.6;
-  }
-
-  .testimonial-author {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: var(--main-default-spacing);
-    margin-top: var(--main-default-spacing);
+    align-items: center;
   }
 
   .testimonial-avatar {
     flex-shrink: 0;
+    order: -1;
   }
 
   .testimonial-avatar img,
   .testimonial-avatar figure {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
+    display: block;
   }
 
   .testimonial-avatar figcaption {
     display: none;
   }
 
+  .testimonial-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--main-typo-color);
+    margin: 0 0 var(--main-default-spacing) 0;
+    line-height: 1.6;
+    flex: 1;
+    width: 100%;
+    text-align:left;
+  }
+
+  .testimonial-author {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 0;
+  }
+
   .testimonial-info {
     margin: 0;
+    text-align: left;
   }
 
   .testimonial-name {
     margin: 0;
     font-weight: bold;
     color: var(--main-active-color);
+    font-size: 16px;
   }
 
   .testimonial-role {
@@ -437,24 +526,59 @@
 
   .cta-button {
     display: inline-block;
-    background-color: var(--main-color);
-    color: var(--main-typo-color);
+    background-color: white;
+    color: var(--main-active-color);
     padding: 15px 40px;
+    border: 2px solid var(--main-color);
     border-radius: 4px;
     font-weight: bold;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   .cta-button:hover {
-    background-color: var(--main-active-color);
-    color: white;
+    background-color: var(--main-color);
+    color: var(--main-typo-color);
     text-decoration: none;
   }
 
   /* Responsive mq :::::: mobile first */
   @media screen and (min-width: 521px) {
     /* generic Style */
+
+    .realisation-main-image {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    /* Testimonial layout on tablet+ */
+    .testimonial-content {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: var(--main-default-spacing);
+    }
+
+    .testimonial-avatar {
+      order: 0;
+    }
+
+    /* 3-column image grid on tablet+ */
+    .realisation-body picture:has(+ picture),
+    .realisation-body picture + picture,
+    .realisation-body picture + picture + picture {
+      float: left;
+      width: calc(33.333% - calc(var(--main-default-spacing) * 2 / 3));
+      margin-right: var(--main-default-spacing);
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+
+    /* Remove right margin from last image in group */
+    .realisation-body picture + picture + picture {
+      margin-right: 0;
+    }
 
     /* Gallery Skin on tablet and more */
     .row {

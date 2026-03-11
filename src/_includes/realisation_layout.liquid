@@ -5,13 +5,22 @@ layout: layouts/base
 <div class="container">
   <div class="content">
     <div class="realisation-header">
-      <h1>{{ title }} {% if baseline %}<span class="baseline">{{ baseline }}</span>{% endif %}</h1>
-      {% if mainImg %}
-        <div class="realisation-main-image">
-          {% image mainImg, title %}
-        </div>
+      <h1>{{ title }}</h1>
+      {% if location %}<p class="realisation-location">{{ location }}</p>{% endif %}
+      {% if tags %}
+        <p class="realisation-tags">
+          {% for tag in tags %}
+            {% if tag != "realisation" %}{{ tag }}{% endif %}
+          {% endfor %}
+        </p>
       {% endif %}
     </div>
+
+    {% if mainImg %}
+      <div class="realisation-main-image">
+        {% image mainImg, title %}
+      </div>
+    {% endif %}
 
     <div class="realisation-body">
       {{ content }}
@@ -20,16 +29,18 @@ layout: layouts/base
     {% if testimonial %}
       <div class="realisation-testimonial">
         <div class="testimonial-content">
-          <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
-          <div class="testimonial-author">
-            {% if testimonial.image %}
-              <div class="testimonial-avatar">
-                {% image testimonial.image, testimonial.author %}
+          {% if testimonial.image %}
+            <div class="testimonial-avatar">
+              {% image_testimonial testimonial.image, testimonial.author %}
+            </div>
+          {% endif %}
+          <div>
+            <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
+            <div class="testimonial-author">
+              <div class="testimonial-info">
+                <p class="testimonial-name">{{ testimonial.author }}</p>
+                {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
               </div>
-            {% endif %}
-            <div class="testimonial-info">
-              <p class="testimonial-name">{{ testimonial.author }}</p>
-              {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
             </div>
           </div>
         </div>
@@ -38,7 +49,7 @@ layout: layouts/base
 
     {% if cta %}
       <div class="realisation-cta">
-        <a href="{{ cta.link }}" class="cta-button">{{ cta.text }}</a>
+        <a href="{{ cta.link }}" class="cta-button" target="_blank">En savoir plus sur<br>{{ title }}</a>
       </div>
     {% endif %}
   </div>

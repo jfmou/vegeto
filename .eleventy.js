@@ -3,15 +3,20 @@ const { eleventyImagePlugin, generateHTML } = require("@11ty/eleventy-img"),
 
 const { IMG_DEFAULT_WIDTHS, IMG_DEFAULT_FORMATS, IMG_DEFAULT_SIZES, IMG_DEFAULT_URL_PATH, IMG_DEFAULT_OUTPUT_DIR } = require("./config/img.js");
 
-const IMG_SHORTCODE_CONF = async (
+const generateImageHTML = async (
   src,
   alt,
-  className = undefined,
   widths = IMG_DEFAULT_WIDTHS,
   formats = IMG_DEFAULT_FORMATS,
   sizes = IMG_DEFAULT_SIZES
-  ) => {
-  let metadata = await Image(src, {
+) => {
+  // Convert absolute asset paths to source paths
+  let imageSrc = src;
+  if (src.startsWith('/assets')) {
+    imageSrc = 'src' + src;
+  }
+
+  let metadata = await Image(imageSrc, {
       widths: [...widths],
       formats: [...formats, null],
       urlPath: IMG_DEFAULT_URL_PATH,
@@ -25,8 +30,25 @@ const IMG_SHORTCODE_CONF = async (
       decoding: "async",
   };
 
-  // You bet we throw an error on a missing alt (alt="" works okay)
   return generateHTML(metadata, imageAttributes);
+};
+
+const IMG_SHORTCODE_CONF = async (
+  src,
+  alt,
+  className = undefined,
+  widths = IMG_DEFAULT_WIDTHS,
+  formats = IMG_DEFAULT_FORMATS,
+  sizes = IMG_DEFAULT_SIZES
+  ) => {
+  return generateImageHTML(src, alt, widths, formats, sizes);
+};
+
+const IMG_TESTIMONIAL_SHORTCODE_CONF = async (
+  src,
+  alt
+  ) => {
+  return generateImageHTML(src, alt, [200], IMG_DEFAULT_FORMATS, "200px");
 };
 
 module.exports = function(eleventyConfig) {
@@ -54,6 +76,7 @@ module.exports = function(eleventyConfig) {
     }
   });
   eleventyConfig.addShortcode("image", IMG_SHORTCODE_CONF);
+  eleventyConfig.addShortcode("image_testimonial", IMG_TESTIMONIAL_SHORTCODE_CONF);
   // Return your Object options:
   return {
     dir: {
