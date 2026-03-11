@@ -334,6 +334,124 @@
     font-size: 12px;
   }
 
+  /* Realisation Layout */
+  .realisation-header {
+    margin-bottom: var(--main-p-spacing);
+  }
+
+  .realisation-main-image {
+    display: block;
+    margin: var(--main-p-spacing) auto;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .realisation-main-image img,
+  .realisation-main-image figure {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .realisation-body {
+    margin: var(--main-p-spacing) 0;
+  }
+
+  .realisation-body p {
+    margin: var(--main-p-spacing) auto;
+  }
+
+  .realisation-body figure {
+    margin: var(--main-p-spacing) 0;
+  }
+
+  .realisation-body figcaption {
+    font-size: 14px;
+    color: var(--main-disabled-color);
+    margin-top: 10px;
+  }
+
+  .realisation-testimonial {
+    background-color: #fafafa;
+    padding: var(--main-p-spacing);
+    margin: calc(var(--main-p-spacing) * 2) auto;
+    border-left: 4px solid var(--main-color);
+  }
+
+  .testimonial-content {
+    max-width: 840px;
+    margin: 0 auto;
+  }
+
+  .testimonial-quote {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--main-typo-color);
+    margin: 0 0 var(--main-p-spacing) 0;
+    line-height: 1.6;
+  }
+
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: var(--main-default-spacing);
+    margin-top: var(--main-default-spacing);
+  }
+
+  .testimonial-avatar {
+    flex-shrink: 0;
+  }
+
+  .testimonial-avatar img,
+  .testimonial-avatar figure {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .testimonial-avatar figcaption {
+    display: none;
+  }
+
+  .testimonial-info {
+    margin: 0;
+  }
+
+  .testimonial-name {
+    margin: 0;
+    font-weight: bold;
+    color: var(--main-active-color);
+  }
+
+  .testimonial-role {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: var(--main-disabled-color);
+  }
+
+  .realisation-cta {
+    text-align: center;
+    margin: calc(var(--main-p-spacing) * 2) 0;
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: var(--main-typo-color);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: var(--main-active-color);
+    color: white;
+    text-decoration: none;
+  }
+
   /* Responsive mq :::::: mobile first */
   @media screen and (min-width: 521px) {
     /* generic Style */
@@ -361,10 +479,6 @@
 
     .row .column > p {
       margin-top: 0;
-    }
-
-    .content.prebuild-product-container {
-      background-color:
     }
 
     .prebuild-products {

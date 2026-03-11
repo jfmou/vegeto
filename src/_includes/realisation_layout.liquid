@@ -1,5 +1,45 @@
 ---
 layout: layouts/base
 ---
-<h1>{{ title }} <span>{{ baseline }}</span></h1>
-{{ content }}
+
+<div class="container">
+  <div class="content">
+    <div class="realisation-header">
+      <h1>{{ title }} {% if baseline %}<span class="baseline">{{ baseline }}</span>{% endif %}</h1>
+      {% if mainImg %}
+        <div class="realisation-main-image">
+          {% image mainImg, title %}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="realisation-body">
+      {{ content }}
+    </div>
+
+    {% if testimonial %}
+      <div class="realisation-testimonial">
+        <div class="testimonial-content">
+          <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
+          <div class="testimonial-author">
+            {% if testimonial.image %}
+              <div class="testimonial-avatar">
+                {% image testimonial.image, testimonial.author %}
+              </div>
+            {% endif %}
+            <div class="testimonial-info">
+              <p class="testimonial-name">{{ testimonial.author }}</p>
+              {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if cta %}
+      <div class="realisation-cta">
+        <a href="{{ cta.link }}" class="cta-button">{{ cta.text }}</a>
+      </div>
+    {% endif %}
+  </div>
+</div>
