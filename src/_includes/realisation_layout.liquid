@@ -26,6 +26,15 @@ layout: layouts/base
       {{ content }}
     </div>
 
+    {% if cta %}
+      <div class="realisation-cta">
+        <a href="{{ cta.link }}" class="cta-button" target="_blank" title="Découvrir {{ cta.text }}">
+          <span class="btn-top">EN SAVOIR PLUS SUR</span>
+          <span class="btn-bottom">{{ title }}</span>
+        </a>
+      </div>
+    {% endif %}
+
     {% if testimonial %}
       <div class="realisation-testimonial">
         <div class="testimonial-content">
@@ -46,11 +55,49 @@ layout: layouts/base
         </div>
       </div>
     {% endif %}
+    
+    <!-- Footer navigation: previous / index / next -->
+    <div class="realisation-footer-buttons">
+      {% if collections.realisations %}
+        {% assign items = collections.realisations %}
+      {% else %}
+        {% assign items = collections.all %}
+      {% endif %}
 
-    {% if cta %}
-      <div class="realisation-cta">
-        <a href="{{ cta.link }}" class="cta-button" target="_blank">En savoir plus sur<br>{{ title }}</a>
-      </div>
-    {% endif %}
+      {% assign total = items | size %}
+      {% assign currentIndex = 0 %}
+      {% for item in items %}
+        {% if item.url == page.url %}
+          {% assign currentIndex = forloop.index0 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign prevIndex = currentIndex | minus: 1 %}
+      {% if prevIndex < 0 %}
+        {% assign prevIndex = total | minus: 1 %}
+      {% endif %}
+
+      {% assign nextIndex = currentIndex | plus: 1 %}
+      {% if nextIndex >= total %}
+        {% assign nextIndex = 0 %}
+      {% endif %}
+
+      {% assign prevItem = items[prevIndex] %}
+      {% assign nextItem = items[nextIndex] %}
+
+      <a href="{{ prevItem.url }}" class="cta-button cta-small" title="Voir : {{ prevItem.data.title }}">
+        <span class="btn-top">RÉALISATION</span>
+        <span class="btn-bottom">PRÉCÉDENTE</span>
+      </a>
+      <a href="/realisations/" class="cta-button cta-small" title="Retour à la liste des réalisations">
+        <span class="btn-top">TOUTES LES</span>
+        <span class="btn-bottom">RÉALISATIONS</span>
+      </a>
+      <a href="{{ nextItem.url }}" class="cta-button cta-small" title="Voir : {{ nextItem.data.title }}">
+        <span class="btn-top">RÉALISATION</span>
+        <span class="btn-bottom">SUIVANTE</span>
+      </a>
+    </div>
   </div>
 </div>
