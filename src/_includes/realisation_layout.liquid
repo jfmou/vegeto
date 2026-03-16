@@ -34,28 +34,30 @@ layout: layouts/base
         </a>
       </div>
     {% endif %}
+  </div>
 
-    {% if testimonial %}
-      <div class="realisation-testimonial">
-        <div class="testimonial-content">
-          {% if testimonial.image %}
-            <div class="testimonial-avatar">
-              {% image_testimonial testimonial.image, testimonial.author %}
-            </div>
-          {% endif %}
-          <div>
-            <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
-            <div class="testimonial-author">
-              <div class="testimonial-info">
-                <p class="testimonial-name">{{ testimonial.author }}</p>
-                {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
-              </div>
+  {% if testimonial %}
+    <div class="realisation-testimonial">
+      <div class="testimonial-content">
+        {% if testimonial.image %}
+          <div class="testimonial-avatar">
+            {% image testimonial.image, testimonial.author, 200, "200px" %}
+          </div>
+        {% endif %}
+        <div>
+          <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-info">
+              <p class="testimonial-name">{{ testimonial.author }}</p>
+              {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
             </div>
           </div>
         </div>
       </div>
-    {% endif %}
-    
+    </div>
+  {% endif %}
+
+  <div class="content">
     <!-- Footer navigation: previous / index / next -->
     <div class="realisation-footer-buttons">
       {% if collections.realisations %}

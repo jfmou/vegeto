@@ -454,12 +454,13 @@
   .realisation-testimonial {
     background-color: #fafafa;
     padding: var(--main-p-spacing);
-    margin: calc(var(--main-p-spacing) * 2) auto;
-    border-left: 4px solid var(--main-color);
+    margin: calc(var(--main-p-spacing) * 2) 0;
+    width: 100%;
   }
 
   .testimonial-content {
     margin: 0 auto;
+    max-width: 840px;
     display: flex;
     flex-direction: column;
     gap: var(--main-default-spacing);
