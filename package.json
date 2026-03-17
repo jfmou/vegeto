@@ -6,10 +6,11 @@
   "scripts": {
     "clean": "rm -rf ./dist/ && mkdir ./dist",
     "build": "npm run clean && npx eleventy && npm run build-assets && mv ./dist/index.html ./dist/index.php",
-    "build-assets": "cp -a ./assets ./dist/",
+    "build:beta": "ELEVENTY_NO_INDEX=true npm run build",
+    "build-assets": "cp -a ./src/assets ./dist/",
     "dev": "npm run clean && npx tinacms dev -c \"npx eleventy --serve\"",
     "debug": "DEBUG=* npx eleventy",
-    "test-serve-prod": "rm -rf ./dist/admin && mv ./dist/index.html ./dist/index.php && php -S  localhost:8081 --docroot ./dist",
+    "test-serve-php": "rm -rf ./dist/admin && php -S  localhost:8081 --docroot ./dist",
     "save": "USER_DATE=$(git config user.email)-$(date +%s) && git checkout -B f/new-content-$(echo $USER_DATE) && git add . && git commit -m new\\ content\\ $(echo $USER_DATE)",
     "publish": "git push origin --all"
   },

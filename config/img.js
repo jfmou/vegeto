@@ -5,7 +5,7 @@ exports.IMG_DEFAULT_WIDTHS = widths.concat(widths.map((w) => w * 2)) // generate
 
 exports.IMG_DEFAULT_FORMATS = ['webp', 'avif', 'jpeg'];
 
-exports.IMG_DEFAULT_SIZES = '100vw';
+exports.IMG_DEFAULT_SIZES = '(max-width: 520px) calc(100vw - 40px), 840px';
 
 exports.IMG_DEFAULT_URL_PATH = "/assets/img/generated";
 

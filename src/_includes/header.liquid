@@ -1,4 +1,6 @@
-<header class="logo-container">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" class="site-header-brand" aria-label="Retour à l'accueil Végéto">
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		viewBox="0 0 386 40"
 	xml:space="preserve"
@@ -88,4 +90,57 @@
 	</g>
 </g>
 </svg>
+		</a>
+
+		<button class="site-header-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Ouvrir le menu de navigation">
+			<span class="site-header-toggle-bar"></span>
+			<span class="site-header-toggle-bar"></span>
+			<span class="site-header-toggle-bar"></span>
+		</button>
+
+		<nav id="site-navigation" class="site-navigation" aria-label="Navigation principale">
+			<a href="/" class="site-navigation-link" title="Retourner à la page d’accueil"{% if page.url == '/' %} aria-current="page"{% endif %}>Accueil</a>
+			<a href="/realisations/" class="site-navigation-link" title="Découvrir nos réalisations en aquaponie"{% if page.url == '/realisations/' %} aria-current="page"{% endif %}>Nos réalisations</a>
+			<a href="/serre-helio/" class="site-navigation-link" title="Découvrir notre page dédiée à la serre Hélio"{% if page.url == '/serre-helio/' %} aria-current="page"{% endif %}>La serre Hélio</a>
+		</nav>
+	</div>
 </header>
+
+<script>
+	(() => {
+		const header = document.querySelector('.site-header');
+		if (!header) return;
+
+		const button = header.querySelector('.site-header-toggle');
+		const navigation = header.querySelector('.site-navigation');
+
+		if (!button || !navigation) return;
+
+		const closeMenu = () => {
+			button.setAttribute('aria-expanded', 'false');
+			header.classList.remove('is-open');
+		};
+
+		button.addEventListener('click', () => {
+			const isOpen = button.getAttribute('aria-expanded') === 'true';
+			button.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+			header.classList.toggle('is-open', !isOpen);
+		});
+
+		navigation.querySelectorAll('a').forEach((link) => {
+			link.addEventListener('click', closeMenu);
+		});
+
+		document.addEventListener('keydown', (event) => {
+			if (event.key === 'Escape') {
+				closeMenu();
+			}
+		});
+
+		document.addEventListener('click', (event) => {
+			if (!header.contains(event.target)) {
+				closeMenu();
+			}
+		});
+	})();
+</script>

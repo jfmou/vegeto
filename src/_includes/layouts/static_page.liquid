@@ -8,20 +8,9 @@
     <meta name="msapplication-navbutton-color" content="rgb(185, 198, 189)">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    
-    <!-- Dynamic description based on page type -->
+
     {% if seoDescription %}
       {% assign description = seoDescription %}
-    {% elsif page.url == '/' %}
-      {% assign description = "Entreprise spécialisée dans l'Aquaponie, située entre Soissons et Compiègne. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers." %}
-    {% elsif page.url == '/realisations/' %}
-      {% assign description = "Découvrez nos réalisations en aquaponie : conception, installation et transmission de projets sur-mesure pour professionnels, collectivités et particuliers." %}
-    {% elsif page.filePathStem contains '/realisations/' %}
-      {% assign description = "Découvrez notre accompagnement en aquaponie avec " | append: title %}
-      {% if location %}
-        {% assign description = description | append: " à " | append: location %}
-      {% endif %}
-      {% assign description = description | append: "." %}
     {% else %}
       {% assign description = "Entreprise spécialisée dans l'Aquaponie, située entre Soissons et Compiègne. Formations, études, réalisations et installations de kits sur-mesure pour professionels et particuliers." %}
     {% endif %}
@@ -30,14 +19,12 @@
       <meta name="robots" content="noindex, nofollow">
       <meta name="googlebot" content="noindex, nofollow">
     {% endif %}
-    
-    <!-- Facebook OpenGraph Data -->
+
     <meta property="og:title" content="{{ title }} | Végéto Aquaponie">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.vegeto-aquaponie.fr{{ page.url }}">
     <meta property="og:description" content="{{ description }}">
-    
-    <!-- Dynamic image for og:image -->
+
     {% if mainImg %}
       <meta property="og:image" content="https://www.vegeto-aquaponie.fr{{ mainImg }}">
       <meta property="og:image:width" content="800" />
@@ -47,8 +34,7 @@
       <meta property="og:image:width" content="400" />
       <meta property="og:image:height" content="400" />
     {% endif %}
-    
-    <!-- Twitter Card Data -->
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ title }} | Végéto Aquaponie">
     <meta name="twitter:description" content="{{ description }}">
@@ -57,24 +43,29 @@
     {% else %}
       <meta name="twitter:image" content="https://www.vegeto-aquaponie.fr/assets/img/logo-og.png">
     {% endif %}
-    
+
     <link rel="stylesheet" href="/assets/lib/style.css">
     <link rel="stylesheet" href="/assets/lib/fonts.css">
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
     <link rel="canonical" href="https://www.vegeto-aquaponie.fr{{ page.url }}" />
   </head>
   <body>
-
     {% include header %}
 
     <main class="main" role="main">
-      {{ content }}
+      <div class="container">
+        <div class="content static-page">
+          <div class="static-page-intro">
+            <h1>{{ title }}</h1>
+            {% if lead %}<p>{{ lead }}</p>{% endif %}
+          </div>
+          <div class="static-page-body">
+            {{ content }}
+          </div>
+        </div>
+      </div>
     </main>
 
     {% include footer %}
-
   </body>
 </html>

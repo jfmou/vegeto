@@ -15,7 +15,7 @@ testimonial:
   author: Belinda Sabatier
   role: Porteuse d’un projet de ferme hydroponique
 date: 2019-12-31T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 HECTAR est un établissement d'enseignement supérieur privé spécialisé dans la formation aux métiers agricoles et de reprise d'exploitation situé à Lévis-Saint-Nom dans le département des Yvelines

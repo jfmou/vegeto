@@ -20,6 +20,69 @@ export default defineConfig({
   schema: {
     collections: [
       {
+        name: "staticPage",
+        label: "Pages statiques",
+        path: "src/pages",
+        format: "md",
+        defaultItem: () => {
+          return {
+            layout: "layouts/static_page",
+            permalink: "/nouvelle-page/index.html",
+          }
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Titre",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "string",
+            name: "lead",
+            label: "Chapô",
+            required: false,
+          },
+          {
+            type: "string",
+            name: "seoDescription",
+            label: "Meta description SEO",
+            required: false,
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "image",
+            name: "mainImg",
+            label: "Image de partage (Open Graph)",
+            required: false,
+          },
+          {
+            type: "string",
+            name: "permalink",
+            label: "Permalien",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "layout",
+            label: "Layout",
+            required: true,
+            ui: {
+              component: "hidden",
+            },
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Contenu",
+            isBody: true,
+          },
+        ],
+      },
+      {
         name: "realisation",
         label: "Realisations",
         path: "src/realisations",

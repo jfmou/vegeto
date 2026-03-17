@@ -4,16 +4,37 @@ layout: layouts/base
 
 <div class="container">
   <div class="content">
-    <div class="realisation-header">
-      <h1>{{ title }}</h1>
-      {% if location %}<p class="realisation-location">{{ location }}</p>{% endif %}
-      {% if tags %}
-        <p class="realisation-tags">
-          {% for tag in tags %}
-            {% if tag != "realisation" %}{{ tag }}{% endif %}
-          {% endfor %}
-        </p>
-      {% endif %}
+    {% assign realisation_type = '' %}
+    {% if tags %}
+      {% for tag in tags %}
+        {% if tag != "realisation" and realisation_type == '' %}
+          {% assign realisation_type = tag %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% assign heading_visual_label = 'Co' %}
+    {% if realisation_type == 'installation' %}
+      {% assign heading_visual_label = 'In' %}
+    {% elsif realisation_type == 'transmission' %}
+      {% assign heading_visual_label = 'Tr' %}
+    {% endif %}
+
+    <div class="realisation-header{% if realisation_type != '' %} realisation-header--{{ realisation_type }}{% endif %}">
+      <div class="realisation-heading">
+        <div class="realisation-heading-copy">
+          <h1>{{ title }}</h1>
+          {% if location %}<p class="realisation-location">{{ location }}</p>{% endif %}
+          {% if tags %}
+            <p class="realisation-tags">
+              {% for tag in tags %}
+                {% if tag != "realisation" %}{{ tag }}{% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </div>
+        <span class="realisation-heading-visual" aria-hidden="true">{{ heading_visual_label }}</span>
+      </div>
     </div>
 
     {% if mainImg %}
@@ -37,7 +58,7 @@ layout: layouts/base
   </div>
 
   {% if testimonial %}
-    <div class="realisation-testimonial">
+    <div class="realisation-testimonial{% if cta %} realisation-testimonial--with-cta{% else %} realisation-testimonial--no-cta{% endif %}">
       <div class="testimonial-content">
         {% if testimonial.image %}
           <div class="testimonial-avatar">

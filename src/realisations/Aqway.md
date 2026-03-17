@@ -7,15 +7,12 @@ tags:
   - realisation
   - conception
 testimonial:
-  quote: >-
-    L’accompagnement de VEGETO a été un véritable soutien dans l’élaboration de
-    mes projets. Une équipe disponible et à l’écoute qui m’a permis de
-    développer mes idées en toute confiance.
+  quote: L’accompagnement de VEGETO a été un véritable soutien dans l’élaboration de mes projets. Une équipe disponible et à l’écoute qui m’a permis de développer mes idées en toute confiance.
   image: /assets/vegeto-conception-aqway-team.png
   author: Nadjet Dehlouz
   role: 'Porteuse du projet Aqway '
 date: 2020-01-31T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 **Aqway est un projet d’implantations de fermes aquaponiques en Ile-de-France**, dans un but à la fois productif mais surtout pédagogique et de création de lien social.
