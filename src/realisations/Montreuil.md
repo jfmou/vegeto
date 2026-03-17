@@ -5,12 +5,12 @@ baseline: Installation extérieure
 mainImg: /assets/VEGETO_website_20181009_infos.jpg
 tags:
   - realisation
-  - installation
+  - conception
 date: 2023-10-17T14:56:28.936Z
 draft: false
 ---
 
-**Le Lycée Polyvalent des métiers de l’horticulture et du paysage** Jeanne Baret est un établissement historique situé à **Montreuil **en Seine-Saint-Denis. De nombreuses formations y sont prodiguées du niveau CAP à des Casses Préparatoires aux Grandes Écoles du paysage.
+**Le Lycée Polyvalent des métiers de l’horticulture et du paysage** Jeanne Baret est un établissement historique situé à \*\*Montreuil \*\*en Seine-Saint-Denis. De nombreuses formations y sont prodiguées du niveau CAP à des Casses Préparatoires aux Grandes Écoles du paysage.
 
 Des serres chaudes sont présentes au centre de l’établissement avec un grand bassin enterré traversant chaque chapelle.
 Sur l’initiative d’un formateur, l’idée est de réhabiliter le bassin et d’utiliser une partie de l’espace de culture des serres chaudes pour créer un système aquaponique intégré.
