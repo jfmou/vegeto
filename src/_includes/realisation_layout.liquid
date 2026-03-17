@@ -81,11 +81,7 @@ layout: layouts/base
   <div class="content">
     <!-- Footer navigation: previous / index / next -->
     <div class="realisation-footer-buttons">
-      {% if collections.realisations %}
-        {% assign items = collections.realisations %}
-      {% else %}
-        {% assign items = collections.all %}
-      {% endif %}
+      {% assign items = collections.realisation | sort: "date" | reverse %}
 
       {% assign total = items | size %}
       {% assign currentIndex = 0 %}
@@ -109,18 +105,32 @@ layout: layouts/base
       {% assign prevItem = items[prevIndex] %}
       {% assign nextItem = items[nextIndex] %}
 
+      {% if total > 1 and prevItem %}
       <a href="{{ prevItem.url }}" class="cta-button cta-small" title="Voir : {{ prevItem.data.title }}">
         <span class="btn-top">RÉALISATION</span>
         <span class="btn-bottom">PRÉCÉDENTE</span>
       </a>
+      {% else %}
+      <span class="cta-button cta-small" aria-hidden="true">
+        <span class="btn-top">RÉALISATION</span>
+        <span class="btn-bottom">PRÉCÉDENTE</span>
+      </span>
+      {% endif %}
       <a href="/realisations/" class="cta-button cta-small" title="Retour à la liste des réalisations">
         <span class="btn-top">TOUTES LES</span>
         <span class="btn-bottom">RÉALISATIONS</span>
       </a>
+      {% if total > 1 and nextItem %}
       <a href="{{ nextItem.url }}" class="cta-button cta-small" title="Voir : {{ nextItem.data.title }}">
         <span class="btn-top">RÉALISATION</span>
         <span class="btn-bottom">SUIVANTE</span>
       </a>
+      {% else %}
+      <span class="cta-button cta-small" aria-hidden="true">
+        <span class="btn-top">RÉALISATION</span>
+        <span class="btn-bottom">SUIVANTE</span>
+      </span>
+      {% endif %}
     </div>
   </div>
 </div>
