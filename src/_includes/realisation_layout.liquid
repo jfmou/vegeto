@@ -81,16 +81,32 @@ layout: layouts/base
   <div class="content">
     <!-- Footer navigation: previous / index / next -->
     <div class="realisation-footer-buttons">
-      {% assign items = collections.realisation | sort: "date" | reverse %}
+      {% assign orderedItems = collections.realisation | sort: "date" | reverse %}
+      {% assign urlsConcat = '' %}
+      {% assign titlesConcat = '' %}
+      {% assign total = 0 %}
+      {% assign currentIndex = -1 %}
 
-      {% assign total = items | size %}
-      {% assign currentIndex = 0 %}
-      {% for item in items %}
-        {% if item.url == page.url %}
-          {% assign currentIndex = forloop.index0 %}
-          {% break %}
+      {% for item in orderedItems %}
+        {% if item.data.draft == false or item.data.draft == nil %}
+          {% if urlsConcat == '' %}
+            {% assign urlsConcat = item.url %}
+            {% assign titlesConcat = item.data.title %}
+          {% else %}
+            {% assign urlsConcat = urlsConcat | append: '||' | append: item.url %}
+            {% assign titlesConcat = titlesConcat | append: '||' | append: item.data.title %}
+          {% endif %}
+
+          {% if item.url == page.url %}
+            {% assign currentIndex = total %}
+          {% endif %}
+
+          {% assign total = total | plus: 1 %}
         {% endif %}
       {% endfor %}
+
+      {% assign urls = urlsConcat | split: '||' %}
+      {% assign titles = titlesConcat | split: '||' %}
 
       {% assign prevIndex = currentIndex | minus: 1 %}
       {% if prevIndex < 0 %}
@@ -102,11 +118,13 @@ layout: layouts/base
         {% assign nextIndex = 0 %}
       {% endif %}
 
-      {% assign prevItem = items[prevIndex] %}
-      {% assign nextItem = items[nextIndex] %}
+      {% assign prevUrl = urls[prevIndex] %}
+      {% assign prevTitle = titles[prevIndex] %}
+      {% assign nextUrl = urls[nextIndex] %}
+      {% assign nextTitle = titles[nextIndex] %}
 
-      {% if total > 1 and prevItem %}
-      <a href="{{ prevItem.url }}" class="cta-button cta-small" title="Voir : {{ prevItem.data.title }}">
+      {% if total > 1 and currentIndex >= 0 and prevUrl != blank %}
+      <a href="{{ prevUrl }}" class="cta-button cta-small" title="Voir : {{ prevTitle }}">
         <span class="btn-top">RÉALISATION</span>
         <span class="btn-bottom">PRÉCÉDENTE</span>
       </a>
@@ -120,8 +138,8 @@ layout: layouts/base
         <span class="btn-top">TOUTES LES</span>
         <span class="btn-bottom">RÉALISATIONS</span>
       </a>
-      {% if total > 1 and nextItem %}
-      <a href="{{ nextItem.url }}" class="cta-button cta-small" title="Voir : {{ nextItem.data.title }}">
+      {% if total > 1 and currentIndex >= 0 and nextUrl != blank %}
+      <a href="{{ nextUrl }}" class="cta-button cta-small" title="Voir : {{ nextTitle }}">
         <span class="btn-top">RÉALISATION</span>
         <span class="btn-bottom">SUIVANTE</span>
       </a>

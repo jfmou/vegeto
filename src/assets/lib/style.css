@@ -1224,6 +1224,9 @@
   }
 
   @media screen and (min-width: 921px) {
+     .realisations-page {
+        max-width: 1140px;
+    }
     .realisations-gallery {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
