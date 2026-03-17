@@ -15,7 +15,7 @@ testimonial:
   author: Stéphane Duquénoy
   role: 'Chef de service à l’origine du projet '
 date: 2019-12-31T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 **L’Agence de l’Eau Seine-Normandie est un établissement public de l’Etat chargé de contribuer à la préservation des milieux aquatiques et à une meilleure gestion de l’eau.** C’est l’une des six agences françaises, dont le territoire couvert correspond au bassin versant de la Seine couvrant 1/5 du territoire français.

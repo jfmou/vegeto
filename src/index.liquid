@@ -1,5 +1,5 @@
 ---
-layout: base_layout
+layout: layouts/base
 title: Accueil
 ---
 <section id="quest-ce-que-laquaponie" class="container">
@@ -49,11 +49,9 @@ title: Accueil
             <p>Faisant partie de l'Économie Sociale et Solidaire, nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : <b>particuliers, entreprises et associations, collectivités, agriculteurs installés ou en devenir</b>.</p>
             <div class="row gallery">
                 <div class="column">
-                    <img loading="lazy" src="/assets/img/Vegeto_640x640px_PakChoy-small.jpg" alt="Jeunes pousses en système d'intérieur sur base de billes d'argile">
-                    <img loading="lazy" src="/assets/img/Vegeto_640x640px_4-small.jpg"
-                    alt="Cultures sur eaux à l'aide de Rafts">
-                    <img loading="lazy" src="/assets/img/Vegeto_640x640px_Ribecourt-small.jpg"
-                    alt="Systèmex verticaux et horizontaux à taille industrielle">
+                    {% image "src/assets/img/Vegeto_640x640px_PakChoy.jpg" "Jeunes pousses en système d'intérieur sur base de billes d'argile" %}
+                    {% image "src/assets/img/Vegeto_640x640px_4.jpg" "Cultures sur eaux à l'aide de Rafts" %}
+                    {% image "src/assets/img/Vegeto_640x640px_Ribecourt-small.jpg" "Systèmex verticaux et horizontaux à taille industrielle" %}
                 </div>
                 <div class="column">
                     <img loading="lazy" src="/assets/img/Vegeto_640x640px_Blida_biodome-small.jpg" alt="Notre oasis sous dôme à Strasbourg">
@@ -107,7 +105,7 @@ title: Accueil
                 </div>
             </div>
             <div class="column">
-                <div class="product">
+                <div id="serre-helio" class="product">
                 <img loading="lazy" src="/assets/img/Vegeto_350x350px_Helio-small.jpg" alt="Photo de notre partenaires Helio représentant la serre Sereno">
                 <p><span class="top-separator">Sereno</span><br>
                     Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923. Une serre aquaponique Hélio de 20 m² représente par exemple 5 m² de culture et 1200 L de bassins. Surfaces disponibles de 6 à 40 m².</p>

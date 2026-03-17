@@ -1,14 +1,83 @@
 ---
-layout: base_layout
+layout: layouts/base
 title: Réalisations
 eleventyImport:
   collections: ["realisation"]
 ---
-{% for realisation in collections.realisation %}
-  <article>
-    <h1>
-      <a href="{{ realisation.url | url }}">{{ realisation.data.title }}</a>
-    </h1>
-    {{ realisation.data.date }}
-  </article>
-{% endfor %}
+
+<div class="container">
+  <div class="content realisations-page">
+    <div class="realisations-intro">
+      <h1>Nos réalisations</h1>
+      <p>Après plusieurs années d’activité, nous avons eu la chance de contribuer à développer l’aquaponie en accompagnant une très grande diversité de projets.</p>
+    </div>
+
+    <div class="realisations-filters" aria-label="Filtrer les réalisations">
+      <span class="realisations-filters-label">Trier par :</span>
+      <div class="realisations-filters-buttons">
+        <button type="button" class="realisations-filter-btn is-active" data-filter="tout">Tout</button>
+        <button type="button" class="realisations-filter-btn" data-filter="conception">Conception</button>
+        <button type="button" class="realisations-filter-btn" data-filter="installation">Installation</button>
+        <button type="button" class="realisations-filter-btn" data-filter="transmission">Transmission</button>
+      </div>
+    </div>
+
+    <div class="realisations-gallery" data-current-filter="tout">
+      {% assign tags_list = "conception,installation,transmission" | split: "," %}
+      {% assign ordered = collections.realisation | sort: "date" | reverse %}
+
+      {% for tag_name in tags_list %}
+        <div class="realisations-column" data-type="{{ tag_name }}">
+          <div class="column-items">
+            {% for realisation in ordered %}
+              {% if realisation.data.draft == false or realisation.data.draft == nil %}
+                {% if realisation.data.tags contains tag_name %}
+                  <a href="{{ realisation.url }}" class="realisation-card" title="Découvrez notre réalisation : {{ realisation.data.title }}" aria-label="Découvrez notre réalisation : {{ realisation.data.title }}{% if realisation.data.location %}, {{ realisation.data.location }}{% endif %}">
+                    <div class="realisation-card-image">
+                      {% if realisation.data.mainImg %}
+                        {% image realisation.data.mainImg, realisation.data.title %}
+                      {% endif %}
+                    </div>
+                    <div class="realisation-card-overlay">
+                      <h3 class="realisation-card-title">{{ realisation.data.title }}</h3>
+                      {% if realisation.data.location %}<p class="realisation-card-location">{{ realisation.data.location }}</p>{% endif %}
+                      <p class="realisation-card-type">{{ tag_name | upcase }}</p>
+                    </div>
+                  </a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  (() => {
+    const page = document.querySelector('.realisations-page');
+    if (!page) return;
+
+    const buttons = page.querySelectorAll('.realisations-filter-btn');
+    const columns = page.querySelectorAll('.realisations-column');
+    const gallery = page.querySelector('.realisations-gallery');
+
+    const applyFilter = (filter) => {
+      buttons.forEach((btn) => btn.classList.toggle('is-active', btn.dataset.filter === filter));
+
+      columns.forEach((col) => {
+        const show = filter === 'tout' || col.dataset.type === filter;
+        col.classList.toggle('is-hidden', !show);
+      });
+
+      if (gallery) {
+        gallery.dataset.currentFilter = filter;
+      }
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => applyFilter(button.dataset.filter));
+    });
+  })();
+</script>
