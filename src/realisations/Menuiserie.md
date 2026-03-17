@@ -14,11 +14,11 @@ testimonial:
   image: /assets/vegeto-installation-menuiserie-team.png
   author: Stéphane Flora
   role: Fondateur d’ID & Copeaux
-date: 2023-06-30T22:00:00.000Z
+date: 2017-07-01T22:00:00.000Z
 draft: false
 ---
 
-Comme nous souhaitions travailler au maximum le bois pour la fabrication de nos systèmes aquaponiques et que nous nous sommes équipés en conséquence,\*\* nous avons également l’opportunité de réaliser des travaux de menuiserie\*\* avec notamment la fabrication de bacs de cultures.
+Comme nous souhaitions travailler au maximum le bois pour la fabrication de nos systèmes aquaponiques et que nous nous sommes équipés en conséquence, nous avons également l’opportunité de réaliser des travaux de menuiserie avec notamment la fabrication de bacs de cultures.
 
 ![](/assets/vegeto-installation-menuiserie-4.jpg)![](/assets/vegeto-installation-menuiserie-3.jpg)![](/assets/vegeto-installation-menuiserie-2.jpg)
 
