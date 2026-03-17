@@ -1,7 +1,7 @@
 // responsive images with 11ty image
 // this overrides the default image renderer
 // titles are also used for size setting
-// ![alt text](/assets/img/image.jpg "title text")
+// ![alt text](/assets/image.jpg "title text")
 // title text format:
 // @skip[widthxheight] ?[sizes] caption
 const markdownIt = require('markdown-it')();

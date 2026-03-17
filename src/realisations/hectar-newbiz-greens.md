@@ -7,7 +7,7 @@ tags:
   - Conception
 location: Lévis-Saint-Nom
 baseline: Conseil
-mainImg: /assets/img/Screenshot 2023-06-09 at 17.23.19.png
+mainImg: /assets/Screenshot 2023-06-09 at 17.23.19.png
 cta: {}
 draft: false
 testimonial:
@@ -22,7 +22,7 @@ testimonial:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis velit efficitur dolor fermentum tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-![](/assets/img/Vegeto_350x350px_SerresDomes_1-small.jpg)
+![](/assets/Vegeto_350x350px_SerresDomes_1-small.jpg)
 
 Nunc sed nunc dolor. Pellentesque maximus erat quis mauris blandit condimentum. Etiam posuere purus.
 

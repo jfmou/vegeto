@@ -7,6 +7,6 @@ exports.IMG_DEFAULT_FORMATS = ['webp', 'avif', 'jpeg'];
 
 exports.IMG_DEFAULT_SIZES = '(max-width: 520px) calc(100vw - 40px), 840px';
 
-exports.IMG_DEFAULT_URL_PATH = "/assets/img/generated";
+exports.IMG_DEFAULT_URL_PATH = "/assets/generated";
 
-exports.IMG_DEFAULT_OUTPUT_DIR = "dist/assets/img/generated";
+exports.IMG_DEFAULT_OUTPUT_DIR = "dist/assets/generated";

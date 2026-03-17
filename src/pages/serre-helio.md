@@ -3,7 +3,7 @@ layout: layouts/static_page
 title: "La serre Hélio"
 lead: "Découvrez nos solutions autour des serres Hélio et des Serres Dôme® pour créer des installations aquaponiques esthétiques, durables et performantes."
 seoDescription: "Découvrez nos solutions aquaponiques en serre Hélio et Serres Dôme® : conception sur-mesure, installation clé en main et accompagnement pour particuliers, professionnels et collectivités."
-mainImg: /assets/img/Vegeto_350x350px_Helio.jpg
+mainImg: /assets/Vegeto_350x350px_Helio.jpg
 permalink: /serre-helio/index.html
 ---
 
@@ -15,7 +15,7 @@ Une serre aquaponique Hélio de 20 m² représente par exemple 5 m² de culture 
 
 **Plus d'informations :** [www.helio.fr](https://www.serreenbois.com/)
 
-![Photo de notre partenaire Hélio représentant la serre Sereno](/assets/img/Vegeto_350x350px_Helio.jpg)
+![Photo de notre partenaire Hélio représentant la serre Sereno](/assets/Vegeto_350x350px_Helio.jpg)
 
 ## Une Serre Dôme® : qu'est-ce que c'est ?
 
@@ -33,6 +33,6 @@ Tarifs à partir de 5310 €, visitez le site [www.serresdomes.com](https://www.
 
 Vous pouvez voir ci-dessus à quoi pourrait ressembler un aménagement en aquaponie d'une Serre Dôme®.
 
-![Projection 3D de notre dôme alors à l'étape d'étude](/assets/img/Vegeto_350x350px_SerresDomes_1.jpg)
-![Notre oasis sous dôme à Strasbourg](/assets/img/Vegeto_350x350px_SerresDomes_2.jpg)
-![Première culture dans notre dôme strasbourgeois](/assets/img/Vegeto_350x350px_SerresDomes_3b.jpg)
+![Projection 3D de notre dôme alors à l'étape d'étude](/assets/Vegeto_350x350px_SerresDomes_1.jpg)
+![Notre oasis sous dôme à Strasbourg](/assets/Vegeto_350x350px_SerresDomes_2.jpg)
+![Première culture dans notre dôme strasbourgeois](/assets/Vegeto_350x350px_SerresDomes_3b.jpg)

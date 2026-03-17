@@ -108,6 +108,10 @@ layout: layouts/base
       {% assign urls = urlsConcat | split: '||' %}
       {% assign titles = titlesConcat | split: '||' %}
 
+      {% if total > 0 and currentIndex < 0 %}
+        {% assign currentIndex = 0 %}
+      {% endif %}
+
       {% assign prevIndex = currentIndex | minus: 1 %}
       {% if prevIndex < 0 %}
         {% assign prevIndex = total | minus: 1 %}
@@ -123,7 +127,7 @@ layout: layouts/base
       {% assign nextUrl = urls[nextIndex] %}
       {% assign nextTitle = titles[nextIndex] %}
 
-      {% if total > 1 and currentIndex >= 0 and prevUrl != blank %}
+      {% if total > 1 and prevUrl != blank %}
       <a href="{{ prevUrl }}" class="cta-button cta-small" title="Voir : {{ prevTitle }}">
         <span class="btn-top">RÉALISATION</span>
         <span class="btn-bottom">PRÉCÉDENTE</span>
@@ -138,7 +142,7 @@ layout: layouts/base
         <span class="btn-top">TOUTES LES</span>
         <span class="btn-bottom">RÉALISATIONS</span>
       </a>
-      {% if total > 1 and currentIndex >= 0 and nextUrl != blank %}
+      {% if total > 1 and nextUrl != blank %}
       <a href="{{ nextUrl }}" class="cta-button cta-small" title="Voir : {{ nextTitle }}">
         <span class="btn-top">RÉALISATION</span>
         <span class="btn-bottom">SUIVANTE</span>
