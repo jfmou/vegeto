@@ -14,7 +14,7 @@ testimonial:
   author: Coralie Burrow
   role: 'Co-fondatrice de la Ferme Aquaponique du Cambrésis et chercheur en environnement '
 date: 2023-02-14T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 **La Ferme Aquaponique du Cambrésis est une exploitation piscicole existante** près de Cambrai élevant des truites. L’objectif de la nouvelle génération de repreneurs de l’exploitation est de réorienter la production vers des circuits-courts dans un but alimentaire et d’effectuer une transition vers le label Biologique, ainsi que diversifier les types de productions de la ferme avec le développement de culture de plantes en aquaponie et en pleine terre et de créer un pôle de transformation.

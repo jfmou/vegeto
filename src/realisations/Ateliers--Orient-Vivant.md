@@ -16,7 +16,7 @@ testimonial:
   author: Julie Couteau
   role: Cheffe de projets chez G-ON
 date: 2023-05-08T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Nous proposons **l’animation d’ateliers autour de l’aquaponie, destiné à tous types de publics**. Ces ateliers peuvent comprendre différents ateliers : Explication de l’aquaponie autour des systèmes aquaponiques sur site, prélèvement de boutures ou de fleurs à emporter, transplantation de jeunes plants dans les systèmes, et pêche et récole pour finir par un atelier de cuisine / transformation des produits aquaponiques à emporter chez soi !

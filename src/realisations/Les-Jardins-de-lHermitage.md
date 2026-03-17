@@ -22,7 +22,7 @@ testimonial:
   author: Michel Pernot Du Breuil
   role: 'Fondateur de SENS à l’origine de la création des Jardins de l’Hermitage '
 date: 2023-04-18T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 **La Société Civile d'Exploitation Agricole** **« les Jardins de l'Hermitage » est une micro-ferme agro-écologique** située au sein du tiers-lieu « l'Hermitage » où sont également nos locaux, à Autrêches dans l’Oise.

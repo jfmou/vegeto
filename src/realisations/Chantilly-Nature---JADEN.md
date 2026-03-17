@@ -15,7 +15,7 @@ testimonial:
   author: Charles Ancelin
   role: Co-fondateur de JADEN et vice-président des Jardins Familiaux de l’Oise
 date: 2023-06-26T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Le **Jardin Aquaponique Durable et Ecocitoyen de la Nonette (JADEN) est un site de production et de sensibilisation à la protection de l’environnement et de la ressource en eau** porté par l’association Chantilly Nature en collaboration étroite avec la ville de Chantilly.

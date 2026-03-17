@@ -18,7 +18,7 @@ testimonial:
   author: Xavier Coplo
   role: Co-porteur du projet de La Ferme Aquaponique de Rose
 date: 2023-06-25T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Le projet de la Ferme Aquaponique de Rose consiste à exploiter une micro-ferme diversifiée dans le bocage vendéen avec l’implantation d’une serre aquaponique, afin de produire des aliments de haute qualité nutritionnelle, gustative et environnementale, en circuit court à destination des habitants locaux.

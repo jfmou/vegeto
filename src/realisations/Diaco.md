@@ -11,7 +11,7 @@ testimonial:
   author: Murielle Diaco
   role: Fondatrice de l'association Fihankra
 date: 2025-12-23T15:53:01.093Z
-draft: true
+draft: false
 ---
 
 **Le Jardin de l'Abondance est une ferme urbaine** innovante et éco-lieu dans la commune populaire d'Abobo à Abidjan, portée par l'association Fihankra qui œuvre à autonomiser les jeunes et les femmes en Côte d'Ivoire.

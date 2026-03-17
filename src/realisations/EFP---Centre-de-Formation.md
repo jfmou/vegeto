@@ -7,7 +7,7 @@ tags:
   - realisation
   - transmission
 date: 2025-02-01T19:26:19.916Z
-draft: true
+draft: false
 ---
 
 L’EFP (Espace Formation PME) est un centre de formation en alternance à Bruxelles proposant des formations dans plus de 90 métiers.

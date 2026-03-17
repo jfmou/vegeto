@@ -21,7 +21,7 @@ testimonial:
   author: Xavier Coplo
   role: 'Fondateur de La Ferme Aquaponique de Rose '
 date: 2023-03-29T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Cette réalisation est une installation aquaponique clés en main à destination d’un couple de particulier en Vendée. 

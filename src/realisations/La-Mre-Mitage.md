@@ -14,7 +14,7 @@ testimonial:
   author: Armelle De Vismes
   role: Directrice de l’association Hermitage Expérimentations
 date: 2023-04-03T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 **La Mère-Mitage est le café-cantine associatif du tiers-lieu L’Hermitage** au sein duquel notre entreprise est installée. C’est le lieu pivot du site accueillant les usagers et visiteurs du site pour un café, un repas ou une soirée conviviale en fonction de la programmation culturelle.

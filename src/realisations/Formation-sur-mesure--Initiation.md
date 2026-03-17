@@ -20,7 +20,7 @@ testimonial:
   author: Martin Michaux
   role: Fondateur et vice-président de Le Dôme
 date: 2023-06-04T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Nous proposons des **formations à la carte pour accompagner vos projets de l‘idée à leur déploiement**.

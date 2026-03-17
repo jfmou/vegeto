@@ -11,7 +11,7 @@ testimonial:
   author: Cyrille et Stéphanie Porcher
   role: Fondateurs des Jardins de la Créchère
 date: 2023-12-31T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 La Créchère est une propriété de 6ha en Anjou comprenant 4ha de terres agricoles achetée en 2022 par Cyrille et Stéphanie Porcher.

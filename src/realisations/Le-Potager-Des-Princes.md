@@ -18,7 +18,7 @@ testimonial:
   author: Serge
   role: Jardinier en chef émérite du Potager des Princes
 date: 2020-01-02T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 **Le Potager des Princes est un jardin-parc animalier de 3 hectares** à Chantilly dans l’Oise, ouvert au public depuis 2002 sous l’impulsion d’Yves Bienaimé également fondateur du Musée Vivant du Cheval de Chantilly.

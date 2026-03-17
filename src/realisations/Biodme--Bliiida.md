@@ -17,7 +17,7 @@ testimonial:
   author: Camille Pereira
   role: 'Ex-cheffe de projets culturels à BLIIIDA '
 date: 2023-06-01T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 BLIIIDA est un **tiers-lieu de création, de production et d’innovation artistique et numérique** situé à Metz.

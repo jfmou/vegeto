@@ -23,7 +23,7 @@ testimonial:
     Fondateur et président de l’Association de la Maison de la Nature et de
     l’Environnement de Coubron
 date: 2023-01-01T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 **La mairie de la commune de Coubron (93) et l'Association de la Maison de la Nature et de l'Environnement** de Coubron en Seine-Saint-Denis ont établi une collaboration pour la mise en place d'une installation aquaponique sur une parcelle de la commune. 

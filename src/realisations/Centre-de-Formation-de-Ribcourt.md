@@ -15,7 +15,7 @@ testimonial:
   author: Pierre Charpentier
   role: Directeur de l’UFA-CFPPA
 date: 2023-06-06T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 **L’Établissement Public Local d’Enseignement et de Formation Professionnelle Agricole de Ribécourt** (Oise) comprend un lycée horticole, une Unité de Formation par Apprentissage (UFA), un Centre de Formation Professionnelle et de Promotion Agricole pour adultes (CFPPA), ainsi que des serres de production avec vente sur site. 

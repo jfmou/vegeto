@@ -7,7 +7,7 @@ tags:
   - realisation
   - installation
 date: 2023-06-30T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Au début de notre activité professionnelle, **nous avons conçu et fabriqué différentes installations aquaponiques** ayant pour but d’être des preuves de concept et de démontrer notre savoir-faire en plus de produire des poissons et des végétaux pour notre propre consommation. 

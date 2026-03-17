@@ -19,7 +19,7 @@ testimonial:
   author: Ryad Hamiche et Lyeme Bouguerra
   role: Co-fondateurs de la Ferme du Sens
 date: 2023-11-05T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 Le Domaine du Sens est un terrain de 13 hectares entre forêt, prairie, étangs et sources d’eau au cœur de la Bresse en Saône-et-Loire en Région Bourgogne-Franche-Comté, et où l’ancienne ferme traditionnelle a été aménagée en maison d’hôtes.

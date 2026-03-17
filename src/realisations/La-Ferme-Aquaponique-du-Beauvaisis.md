@@ -26,7 +26,7 @@ testimonial:
   author: Ariane et Gaëtan
   role: 'Co-porteurs du projet de la Ferme Aquaponique du Beauvaisis '
 date: 2023-04-04T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 Cette prestation nous a été commandée par un couple de particuliers pour la conception complète d'une installation aquaponique commerciale proche de Beauvais afin de pourvoir deux temps-plein, et produisant des truites et divers végétaux en circuits courts.

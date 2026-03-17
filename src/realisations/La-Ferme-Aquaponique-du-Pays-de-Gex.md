@@ -15,7 +15,7 @@ testimonial:
   author: Michel Peter
   role: Fondateur et gérant de la Ferme Aquaponique du Pays de Gex
 date: 2023-05-31T22:00:00.000Z
-draft: true
+draft: false
 ---
 
 **La Ferme Aquaponique du Pays de Gex est une ferme aquaponique commerciale** située à Versonnex dans le Jura à la frontière suisse. 

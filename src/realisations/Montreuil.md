@@ -7,7 +7,7 @@ tags:
   - realisation
   - installation
 date: 2023-10-17T14:56:28.936Z
-draft: true
+draft: false
 ---
 
 **Le Lycée Polyvalent des métiers de l’horticulture et du paysage** Jeanne Baret est un établissement historique situé à **Montreuil **en Seine-Saint-Denis. De nombreuses formations y sont prodiguées du niveau CAP à des Casses Préparatoires aux Grandes Écoles du paysage.

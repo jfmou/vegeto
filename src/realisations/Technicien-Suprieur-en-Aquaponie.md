@@ -15,7 +15,7 @@ testimonial:
   author: Guillaume Beucher
   role: Co-fondateur et co-directeur d’Echologia et Aquaponia
 date: 2020-01-31T23:00:00.000Z
-draft: true
+draft: false
 ---
 
 **Les métiers de Technicien supérieur en aquaponie et d’Ouvrier en aquaponie ont été officiellement reconnus** grâce à l’impulsion d’Aquaponia, structure de développement de l’aquaponie située au cœur du Parc de Loisirs & Hébergements insolites Echologia. 
