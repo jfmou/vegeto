@@ -178,12 +178,16 @@ jobs:
             const icon = status === 'success' ? '✅' : '❌';
             const text = status === 'success' ? 'succès' : 'échec';
 
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: Number(process.env.PR_NUMBER),
-              body: `${icon} Déploiement beta: **${text}**\n\nRun: ${process.env.RUN_URL}`,
-            });
+            try {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: Number(process.env.PR_NUMBER),
+                body: `${icon} Déploiement beta: **${text}**\n\nRun: ${process.env.RUN_URL}`,
+              });
+            } catch (error) {
+              core.info(`PR comment skipped: ${error.message}`);
+            }
 
   deploy-beta:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'beta'
