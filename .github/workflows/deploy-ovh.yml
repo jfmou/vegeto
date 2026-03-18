@@ -111,6 +111,7 @@ jobs:
               repo: context.repo.repo,
               pull_number: pullNumber,
             });
+            core.setOutput('number', String(pullNumber));
             core.setOutput('branch', pr.head.ref);
             core.setOutput('sha', pr.head.sha);
 
@@ -163,6 +164,26 @@ jobs:
           port: ${{ secrets.OVH_PORT }}
           user: ${{ secrets.OVH_USER }}
           password: ${{ secrets.OVH_PASSWORD }}
+
+      - name: Comment deployment result on PR
+        if: always()
+        uses: actions/github-script@v8
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          DEPLOY_STATUS: ${{ job.status }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const status = process.env.DEPLOY_STATUS;
+            const icon = status === 'success' ? '✅' : '❌';
+            const text = status === 'success' ? 'succès' : 'échec';
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: Number(process.env.PR_NUMBER),
+              body: `${icon} Déploiement beta: **${text}**\n\nRun: ${process.env.RUN_URL}`,
+            });
 
   deploy-beta:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'beta'
