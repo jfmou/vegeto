@@ -2,7 +2,7 @@
 title: Les Établissements Aubry
 location: Seine-Maritime
 baseline: Pré-étude
-mainImg: /assets/VEGETO_website_20181009_infos.jpg
+mainImg: /assets/Vegeto-conception-Aubry-1.jpg
 tags:
   - realisation
   - conception
@@ -20,3 +20,5 @@ En développement constant, l’exploitation a créé une filiale et installé u
 Un premier volet d’étude à plusieurs scénarios a été réalisé dans le but d’exploiter un circuit aquacole recirculé dans une chapelle de la serre permettant de cultiver des plantes maraichères dans le reste de la serre pendant la majorité de l’année. Lors du printemps, la zone maraichère devant pouvoir basculer sur la production de plants maraichers.
 
 Les premiers travaux et essais en hydroponie ont depuis été menés et le compartiment aquacole verra le jour prochainement.
+
+![](/assets/Vegeto-conception-Aubry-3.jpg)![](/assets/Vegeto-conception-Aubry-2.jpg)![](/assets/Vegeto-conception-Aubry-4.jpg)

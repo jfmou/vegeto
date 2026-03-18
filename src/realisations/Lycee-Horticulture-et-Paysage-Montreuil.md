@@ -2,7 +2,7 @@
 title: Lycée de l’Horticulture et du Paysage
 location: Montreuil
 baseline: Installation extérieure
-mainImg: /assets/VEGETO_website_20181009_infos.jpg
+mainImg: /assets/Vegeto-conception-Montreuil-2.jpeg
 tags:
   - realisation
   - conception
@@ -18,3 +18,5 @@ Sur l’initiative d’un formateur, l’idée est de réhabiliter le bassin et 
 La première phase du projet a été de transformer le bassin en un circuit recirculé avec un système de filtration puis y introduire des poissons, et de mettre en place la première boucle du circuit hydroponique. Cela a été mené en collaboration avec les équipes pédagogiques et les élèves.
 
 La perspective est de développer ensuite la surface de culture hydroponique pour sur la totalité d’une chapelle de la serre.
+
+![](/assets/Vegeto-conception-Montreuil-1.jpg)![](/assets/Vegeto-conception-Montreuil-3.jpg)![](/assets/Vegeto-conception-Montreuil-5.jpg)
