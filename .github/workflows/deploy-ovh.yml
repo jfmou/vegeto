@@ -2,6 +2,9 @@ name: Deploy to OVH
 
 on:
   pull_request:
+  push:
+    branches:
+      - master
   workflow_dispatch:
     inputs:
       target:
@@ -11,9 +14,10 @@ on:
         default: beta
         options:
           - beta
-          - both
+          - production
 
 permissions:
+  actions: read
   contents: read
 
 concurrency:
@@ -22,7 +26,7 @@ concurrency:
 
 jobs:
   validate-pr:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
     runs-on: ubuntu-latest
 
     steps:
@@ -42,16 +46,41 @@ jobs:
         run: DEBUG=Eleventy* npx @11ty/eleventy --dryrun
 
   deploy-beta:
-    if: github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'beta'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Ensure workflow is run from master
-        if: github.ref != 'refs/heads/master'
-        run: |
-          echo "This deployment workflow must be run from the master branch."
-          echo "Current ref is: $GITHUB_REF"
-          exit 1
+      - name: Ensure validate-pr succeeded for this ref
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const sha = context.sha;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: context.workflow,
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
+              return (
+                (run.event === 'pull_request' || run.event === 'push') &&
+                run.conclusion === 'success' &&
+                run.head_branch === branch &&
+                run.head_sha === sha
+              );
+            });
+
+            if (!hasSuccessfulValidation) {
+              core.setFailed(
+                `No successful validate-pr run found for ${branch}@${sha}. ` +
+                `Create or update the PR, wait for validation to pass, then retry the beta deployment.`
+              );
+            }
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -89,8 +118,7 @@ jobs:
           EOF
 
   deploy-production:
-    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'both'
-    needs: deploy-beta
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'production'
     runs-on: ubuntu-latest
     environment:
       name: production
@@ -102,6 +130,81 @@ jobs:
           echo "This deployment workflow must be run from the master branch."
           echo "Current ref is: $GITHUB_REF"
           exit 1
+
+      - name: Ensure validate-pr succeeded for this ref
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const sha = context.sha;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: context.workflow,
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
+              return (
+                (run.event === 'pull_request' || run.event === 'push') &&
+                run.conclusion === 'success' &&
+                run.head_branch === branch &&
+                run.head_sha === sha
+              );
+            });
+
+            if (!hasSuccessfulValidation) {
+              core.setFailed(
+                `No successful validate-pr run found for ${branch}@${sha}. ` +
+                `Production deployment is blocked until validation succeeds.`
+              );
+            }
+
+      - name: Ensure beta deployment succeeded for this ref
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const sha = context.sha;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: context.workflow,
+              event: 'workflow_dispatch',
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const matchingRuns = response.data.workflow_runs.filter((run) => {
+              return run.conclusion === 'success' && run.head_branch === branch && run.head_sha === sha;
+            });
+
+            let hasSuccessfulBetaDeploy = false;
+            for (const run of matchingRuns) {
+              const jobs = await github.rest.actions.listJobsForWorkflowRun({
+                owner,
+                repo,
+                run_id: run.id,
+                per_page: 100,
+              });
+
+              if (jobs.data.jobs.some((job) => job.name === 'deploy-beta' && job.conclusion === 'success')) {
+                hasSuccessfulBetaDeploy = true;
+                break;
+              }
+            }
+
+            if (!hasSuccessfulBetaDeploy) {
+              core.setFailed(
+                `No successful deploy-beta job found for ${branch}@${sha}. ` +
+                `Deploy and verify beta before triggering production.`
+              );
+            }
 
       - name: Checkout
         uses: actions/checkout@v4
