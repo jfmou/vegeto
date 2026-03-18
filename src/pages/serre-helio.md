@@ -1,6 +1,6 @@
 ---
 title: La serre Hélio
-lead: 'Découvrez nos solutions autour des serres Hélio et des Serres Dôme® pour créer des installations aquaponiques esthétiques, durables et performantes.'
+lead: Test
 seoDescription: 'Découvrez nos solutions aquaponiques en serre Hélio et Serres Dôme® : conception sur-mesure, installation clé en main et accompagnement pour particuliers, professionnels et collectivités.'
 mainImg: /assets/Vegeto-serre-helio-1.png
 permalink: /serre-helio/index.html

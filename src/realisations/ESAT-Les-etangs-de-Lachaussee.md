@@ -18,10 +18,9 @@ testimonial:
   image: /assets/vegeto-conception-etang-lachaussee-team.png
   author: Fabrice André
   role: Moniteur éducateur en horticulture de plantes hélophytes à l’ESAT Les Etangs de Lachaussée
-date: '2023-06-30T22:00:00.000Z'
+date: 2017-06-30T22:00:00.000Z
 draft: false
 ---
-
 
 **L’Établissement et Service d'Aide par le Travail (ESAT) des étangs de Lachaussée est un établissement médico-social** dans la Meuse ayant pour objectif l'insertion sociale et professionnelle des adultes handicapés. 
 
