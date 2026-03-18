@@ -2,7 +2,7 @@
 title: Le Jardin de l'Abondance
 location: Abidjan
 baseline: Conseil
-mainImg: /assets/Vegeto-conception-Diaco-1 ©Price NJANDA.png
+mainImg: /assets/Vegeto-conception-diaco-1.png
 tags:
   - realisation
   - conception
@@ -23,4 +23,4 @@ La première phase de conception ayant été réalisée en amont avec l'aide d'u
 
 Sur la base de documents fournis par l'association, notre travail a consisté en plusieurs séances d'échanges ainsi que la production de documents et de ressources didactiques afin d'aboutir à une modélisation 3D de l'installation avec le dimensionnement des différents éléments et aux choix des fournisseurs.
 
-![](</assets/Vegeto-conception-Diaco-2 ©Price NJANDA.png>)![](</assets/Vegeto-conception-Diaco-3 ©Price NJANDA.png>)![](</assets/Vegeto-conception-Diaco-4 ©Price NJANDA.png>)
+![](</assets/Vegeto-conception-diaco-2.png>)![](</assets/Vegeto-conception-diaco-3.png>)![](</assets/Vegeto-conception-diaco-4.png>)

@@ -2,7 +2,7 @@
 title: Les Jardins de la Créchère
 location: Maine-et-Loire
 baseline: Pré-étude
-mainImg: /assets/Vegeto_conception_Créchère_1.png
+mainImg: /assets/Vegeto_conception_Crechere_1.png
 tags:
   - realisation
   - conception
@@ -23,4 +23,4 @@ Dans ce cadre l’étude de faisabilité a été réalisée en co-construction a
 
 Nous avons ainsi conçu des exploitations aquaponiques de 500 et 1500m² comprenant un bâtiment d’élevage piscicole adapté à du saumon de fontaine et une serre de culture hydroponique en radeaux en eaux profondes pour du maraichage diversifié comprenant un espace d’accueil.
 
-![](/assets/Vegeto_conception_Créchère_2.jpg)![](/assets/Vegeto_conception_Créchère_3.png)
+![](/assets/Vegeto_conception_Crechere_2.jpg)![](/assets/Vegeto_conception_Crechere_3.png)
