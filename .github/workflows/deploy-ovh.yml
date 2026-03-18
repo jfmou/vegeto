@@ -1,0 +1,368 @@
+name: Deploy to OVH
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Target environment"
+        type: choice
+        required: true
+        default: beta
+        options:
+          - beta
+          - production
+
+permissions:
+  actions: read
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: deploy-ovh-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-pr:
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies (prod only)
+        run: npm ci --omit=dev
+
+      - name: Cache generated images
+        uses: actions/cache@v5
+        with:
+          path: dist/assets/generated
+          key: eleventy-img-${{ hashFiles('config/img.js', 'src/assets/img/**') }}
+          restore-keys: |
+            eleventy-img-
+
+      - name: Prepare output directories
+        run: mkdir -p dist/assets/generated
+
+      - name: Eleventy dry run
+        run: DEBUG=Eleventy* npx @11ty/eleventy --dryrun
+
+  deploy-beta-from-pr:
+    if: |
+      github.event_name == 'issue_comment' &&
+      github.event.issue.pull_request != null &&
+      contains(github.event.comment.body, '/deploy-beta')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check commenter has write access
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.repos.getCollaboratorPermissionLevel({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              username: context.actor,
+            });
+            if (!['admin', 'write'].includes(data.permission)) {
+              core.setFailed(`@${context.actor} does not have write access to trigger deployments.`);
+            }
+            await github.rest.reactions.createForIssueComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              comment_id: context.payload.comment.id,
+              content: 'rocket',
+            });
+
+      - name: Get PR branch and SHA
+        id: pr
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+            });
+            core.setOutput('branch', pr.head.ref);
+            core.setOutput('sha', pr.head.sha);
+
+      - name: Ensure validate-pr succeeded for this SHA
+        uses: actions/github-script@v7
+        env:
+          PR_BRANCH: ${{ steps.pr.outputs.branch }}
+          PR_SHA: ${{ steps.pr.outputs.sha }}
+        with:
+          script: |
+            const branch = process.env.PR_BRANCH;
+            const sha = process.env.PR_SHA;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: 'deploy-ovh.yml',
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
+              return (
+                (run.event === 'pull_request' || run.event === 'push') &&
+                run.conclusion === 'success' &&
+                run.head_branch === branch &&
+                run.head_sha === sha
+              );
+            });
+
+            if (!hasSuccessfulValidation) {
+              core.setFailed(
+                `No successful validate-pr run found for ${branch}@${sha}. ` +
+                `Wait for validation to pass before deploying beta.`
+              );
+            }
+
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ steps.pr.outputs.sha }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies (prod only)
+        run: npm ci --omit=dev
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Build beta package
+        run: npm run build:beta
+
+      - name: Deploy to beta
+        env:
+          OVH_HOST: ${{ secrets.OVH_HOST }}
+          OVH_PORT: ${{ secrets.OVH_PORT }}
+          OVH_USER: ${{ secrets.OVH_USER }}
+          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
+          OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
+        run: |
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:timeout 20
+          set cmd:fail-exit yes
+          mirror --reverse --delete --verbose ./beta "$OVH_REMOTE_DIR"
+          bye
+          EOF
+
+  deploy-beta:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'beta'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ensure validate-pr succeeded for this ref
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const sha = context.sha;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: 'deploy-ovh.yml',
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
+              return (
+                (run.event === 'pull_request' || run.event === 'push') &&
+                run.conclusion === 'success' &&
+                run.head_branch === branch &&
+                run.head_sha === sha
+              );
+            });
+
+            if (!hasSuccessfulValidation) {
+              core.setFailed(
+                `No successful validate-pr run found for ${branch}@${sha}. ` +
+                `Create or update the PR, wait for validation to pass, then retry the beta deployment.`
+              );
+            }
+
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies (prod only)
+        run: npm ci --omit=dev
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Build beta package
+        run: npm run build:beta
+
+      - name: Deploy to beta
+        env:
+          OVH_HOST: ${{ secrets.OVH_HOST }}
+          OVH_PORT: ${{ secrets.OVH_PORT }}
+          OVH_USER: ${{ secrets.OVH_USER }}
+          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
+          OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
+        run: |
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:timeout 20
+          set cmd:fail-exit yes
+          mirror --reverse --delete --verbose ./beta "$OVH_REMOTE_DIR"
+          bye
+          EOF
+
+  deploy-production:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'production'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+
+    steps:
+      - name: Ensure workflow is run from master
+        if: github.ref != 'refs/heads/master'
+        run: |
+          echo "This deployment workflow must be run from the master branch."
+          echo "Current ref is: $GITHUB_REF"
+          exit 1
+
+      - name: Ensure validate-pr succeeded for this ref
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const sha = context.sha;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: 'deploy-ovh.yml',
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
+              return (
+                (run.event === 'pull_request' || run.event === 'push') &&
+                run.conclusion === 'success' &&
+                run.head_branch === branch &&
+                run.head_sha === sha
+              );
+            });
+
+            if (!hasSuccessfulValidation) {
+              core.setFailed(
+                `No successful validate-pr run found for ${branch}@${sha}. ` +
+                `Production deployment is blocked until validation succeeds.`
+              );
+            }
+
+      - name: Ensure beta deployment succeeded for this ref
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const sha = context.sha;
+            const { owner, repo } = context.repo;
+
+            const response = await github.rest.actions.listWorkflowRuns({
+              owner,
+              repo,
+              workflow_id: 'deploy-ovh.yml',
+              event: 'workflow_dispatch',
+              status: 'completed',
+              per_page: 100,
+            });
+
+            const matchingRuns = response.data.workflow_runs.filter((run) => {
+              return run.conclusion === 'success' && run.head_branch === branch && run.head_sha === sha;
+            });
+
+            let hasSuccessfulBetaDeploy = false;
+            for (const run of matchingRuns) {
+              const jobs = await github.rest.actions.listJobsForWorkflowRun({
+                owner,
+                repo,
+                run_id: run.id,
+                per_page: 100,
+              });
+
+              if (jobs.data.jobs.some((job) => job.name === 'deploy-beta' && job.conclusion === 'success')) {
+                hasSuccessfulBetaDeploy = true;
+                break;
+              }
+            }
+
+            if (!hasSuccessfulBetaDeploy) {
+              core.setFailed(
+                `No successful deploy-beta job found for ${branch}@${sha}. ` +
+                `Deploy and verify beta before triggering production.`
+              );
+            }
+
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies (prod only)
+        run: npm ci --omit=dev
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Build production package
+        run: npm run build
+
+      - name: Deploy to production
+        env:
+          OVH_HOST: ${{ secrets.OVH_HOST }}
+          OVH_PORT: ${{ secrets.OVH_PORT }}
+          OVH_USER: ${{ secrets.OVH_USER }}
+          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
+          OVH_REMOTE_DIR: ${{ secrets.OVH_WWW_DIR }}
+        run: |
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:timeout 20
+          set cmd:fail-exit yes
+          mirror --reverse --delete --verbose ./dist "$OVH_REMOTE_DIR"
+          bye
+          EOF

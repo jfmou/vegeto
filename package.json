@@ -4,7 +4,7 @@
   "description": "11ty powered vegeto website",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf ./dist/ && mkdir ./dist",
+    "clean": "rm -rf ./dist/ && mkdir -p ./dist/assets/generated",
     "build": "npm run clean && npx eleventy && npm run build-assets && mv ./dist/index.html ./dist/index.php",
     "build:beta": "ELEVENTY_NO_INDEX=true npm run build && mv ./dist/ ./beta/",
     "build-assets": "cp -a ./src/assets ./dist/",
@@ -28,8 +28,10 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
+    "html-minifier-terser": "^7.2.0"
+  },
+  "devDependencies": {
     "@tinacms/cli": "^2.1.2",
-    "html-minifier-terser": "^7.2.0",
     "tinacms": "^3.3.2"
   },
   "engines": {
