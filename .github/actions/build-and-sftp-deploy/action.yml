@@ -1,0 +1,80 @@
+name: Build and SFTP deploy
+description: Build static site and deploy it via SFTP with lftp
+
+inputs:
+  checkout-ref:
+    description: Optional git ref/SHA to checkout
+    required: false
+    default: ''
+  build-command:
+    description: Build command to execute
+    required: true
+  local-dir:
+    description: Local directory to upload
+    required: true
+  remote-dir:
+    description: Remote target directory
+    required: true
+  host:
+    description: SFTP host
+    required: true
+  port:
+    description: SFTP port
+    required: false
+    default: '22'
+  user:
+    description: SFTP user
+    required: true
+  password:
+    description: SFTP password
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Checkout (custom ref)
+      if: inputs.checkout-ref != ''
+      uses: actions/checkout@v5
+      with:
+        ref: ${{ inputs.checkout-ref }}
+
+    - name: Checkout (default ref)
+      if: inputs.checkout-ref == ''
+      uses: actions/checkout@v5
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v5
+      with:
+        node-version: 24
+        cache: npm
+
+    - name: Install dependencies (prod only)
+      shell: bash
+      run: npm ci --omit=dev
+
+    - name: Install lftp
+      shell: bash
+      run: sudo apt-get update && sudo apt-get install -y lftp
+
+    - name: Build package
+      shell: bash
+      run: ${{ inputs.build-command }}
+
+    - name: Deploy via SFTP
+      shell: bash
+      env:
+        OVH_HOST: ${{ inputs.host }}
+        OVH_PORT: ${{ inputs.port }}
+        OVH_USER: ${{ inputs.user }}
+        OVH_PASSWORD: ${{ inputs.password }}
+        OVH_REMOTE_DIR: ${{ inputs.remote-dir }}
+        LOCAL_DIR: ${{ inputs.local-dir }}
+      run: |
+        lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
+        set sftp:auto-confirm yes
+        set net:max-retries 2
+        set net:timeout 20
+        set cmd:fail-exit yes
+        mirror --reverse --delete --verbose --ignore-time "$LOCAL_DIR" "$OVH_REMOTE_DIR"
+        bye
+        EOF

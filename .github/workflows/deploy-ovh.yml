@@ -7,6 +7,8 @@ on:
       - master
   issue_comment:
     types: [created]
+  pull_request_review_comment:
+    types: [created]
   workflow_dispatch:
     inputs:
       target:
@@ -21,6 +23,7 @@ on:
 permissions:
   actions: read
   contents: read
+  issues: write
   pull-requests: read
 
 concurrency:
@@ -61,8 +64,7 @@ jobs:
 
   deploy-beta-from-pr:
     if: |
-      github.event_name == 'issue_comment' &&
-      github.event.issue.pull_request != null &&
+      (github.event_name == 'issue_comment' || github.event_name == 'pull_request_review_comment') &&
       contains(github.event.comment.body, '/deploy-beta')
     runs-on: ubuntu-latest
 
@@ -79,22 +81,35 @@ jobs:
             if (!['admin', 'write'].includes(data.permission)) {
               core.setFailed(`@${context.actor} does not have write access to trigger deployments.`);
             }
-            await github.rest.reactions.createForIssueComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              comment_id: context.payload.comment.id,
-              content: 'rocket',
-            });
+            try {
+              await github.rest.reactions.createForIssueComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: context.payload.comment.id,
+                content: 'rocket',
+              });
+            } catch (error) {
+              core.info(`Reaction skipped: ${error.message}`);
+            }
 
       - name: Get PR branch and SHA
         id: pr
         uses: actions/github-script@v7
         with:
           script: |
+            const pullNumber =
+              context.payload.pull_request?.number ||
+              context.issue.number;
+
+            if (!pullNumber) {
+              core.setFailed('Unable to resolve pull request number from comment event payload.');
+              return;
+            }
+
             const { data: pr } = await github.rest.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              pull_number: context.issue.number,
+              pull_number: pullNumber,
             });
             core.setOutput('branch', pr.head.ref);
             core.setOutput('sha', pr.head.sha);
@@ -134,42 +149,17 @@ jobs:
               );
             }
 
-      - name: Checkout
-        uses: actions/checkout@v5
+      - name: Build and deploy beta
+        uses: ./.github/actions/build-and-sftp-deploy
         with:
-          ref: ${{ steps.pr.outputs.sha }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: 24
-          cache: npm
-
-      - name: Install dependencies (prod only)
-        run: npm ci --omit=dev
-
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Build beta package
-        run: npm run build:beta
-
-      - name: Deploy to beta
-        env:
-          OVH_HOST: ${{ secrets.OVH_HOST }}
-          OVH_PORT: ${{ secrets.OVH_PORT }}
-          OVH_USER: ${{ secrets.OVH_USER }}
-          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
-          OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
-        run: |
-          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
-          set sftp:auto-confirm yes
-          set net:max-retries 2
-          set net:timeout 20
-          set cmd:fail-exit yes
-          mirror --reverse --delete --verbose --ignore-time ./beta "$OVH_REMOTE_DIR"
-          bye
-          EOF
+          checkout-ref: ${{ steps.pr.outputs.sha }}
+          build-command: npm run build:beta
+          local-dir: ./beta
+          remote-dir: ${{ secrets.OVH_BETA_DIR }}
+          host: ${{ secrets.OVH_HOST }}
+          port: ${{ secrets.OVH_PORT }}
+          user: ${{ secrets.OVH_USER }}
+          password: ${{ secrets.OVH_PASSWORD }}
 
   deploy-beta:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'beta'
@@ -208,40 +198,16 @@ jobs:
               );
             }
 
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
+      - name: Build and deploy beta
+        uses: ./.github/actions/build-and-sftp-deploy
         with:
-          node-version: 24
-          cache: npm
-
-      - name: Install dependencies (prod only)
-        run: npm ci --omit=dev
-
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Build beta package
-        run: npm run build:beta
-
-      - name: Deploy to beta
-        env:
-          OVH_HOST: ${{ secrets.OVH_HOST }}
-          OVH_PORT: ${{ secrets.OVH_PORT }}
-          OVH_USER: ${{ secrets.OVH_USER }}
-          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
-          OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
-        run: |
-          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
-          set sftp:auto-confirm yes
-          set net:max-retries 2
-          set net:timeout 20
-          set cmd:fail-exit yes
-          mirror --reverse --delete --verbose --ignore-time ./beta "$OVH_REMOTE_DIR"
-          bye
-          EOF
+          build-command: npm run build:beta
+          local-dir: ./beta
+          remote-dir: ${{ secrets.OVH_BETA_DIR }}
+          host: ${{ secrets.OVH_HOST }}
+          port: ${{ secrets.OVH_PORT }}
+          user: ${{ secrets.OVH_USER }}
+          password: ${{ secrets.OVH_PASSWORD }}
 
   deploy-production:
     if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'production'
@@ -332,37 +298,13 @@ jobs:
               );
             }
 
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v5
+      - name: Build and deploy production
+        uses: ./.github/actions/build-and-sftp-deploy
         with:
-          node-version: 24
-          cache: npm
-
-      - name: Install dependencies (prod only)
-        run: npm ci --omit=dev
-
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Build production package
-        run: npm run build
-
-      - name: Deploy to production
-        env:
-          OVH_HOST: ${{ secrets.OVH_HOST }}
-          OVH_PORT: ${{ secrets.OVH_PORT }}
-          OVH_USER: ${{ secrets.OVH_USER }}
-          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
-          OVH_REMOTE_DIR: ${{ secrets.OVH_WWW_DIR }}
-        run: |
-          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
-          set sftp:auto-confirm yes
-          set net:max-retries 2
-          set net:timeout 20
-          set cmd:fail-exit yes
-          mirror --reverse --delete --verbose --ignore-time ./dist "$OVH_REMOTE_DIR"
-          bye
-          EOF
+          build-command: npm run build
+          local-dir: ./dist
+          remote-dir: ${{ secrets.OVH_WWW_DIR }}
+          host: ${{ secrets.OVH_HOST }}
+          port: ${{ secrets.OVH_PORT }}
+          user: ${{ secrets.OVH_USER }}
+          password: ${{ secrets.OVH_PASSWORD }}
