@@ -1,0 +1,139 @@
+name: Deploy to OVH
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Target environment"
+        type: choice
+        required: true
+        default: beta
+        options:
+          - beta
+          - both
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-ovh-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-pr:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Eleventy dry run
+        run: npx eleventy --dryrun
+
+  deploy-beta:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ensure workflow is run from master
+        if: github.ref != 'refs/heads/master'
+        run: |
+          echo "This deployment workflow must be run from the master branch."
+          echo "Current ref is: $GITHUB_REF"
+          exit 1
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Build beta package
+        run: npm run build:beta
+
+      - name: Deploy to beta
+        env:
+          OVH_HOST: ${{ secrets.OVH_HOST }}
+          OVH_PORT: ${{ secrets.OVH_PORT }}
+          OVH_USER: ${{ secrets.OVH_USER }}
+          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
+          OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
+        run: |
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:timeout 20
+          set cmd:fail-exit yes
+          mirror --reverse --delete --verbose ./beta "$OVH_REMOTE_DIR"
+          bye
+          EOF
+
+  deploy-production:
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.target == 'both'
+    needs: deploy-beta
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+
+    steps:
+      - name: Ensure workflow is run from master
+        if: github.ref != 'refs/heads/master'
+        run: |
+          echo "This deployment workflow must be run from the master branch."
+          echo "Current ref is: $GITHUB_REF"
+          exit 1
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Build production package
+        run: npm run build
+
+      - name: Deploy to production
+        env:
+          OVH_HOST: ${{ secrets.OVH_HOST }}
+          OVH_PORT: ${{ secrets.OVH_PORT }}
+          OVH_USER: ${{ secrets.OVH_USER }}
+          OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
+          OVH_REMOTE_DIR: ${{ secrets.OVH_WWW_DIR }}
+        run: |
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          set net:timeout 20
+          set cmd:fail-exit yes
+          mirror --reverse --delete --verbose ./dist "$OVH_REMOTE_DIR"
+          bye
+          EOF
