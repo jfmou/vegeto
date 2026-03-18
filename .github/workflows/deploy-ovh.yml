@@ -162,12 +162,12 @@ jobs:
           OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
           OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
         run: |
-          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
           set sftp:auto-confirm yes
           set net:max-retries 2
           set net:timeout 20
           set cmd:fail-exit yes
-          mirror --reverse --delete --verbose ./beta "$OVH_REMOTE_DIR"
+          mirror --reverse --delete --verbose --ignore-time ./beta "$OVH_REMOTE_DIR"
           bye
           EOF
 
@@ -234,12 +234,12 @@ jobs:
           OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
           OVH_REMOTE_DIR: ${{ secrets.OVH_BETA_DIR }}
         run: |
-          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
           set sftp:auto-confirm yes
           set net:max-retries 2
           set net:timeout 20
           set cmd:fail-exit yes
-          mirror --reverse --delete --verbose ./beta "$OVH_REMOTE_DIR"
+          mirror --reverse --delete --verbose --ignore-time ./beta "$OVH_REMOTE_DIR"
           bye
           EOF
 
@@ -358,11 +358,11 @@ jobs:
           OVH_PASSWORD: ${{ secrets.OVH_PASSWORD }}
           OVH_REMOTE_DIR: ${{ secrets.OVH_WWW_DIR }}
         run: |
-          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << 'EOF'
+          lftp -u "$OVH_USER","$OVH_PASSWORD" sftp://"$OVH_HOST":"${OVH_PORT:-22}" << EOF
           set sftp:auto-confirm yes
           set net:max-retries 2
           set net:timeout 20
           set cmd:fail-exit yes
-          mirror --reverse --delete --verbose ./dist "$OVH_REMOTE_DIR"
+          mirror --reverse --delete --verbose --ignore-time ./dist "$OVH_REMOTE_DIR"
           bye
           EOF
