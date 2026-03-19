@@ -8,7 +8,7 @@
     "build": "npm run clean && npx eleventy && npm run build-assets && mv ./dist/index.html ./dist/index.php",
     "build:beta": "ELEVENTY_NO_INDEX=true npm run build && mv ./dist/ ./beta/",
     "build-assets": "cp -a ./src/assets ./dist/",
-    "dev": "npm run clean && npx tinacms dev -c \"npx eleventy --serve\"",
+    "dev": "npx tinacms dev -c \"npx eleventy --serve\"",
     "debug": "DEBUG=* npx eleventy",
     "test-serve-php": "rm -rf ./dist/admin && php -S  localhost:8081 --docroot ./dist",
     "test-serve-beta": "php -S  localhost:8081 --docroot ./beta",
