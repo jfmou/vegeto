@@ -20,15 +20,18 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "staticPage",
-        label: "Pages statiques",
+        name: "helioPage",
+        label: "Page Serre Hélio",
         path: "src/pages",
         format: "md",
-        defaultItem: () => {
-          return {
-            layout: "layouts/static_page",
-            permalink: "/nouvelle-page/index.html",
-          }
+        match: {
+          include: "serre-helio",
+        },
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
         },
         fields: [
           {
@@ -42,7 +45,7 @@ export default defineConfig({
             type: "string",
             name: "lead",
             label: "Chapô",
-            required: false,
+            required: true,
           },
           {
             type: "string",
@@ -64,6 +67,9 @@ export default defineConfig({
             name: "permalink",
             label: "Permalien",
             required: true,
+            ui: {
+              component: "hidden",
+            },
           },
           {
             type: "string",
