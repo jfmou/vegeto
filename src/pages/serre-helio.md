@@ -15,7 +15,7 @@ Composée de bois et de feuilles de polycarbonate transparentes entièrement rec
 
 Une serre aquaponique Hélio de 20 m² avec espace relaxation représente par exemple 4 m² de culture et 800 L de bassins. Surfaces disponibles à partir de 6 m².
 
-[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE](/#contact)
+[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE](#contact)
 
 ![Vue aérienne d'une serre Hélio dans une zone de culture](/assets/Vegeto-serre-helio-2.jpg)
 

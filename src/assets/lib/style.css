@@ -159,26 +159,27 @@
     right: 0;
     background-color: rgba(255, 255, 255, 0.98);
     border-bottom: 2px solid rgba(48, 65, 70, 0.14);
-    padding: 10px var(--main-default-spacing) 14px;
+    padding: 10px 0 14px;
     display: none;
   }
 
   .site-header.is-open .site-navigation {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 6px;
   }
 
   .site-navigation-link {
-    display: inline-block;
+    display: block;
+    width: 100%;
     color: var(--main-active-color);
     font-size: 15px;
     font-weight: 700;
     line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: 0.02em;
-    padding: 8px 0;
+    padding: 8px var(--main-default-spacing);
   }
 
   .site-navigation-link:hover,
@@ -350,12 +351,12 @@
     margin-top: 16px;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) {
     text-align: center;
     margin: 28px 0 42px;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) a {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) a {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -371,7 +372,7 @@
     line-height: 1;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) a::before {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) a::before {
     content: "CONTACTEZ-NOUS";
     display: block;
     font-size: 11px;
@@ -380,7 +381,7 @@
     line-height: 1.1;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) a::after {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) a::after {
     content: "POUR DES AMÉNAGEMENTS SUR-MESURE";
     display: block;
     margin-top: 2px;
@@ -391,20 +392,20 @@
     text-transform: uppercase;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) a:hover {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) a:hover {
     background-color: var(--main-color);
     color: #fff;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) {
     float: none;
     width: 100%;
     margin: 0 0 var(--main-default-spacing);
     padding: 0;
   }
 
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) picture,
-  .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) img {
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) picture,
+  .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) img {
     display: block;
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -494,7 +495,7 @@
   }
 
   @media screen and (min-width: 521px) {
-    .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) {
+    .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) {
       float: left;
       width: 50%;
       padding-right: calc(var(--main-default-spacing) / 2);
@@ -532,7 +533,7 @@
     .helio-page .static-page-body > p:nth-of-type(2),
     .helio-page .static-page-body > p:nth-of-type(3),
     .helio-page .static-page-body > p:nth-of-type(4),
-    .helio-page .static-page-body > p:has(a[href="/#contact"]) {
+    .helio-page .static-page-body > p:has(a[href$="#contact"]) {
       grid-column: 1 / -1;
     }
 
@@ -551,7 +552,7 @@
       font-size: 28px;
     }
 
-    .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) {
+    .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) {
       float: none;
       width: auto;
       padding-right: 0;
@@ -1410,6 +1411,7 @@
     width: 100%;
     max-width: none;
     box-sizing: border-box;
+    text-align: center;
   }
 
   /* Make sure two-line buttons align nicely on small variant */
@@ -1633,8 +1635,11 @@
     }
 
     .site-navigation-link {
+      display: inline-block;
+      width: auto;
       padding: 0;
       font-size: 13px;
+      white-space: nowrap;
     }
 
     .realisation-heading-visual {
