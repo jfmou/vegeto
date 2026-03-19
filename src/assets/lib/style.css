@@ -39,7 +39,6 @@
     font-family: 'Lato', arial, sans-serif;
     font-size: 18px;
     line-height: 1.4;
-    text-align: center;
   }
 
   h1 {
@@ -54,7 +53,7 @@
   }
 
   main p {
-    margin: var(--main-p-spacing) auto;
+    margin: var(--main-p-spacing) 0;
     max-width: 890px;
   }
 
@@ -588,6 +587,55 @@
     max-width: 420px;
   }
 
+  .home-intro-hero {
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .home-intro-hero-copy {
+    text-align: left;
+  }
+
+  .home-intro-hero-copy h1 {
+    color: var(--main-active-color);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .home-intro-hero-copy h1::after {
+    left: 0;
+  }
+
+  .home-intro-hero-copy p {
+    margin: 0;
+    max-width: 520px;
+  }
+
+  .home-intro-hero-tagline {
+    color: var(--main-active-color);
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  .home-aquaponie-title,
+  .home-aquaponie-intro {
+    text-align: left;
+    color: var(--main-typo-color);
+  }
+
+  .home-aquaponie-intro {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .home-intro-hero-visual .cover-image {
+    margin: 70px auto 70px;
+  }
+
   .top-separator {
     display: inline-block;
     font-weight: bold;
@@ -601,18 +649,17 @@
     content: "";
     display: block;
     height: 2px;
-    left: calc(50% - 40px);
     position: absolute;
     width: 80px;
   }
 
   .content h1::after {
-    background-color: var(--main-color);
+    background-color: var(--main-typo-color);
     bottom: 0;
     content: "";
     display: block;
     height: 2px;
-    left: calc(50% - 75px);
+    left: 0;
     position: absolute;
     width: 150px;
   }
@@ -650,6 +697,77 @@
     margin-top: 10px;
   }
 
+  /* Pourquoi l'aquaponie a du sens */
+  .aquaponie-why-section {
+    background-color: #e8ecee;
+    min-width: 100%;
+    padding: 60px 0;
+  }
+
+  .aquaponie-why-section h1 {
+    color: var(--main-active-color);
+    text-align: left;
+  }
+
+  .aquaponie-why-section h1::after {
+    left: 0;
+  }
+
+  .aquaponie-why-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px 0 30px;
+    text-align: left;
+  }
+
+  .aquaponie-why-category {
+    color: var(--main-active-color);
+    font-family: 'Signika', arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 14px;
+    padding-top: var(--main-default-spacing);
+    text-align: left;
+    display: block;
+  }
+
+  .aquaponie-why-category::after {
+    display: none;
+  }
+
+  .aquaponie-why-category.top-separator::after {
+    display: block;
+    left: 0;
+  }
+
+  .aquaponie-why-col ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aquaponie-why-col li {
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 0 8px 0;
+    margin: 0 0 8px 0;
+    position: relative;
+    text-align: left;
+  }
+
+  .aquaponie-why-col li::before {
+    display: none;
+  }
+
+  .aquaponie-why-col li::after {
+    display: none;
+  }
+
+  .aquaponie-why-footer {
+    text-align: left;
+    margin-left: 0;
+  }
+
   #nos-prestations {
     padding: unset;
   }
@@ -662,8 +780,7 @@
     padding-bottom: 70px;
   }
 
-  .introduction-prestations-wrapper,
-  .serre-dome-wrapper {
+  .introduction-prestations-wrapper {
     background-color: #fafafa;
   }
 
@@ -671,81 +788,221 @@
     padding-top: calc(var(--header-default-height) + 15px);
   }
 
-  .prebuild-products-wrapper,
-  .serre-dome-wrapper {
-    padding-top: 50px;
+  .prestations-title {
+    color: var(--main-active-color);
+    text-align: left;
   }
 
-  /* Products Gallery */
-  .prebuild-products {
-    margin-bottom: 30px;
+  .prestations-title::after {
+    left: 0;
   }
 
-  .prebuild-products,
-  .prebuild-products .row + .row,
-  .prebuild-products .column + .column {
-    margin-top: 60px;
+  .prestations-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
   }
 
-  .product p {
-    margin-bottom: 0;
+  .prestations-row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
 
-  .product .top-separator {
-    margin-bottom: 30px;
+  .prestations-row-image picture,
+  .prestations-row-image img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
-  /* Contact part */
-  .contact-container {
-    background-color: var(--main-color);
-    color: var(--main-typo-color);
-    padding: 30px 0;
+  .prestations-row-copy {
+    text-align: left;
   }
 
-  .contact-container h1 {
-    color: var(--main-typo-color);
-    font-family: 'Lato', arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.4;
-    font-weight: bold;
-    margin: 0;
+  .prestations-row-title {
+    color: var(--main-active-color);
+    font-family: 'Signika', arial, sans-serif;
+    font-size: 22px;
+    text-align: left;
+    margin: 0 0 16px;
     padding: 0;
   }
 
-  .contact-container p {
-    margin: 20px auto;
+  .prestations-row--conception .prestations-row-title {
+    color: #7db8b0;
+  }   
+
+  .prestations-row--installation .prestations-row-title {
+    color: #e0b068;
   }
 
-  .contact-container a {
-    color: #fff;
-    text-decoration: none;
+  .prestations-row--transmission .prestations-row-title {
+    color: #b7c77f;
   }
 
-  .contact-container a:hover {
-    text-decoration: underline;
-  }
-
-  .socials-links li {
-    display: inline-block;
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-  }
-
-  .socials-links li + li {
-    margin-left: var(--main-default-spacing);
-  }
-
-  .socials-links li:after {
+  .prestations-row-title::after {
     display: none;
   }
 
-  .socials-links a {
-    display: inline-block;
+  .prestations-row-copy p {
+    margin: 0 0 14px;
+    max-width: 100%;
   }
 
-  .socials-links svg {
-    width: 40px;
+  .prestations-footer {
+    margin-top: 100px;
+  }
+
+  @media screen and (min-width: 521px) {
+    .prestations-row {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .prestations-row-image {
+      flex: 0 0 320px;
+      max-width: 320px;
+    }
+
+    .prestations-row-copy {
+      flex: 1;
+    }
+  }
+
+  .home-realisations-wrapper {
+    padding-top: 50px;
+  }
+
+  .home-realisations-wrapper {
+    background: #304146;
+    color: #fff;
+    padding-bottom: 70px;
+  }
+
+  .home-realisations-content {
+    text-align: left;
+  }
+
+  .home-realisations-title {
+    color: #fff;
+    text-align: left;
+  }
+
+  .home-realisations-title::after {
+    left: 0;
+    width: 90px;
+    background-color: #fff;
+  }
+
+  .home-realisations-wrapper .content h1::after {
+    background-color: #fff;
+  }
+
+  .home-realisations-intro {
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .home-realisations-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+  .home-realisations-figure {
+    margin: 0;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .home-realisations-figure picture,
+  .home-realisations-figure img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .home-realisations-figure img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-realisations-footer {
+    margin: 40px 0 0;
+    max-width: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-helio-highlight {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;
+  }
+
+  .home-helio-highlight-image,
+  .home-helio-highlight-image picture,
+  .home-helio-highlight-image img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .home-helio-highlight-image img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-helio-highlight-overlay {
+    position: relative;
+    z-index: 1;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+    background: linear-gradient(90deg, rgba(25, 36, 41, 0.48) 0%, rgba(25, 36, 41, 0.24) 35%, rgba(25, 36, 41, 0.12) 100%);
+  }
+
+  .home-helio-highlight-overlay .content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-helio-highlight-card {
+    background-color: rgba(255, 255, 255, 0.86);
+    max-width: 560px;
+    padding: 28px 26px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home-helio-highlight-lead {
+    margin: 0 0 26px;
+    max-width: none;
+    color: var(--main-active-color);
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.15;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .home-helio-highlight-lead b {
+    font-family: 'Signika', arial, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+  }
+
+  .home-helio-highlight-card .cta-button {
+    margin: 0;
   }
 
   /* Us part */
@@ -753,37 +1010,56 @@
     background-color: #fff;
   }
 
-  .row.our-team-gallery {
-    margin: 60px auto calc(var(--main-default-spacing) * 2);
+  #qui-sommes-nous h1 {
+    color: var(--main-active-color);
   }
 
-  .training-gallery .row a,
-  .partners-gallery .row a {
-    display: inline-block;
+  .row.our-team-gallery {
+    margin: 60px 0 calc(var(--main-default-spacing) * 2);
+    gap: var(--main-default-spacing);
+  }
+
+  .row.our-team-gallery .column + .column {
+    margin-top: var(--main-default-spacing);
+  }
+
+  .training-gallery .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--main-default-spacing);
+  }
+
+  .training-gallery .column {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .training-gallery .row a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .training-gallery .row a picture,
+  .training-gallery .row a img {
+    width: 320px;
+    max-width: 100%;
+    height: 120px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
   }
 
   .training-gallery .row p {
     max-width: 300px;
     margin-top: 0;
-  }
-
-  /* Prestations part */
-  #nos-partenaires {
-    padding-top: 0;
-    padding-bottom: 100px;
-  }
-
-  .partners-gallery img {
-    margin-bottom: 0;
-  }
-
-  .partners-gallery a {
-    margin-bottom: var(--main-default-spacing);
+    text-align: center;
   }
 
   /* Footer */
   footer {
-    color: #fff;
+    color: var(--main-typo-color);
     background-color: var(--main-color);
     font-size: 14px;
     padding: 30px 0;
@@ -791,17 +1067,31 @@
   }
 
   footer a {
-    color: var(--main-typo-color);
+    color: #fff;
   }
 
   footer address {
     font-style: normal;
     margin-bottom: 30px;
+    margin-top: 20px;
   }
 
-  footer .socials-links {
-    text-align: center;
-    margin-bottom: 30px;
+  .footer-contact-block {
+    color: var(--main-typo-color);
+    text-align: left;
+  }
+
+  .footer-contact-block p {
+    margin: 0 0 12px;
+    max-width: none;
+  }
+
+  .footer-contact-title {
+    margin-bottom: 18px;
+  }
+
+  .baseline {
+    color: var(--main-typo-color);
   }
 
   .copyleft {
@@ -1191,11 +1481,51 @@
 
     .column {
       flex: 1;
-      padding: 0 calc(var(--main-default-spacing) / 2);
+    }
+
+    .home-intro-hero {
+      flex-direction: row;
+      gap: calc(var(--main-default-spacing) * 2);
+      margin-bottom: 50px;
+    }
+
+    .home-intro-hero-visual {
+      order: 0;
+      flex: 0 1 430px;
+    }
+
+    .home-intro-hero-copy {
+      order: 1;
+      flex: 1 1 0;
+      padding-top: 10px;
+    }
+
+    .home-intro-hero-visual .cover-image {
+      margin: 70px auto 70px;
+      max-width: 100%;
+    }
+
+    .aquaponie-why-grid {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 0;
+    }
+
+    .aquaponie-why-col {
+      flex: 1;
+      padding: 0 30px 0 0;
+      margin-right: 30px;
+    }
+
+    .aquaponie-why-col:last-child {
+      padding-right: 0;
+      margin-right: 0;
     }
 
     .schematic-explanations {
       flex-direction: row-reverse;
+      text-align: left;
+      max-width: unset;
     }
 
     .schematic-text-container {
@@ -1206,22 +1536,47 @@
       margin-top: 0;
     }
 
-    .prebuild-products {
-      max-width: 1020px;
-      margin-left: auto;
-      margin-right: auto;
+    .training-gallery .row {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
     }
 
-    .prebuild-products .row:last-child {
-      max-width: 680px;
+    .training-gallery .column {
+      flex: 1 1 0;
+      width: auto;
     }
 
-    .prebuild-products .column + .column {
+    .training-gallery .row a {
+      align-items: flex-start;
+    }
+
+    .training-gallery .row a picture,
+    .training-gallery .row a img {
+      object-position: left center;
+    }
+
+    .training-gallery .row p {
+      text-align: center;
+    }
+
+    .row.our-team-gallery .column + .column {
       margin-top: 0;
     }
 
-    .product p {
-      max-width: 300px;
+    .home-realisations-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .home-helio-highlight,
+    .home-helio-highlight-overlay {
+      min-height: 620px;
+    }
+
+    .home-helio-highlight-card {
+      padding: 34px 32px;
+      max-width: 600px;
     }
 
     /* Footer buttons: row on tablet+ */
@@ -1249,6 +1604,15 @@
     /* avoid lines to be too wide to be readable */
     .content {
         max-width: 1140px;
+    }
+
+    .home-helio-highlight,
+    .home-helio-highlight-overlay {
+      min-height: 700px;
+    }
+
+    .home-helio-highlight-card {
+      max-width: 620px;
     }
 
     .site-header-toggle {
@@ -1280,15 +1644,8 @@
       font-size: 34px;
     }
 
-    footer .socials-links {
-      text-align: initial;
-      margin-bottom: 0px;
-    }
-
     footer .wrapper {
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
+      display: block;
     }
   }
   /* Realisations Gallery Page */
