@@ -19,6 +19,8 @@ draft: false
 ---
 
 
+
+
 **L’Agence de l’Eau Seine-Normandie est un établissement public de l’Etat chargé de contribuer à la préservation des milieux aquatiques et à une meilleure gestion de l’eau.** C’est l’une des six agences françaises, dont le territoire couvert correspond au bassin versant de la Seine couvrant 1/5 du territoire français.
 
 Dans le hall d'accueil du site de Compiègne, une installation sur-mesure d'intérieur a été intégrée sous les escaliers. Des poissons de rivière locaux (carpes, tanches, gardons, rotengles, goujons) et des plantes aquatiques ont été introduits en même temps que des plantes ornementales fin septembre 2020. 

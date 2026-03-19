@@ -6,9 +6,11 @@ mainImg: /assets/20250417_200920.jpg
 tags:
   - realisation
   - installation
-date: 2025-05-26T14:05:23.662Z
+date: '2025-05-26T14:05:23.662Z'
 draft: false
 ---
+
+
 
 La Maison des Espaces Naturels de l’Agglo du Pays de Dreux est un espace d’accueil pédagogique et de découverte de la faune et de la flore situé sur les berges du plan d’eau de Mézières-Écluzelles, principalement à destination de groupes scolaires.
 
