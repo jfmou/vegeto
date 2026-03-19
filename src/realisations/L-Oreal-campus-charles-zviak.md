@@ -17,7 +17,7 @@ draft: false
 
 
 
-**Le Campus Charles Zviak situé à Saint-Ouen accueille 2400 collaborateurs de la Recherche Innovation et des Opérations du Groupe L’Oréal **sur 58 000m² de bureaux et laboratoires. L’ambition première du Campus est la création d’un nouvel environnement de travail, tourné vers le bien-être des collaborateurs et la biophilie.
+**Le Campus Charles Zviak situé à Saint-Ouen accueille 2400 collaborateurs de la Recherche Innovation et des Opérations du Groupe L’Oréal** sur 58 000m² de bureaux et laboratoires. L’ambition première du Campus est la création d’un nouvel environnement de travail, tourné vers le bien-être des collaborateurs et la biophilie.
 
 Dans le cadre de sa politique RSE (Responsabilité Sociale des Entreprises), cette ambition se traduit notamment par la mise en place d’un panel de démonstration de solutions d’agriculture urbaine au sein d’un couloir souterrain reliant les deux bâtiments du site. Aux côtés de modules de micro pousses et de culture hydroponique verticale, une installation aquaponique sur-mesure y a été conçue et réalisée par nos soins.
 
