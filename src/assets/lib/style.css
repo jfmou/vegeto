@@ -291,6 +291,13 @@
     gap: 14px;
   }
 
+  .helio-page .helio-intro-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
   .helio-page .static-page-intro--helio h1 {
     margin: 0;
     padding: 0;
@@ -304,12 +311,13 @@
     display: none;
   }
 
-  .helio-page .static-page-intro--helio > p {
-    margin: 4px 0 0;
-    font-size: 31px;
+  .helio-page .helio-intro-copy > p {
+    margin: 0;
+    font-size: 22px;
     font-family: 'Signika', arial, sans-serif;
-    color: #4f6669;
-    line-height: 1.05;
+    color: var(--main-active-color);
+    line-height: 1.15;
+    letter-spacing: 0.01em;
     max-width: none;
   }
 
@@ -333,9 +341,9 @@
   .helio-page .static-page-body > p:nth-of-type(4) {
     max-width: 980px;
     margin: 30px auto 0;
-    font-size: 21px;
-    line-height: 1.5;
-    color: #4f6669;
+    font-size: 18px;
+    line-height: 1.45;
+    color: var(--main-active-color);
   }
 
   .helio-page .static-page-body > p:nth-of-type(3),
@@ -349,25 +357,55 @@
   }
 
   .helio-page .static-page-body > p:has(a[href="/#contact"]) a {
-    display: inline-block;
-    border-color: #6f8689;
-    color: #2f4f54;
-    border-radius: 0;
-    padding: 13px 26px;
-    border: 2px solid #6f8689;
-    font-weight: 700;
-    text-transform: uppercase;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    margin: 0;
+    padding: 10px 18px 12px;
+    border: 2px solid var(--main-color);
+    color: var(--main-active-color);
+    background: transparent;
+    text-decoration: none;
+    font-size: 0;
+    line-height: 1;
+  }
+
+  .helio-page .static-page-body > p:has(a[href="/#contact"]) a::before {
+    content: "CONTACTEZ-NOUS";
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
     letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+
+  .helio-page .static-page-body > p:has(a[href="/#contact"]) a::after {
+    content: "POUR DES AMÉNAGEMENTS SUR-MESURE";
+    display: block;
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+    text-transform: uppercase;
   }
 
   .helio-page .static-page-body > p:has(a[href="/#contact"]) a:hover {
-    text-decoration: none;
-    background-color: #6f8689;
+    background-color: var(--main-color);
     color: #fff;
   }
 
-  .helio-page .static-page-body > p:nth-of-type(n+6):nth-of-type(-n+11) picture,
-  .helio-page .static-page-body > p:nth-of-type(n+6):nth-of-type(-n+11) img {
+  .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) {
+    float: none;
+    width: 100%;
+    margin: 0 0 var(--main-default-spacing);
+    padding: 0;
+  }
+
+  .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) picture,
+  .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) img {
     display: block;
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -375,11 +413,12 @@
   }
 
   .helio-page .static-page-body > h2 {
-    margin: 0 0 14px;
-    color: #4f6669;
+    margin: 28px 0 14px;
+    color: var(--main-active-color);
     font-size: 24px;
     text-transform: uppercase;
     clear: both;
+    letter-spacing: 0.01em;
   }
 
   .helio-page .static-page-body > ul {
@@ -391,9 +430,9 @@
   .helio-page .static-page-body > ul > li {
     margin: 0 0 14px;
     padding: 0;
-    font-size: 19px;
-    line-height: 1.5;
-    color: #4f6669;
+    font-size: 18px;
+    line-height: 1.45;
+    color: var(--main-active-color);
   }
 
   .helio-page .static-page-body > ul > li::after {
@@ -405,28 +444,50 @@
   }
 
   .helio-page .static-page-body > blockquote {
-    background: #f2f2f0;
+    background: #eef1f3;
     padding: 24px;
-    color: #4f6669;
+    color: #81949b;
     margin: 24px 0 0;
     border: 0;
   }
 
   .helio-page .static-page-body > blockquote h3 {
-    margin: 0 0 24px;
-    color: #4f6669;
+    margin: 0 0 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(107, 128, 136, 0.34);
+    color: #687f87;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: 700;
     line-height: 1.2;
+    letter-spacing: 0.01em;
   }
 
   .helio-page .static-page-body > blockquote p {
     margin: 0 0 20px;
     text-align: center;
-    color: #4f6669;
-    font-size: 18px;
-    line-height: 1.35;
+    color: #8b9ca2;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.005em;
     max-width: none;
+  }
+
+  .helio-page .static-page-body > blockquote p:has(strong) {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid rgba(107, 128, 136, 0.42);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #687f87;
+  }
+
+  .helio-page .static-page-body > blockquote h3 + p:has(strong) {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
   }
 
   .helio-page .static-page-body > blockquote p:last-child {
@@ -434,17 +495,13 @@
   }
 
   @media screen and (min-width: 521px) {
-    .helio-page .static-page-body > p:nth-of-type(n+6):nth-of-type(-n+11) {
+    .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) {
       float: left;
-      width: calc(50% - calc(var(--main-default-spacing) / 2));
-      margin-right: var(--main-default-spacing);
-      margin-bottom: var(--main-default-spacing);
-    }
-
-    .helio-page .static-page-body > p:nth-of-type(7),
-    .helio-page .static-page-body > p:nth-of-type(9),
-    .helio-page .static-page-body > p:nth-of-type(11) {
+      width: 50%;
+      padding-right: calc(var(--main-default-spacing) / 2);
+      padding-left: calc(var(--main-default-spacing) / 2);
       margin-right: 0;
+      margin-bottom: var(--main-default-spacing);
     }
 
     .helio-page .static-page-intro--helio {
@@ -460,31 +517,62 @@
   }
 
   @media screen and (min-width: 921px) {
+    .helio-page .static-page-body {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      column-gap: var(--main-default-spacing);
+      row-gap: var(--main-default-spacing);
+      align-items: start;
+    }
+
+    .helio-page .static-page-body > * {
+      min-width: 0;
+    }
+
+    .helio-page .static-page-body > p:nth-of-type(1):has(picture, img),
+    .helio-page .static-page-body > p:nth-of-type(2),
+    .helio-page .static-page-body > p:nth-of-type(3),
+    .helio-page .static-page-body > p:nth-of-type(4),
+    .helio-page .static-page-body > p:has(a[href="/#contact"]) {
+      grid-column: 1 / -1;
+    }
+
+    .helio-page .static-page-body > p:nth-of-type(2),
+    .helio-page .static-page-body > p:nth-of-type(3),
+    .helio-page .static-page-body > p:nth-of-type(4) {
+      justify-self: center;
+      width: 100%;
+    }
+
     .helio-page .static-page-intro--helio h1 {
-      font-size: 48px;
+      font-size: 34px;
     }
 
-    .helio-page .static-page-intro--helio > p {
-      font-size: 44px;
+    .helio-page .helio-intro-copy > p {
+      font-size: 28px;
     }
 
-    .helio-page .static-page-body > p:nth-of-type(n+6):nth-of-type(-n+11) {
-      width: calc(33.333% - calc(var(--main-default-spacing) * 2 / 3));
-    }
-
-    .helio-page .static-page-body > p:nth-of-type(8) {
-      margin-right: var(--main-default-spacing);
+    .helio-page .static-page-body > p:has(a[href="/#contact"]) ~ p:has(picture, img) {
+      float: none;
+      width: auto;
+      padding-right: 0;
+      padding-left: 0;
+      margin: 0;
+      grid-column: span 2;
     }
 
     .helio-page .static-page-body > blockquote {
-      float: right;
-      width: 300px;
-      margin: 0 0 0 36px;
+      float: none;
+      width: auto;
+      margin: 0;
+      grid-column: 5 / 7;
+      grid-row: span 2;
     }
 
     .helio-page .static-page-body > h2,
     .helio-page .static-page-body > ul {
-      margin-right: 336px;
+      grid-column: 1 / 5;
+      margin-right: 0;
     }
   }
 

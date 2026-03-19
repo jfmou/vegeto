@@ -5,8 +5,10 @@ layout: layouts/base
 <div class="container">
   <div class="content static-page helio-page">
     <div class="static-page-intro static-page-intro--helio">
-      <h1>{{ title }}</h1>
-      {% if lead %}<p>{{ lead }}</p>{% endif %}
+      <div class="helio-intro-copy">
+        <h1>{{ title }}</h1>
+        {% if lead %}<p>{{ lead }}</p>{% endif %}
+      </div>
       <img class="helio-logo" src="/assets/logo-helio.webp" alt="Logo Hélio" loading="lazy" decoding="async">
     </div>
     <div class="static-page-body">
