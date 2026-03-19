@@ -3,10 +3,11 @@ layout: layouts/base
 ---
 
 <div class="container">
-  <div class="content static-page static-page--{{ page.fileSlug }}">
-    <div class="static-page-intro">
+  <div class="content static-page helio-page">
+    <div class="static-page-intro static-page-intro--helio">
       <h1>{{ title }}</h1>
       {% if lead %}<p>{{ lead }}</p>{% endif %}
+      <img class="helio-logo" src="/assets/logo-helio.webp" alt="Logo Hélio" loading="lazy" decoding="async">
     </div>
     <div class="static-page-body">
       {{ content }}

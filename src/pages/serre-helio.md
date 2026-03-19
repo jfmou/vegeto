@@ -1,46 +1,61 @@
 ---
-title: La serre Hélio
-lead: Test
-seoDescription: 'Découvrez nos solutions aquaponiques en serre Hélio et Serres Dôme® : conception sur-mesure, installation clé en main et accompagnement pour particuliers, professionnels et collectivités.'
-mainImg: /assets/Vegeto-serre-helio-1.png
+title: LA SERRE HÉLIO
+lead: Notre unique modèle semi-standardisé
+seoDescription: 'Découvrez notre serre aquaponique Hélio clé en main : un modèle semi-standardisé alliant productivité, esthétisme, ergonomie et espace de vie.'
+mainImg: /assets/Vegeto-serre-helio.jpg
 permalink: /serre-helio/index.html
-layout: layouts/static_page
+layout: layouts/helio_page
 ---
 
-En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20m² (à partir de 15 000€ HT), à partir de 4m² sans limite maximum.
+![Structure bois de la serre Hélio avec aménagement intérieur végétalisé](/assets/Vegeto-serre-helio.jpg)
+
+En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20 m² (à partir de 15 000 € HT), à partir de 4 m², sans limite maximum.
 
 Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923.
 
-Une serre aquaponique Hélio de 20m² avec espace relaxation représente par exemple 4m² de culture et 800L de bassin transparent intérieur. La même surface de serre peut accueillir 8m² de culture et un bassin d’élevage extérieur à la serre pour une version plus orientée productive.
+Une serre aquaponique Hélio de 20 m² avec espace relaxation représente par exemple 4 m² de culture et 800 L de bassins. Surfaces disponibles à partir de 6 m².
 
-![](/assets/Vegeto-serre-helio-1.png)
+[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE](/#contact)
 
-DESCRIPTIF DU MATÉRIEL
+![Vue aérienne d'une serre Hélio dans une zone de culture](/assets/Vegeto-serre-helio-2.jpg)
+![Vue de la serre Hélio depuis le dessus](/assets/Vegeto-serre-helio-3.jpg)
+![Espace de vie et détente à l'intérieur d'une serre Hélio](/assets/Vegeto-serre-helio-4.jpg)
+![Cultures végétales en serre Hélio](/assets/Vegeto-serre-helio-5.jpg)
+![Serre Hélio avec cultures en pleine croissance](/assets/Vegeto-serre-helio-6.jpg)
+![Vue intérieure d'une serre Hélio avec plants de tomates](/assets/Vegeto-serre-helio-1.jpg)
 
-\-	Serre Hélio : charpente mélèze, embase pin traité, vitrages polycarbonate recyclé transparent UV 2mm, parquet en bois de classe 4, aération à la faîtière par vérins thermostatiques
+## Descriptif du matériel :
 
-\-	Parquet
+- Serre Hélio : charpente mélèze, embase pin traité, vitrages polycarbonate recyclé transparent UV 2 mm, parquet en bois de classe 4, aération à la faîtière par vérins thermostatiques
+- Bois : chêne massif PEFC issu de forêts locales, traité à l’huile de lin et essence de térébenthine (autres essences disponibles)
+- Substrat : îles flottantes en liège ; billes d’argiles tamponnées
+- Bassin sur-mesure en PVC avec façade transparente en plexiglass
+- Liner EPDM épaisseur 1 mm
+- Filtres sous pression biologique
+- Bac de minéralisation
+- Pompe à eau
+- Pompe à air avec diffuseurs à air en PE et valves anti-retour
+- Compartiments de rangement
 
-\-	Toile d’ombrage coulissante
-
-\-	Bassin sur-mesure en PEHD rectangulaire avec façades transparentes ou cylindrique opaque
-
-\-	Bacs de culture en bois massif - chêne traité pour imperméabilisation – avec rangements
-
-\-	Support de culture : radeaux flottants, billes d’argiles tamponnées, gouttières (mix au choix)
-
-\-	Filtres sous pression mécanique et biologique
-
-\-	Compartiment de minéralisation des boues
-
-\-	Pompes à eau et circuit hydraulique en PVC-pression Qualité Alimentaire
-
-\-	Pompes à air et circuit d’aération
-
-\-	Fourniture des consommables et du vivant
-
-![](/assets/Vegeto-serre-helio-2.jpg)
-
-![](/assets/Vegeto-serre-helio-3.png)
-
-![](/assets/Vegeto-serre-helio-4.jpg)
+> ### CARACTÉRISTIQUES SERRE 20 M²
+>
+> **DIMENSIONS**
+>
+> 3,38 x 5,91 m  
+> soit 19,9 m²  
+> 2,54 m au faîtage
+>
+> **POIDS**
+>
+> < 1200 kg à vide  
+> < 2800 kg en fonctionnement
+>
+> **VOLUME BAC POISSONS**
+>
+> 800 L  
+> poids maximal de poisson conseillé : 10 kg
+>
+> **NOMBRE DE PLANTS**
+>
+> 200 à 400 selon les espèces cultivées  
+> (4 m² de culture)
