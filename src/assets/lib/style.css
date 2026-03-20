@@ -1776,6 +1776,14 @@
       margin-right: auto;
       float: none;
       text-align: left;
+      clear: both;
+    }
+
+    .realisation-body p:has(picture, img, figure) {
+      max-width: 100%;
+      width: 100%;
+      display: flow-root;
+      margin-bottom: var(--main-p-spacing);
     }
 
     .helio-page .static-page-body > p:nth-of-type(2),
