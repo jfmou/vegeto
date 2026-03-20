@@ -12,7 +12,69 @@ layout: layouts/base
       <img class="helio-logo" src="/assets/logo-helio.webp" alt="Logo Hélio" loading="lazy" decoding="async">
     </div>
     <div class="static-page-body">
+      {% if heroImage %}
+        {% assign helioHeroAlt = heroImageAlt %}
+        {% if helioHeroAlt == nil or helioHeroAlt == '' %}{% assign helioHeroAlt = title %}{% endif %}
+        <p class="helio-main-image">{% image heroImage, helioHeroAlt %}</p>
+      {% endif %}
       {{ content }}
+      {% if characteristics %}
+        <blockquote class="helio-spec-card">
+          {% if characteristics.title %}<h3>{{ characteristics.title }}</h3>{% endif %}
+
+          {% if characteristics.dimensions and characteristics.dimensions.size > 0 %}
+            <p class="helio-spec-group helio-spec-group--dimensions">
+              <span class="helio-spec-label">DIMENSIONS</span>
+              {% for line in characteristics.dimensions %}
+                {% if forloop.first %}
+                  <span class="helio-spec-main">{{ line }}</span>
+                {% else %}
+                  <span class="helio-spec-sub">{{ line }}</span>
+                {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+
+          {% if characteristics.weight and characteristics.weight.size > 0 %}
+            <p class="helio-spec-group helio-spec-group--weight">
+              <span class="helio-spec-label">POIDS</span>
+              {% for line in characteristics.weight %}
+                {% if forloop.first %}
+                  <span class="helio-spec-main">{{ line }}</span>
+                {% else %}
+                  <span class="helio-spec-sub">{{ line }}</span>
+                {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+
+          {% if characteristics.fishTankVolume and characteristics.fishTankVolume.size > 0 %}
+            <p class="helio-spec-group helio-spec-group--volume">
+              <span class="helio-spec-label">VOLUME BAC POISSONS</span>
+              {% for line in characteristics.fishTankVolume %}
+                {% if forloop.first %}
+                  <span class="helio-spec-main">{{ line }}</span>
+                {% else %}
+                  <span class="helio-spec-sub">{{ line }}</span>
+                {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+
+          {% if characteristics.plantCount and characteristics.plantCount.size > 0 %}
+            <p class="helio-spec-group helio-spec-group--plants">
+              <span class="helio-spec-label">NOMBRE DE PLANTS</span>
+              {% for line in characteristics.plantCount %}
+                {% if forloop.first %}
+                  <span class="helio-spec-main">{{ line }}</span>
+                {% else %}
+                  <span class="helio-spec-sub">{{ line }}</span>
+                {% endif %}
+              {% endfor %}
+            </p>
+          {% endif %}
+        </blockquote>
+      {% endif %}
     </div>
   </div>
 </div>

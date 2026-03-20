@@ -3,11 +3,26 @@ title: LA SERRE HÉLIO
 lead: Notre unique modèle semi-standardisé
 seoDescription: 'Découvrez notre serre aquaponique Hélio clé en main : un modèle semi-standardisé alliant productivité, esthétisme, ergonomie et espace de vie.'
 mainImg: /assets/Vegeto-serre-helio.jpg
+heroImage: /assets/Vegeto-serre-helio.jpg
+heroImageAlt: Structure bois de la serre Hélio avec aménagement intérieur végétalisé
+characteristics:
+  title: CARACTÉRISTIQUES SERRE 20 M²
+  dimensions:
+    - 3,38 x 5,91 m
+    - soit 19,9 m²
+    - 2,54 m au faîtage
+  weight:
+    - "< 1200 kg à vide"
+    - "< 2800 kg en fonctionnement"
+  fishTankVolume:
+    - 800 L
+    - "poids maximal de poisson conseillé : 10 kg"
+  plantCount:
+    - 200 à 400 selon les espèces cultivées
+    - (4 m² de culture)
 permalink: /serre-helio/index.html
 layout: layouts/helio_page
 ---
-
-![Structure bois de la serre Hélio avec aménagement intérieur végétalisé](/assets/Vegeto-serre-helio.jpg)
 
 En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20 m² (à partir de 15 000 € HT), à partir de 4 m², sans limite maximum. 
 
@@ -41,10 +56,3 @@ Une serre aquaponique Hélio de 20 m² avec espace relaxation représente par ex
 * Pompe à eau
 * Pompe à air avec diffuseurs à air en PE et valves anti-retour
 * Compartiments de rangement
-
-> CARACTÉRISTIQUES SERRE 20 M²**DIMENSIONS**3,38 x 5,91 m\
-> soit 19,9 m²\
-> 2,54 m au faîtage**POIDS**\< 1200 kg à vide\
-> \< 2800 kg en fonctionnement**VOLUME BAC POISSONS**800 L\
-> poids maximal de poisson conseillé : 10 kg**NOMBRE DE PLANTS**200 à 400 selon les espèces cultivées\
-> (4 m² de culture)

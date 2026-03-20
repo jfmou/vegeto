@@ -8,6 +8,7 @@
       --main-default-spacing: 20px;
       --main-p-spacing: 30px;
       --header-default-height: 85px;
+        --reading-max-width-desktop: 760px;
   }
 
   * {
@@ -329,7 +330,7 @@
     display: block;
   }
 
-  .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) {
+  .helio-page .static-page-body > .helio-main-image {
     width: calc(100% + calc(var(--main-default-spacing) * 2));
     margin-left: calc(var(--main-default-spacing) * -1);
     margin-right: calc(var(--main-default-spacing) * -1);
@@ -337,8 +338,8 @@
     margin-bottom: var(--main-p-spacing);
   }
 
-  .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) picture,
-  .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) img {
+  .helio-page .static-page-body > .helio-main-image picture,
+  .helio-page .static-page-body > .helio-main-image img {
     width: 100%;
     display: block;
     margin: 0;
@@ -451,55 +452,89 @@
     content: "• ";
   }
 
-  .helio-page .static-page-body > blockquote {
-    background: #eef1f3;
-    padding: 24px;
-    color: #81949b;
+  .helio-page .static-page-body > blockquote.helio-spec-card {
+    background: #e3e7ea;
+    padding: 22px 16px 14px;
+    color: #5e7482;
     margin: 24px 0 0;
     border: 0;
+    font-family: 'Signika', arial, sans-serif;
   }
 
-  .helio-page .static-page-body > blockquote h3 {
-    margin: 0 0 18px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid rgba(107, 128, 136, 0.34);
-    color: #687f87;
+  .helio-page .static-page-body > blockquote.helio-spec-card h3 {
+    margin: 0 0 10px;
+    color: #4f6a7a;
     text-align: center;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.1;
     letter-spacing: 0.01em;
-  }
-
-  .helio-page .static-page-body > blockquote p {
-    margin: 0 0 20px;
-    text-align: center;
-    color: #8b9ca2;
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: 0.005em;
-    max-width: none;
-  }
-
-  .helio-page .static-page-body > blockquote p:has(strong) {
-    margin-top: 14px;
-    padding-top: 14px;
-    border-top: 1px solid rgba(107, 128, 136, 0.42);
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #687f87;
   }
 
-  .helio-page .static-page-body > blockquote h3 + p:has(strong) {
-    margin-top: 0;
-    padding-top: 0;
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group {
+    margin: 0;
+    padding: 11px 0 10px;
+    text-align: center;
+    color: #5f7584;
+    max-width: none;
+    position: relative;
+  }
+
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group + .helio-spec-group {
     border-top: 0;
   }
 
-  .helio-page .static-page-body > blockquote p:last-child {
-    margin-bottom: 0;
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group + .helio-spec-group::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 86%;
+    height: 1px;
+    transform: translateX(-50%);
+    background: rgba(95, 117, 132, 0.16);
+  }
+
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #4f6a7a;
+  }
+
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-main {
+    display: block;
+    font-size: clamp(20px, 2.3vw, 40px);
+    font-weight: 700;
+    line-height: 1;
+    color: #4f6a7a;
+    letter-spacing: 0;
+    margin-top: 2px;
+  }
+
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-sub {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #5f7584;
+    letter-spacing: 0.003em;
+    margin-top: 1px;
+    text-transform: none;
+  }
+
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group--plants .helio-spec-main {
+    font-size: clamp(18px, 1.95vw, 34px);
+    line-height: 1.02;
+  }
+
+  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group:last-child {
+    padding-bottom: 0;
   }
 
   @media screen and (min-width: 521px) {
@@ -537,7 +572,7 @@
       min-width: 0;
     }
 
-    .helio-page .static-page-body > p:nth-of-type(1):has(picture, img),
+    .helio-page .static-page-body > .helio-main-image,
     .helio-page .static-page-body > p:nth-of-type(2),
     .helio-page .static-page-body > p:nth-of-type(3),
     .helio-page .static-page-body > p:nth-of-type(4),
@@ -545,7 +580,7 @@
       grid-column: 1 / -1;
     }
 
-    .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) {
+    .helio-page .static-page-body > .helio-main-image {
       width: auto;
       margin-left: 0;
       margin-right: 0;
@@ -576,7 +611,7 @@
       grid-column: span 2;
     }
 
-    .helio-page .static-page-body > blockquote {
+    .helio-page .static-page-body > blockquote.helio-spec-card {
       float: none;
       width: auto;
       margin: 0;
@@ -1720,6 +1755,36 @@
       padding: 0;
       font-size: 13px;
       white-space: nowrap;
+    }
+
+    #quest-ce-que-laquaponie .content > p,
+    #quest-ce-que-laquaponie .schematic-text-container p,
+    #pourquoi-laquaponie .content > p,
+    #nos-prestations .content > p,
+    #nos-prestations .prestations-row-copy p,
+    .home-realisations-intro,
+    #qui-sommes-nous .content > p {
+      max-width: var(--reading-max-width-desktop);
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .realisation-body p {
+      max-width: var(--reading-max-width-desktop);
+      width: min(100%, var(--reading-max-width-desktop));
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      text-align: left;
+    }
+
+    .helio-page .static-page-body > p:nth-of-type(2),
+    .helio-page .static-page-body > p:nth-of-type(3),
+    .helio-page .static-page-body > p:nth-of-type(4) {
+      max-width: var(--reading-max-width-desktop);
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
     }
 
     .realisation-main-image {
