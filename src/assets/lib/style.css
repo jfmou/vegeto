@@ -329,6 +329,14 @@
     display: block;
   }
 
+  .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) {
+    width: calc(100% + calc(var(--main-default-spacing) * 2));
+    margin-left: calc(var(--main-default-spacing) * -1);
+    margin-right: calc(var(--main-default-spacing) * -1);
+    margin-top: 0;
+    margin-bottom: var(--main-p-spacing);
+  }
+
   .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) picture,
   .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) img {
     width: 100%;
@@ -537,6 +545,13 @@
       grid-column: 1 / -1;
     }
 
+    .helio-page .static-page-body > p:nth-of-type(1):has(picture, img) {
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+
     .helio-page .static-page-body > p:nth-of-type(2),
     .helio-page .static-page-body > p:nth-of-type(3),
     .helio-page .static-page-body > p:nth-of-type(4) {
@@ -590,7 +605,7 @@
 
   .home-intro-hero {
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .home-intro-hero-copy {
@@ -634,7 +649,9 @@
   }
 
   .home-intro-hero-visual .cover-image {
-    margin: 70px auto 70px;
+    margin: 70px auto;
+    width: 100%;
+    max-width: 420px;
   }
 
   .top-separator {
@@ -909,7 +926,7 @@
   .home-realisations-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: var(--main-default-spacing);
     margin-top: 40px;
   }
 
@@ -1018,6 +1035,16 @@
   .row.our-team-gallery {
     margin: 60px 0 calc(var(--main-default-spacing) * 2);
     gap: var(--main-default-spacing);
+  }
+
+  .row.our-team-gallery .column {
+    width: 100%;
+  }
+
+  .row.our-team-gallery picture,
+  .row.our-team-gallery img {
+    display: block;
+    width: 100%;
   }
 
   .row.our-team-gallery .column + .column {
@@ -1264,8 +1291,9 @@
   .realisation-body picture + picture + picture {
     float: none;
     width: 100%;
+    margin-top: 0;
     margin-right: 0;
-    margin-bottom: var(--main-p-spacing);
+    margin-bottom: var(--main-default-spacing);
   }
 
   .realisation-body figcaption {
@@ -1439,12 +1467,6 @@
       font-size: 32px;
     }
 
-    .realisation-main-image {
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
-    }
-
     /* Testimonial layout on tablet+ */
     .testimonial-content {
       flex-direction: row;
@@ -1503,7 +1525,8 @@
     }
 
     .home-intro-hero-visual .cover-image {
-      margin: 70px auto 70px;
+      margin: 70px auto;
+      width: 100%;
       max-width: 100%;
     }
 
@@ -1562,13 +1585,23 @@
       text-align: center;
     }
 
+    .row.our-team-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      max-width: 100%;
+    }
+
+    .row.our-team-gallery .column {
+      min-width: 0;
+    }
+
     .row.our-team-gallery .column + .column {
       margin-top: 0;
     }
 
     .home-realisations-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 18px;
+      gap: var(--main-default-spacing);
     }
 
     .home-helio-highlight,
@@ -1640,6 +1673,12 @@
       padding: 0;
       font-size: 13px;
       white-space: nowrap;
+    }
+
+    .realisation-main-image {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .realisation-heading-visual {
@@ -1737,7 +1776,7 @@
   .realisations-gallery {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: var(--main-default-spacing);
   }
 
   .realisations-column {
@@ -1751,7 +1790,7 @@
   .column-items {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: var(--main-default-spacing);
   }
 
   .realisation-card {
@@ -1875,11 +1914,11 @@
   @media screen and (min-width: 521px) {
     .realisations-gallery {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
+      gap: var(--main-default-spacing);
     }
 
     .column-items {
-      gap: 10px;
+      gap: var(--main-default-spacing);
     }
   }
 
@@ -1902,6 +1941,6 @@
     .realisations-gallery[data-current-filter]:not([data-current-filter="tout"]) .realisations-column:not(.is-hidden) .column-items {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
+      gap: var(--main-default-spacing);
     }
   }
