@@ -2,6 +2,32 @@ const { generateHTML } = require("@11ty/eleventy-img");
 const Image = require("@11ty/eleventy-img");
 const { IMG_DEFAULT_WIDTHS, IMG_DEFAULT_FORMATS, IMG_DEFAULT_SIZES, IMG_DEFAULT_URL_PATH, IMG_DEFAULT_OUTPUT_DIR } = require("./config/img.js");
 
+const PROD_SITE_URL = "https://www.vegeto-aquaponie.fr";
+const BETA_SITE_URL = "https://beta.vegeto-aquaponie.fr";
+
+const getSocialImageUrl = async (src) => {
+  const source = src || "/assets/logo-og.png";
+
+  let imageSrc = source;
+  if (source.startsWith('/assets')) {
+    imageSrc = 'src' + source;
+  }
+
+  try {
+    const metadata = await Image(imageSrc, {
+      widths: [1200],
+      formats: ["jpeg"],
+      urlPath: IMG_DEFAULT_URL_PATH,
+      outputDir: IMG_DEFAULT_OUTPUT_DIR,
+    });
+
+    const generated = metadata && metadata.jpeg && metadata.jpeg[0] && metadata.jpeg[0].url;
+    return generated || source;
+  } catch (error) {
+    return source;
+  }
+};
+
 const imageShortcode = async (src, alt, widths = IMG_DEFAULT_WIDTHS, sizes = IMG_DEFAULT_SIZES) => {
   // Handle single width value (convert to array)
   const widthsArray = Array.isArray(widths) ? widths : [widths];
@@ -38,6 +64,8 @@ const imageShortcode = async (src, alt, widths = IMG_DEFAULT_WIDTHS, sizes = IMG
 // ---
 module.exports = function(eleventyConfig) {
   const markdownConf =  require('./config/markdown.js');
+  const buildTarget = (process.env.ELEVENTY_BUILD_TARGET || '').toLowerCase();
+  const siteUrl = buildTarget === 'beta' ? BETA_SITE_URL : PROD_SITE_URL;
 
   eleventyConfig.addPassthroughCopy('src/assets');
   eleventyConfig.addPlugin(require('./config/html-config.js'));
@@ -51,6 +79,7 @@ module.exports = function(eleventyConfig) {
   const noIndexFlag = (process.env.ELEVENTY_NO_INDEX || '').toLowerCase();
   const shouldNoIndex = noIndexFlag === 'true' || noIndexFlag === '1';
   eleventyConfig.addGlobalData('noIndex', shouldNoIndex);
+  eleventyConfig.addGlobalData('siteUrl', siteUrl);
 
   // Force lowercase permalinks for all realisations
   eleventyConfig.addGlobalData("eleventyComputed", {
@@ -61,6 +90,9 @@ module.exports = function(eleventyConfig) {
         return `/realisations/${lowerSlug}/index.html`;
       }
       return data.permalink; // Preserve any permalink defined elsewhere
+    },
+    socialImage: async function(data) {
+      return getSocialImageUrl(data.mainImg);
     }
   });
 
