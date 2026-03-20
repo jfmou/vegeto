@@ -16,6 +16,7 @@ export default defineConfig({
       mediaRoot: "assets",
       publicFolder: "src",
     },
+    accept: ['image/*'],
   },
   schema: {
     collections: [
