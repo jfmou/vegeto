@@ -27,9 +27,9 @@ layout: layouts/base
               <span class="helio-spec-label">DIMENSIONS</span>
               {% for line in characteristics.dimensions %}
                 {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line }}</span>
+                  <span class="helio-spec-main">{{ line | escape }}</span>
                 {% else %}
-                  <span class="helio-spec-sub">{{ line }}</span>
+                  <span class="helio-spec-sub">{{ line | escape }}</span>
                 {% endif %}
               {% endfor %}
             </p>
@@ -40,9 +40,9 @@ layout: layouts/base
               <span class="helio-spec-label">POIDS</span>
               {% for line in characteristics.weight %}
                 {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line }}</span>
+                  <span class="helio-spec-main">{{ line | escape }}</span>
                 {% else %}
-                  <span class="helio-spec-sub">{{ line }}</span>
+                  <span class="helio-spec-sub">{{ line | escape }}</span>
                 {% endif %}
               {% endfor %}
             </p>
@@ -53,9 +53,9 @@ layout: layouts/base
               <span class="helio-spec-label">VOLUME BAC POISSONS</span>
               {% for line in characteristics.fishTankVolume %}
                 {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line }}</span>
+                  <span class="helio-spec-main">{{ line | escape }}</span>
                 {% else %}
-                  <span class="helio-spec-sub">{{ line }}</span>
+                  <span class="helio-spec-sub">{{ line | escape }}</span>
                 {% endif %}
               {% endfor %}
             </p>
@@ -66,9 +66,9 @@ layout: layouts/base
               <span class="helio-spec-label">NOMBRE DE PLANTS</span>
               {% for line in characteristics.plantCount %}
                 {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line }}</span>
+                  <span class="helio-spec-main">{{ line | escape }}</span>
                 {% else %}
-                  <span class="helio-spec-sub">{{ line }}</span>
+                  <span class="helio-spec-sub">{{ line | escape }}</span>
                 {% endif %}
               {% endfor %}
             </p>

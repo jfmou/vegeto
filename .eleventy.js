@@ -1,4 +1,6 @@
 const { generateHTML } = require("@11ty/eleventy-img");
+const eleventyPluginFilesMinifier = require("@codestitchofficial/eleventy-plugin-minify");
+
 const Image = require("@11ty/eleventy-img");
 const { IMG_DEFAULT_WIDTHS, IMG_DEFAULT_FORMATS, IMG_DEFAULT_SIZES, IMG_DEFAULT_URL_PATH, IMG_DEFAULT_OUTPUT_DIR } = require("./config/img.js");
 
@@ -98,6 +100,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addShortcode("image", imageShortcode);
   
+  eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
+
   // Return your Object options:
   return {
     dir: {
