@@ -98,13 +98,13 @@ export default defineConfig({
               {
                 type: "string",
                 name: "title",
-                label: "Titre de l'élément",
+                label: "Titre",
                 required: true,
               },
               {
                 type: "rich-text",
                 name: "text",
-                label: "Description de l'élément (riche)",
+                label: "Texte (riche)",
                 required: true,
                 parser: {
                   type: "markdown",
@@ -145,7 +145,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "title",
-                label: "Titre de catégorie",
+                label: "Titre",
                 required: true,
               },
               {
@@ -220,19 +220,19 @@ export default defineConfig({
               {
                 type: "string",
                 name: "title",
-                label: "Titre du bloc",
+                label: "Titre",
                 required: true,
               },
               {
                 type: "image",
                 name: "image",
-                label: "Image du bloc",
+                label: "Image",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif de l'image",
+                label: "Alt",
                 required: true,
               },
               {
@@ -288,25 +288,25 @@ export default defineConfig({
               {
                 type: "string",
                 name: "title",
-                label: "Titre de la carte",
+                label: "Titre",
                 required: true,
               },
               {
                 type: "string",
                 name: "link",
-                label: "Lien de la carte",
+                label: "Lien",
                 required: true,
               },
               {
                 type: "image",
                 name: "image",
-                label: "Image de la carte",
+                label: "Image",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif de l'image",
+                label: "Alt",
                 required: true,
               },
             ],
@@ -319,7 +319,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "link",
-                label: "Lien du bouton",
+                label: "Lien",
                 required: true,
               },
               {
@@ -350,7 +350,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif de l'image",
+                label: "Alt",
                 required: true,
               },
               {
@@ -371,7 +371,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "link",
-                label: "Lien du bouton",
+                label: "Lien",
                 required: true,
               },
               {
@@ -412,13 +412,13 @@ export default defineConfig({
               {
                 type: "image",
                 name: "image",
-                label: "Image du profil",
+                label: "Image",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif de l'image",
+                label: "Alt",
                 required: true,
               },
             ],
@@ -441,25 +441,25 @@ export default defineConfig({
               {
                 type: "string",
                 name: "link",
-                label: "Lien externe",
+                label: "Lien",
                 required: true,
               },
               {
                 type: "string",
                 name: "linkTitle",
-                label: "Title du lien (infobulle)",
+                label: "Title (infobulle)",
                 required: true,
               },
               {
                 type: "image",
                 name: "image",
-                label: "Logo / image",
+                label: "Image",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif de l'image",
+                label: "Alt",
                 required: true,
               },
               {
