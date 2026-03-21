@@ -38,7 +38,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "heroTagline",
-            label: "Texte intro hero (riche, retours ligne conservés, images ignorées)",
+            label: "[Hero] Texte d'accroche (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -47,13 +47,13 @@ export default defineConfig({
           {
             type: "string",
             name: "aquaponieTitle",
-            label: "Titre section Aquaponie",
+            label: "[Aquaponie] Titre de section",
             required: true,
           },
           {
             type: "rich-text",
             name: "aquaponieIntro",
-            label: "Intro section Aquaponie (riche, retours ligne conservés, images ignorées)",
+            label: "[Aquaponie] Introduction (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -62,7 +62,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "aquaponieSchematicIntro",
-            label: "Texte schéma aquaponie (riche, retours ligne conservés, images ignorées)",
+            label: "[Aquaponie] Intro du bloc schéma (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -71,28 +71,40 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "aquaponieSchematicLead",
-            label: "Phrase d'introduction du système fermé (riche, retours ligne conservés, images ignorées)",
+            label: "[Aquaponie] Phrase d'accroche du système fermé (riche)",
             required: true,
             parser: {
               type: "markdown",
             },
           },
           {
+            type: "image",
+            name: "aquaponieSchematicImage",
+            label: "[Aquaponie] Image du schéma",
+            required: true,
+          },
+          {
+            type: "string",
+            name: "aquaponieSchematicImageAlt",
+            label: "[Aquaponie] Texte alternatif de l'image du schéma",
+            required: true,
+          },
+          {
             type: "object",
             name: "aquaponieSchematicItems",
-            label: "Éléments du système (poissons, bactéries, plantes)",
+            label: "[Aquaponie] Éléments du système (poissons, bactéries, plantes)",
             list: true,
             fields: [
               {
                 type: "string",
                 name: "title",
-                label: "Titre",
+                label: "Titre de l'élément",
                 required: true,
               },
               {
                 type: "rich-text",
                 name: "text",
-                label: "Description (riche, retours ligne conservés, images ignorées)",
+                label: "Description de l'élément (riche)",
                 required: true,
                 parser: {
                   type: "markdown",
@@ -103,7 +115,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "aquaponieConclusion",
-            label: "Conclusion section Aquaponie (riche, retours ligne conservés, images ignorées)",
+            label: "[Aquaponie] Conclusion (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -112,13 +124,13 @@ export default defineConfig({
           {
             type: "string",
             name: "whyTitle",
-            label: "Titre section Pourquoi",
+            label: "[Pourquoi] Titre de section",
             required: true,
           },
           {
             type: "rich-text",
             name: "whyIntro",
-            label: "Introduction section Pourquoi (riche, retours ligne conservés, images ignorées)",
+            label: "[Pourquoi] Introduction (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -127,13 +139,13 @@ export default defineConfig({
           {
             type: "object",
             name: "whyCategories",
-            label: "Colonnes Pourquoi",
+            label: "[Pourquoi] Colonnes / catégories",
             list: true,
             fields: [
               {
                 type: "string",
                 name: "title",
-                label: "Titre colonne",
+                label: "Titre de catégorie",
                 required: true,
               },
               {
@@ -148,7 +160,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "whyFooter1",
-            label: "Footer 1 section Pourquoi (riche, retours ligne conservés, images ignorées)",
+            label: "[Pourquoi] Footer 1 (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -157,7 +169,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "whyFooter2",
-            label: "Footer 2 section Pourquoi (riche, retours ligne conservés, images ignorées)",
+            label: "[Pourquoi] Footer 2 (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -166,19 +178,19 @@ export default defineConfig({
           {
             type: "string",
             name: "whySourceUrl",
-            label: "Lien source limites planétaires",
+            label: "[Pourquoi] Lien source limites planétaires",
             required: true,
           },
           {
             type: "string",
             name: "prestationsTitle",
-            label: "Titre section Prestations",
+            label: "[Prestations] Titre de section",
             required: true,
           },
           {
             type: "rich-text",
             name: "prestationsIntroContent",
-            label: "Introduction Prestations (champ unique riche, images ignorées)",
+            label: "[Prestations] Introduction (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -187,7 +199,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "prestationsFooter",
-            label: "Footer section Prestations (riche, retours ligne conservés, images ignorées)",
+            label: "[Prestations] Footer (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -196,37 +208,37 @@ export default defineConfig({
           {
             type: "object",
             name: "prestations",
-            label: "Blocs prestations",
+            label: "[Prestations] Blocs de prestation",
             list: true,
             fields: [
               {
                 type: "string",
                 name: "slug",
-                label: "Identifiant CSS (conception, installation, transmission)",
+                label: "Identifiant technique",
                 required: true,
               },
               {
                 type: "string",
                 name: "title",
-                label: "Titre",
+                label: "Titre du bloc",
                 required: true,
               },
               {
                 type: "image",
                 name: "image",
-                label: "Image",
+                label: "Image du bloc",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif image",
+                label: "Texte alternatif de l'image",
                 required: true,
               },
               {
                 type: "rich-text",
                 name: "paragraph1",
-                label: "Paragraphe 1 (riche, retours ligne conservés, images ignorées)",
+                label: "Paragraphe 1 (riche)",
                 required: true,
                 parser: {
                   type: "markdown",
@@ -235,7 +247,7 @@ export default defineConfig({
               {
                 type: "rich-text",
                 name: "paragraph2",
-                label: "Paragraphe 2 (riche, retours ligne conservés, images ignorées)",
+                label: "Paragraphe 2 (riche)",
                 required: true,
                 parser: {
                   type: "markdown",
@@ -244,7 +256,7 @@ export default defineConfig({
               {
                 type: "rich-text",
                 name: "paragraph3",
-                label: "Paragraphe 3 optionnel (riche, retours ligne conservés, images ignorées)",
+                label: "Paragraphe 3 optionnel (riche)",
                 required: false,
                 parser: {
                   type: "markdown",
@@ -255,13 +267,13 @@ export default defineConfig({
           {
             type: "string",
             name: "realisationsTitle",
-            label: "Titre section Réalisations",
+            label: "[Réalisations] Titre de section",
             required: true,
           },
           {
             type: "rich-text",
             name: "realisationsIntro",
-            label: "Intro section Réalisations (riche, retours ligne conservés, images ignorées)",
+            label: "[Réalisations] Introduction (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -270,31 +282,31 @@ export default defineConfig({
           {
             type: "object",
             name: "realisationsCards",
-            label: "Cartes réalisations",
+            label: "[Réalisations] Cartes",
             list: true,
             fields: [
               {
                 type: "string",
                 name: "title",
-                label: "Titre de la réalisation",
+                label: "Titre de la carte",
                 required: true,
               },
               {
                 type: "string",
                 name: "link",
-                label: "Lien",
+                label: "Lien de la carte",
                 required: true,
               },
               {
                 type: "image",
                 name: "image",
-                label: "Image",
+                label: "Image de la carte",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif image",
+                label: "Texte alternatif de l'image",
                 required: true,
               },
             ],
@@ -302,12 +314,12 @@ export default defineConfig({
           {
             type: "object",
             name: "realisationsCta",
-            label: "CTA Réalisations",
+            label: "[Réalisations] Bouton CTA",
             fields: [
               {
                 type: "string",
                 name: "link",
-                label: "Lien",
+                label: "Lien du bouton",
                 required: true,
               },
               {
@@ -327,18 +339,18 @@ export default defineConfig({
           {
             type: "object",
             name: "helioCta",
-            label: "CTA Serre Hélio",
+            label: "[Hélio] Bloc CTA",
             fields: [
               {
                 type: "image",
                 name: "image",
-                label: "Image de fond section Hélio",
+                label: "Image de fond",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif image section Hélio",
+                label: "Texte alternatif de l'image",
                 required: true,
               },
               {
@@ -359,7 +371,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "link",
-                label: "Lien",
+                label: "Lien du bouton",
                 required: true,
               },
               {
@@ -379,13 +391,13 @@ export default defineConfig({
           {
             type: "string",
             name: "aboutTitle",
-            label: "Titre section Qui sommes-nous",
+            label: "[Qui sommes-nous] Titre de section",
             required: true,
           },
           {
             type: "rich-text",
             name: "aboutIntro",
-            label: "Texte section Qui sommes-nous (riche, retours ligne conservés, images ignorées)",
+            label: "[Qui sommes-nous] Introduction (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -394,19 +406,19 @@ export default defineConfig({
           {
             type: "object",
             name: "ourTeamImages",
-            label: "Galerie équipe",
+            label: "[Qui sommes-nous] Galerie équipe",
             list: true,
             fields: [
               {
                 type: "image",
                 name: "image",
-                label: "Image",
+                label: "Image du profil",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif image",
+                label: "Texte alternatif de l'image",
                 required: true,
               },
             ],
@@ -414,7 +426,7 @@ export default defineConfig({
           {
             type: "rich-text",
             name: "trainingIntro",
-            label: "Texte d'introduction galerie formations (riche, retours ligne conservés, images ignorées)",
+            label: "[Qui sommes-nous] Intro galerie formations (riche)",
             required: true,
             parser: {
               type: "markdown",
@@ -423,37 +435,37 @@ export default defineConfig({
           {
             type: "object",
             name: "trainingGallery",
-            label: "Galerie formations",
+            label: "[Qui sommes-nous] Galerie formations",
             list: true,
             fields: [
               {
                 type: "string",
                 name: "link",
-                label: "Lien",
+                label: "Lien externe",
                 required: true,
               },
               {
                 type: "string",
                 name: "linkTitle",
-                label: "Title du lien",
+                label: "Title du lien (infobulle)",
                 required: true,
               },
               {
                 type: "image",
                 name: "image",
-                label: "Image",
+                label: "Logo / image",
                 required: true,
               },
               {
                 type: "string",
                 name: "imageAlt",
-                label: "Texte alternatif image",
+                label: "Texte alternatif de l'image",
                 required: true,
               },
               {
                 type: "rich-text",
                 name: "text",
-                label: "Texte sous image (riche, retours ligne conservés, images ignorées)",
+                label: "Texte sous image (riche)",
                 required: true,
                 parser: {
                   type: "markdown",

@@ -4,6 +4,8 @@
   "aquaponieIntro": "**L'aquaponie est une forme d'agriculture écologiquement intensive qui combine l'aquaculture**, l'élevage de poissons ou d'autres espèces aquatiques, **et l'hydroponie**, la culture de végétaux hors-sol.",
   "aquaponieSchematicIntro": "Inspirée de pratiques ancestrales, l'aquaponie vise à reproduire des processus et des intéractions biologiques observables dans un écosystème naturel.",
   "aquaponieSchematicLead": "Il s’agit d’un **système fermé** dans lequel cohabitent :",
+  "aquaponieSchematicImage": "/assets/VEGETO_schema.jpg",
+  "aquaponieSchematicImageAlt": "Schéma expliquant le fonctionnement de l'aquaponie",
   "aquaponieSchematicItems": [
     {
       "title": "les poissons",
