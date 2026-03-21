@@ -73,6 +73,49 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(require('./config/html-config.js'));
 
   eleventyConfig.setLibrary('md', markdownConf);
+  const toMarkdownString = (value) => {
+    if (typeof value === "string") {
+      return value;
+    }
+
+    if (!value || typeof value !== "object") {
+      return "";
+    }
+
+    const extractText = (node) => {
+      if (!node) return "";
+      if (Array.isArray(node)) return node.map(extractText).join("");
+      if (typeof node === "string") return node;
+      if (typeof node.text === "string") return node.text;
+      if (Array.isArray(node.children)) return node.children.map(extractText).join("");
+      return "";
+    };
+
+    if (Array.isArray(value.children)) {
+      return value.children.map(extractText).join("\n");
+    }
+
+    return extractText(value);
+  };
+
+  const stripImages = (markdown) => markdown
+    .replace(/!\[[^\]]*\]\([^\)]*\)/g, "")
+    .replace(/<img[^>]*>/gi, "");
+
+  eleventyConfig.addShortcode("mdInline", (content) => markdownConf.renderInline(content || ""));
+  eleventyConfig.addShortcode("mdRich", (content) => {
+    const markdown = stripImages(toMarkdownString(content)).replace(/\r\n/g, "\n");
+    return markdownConf.render(markdown);
+  });
+  eleventyConfig.addShortcode("mdInlineKeepBreaks", (content) => {
+    const withoutImages = stripImages(toMarkdownString(content));
+
+    const normalized = withoutImages.replace(/\r\n/g, "\n");
+    return normalized
+      .split("\n")
+      .map((line) => markdownConf.renderInline(line))
+      .join("<br>");
+  });
 
   eleventyConfig.setLiquidOptions({
     dynamicPartials: false,
