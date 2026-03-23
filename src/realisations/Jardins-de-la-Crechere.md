@@ -1,7 +1,7 @@
 ---
 title: Les Jardins de la Créchère
 location: Maine-et-Loire
-baseline: Pré-étude
+baseline: Étude de faisabilité
 mainImg: /assets/Vegeto_conception_Crechere_1.png
 tags:
   - realisation
@@ -11,7 +11,7 @@ testimonial:
   image: /assets/Vegeto_conception_Créchère_Team.jpg
   author: Cyrille et Stéphanie Porcher
   role: Fondateurs des Jardins de la Créchère
-date: 2023-12-31T23:00:00.000Z
+date: 2023-12-11T23:00:00.000Z
 draft: false
 ---
 

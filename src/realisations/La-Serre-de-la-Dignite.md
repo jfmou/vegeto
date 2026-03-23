@@ -20,10 +20,9 @@ testimonial:
   image: /assets/vegeto-conception-serre-dignite-team.png
   author: Fatima Medjahed
   role: Présidente des Maisons de la Dignité
-date: '2023-05-28T22:00:00.000Z'
+date: 2020-05-31T22:00:00.000Z
 draft: false
 ---
-
 
 Les Maisons de la Dignité est une association à but non lucratif menant diverses actions d’aide aux travailleurs précaires en situation de mal logement à Tours. 
 

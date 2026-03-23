@@ -1,20 +1,20 @@
 ---
 title: La Ferme Aquaponique du Pays de Gex
-location: Versonnex
-baseline: Étude d’avant-projet
+location: Ain
+baseline: Étude de faisabilité
 mainImg: /assets/vegeto-conception-pays-de-gex-1.jpg
 tags:
   - realisation
   - conception
 cta:
   text: LA FERME AQUAPONIQUE DU PAYS DE GEX
-  link: 'https://www.facebook.com/LaFAPG'
+  link: 'https://www.lafermeaquaponique.com'
 testimonial:
   quote: 'Avec Végéto, j’ai bénéficié d’un accompagnement très suivi pour la pré-étude de la FAPG. Du concept de base au projet final, l’approche du projet a été bien structurée. Très à l’écoute, l’équipe a abordé de nombreuses facettes du projet en proposant des choix et des alternatives à chaque étape.'
   image: /assets/vegeto-conception-pays-de-gex-team.png
   author: Michel Peter
   role: Fondateur et gérant de la Ferme Aquaponique du Pays de Gex
-date: 2023-05-31T22:00:00.000Z
+date: 2019-08-31T22:00:00.000Z
 draft: false
 ---
 

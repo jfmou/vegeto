@@ -1,7 +1,7 @@
 ---
-title: La Ferme Aquaponique de Rose
+title: La Ferme Hydroponique de Rose
 location: Vendée
-baseline: Pré-étude
+baseline: Étude de faisabilité
 mainImg: /assets/logo-transparent.png
 tags:
   - realisation
@@ -13,10 +13,9 @@ testimonial:
   image: /assets/vegeto-conception-ferme-rose-team.png
   author: Xavier Coplo
   role: Co-porteur du projet de La Ferme Aquaponique de Rose
-date: '2023-06-25T22:00:00.000Z'
+date: 2021-08-31T22:00:00.000Z
 draft: false
 ---
-
 
 Le projet de la Ferme Aquaponique de Rose consiste à exploiter une micro-ferme diversifiée dans le bocage vendéen avec l’implantation d’une serre aquaponique, afin de produire des aliments de haute qualité nutritionnelle, gustative et environnementale, en circuit court à destination des habitants locaux.
 
