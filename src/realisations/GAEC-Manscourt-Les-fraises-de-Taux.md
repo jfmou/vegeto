@@ -10,11 +10,19 @@ cta:
   text: SAVEURS DE TAUX
   link: 'https://saveurs-de-taux.com/'
 testimonial:
+<<<<<<< Updated upstream
   quote: ''
   image: ''
   author: ''
   role: ''
 date: 2020-01-15T23:00:00.000Z
+=======
+  quote: Témoignage
+  image: src/assets/vegeto-installation-gaec-manscourt-team.png
+  author: Sébastien Manscourt
+  role: Gérant du GAEC Manscourt
+date: '2020-01-15T23:00:00.000Z'
+>>>>>>> Stashed changes
 draft: false
 ---
 
