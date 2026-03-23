@@ -6,12 +6,14 @@ mainImg: /assets/107956536_3072679272780513_2689113624868431692_n.jpg
 tags:
   - realisation
   - transmission
-date: '2025-02-01T19:26:19.916Z'
+cta:
+  text: L'EFP
+  link: 'https://www.efp.be/'
+date: 2025-02-01T19:26:19.916Z
 draft: false
 ---
 
-
-L’EFP (Espace Formation PME) est un centre de formation en alternance à Bruxelles proposant des formations dans plus de 90 métiers.
+**L’EFP (Espace Formation PME) est un centre de formation en alternance** à Bruxelles proposant des formations dans plus de 90 métiers.
 
 Au sein du Pôle Alimentation, une formation de maraicher urbain d’une durée de 8 mois est créée en 2021 et contient un module d’enseignement de Production Hors-Sol que nous avons prodigué. Un système hydroponique pédagogique a été installé en parallèle, permettant aux apprenants de piloter l’installation et d’expérimenter en pratique.
 

@@ -1,15 +1,14 @@
 ---
 title: Démonstrateurs
-location: Autrêches
-baseline: Installations intérieures-extérieures
+location: Picardie
+baseline: Intérieur et extérieur
 mainImg: /assets/vegeto-installation-demonstrateurs-1.jpg
 tags:
   - realisation
   - installation
-date: '2018-06-30T22:00:00.000Z'
+date: 2017-07-31T22:00:00.000Z
 draft: false
 ---
-
 
 Au début de notre activité professionnelle, **nous avons conçu et fabriqué différentes installations aquaponiques** ayant pour but d’être des preuves de concept et de démontrer notre savoir-faire en plus de produire des poissons et des végétaux pour notre propre consommation. 
 

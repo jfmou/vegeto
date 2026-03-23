@@ -1,14 +1,18 @@
 ---
 title: EFP – Centre de Formation
 location: Bruxelles
-baseline: Installation extérieure
+baseline: Extérieur
 mainImg: /assets/IMG-20260108-WA0011.jpg
 tags:
   - realisation
   - installation
-date: 2024-06-17T13:33:16.691Z
+cta:
+  text: L'EFP
+  link: 'https://www.efp.be/'
+date: '2024-09-01T13:33:16.691Z'
 draft: false
 ---
+
 
 **L’EFP (Espace Formation PME) est un centre de formation en alternance** à Bruxelles proposant des formations dans plus de 90 métiers.
 

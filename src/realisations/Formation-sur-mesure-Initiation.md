@@ -6,15 +6,17 @@ mainImg: /assets/vegeto-transmission-initiation-1.jpg
 tags:
   - realisation
   - transmission
+cta:
+  text: LE TIERS-LIEU L'HERMITAGE
+  link: 'https://www.hermitagelelab.com/'
 testimonial:
   quote: 'Merci beaucoup pour cette formation très complète ! Une journée retraçant les débuts et l’histoire de l’aquaponie, passant par les caractéristiques techniques d’un système, et également par le dimensionnement d’un système en aquaponie ! C’était top de découvrir le fonctionnement de cette technique, de chaque acteur du système avec des focus spécifiques sur les poissons, les productions végétales, et les bactéries. Encore une fois super complet, maintenant on est des AS de l’aquaponie. Merci pour l’accueil à l’Hermitage !'
   image: /assets/vegeto-transmission-initiation-team.png
   author: Martin Michaux
   role: Fondateur et vice-président de Le Dôme
-date: '2023-06-04T22:00:00.000Z'
+date: 2023-06-04T22:00:00.000Z
 draft: false
 ---
-
 
 Nous proposons des **formations à la carte pour accompagner vos projets de l‘idée à leur déploiement**.
 

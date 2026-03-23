@@ -14,11 +14,9 @@ testimonial:
   image: /assets/vegeto-transmission-bioponi-team.png
   author: Félix Haget
   role: Fondateur de BiOPONi et agréé expert en aquaponie
-date: '2019-12-31T23:00:00.000Z'
+date: 2023-06-30T22:00:00.000Z
 draft: false
 ---
-
-
 
 **BiOPONi est un cabinet d’ingénierie dans le domaine de l’aquaponie professionnelle.** Fondé en 2018, BiOPONi compte aujourd’hui une quarantaine de projets aquaponiques à échelle commerciale accompagnés à travers le monde, pour la majorité en France métropolitaine mais également dans les DROM-COM, en Europe et en Afrique.
 

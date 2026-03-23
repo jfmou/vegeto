@@ -1,7 +1,7 @@
 ---
 title: Menuiserie
 location: France
-baseline: Installations extérieures
+baseline: Intérieur et extérieur
 mainImg: /assets/vegeto-installation-menuiserie-1.jpg
 tags:
   - realisation
@@ -10,7 +10,7 @@ cta:
   text: ID & COPEAUX
   link: 'https://www.facebook.com/idetcopeaux02/'
 testimonial:
-  quote: '« J’ai croisé le chemin de Végéto il y a quelques années, Guillaume, Raphaël et moi étant originaires du même village, et nous avons longuement échangé sur leur métier et leurs projets. Quelques années plus tard, mon intérêt et leurs envies d’améliorer sans cesse leurs produits fit naitre une belle collaboration entre nos deux structures. »'
+  quote: 'J’ai croisé le chemin de Végéto il y a quelques années, Guillaume, Raphaël et moi étant originaires du même village, et nous avons longuement échangé sur leur métier et leurs projets. Quelques années plus tard, mon intérêt et leurs envies d’améliorer sans cesse leurs produits fit naitre une belle collaboration entre nos deux structures.'
   image: /assets/vegeto-installation-menuiserie-team.png
   author: Stéphane Flora
   role: Fondateur d’ID & Copeaux

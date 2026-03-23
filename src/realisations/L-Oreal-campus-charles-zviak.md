@@ -1,7 +1,7 @@
 ---
 title: L’Oréal – Campus Charles Zviak
 location: Saint-Ouen
-baseline: Installation intérieure
+baseline: Intérieur
 mainImg: /assets/vegeto-installation-l-oreal-1.jpg
 tags:
   - realisation
@@ -11,11 +11,9 @@ testimonial:
   image: /assets/vegeto-installation-l-oreal-team.png
   author: François Godin
   role: Directeur RSE et Communication du Campus Charles Zviak
-date: '2023-07-02T22:00:00.000Z'
+date: 2022-12-31T23:00:00.000Z
 draft: false
 ---
-
-
 
 **Le Campus Charles Zviak situé à Saint-Ouen accueille 2400 collaborateurs de la Recherche Innovation et des Opérations du Groupe L’Oréal** sur 58 000m² de bureaux et laboratoires. L’ambition première du Campus est la création d’un nouvel environnement de travail, tourné vers le bien-être des collaborateurs et la biophilie.
 

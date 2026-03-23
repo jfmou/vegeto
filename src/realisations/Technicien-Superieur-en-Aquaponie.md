@@ -1,6 +1,6 @@
 ---
 title: Technicien Supérieur en Aquaponie
-location: Louverné
+location: Mayenne
 baseline: Enseignement
 mainImg: /assets/vegeto-transmission-tech-sup-1.jpg
 tags:
@@ -14,10 +14,9 @@ testimonial:
   image: /assets/vegeto-transmission-tech-sup-team.png
   author: Guillaume Beucher
   role: Co-fondateur et co-directeur d’Echologia et Aquaponia
-date: '2020-01-31T23:00:00.000Z'
+date: 2022-05-31T22:00:00.000Z
 draft: false
 ---
-
 
 **Les métiers de Technicien supérieur en aquaponie et d’Ouvrier en aquaponie ont été officiellement reconnus** grâce à l’impulsion d’Aquaponia, structure de développement de l’aquaponie située au cœur du Parc de Loisirs & Hébergements insolites Echologia. 
 

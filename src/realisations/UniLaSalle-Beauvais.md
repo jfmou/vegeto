@@ -14,10 +14,9 @@ testimonial:
   image: /assets/vegeto-transmission-unilasalle-team.png
   author: José Rodriguez
   role: Enseignant-Chercheur en Physiologie Animale et Responsable 1ère Année
-date: '2023-04-18T22:00:00.000Z'
+date: 2026-05-31T22:00:00.000Z
 draft: false
 ---
-
 
 **L’Institut Polytechnique UniLaSalle est une école d’ingénieurs dans les domaines de l’agriculture, de l’agroalimentaire, de l’alimentation-santé, de l’environnement, de la géologie, de l’énergie et du numérique.** Il dispose de quatre campus : Beauvais le site historique, Amiens, Rouen et Rennes.
 

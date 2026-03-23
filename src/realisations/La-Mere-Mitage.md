@@ -1,7 +1,7 @@
 ---
 title: La Mère-Mitage
-location: Autrêches
-baseline: Installation intérieure
+location: Oise
+baseline: Intérieur
 mainImg: /assets/vegeto-installation-mere-mitage-1.jpg
 tags:
   - realisation
@@ -12,11 +12,10 @@ cta:
 testimonial:
   quote: 'Végéto ayant choisi de rejoindre l''Hermitage dès 2019, il nous est apparu naturel et important de mettre en valeur leur activité au sein du café la Mère Mitage, espace de toutes les rencontres au sein du tiers-lieu. Cette petite unité aquaponique n''est pas seulement la vitrine d''une activité qui renouvelle le champ des possibles en agriculture, elle permet aussi de créer des échanges avec les habitants autour de nos modèles de production et de consommation alimentaire. Elle resserre également nos liens avec Végéto, compagnon de route engagé à nos côtés pour démontrer qu''il est possible de penser autrement ces enjeux, en proximité, de la fourche à l''assiette, voire même de l''aquarium à l''assiette.'
   author: Armelle De Vismes
-  role: Directrice de l’association Hermitage Expérimentations
-date: '2023-04-03T22:00:00.000Z'
+  role: Ex-directrice de l’association Hermitage Expérimentations
+date: 2021-11-30T23:00:00.000Z
 draft: false
 ---
-
 
 **La Mère-Mitage est le café-cantine associatif du tiers-lieu L’Hermitage** au sein duquel notre entreprise est installée. C’est le lieu pivot du site accueillant les usagers et visiteurs du site pour un café, un repas ou une soirée conviviale en fonction de la programmation culturelle.
 
