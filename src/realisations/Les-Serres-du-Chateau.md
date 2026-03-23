@@ -1,7 +1,7 @@
 ---
-title: Les Serres du Château
-location: Ribécourt
-baseline: Installation extérieure
+title: Les Serres du Château - Ribécourt
+location: Oise
+baseline: Sous abri
 mainImg: /assets/vegeto-installation-serre-ribecourt-1.jpg
 tags:
   - realisation

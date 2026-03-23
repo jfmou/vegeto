@@ -1,20 +1,22 @@
 ---
 title: Ateliers – Orienté Vivant
-location: Autrêches
+location: Tiers-lieu L'Hermitage
 baseline: Atelier
 mainImg: /assets/vegeto-transmission-oriente-vivant-1.jpg
 tags:
   - realisation
   - transmission
+cta:
+  text: LE TIERS-LIEU L'HERMITAGE
+  link: 'https://www.hermitagelelab.com/'
 testimonial:
   quote: 'J’ai effectué un atelier d’aquaponie avec Raphaël dans le cadre d’un séminaire d’entreprise. Passionné et passionnant, l’atelier a été très apprécié par toute l’équipe. Nous sommes même repartis avec notre dîner du soir ! '
   image: /assets/vegeto-transmission-oriente-vivant-team.png
   author: Julie Couteau
   role: Cheffe de projets chez G-ON
-date: '2023-05-08T22:00:00.000Z'
+date: 2023-05-08T22:00:00.000Z
 draft: false
 ---
-
 
 Nous proposons **l’animation d’ateliers autour de l’aquaponie, destiné à tous types de publics**. Ces ateliers peuvent comprendre différents ateliers : Explication de l’aquaponie autour des systèmes aquaponiques sur site, prélèvement de boutures ou de fleurs à emporter, transplantation de jeunes plants dans les systèmes, et pêche et récole pour finir par un atelier de cuisine / transformation des produits aquaponiques à emporter chez soi !
 

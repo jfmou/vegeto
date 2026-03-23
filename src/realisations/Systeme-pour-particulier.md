@@ -1,11 +1,14 @@
 ---
 title: Système pour particulier
-location: Pouzauges
-baseline: Installation extérieure
+location: Vendée
+baseline: Sous abri et extérieur
 mainImg: /assets/vegeto-installation-particuliers-1.jpg
 tags:
   - realisation
   - installation
+cta:
+  text: LA FERME HYDROPONIQUE DE ROSE
+  link: 'https://www.fermeaquaponiquederose.fr/'
 testimonial:
   quote: |-
     J’ai fait appel à la société Végéto afin d’installer une serre aquaponique sur le terrain de notre domicile. 
@@ -13,11 +16,10 @@ testimonial:
     En effet, cette serre nous sert d’autoconsommation et de pilote afin de démontrer aux personnes contactées pour notre installation professionnelle que nous en avons les capacités.
   image: /assets/vegeto-installation-particuliers-team.png
   author: Xavier Coplo
-  role: 'Fondateur de La Ferme Aquaponique de Rose '
-date: '2023-03-29T22:00:00.000Z'
+  role: 'Fondateur de La Ferme Hydroponique de Rose '
+date: 2021-08-31T22:00:00.000Z
 draft: false
 ---
-
 
 Cette réalisation est une installation aquaponique clés en main à destination d’un couple de particulier en Vendée. 
 

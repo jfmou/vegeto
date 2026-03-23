@@ -1,7 +1,7 @@
 ---
 title: Biodôme – Bliiida
 location: Metz
-baseline: Installation extérieure
+baseline: Sous abri
 mainImg: /assets/vegeto-installation-biodome-1.jpg
 tags:
   - realisation

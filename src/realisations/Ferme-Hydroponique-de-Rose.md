@@ -6,6 +6,9 @@ mainImg: /assets/logo-transparent.png
 tags:
   - realisation
   - conception
+cta:
+  text: LA FERME HYDROPONIQUE DE ROSE
+  link: 'https://www.fermeaquaponiquederose.fr/'
 testimonial:
   quote: |
     En effet, l’entreprise Végéto nous a établi un dossier de pré-étude et notre serre domestique a pu être visitée par les élus locaux ce qui nous a permis de trouver un terrain pour notre installation en serre commerciale.

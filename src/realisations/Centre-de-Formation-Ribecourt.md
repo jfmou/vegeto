@@ -1,6 +1,6 @@
 ---
 title: Centre de Formation de Ribécourt
-location: Ribécourt
+location: Oise
 baseline: Enseignement
 mainImg: /assets/vegeto-transmission-ribecourt-1.jpg
 tags:
@@ -13,11 +13,10 @@ testimonial:
   quote: 'Depuis 2018 que nous avons décidé d''expérimenter l''aquaponie sur notre site, Raphaël et l''équipe de Végéto nous accompagnent dans la mise en œuvre du système jusqu''à la formation de nos apprenants, tant en formation diplômante que plus ponctuelle et professionnalisante. Ce système fait désormais partie intégrante de notre exploitation et est en totale harmonie avec les valeurs qui sont les nôtres et les enseignements dispensés. Raphaël est très pédagogue et bon communiquant, il maitrise son champ d''actions à la perfection et nous permet d''améliorer constamment notre production ainsi que notre offre de formations. Voilà pour le CFPPA de Ribécourt un partenariat réussi !'
   image: /assets/vegeto-transmission-ribecourt-team.png
   author: Pierre Charpentier
-  role: Directeur de l’UFA-CFPPA
-date: '2023-06-06T22:00:00.000Z'
+  role: Ex-directeur de l’UFA-CFPPA
+date: 2026-06-30T22:00:00.000Z
 draft: false
 ---
-
 
 **L’Établissement Public Local d’Enseignement et de Formation Professionnelle Agricole de Ribécourt** (Oise) comprend un lycée horticole, une Unité de Formation par Apprentissage (UFA), un Centre de Formation Professionnelle et de Promotion Agricole pour adultes (CFPPA), ainsi que des serres de production avec vente sur site. 
 

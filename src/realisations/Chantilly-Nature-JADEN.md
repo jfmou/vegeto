@@ -1,23 +1,22 @@
 ---
 title: Chantilly Nature - JADEN
 location: Chantilly
-baseline: Installation extérieure
+baseline: Sous abri
 mainImg: /assets/vegeto-conception-jaden-1.jpg
 tags:
   - realisation
   - installation
 cta:
-  text: CHANTILLY NATURE
+  text: JADEN
   link: 'https://www.jadenchantilly.fr/'
 testimonial:
   quote: 'Belle rencontre avec Raphaël et Guillaume de Végéto qui par leur expertise, leur écoute et leur disponibilité ont tout de suite compris nos besoins et conçu une installation aquaponique de 240m² juste magnifique.'
   image: /assets/vegeto-conception-jaden-team.png
   author: Charles Ancelin
-  role: Co-fondateur de JADEN et vice-président des Jardins Familiaux de l’Oise
-date: '2023-06-26T22:00:00.000Z'
+  role: Co-fondateur de JADEN
+date: 2023-06-26T22:00:00.000Z
 draft: false
 ---
-
 
 Le **Jardin Aquaponique Durable et Ecocitoyen de la Nonette (JADEN) est un site de production et de sensibilisation à la protection de l’environnement et de la ressource en eau** porté par l’association Chantilly Nature en collaboration étroite avec la ville de Chantilly.
 

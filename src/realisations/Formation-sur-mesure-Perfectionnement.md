@@ -7,8 +7,8 @@ tags:
   - realisation
   - transmission
 cta:
-  text: LILOTOPIA
-  link: 'https://lilotopia.org/'
+  text: LE TIERS-LIEU L'HERMITAGE
+  link: 'https://www.hermitagelelab.com/'
 testimonial:
   quote: |-
     Formateur passionné et passionnant.
@@ -16,10 +16,9 @@ testimonial:
   image: /assets/vegeto-transmission-perfectionnement-team.png
   author: Alix Réquillart
   role: Présidente de Lilotopia
-date: '2023-05-16T22:00:00.000Z'
+date: 2023-05-16T22:00:00.000Z
 draft: false
 ---
-
 
 Nous proposons des **formations à la carte pour accompagner vos projets de l‘idée à leur déploiement**. Les formations peuvent prendre place sur votre site ou au tiers-lieu de l‘Hermitage ayant l‘avantage d‘héberger plusieurs exemples de systèmes aquaponiques réalisés par nos soins ainsi que d‘offrir des solutions de salle, de restauration, et d‘hébergement.
 

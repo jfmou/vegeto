@@ -1,7 +1,7 @@
 ---
 title: Le Potager Des Princes
 location: Chantilly
-baseline: Installation extérieure
+baseline: Sous abri
 mainImg: /assets/vegeto-installation-potager-princes-1.jpg
 tags:
   - realisation
@@ -17,7 +17,7 @@ testimonial:
   image: /assets/vegeto-installation-potager-princes-team.png
   author: Serge
   role: Jardinier en chef émérite du Potager des Princes
-date: 2020-01-02T23:00:00.000Z
+date: 2019-02-28T23:00:00.000Z
 draft: false
 ---
 
