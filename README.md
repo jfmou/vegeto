@@ -82,7 +82,6 @@ $ npm install && npm run dev
 
 ```sh
 $ git fetch --prune
-$ git checkout origin/master -B master
 $ npm run save
 ```
 
