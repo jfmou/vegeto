@@ -1,16 +1,19 @@
 ---
-title: Lycée de l’Horticulture et du Paysage
+title: Lycée des métiers l’Horticulture et du Paysage Jeanne Baret
 location: Seine-Saint-Denis
-baseline: Installation extérieure
+baseline: Conseil
 mainImg: /assets/Vegeto-conception-Montreuil-2.jpeg
 tags:
   - realisation
   - conception
+cta:
+  text: LE LYCÉE DE L'HORTICULTURE ET DU PAYSAGE JEANNE BARET
+  link: 'https://www.lyceehorticulture93.fr/'
 testimonial:
   quote: 'Végéto nous a formulé une proposition sur-mesure, bien adaptée à nos besoins et a nous accompagné de très prêt dans la mise en œuvre de notre système. Un partenariat école-entreprise enthousiasmant.'
   author: Vianney Cottineau
   role: Enseignant Sciences et Techniques Horticoles
-date: 2023-10-17T14:56:28.936Z
+date: 2024-11-01T15:56:28.936Z
 draft: false
 ---
 

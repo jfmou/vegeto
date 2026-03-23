@@ -1,6 +1,6 @@
 ---
 title: HECTAR
-location: Lévis-Saint-Nom
+location: Yvelines
 baseline: Conseil
 mainImg: /assets/vegeto-conception-hectar-1.jpg
 tags:
@@ -14,7 +14,7 @@ testimonial:
   image: /assets/vegeto-conception-hectar-team.png
   author: Belinda Sabatier
   role: Porteuse d’un projet de ferme hydroponique
-date: 2019-12-31T23:00:00.000Z
+date: 2022-06-30T22:00:00.000Z
 draft: false
 ---
 

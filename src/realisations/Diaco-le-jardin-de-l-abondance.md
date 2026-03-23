@@ -6,15 +6,17 @@ mainImg: /assets/Vegeto-conception-diaco-1.png
 tags:
   - realisation
   - conception
+cta:
+  text: L'ASSOCIATION FIHANKRA
+  link: 'https://fihankra225.com/'
 testimonial:
   quote: 'Je suis vraiment très satisfaite de l’accompagnement proposé par Raphaël via Végéto. Il est à l’écoute des besoins, sait s’adapter et proposer des solutions pertinentes. Ses conseils sont très concrets, orientés vers la pratique et la mise en œuvre, et il est toujours disponible et accessible. Ses explications sont claires même pour des néophytes comme moi. Je recommande vivement son accompagnement !'
   image: /assets/Vegeto-conception-Diaco-team.jpg
   author: Murielle Diaco
   role: Fondatrice de l'association Fihankra
-date: '2025-12-23T15:53:01.093Z'
+date: 2025-05-01T14:53:01.093Z
 draft: false
 ---
-
 
 **Le Jardin de l'Abondance est une ferme urbaine** innovante et éco-lieu dans la commune populaire d'Abobo à Abidjan, portée par l'association Fihankra qui œuvre à autonomiser les jeunes et les femmes en Côte d'Ivoire.
 
@@ -24,4 +26,4 @@ La première phase de conception ayant été réalisée en amont avec l'aide d'u
 
 Sur la base de documents fournis par l'association, notre travail a consisté en plusieurs séances d'échanges ainsi que la production de documents et de ressources didactiques afin d'aboutir à une modélisation 3D de l'installation avec le dimensionnement des différents éléments et aux choix des fournisseurs.
 
-![](</assets/Vegeto-conception-diaco-2.png>)![](</assets/Vegeto-conception-diaco-3.png>)![](</assets/Vegeto-conception-diaco-4.png>)
+![](/assets/Vegeto-conception-diaco-2.png)![](/assets/Vegeto-conception-diaco-3.png)![](/assets/Vegeto-conception-diaco-4.png)

@@ -1,7 +1,7 @@
 ---
 title: Aqway
 location: Île-de-France
-baseline: Conseil - Pré-étude
+baseline: Conseil + Étude de faisabilité
 mainImg: /assets/vegeto-conception-aqway-1.jpg
 tags:
   - realisation
@@ -11,7 +11,7 @@ testimonial:
   image: /assets/vegeto-conception-aqway-team.png
   author: Nadjet Dehlouz
   role: 'Porteuse du projet Aqway '
-date: 2020-01-31T23:00:00.000Z
+date: 2021-05-31T22:00:00.000Z
 draft: false
 ---
 
