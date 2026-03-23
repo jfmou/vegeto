@@ -81,6 +81,8 @@ $ npm install && npm run dev
 ## 💾 les sauvegarder dans git (ouvrir une nouvelle interface Ubuntu en gardant la première ouverte)
 
 ```sh
+$ git fetch --prune
+$ git checkout origin/master -B master
 $ npm run save
 ```
 
