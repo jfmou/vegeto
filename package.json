@@ -10,8 +10,8 @@
     "build-assets": "cp -a ./src/assets ./dist/",
     "dev": "npx tinacms dev -c \"npx eleventy --serve\"",
     "debug": "DEBUG=* npx eleventy",
-    "save": "USER_DATE=$(git config user.email)-$(date +%s) && git checkout -B f/new-content-$(echo $USER_DATE) && git add . && git commit -m new\\ content\\ $(echo $USER_DATE)",
-    "publish": "git push origin --all"
+    "save": "bash ./scripts/save-content.sh",
+    "publish": "bash ./scripts/publish-content.sh"
   },
   "repository": {
     "type": "git",

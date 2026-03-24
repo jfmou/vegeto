@@ -85,11 +85,15 @@ $ git fetch --prune
 $ npm run save
 ```
 
+`npm run save` crée une nouvelle branche `f/new-content-...`, ajoute tous les changements et crée un commit.
+
 ## 🚀 les publier sur github
 
 ```sh
 $ npm run publish
 ```
+
+`npm run publish` pousse uniquement la branche courante (pas `--all`).
 
 ## ⛙ fusionner les modifications avec la base de code
 
