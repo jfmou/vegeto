@@ -1,5 +1,5 @@
 ---
-title: Les Étangs de Lachaussée
+title: ESAT des Étangs de Lachaussée
 location: Meuse
 baseline: Étude d'avant-projet détaillé
 mainImg: /assets/vegeto-conception-etang-lachaussee-1.jpg

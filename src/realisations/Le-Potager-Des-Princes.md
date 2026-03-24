@@ -1,5 +1,5 @@
 ---
-title: Le Potager Des Princes
+title: Potager Des Princes
 location: Chantilly
 baseline: Sous abri
 mainImg: /assets/vegeto-installation-potager-princes-1.jpg

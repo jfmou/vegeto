@@ -1,5 +1,5 @@
 ---
-title: La Ferme Aquaponique du Cambrésis
+title: Ferme Aquaponique du Cambrésis
 location: Nord
 baseline: Étude de faisabilité + Étude d’avant-projet détaillé
 mainImg: /assets/vegeto-conception-cambresis-1.jpg
