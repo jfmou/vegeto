@@ -1,5 +1,5 @@
 ---
-title: La Serre de la Dignité
+title: Serre de la Dignité
 location: Tours
 baseline: Conseil
 mainImg: /assets/vegeto-conception-serre-dignite-1.jpg

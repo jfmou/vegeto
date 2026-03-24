@@ -1,5 +1,5 @@
 ---
-title: Les Jardins de l’Hermitage
+title: SCEA Les Jardins de l’Hermitage
 location: Oise
 baseline: Étude d’avant-projet détaillé
 mainImg: /assets/vegeto-conception-hermitage-1.jpg

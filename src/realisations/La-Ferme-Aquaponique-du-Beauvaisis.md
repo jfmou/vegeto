@@ -1,5 +1,5 @@
 ---
-title: La Ferme Aquaponique du Beauvaisis
+title: Ferme Aquaponique du Beauvaisis
 location: Oise
 baseline: Étude d’avant-projet détaillé
 mainImg: /assets/vegeto-conception-beauvesis-1.jpg

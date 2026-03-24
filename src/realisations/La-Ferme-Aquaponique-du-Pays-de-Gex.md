@@ -1,5 +1,5 @@
 ---
-title: La Ferme Aquaponique du Pays de Gex
+title: Ferme Aquaponique du Pays de Gex
 location: Ain
 baseline: Étude de faisabilité
 mainImg: /assets/vegeto-conception-pays-de-gex-1.jpg

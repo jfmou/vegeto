@@ -10,11 +10,11 @@ cta:
   text: SAVEURS DE TAUX
   link: 'https://saveurs-de-taux.com/'
 testimonial:
-  quote: Témoignage
-  image: src/assets/vegeto-installation-gaec-manscourt-team.png
-  author: Sébastien Manscourt
-  role: Gérant du GAEC Manscourt
-date: '2020-01-15T23:00:00.000Z'
+  quote: ''
+  image: ''
+  author: ''
+  role: ''
+date: 2020-01-15T23:00:00.000Z
 draft: false
 ---
 
