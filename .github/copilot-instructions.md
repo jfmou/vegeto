@@ -5,7 +5,7 @@ Vegeto is a static site generator for an aquaponics company website, built with 
 
 **Key Tech Stack:**
 - **11ty** v3.1.2 - Static site generator (input: `src/`, output: `dist/`)
-- **TinaCMS** v3.3.2 - Headless CMS with admin UI at `/admin`
+- **TinaCMS** v3.6.3 - Headless CMS with admin UI at `/admin`
 - **Liquid** - Template language for layouts
 - **Markdown** - Content format for realisations (case studies)
 - **11ty Image Plugin** - Responsive image generation with WebP/AVIF
@@ -35,9 +35,13 @@ draft: boolean
 ### Build Pipeline
 1. **Development**: `npm run dev` → TinaCMS + 11ty watch mode (localhost:8080)
 2. **Production Build**: `npm run build`
-   - Runs 11ty with asset pass-through
-   - Converts `dist/index.html` → `dist/index.php` (server requirement)
-   - Asset files copied from `src/assets/`
+  - Runs 11ty with asset pass-through
+  - Copies `src/assets/` to `dist/assets/`
+  - Copies `.htaccess` and `googlef7dc1ff0dc14bb58.html` in `dist/` (prod only)
+3. **Beta Build**: `npm run build:beta`
+  - Sets `ELEVENTY_BUILD_TARGET=beta`
+  - Excludes `.htaccess` and Google verification file
+  - Moves output from `dist/` to `beta/`
 
 ### Image Processing
 - **Configuration**: [config/img.js](../config/img.js)
@@ -56,7 +60,7 @@ npm run dev              # Start dev server with admin UI
 npm run save            # Create feature branch with current changes
 npm run publish         # Push all branches to GitHub
 npm run build           # Production build
-npm run test-serve-prod # Test production output locally (PHP)
+npm run build:beta      # Beta build (output moved to ./beta)
 ```
 
 **Workflow Pattern** (from README):
@@ -68,7 +72,6 @@ npm run test-serve-prod # Test production output locally (PHP)
 ### Branch Convention
 - Feature branches: `f/new-content-[email-hash]-[timestamp]` (auto-created by save script)
 - Main branch: `master`
-- Current WIP: Feature branch for 11ty img integration active
 
 ## Project-Specific Patterns
 
@@ -84,12 +87,10 @@ npm run test-serve-prod # Test production output locally (PHP)
 - Defined in [.eleventy.js](../.eleventy.js)
 
 ### HTML Minification
-- Enabled in production only (`ELEVENTY_ENV === 'production'`)
-- Configured in [config/html-config.js](../config/html-config.js)
-- Uses html-minifier-terser with standard optimizations
+- Configured via `@codestitchofficial/eleventy-plugin-minify` in [.eleventy.js](../.eleventy.js)
 
 ### CSS Architecture
-- **Single stylesheet**: [src/assets/lib/style.css](../src/assets/lib/style.css)
+- **Single stylesheet**: [src/assets/lib/style.css.liquid](../src/assets/lib/style.css.liquid)
 - **CSS Variables** (root):
   - Colors: `--main-color`, `--main-active-color`, `--main-typo-color`, `--main-disabled-color`
   - Spacing: `--main-default-spacing: 20px`, `--main-p-spacing: 30px`
@@ -106,11 +107,11 @@ npm run test-serve-prod # Test production output locally (PHP)
 | [config/markdown.js](../config/markdown.js) | Custom markdown image renderer; responsive syntax |
 | [config/img.js](../config/img.js) | Image generation params (widths, formats, paths) |
 | [src/_includes/layouts/base.liquid](../src/_includes/layouts/base.liquid) | HTML5 template; meta tags, stylesheet includes |
-| [src/assets/lib/style.css](../src/assets/lib/style.css) | All styling; CSS variables; responsive breakpoints |
+| [src/assets/lib/style.css.liquid](../src/assets/lib/style.css.liquid) | All styling; CSS variables; responsive breakpoints |
 
 ## Important Constraints & Gotchas
 
-1. **PHP Output**: Build pipeline converts `index.html` → `index.php` for server compatibility
+1. **Deploy Files (Prod only)**: `.htaccess` and `googlef7dc1ff0dc14bb58.html` are copied to `dist/` only when `ELEVENTY_BUILD_TARGET != beta`
 2. **Liquid Syntax**: `dynamicPartials: false` (set explicitly in .eleventy.js) - include paths must be static
 3. **Image Alt Text**: Markdown image renderer throws error if `alt=""` missing (empty string OK, missing fails)
 4. **Slug Format**: Realisations use lowercase permalinks; file names with mixed case will be lowercased in URL
@@ -123,7 +124,7 @@ npm run test-serve-prod # Test production output locally (PHP)
 ## Common Tasks
 
 **Add a new realisation**: Create `.md` file in `src/realisations/` with required frontmatter fields
-**Update styling**: Edit [src/assets/lib/style.css](../src/assets/lib/style.css) with CSS variables
+**Update styling**: Edit [src/assets/lib/style.css.liquid](../src/assets/lib/style.css.liquid) with CSS variables
 **Add custom image**: Use markdown syntax with optional responsive parameters
-**Test production locally**: `npm run test-serve-prod` at localhost:8081
+**Build beta output**: `npm run build:beta` (writes to `./beta`)
 **Debug 11ty**: `npm run debug` (verbose output via DEBUG env var)

@@ -31,7 +31,7 @@ Ordre recommande a chaque debut de session :
   installation via [nvm](https://github.com/nvm-sh/nvm) :
 
   ```sh
-  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+  $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
   ...
 
 
@@ -40,15 +40,15 @@ Ordre recommande a chaque debut de session :
 
   $ nvm install --lts
   Installing latest LTS version.
-  Downloading and installing node v18.16.1...
-  Downloading https://nodejs.org/dist/v18.16.1/node-v18.16.1-darwin-arm64.tar.xz...
+  Downloading and installing node v24.13.0...
+  Downloading https://nodejs.org/dist/v24.13.0/node-v24.13.0-linux-x64.tar.xz...
   ########################################################################################################### 100.0%
   Computing checksum with shasum -a 256
   Checksums matched!
-  Now using node v18.16.1 (npm v9.5.1)
+  Now using node v24.13.0 (npm v11.6.2)
 
   $ node -v
-  v18.16.1
+  v24.13.0
   ```
 
   ### 3. git

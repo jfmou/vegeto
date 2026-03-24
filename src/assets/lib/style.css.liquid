@@ -193,11 +193,149 @@ permalink: /assets/generated/style.css
     text-decoration: underline;
   }
 
+  /* Contact section in navigation */
+  .site-navigation-contact-section {
+    width: 100%;
+    background-color: rgba(160, 176, 165, 0.08);
+    padding: 8px 0;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+
+  .site-navigation-contact-label {
+    display: block;
+    color: var(--main-active-color);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    padding: 8px var(--main-default-spacing);
+  }
+
+  .site-navigation-contact-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    display: none;
+  }
+
+  .site-navigation-contact-toggle:hover,
+  .site-navigation-contact-toggle:focus-visible,
+  .site-navigation-contact-toggle[aria-expanded="true"] {
+    text-decoration: underline;
+  }
+
+  .site-navigation-contact-dropdown {
+    padding: 12px var(--main-default-spacing);
+    margin: 0;
+    max-height: 500px;
+    display: block;
+  }
+
+  .site-navigation-contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-info {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .contact-info a {
+    color: var(--main-active-color);
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
   .site-header-toggle:focus-visible,
   .site-navigation-link:focus-visible,
+  .site-navigation-contact-toggle:focus-visible,
   .site-header-brand:focus-visible {
     outline: 2px solid var(--main-active-color);
     outline-offset: 2px;
+  }
+
+  @media screen and (min-width: 921px) {
+    .site-header-inner {
+      justify-content: space-between;
+    }
+
+    .site-header-toggle {
+      display: none;
+    }
+
+    .site-navigation {
+      position: static !important;
+      background-color: transparent !important;
+      border-bottom: none !important;
+      padding: 0 !important;
+      display: flex !important;
+      flex-direction: row;
+      align-items: center;
+      gap: 0;
+      width: auto;
+      margin-left: auto;
+    }
+
+    .site-navigation-link {
+      width: auto;
+      padding: 8px 16px;
+    }
+
+    .site-navigation-contact-section {
+      position: relative;
+      width: auto;
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .site-navigation-contact-label {
+      display: none;
+    }
+
+    .site-navigation-contact-toggle {
+      display: block;
+      padding: 8px 16px;
+      width: auto;
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin: 0;
+      line-height: 1.2;
+    }
+
+    .site-navigation-contact-dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.98);
+      border: 1px solid rgba(48, 65, 70, 0.14);
+      border-top: 3px solid var(--main-color);
+      padding: 16px 20px;
+      margin: 0;
+      min-width: 320px;
+      white-space: normal;
+      z-index: 100;
+      display: none;
+      max-height: auto;
+    }
+
+    .site-navigation-contact-section.is-open .site-navigation-contact-dropdown,
+    .site-navigation-contact-section:hover .site-navigation-contact-dropdown,
+    .site-navigation-contact-section:focus-within .site-navigation-contact-dropdown {
+      display: block;
+    }
   }
 
   /* Static pages */
@@ -1760,6 +1898,60 @@ permalink: /assets/generated/style.css
       padding: 0;
       font-size: 13px;
       white-space: nowrap;
+    }
+
+    .site-navigation-contact-section {
+      position: relative;
+      width: auto;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .site-navigation-contact-label {
+      display: none;
+    }
+
+    .site-navigation-contact-toggle.site-navigation-link {
+      display: inline-block;
+      width: auto;
+      padding: 0;
+      margin: 0;
+      background: none;
+      border: 0;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--main-active-color);
+      white-space: nowrap;
+      line-height: 1.2;
+    }
+
+    .site-navigation-contact-dropdown {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.98);
+      border: 1px solid rgba(48, 65, 70, 0.14);
+      border-top: 3px solid var(--main-color);
+      padding: 16px 20px;
+      margin: 0;
+      min-width: 320px;
+      white-space: normal;
+      z-index: 1000;
+      display: none;
+    }
+
+    .site-navigation-contact-section.is-open .site-navigation-contact-dropdown,
+    .site-navigation-contact-section:hover .site-navigation-contact-dropdown,
+    .site-navigation-contact-section:focus-within .site-navigation-contact-dropdown {
+      display: block;
     }
 
     #quest-ce-que-laquaponie .content > p,

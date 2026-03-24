@@ -41,7 +41,11 @@ eleventyImport:
                     <div class="realisation-card-overlay">
                       <h2 class="realisation-card-title">{{ realisation.data.title }}</h2>
                       {% if realisation.data.location %}<p class="realisation-card-location">{{ realisation.data.location }}</p>{% endif %}
-                      <p class="realisation-card-type">{{ tag_name | upcase }}</p>
+                      {% if realisation.data.baseline %}
+                        <p class="realisation-card-type">{{ realisation.data.baseline }}</p>
+                      {% else %}
+                        <p class="realisation-card-type">{{ tag_name | upcase }}</p>
+                      {% endif %}
                     </div>
                   </a>
                 {% endif %}

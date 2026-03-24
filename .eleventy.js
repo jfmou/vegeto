@@ -75,7 +75,10 @@ module.exports = function(eleventyConfig) {
   const siteUrl = buildTarget === 'beta' ? BETA_SITE_URL : PROD_SITE_URL;
 
   eleventyConfig.addPassthroughCopy('src/assets');
-  eleventyConfig.addPlugin(require('./config/html-config.js'));
+  if (buildTarget !== 'beta') {
+    eleventyConfig.addPassthroughCopy('.htaccess');
+    eleventyConfig.addPassthroughCopy('googlef7dc1ff0dc14bb58.html');
+  }
 
   eleventyConfig.setLibrary('md', markdownConf);
   const toMarkdownString = (value) => {

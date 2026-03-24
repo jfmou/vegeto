@@ -90,20 +90,30 @@
 	</g>
 </g>
 </svg>
-		</a>
+    </a>
 
-		<button class="site-header-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Ouvrir le menu de navigation">
-			<span class="site-header-toggle-bar"></span>
-			<span class="site-header-toggle-bar"></span>
-			<span class="site-header-toggle-bar"></span>
-		</button>
+    <nav id="site-navigation" class="site-navigation" aria-label="Navigation principale">
+      <a href="/" class="site-navigation-link" title="Retourner à la page d'accueil"{% if page.url == '/' %} aria-current="page"{% endif %}>Accueil</a>
+      <a href="/realisations/" class="site-navigation-link" title="Découvrir nos réalisations en aquaponie"{% if page.url == '/realisations/' %} aria-current="page"{% endif %}>Nos réalisations</a>
+      <a href="/serre-helio/" class="site-navigation-link" title="Découvrir notre page dédiée à la serre Hélio"{% if page.url == '/serre-helio/' %} aria-current="page"{% endif %}>La serre Hélio</a>
+      <div class="site-navigation-contact-section">
+        <div class="site-navigation-contact-label">Contactez-nous</div>
+        <a href="#contact-dropdown" class="site-navigation-link site-navigation-contact-toggle" aria-expanded="false" aria-controls="contact-dropdown" title="Afficher les informations de contact">Contactez-nous</a>
+        <div id="contact-dropdown" class="site-navigation-contact-dropdown">
+          <div class="site-navigation-contact-content">
+            <p class="contact-info">📧 : <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#118;&#101;&#103;&#101;&#116;&#111;&#45;&#97;&#113;&#117;&#97;&#112;&#111;&#110;&#105;&#101;&#46;&#102;&#114;" title="Nous contacter par mail">cont<!-- spam@here -->act&commat;vegeto-aquapon<!-- @lulz.tld -->ie&period;fr</a></p>
+            <p class="contact-info">📞 : <a href="tel:+33641681052" title="Contacter Raphaël">Raphaël 06 41 68 10 52</a> | <a href="tel:+33663845155" title="Contacter Guillaume">Guillaume 06 63 84 51 55</a></p>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-		<nav id="site-navigation" class="site-navigation" aria-label="Navigation principale">
-			<a href="/" class="site-navigation-link" title="Retourner à la page d’accueil"{% if page.url == '/' %} aria-current="page"{% endif %}>Accueil</a>
-			<a href="/realisations/" class="site-navigation-link" title="Découvrir nos réalisations en aquaponie"{% if page.url == '/realisations/' %} aria-current="page"{% endif %}>Nos réalisations</a>
-			<a href="/serre-helio/" class="site-navigation-link" title="Découvrir notre page dédiée à la serre Hélio"{% if page.url == '/serre-helio/' %} aria-current="page"{% endif %}>La serre Hélio</a>
-		</nav>
-	</div>
+    <button class="site-header-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Ouvrir le menu de navigation">
+      <span class="site-header-toggle-bar"></span>
+      <span class="site-header-toggle-bar"></span>
+      <span class="site-header-toggle-bar"></span>
+    </button>
+  </div>
 </header>
 
 <script>
@@ -113,12 +123,21 @@
 
 		const button = header.querySelector('.site-header-toggle');
 		const navigation = header.querySelector('.site-navigation');
+		const contactSection = header.querySelector('.site-navigation-contact-section');
+		const contactToggle = header.querySelector('.site-navigation-contact-toggle');
 
 		if (!button || !navigation) return;
+
+		const closeContactDropdown = () => {
+			if (!contactSection || !contactToggle) return;
+			contactSection.classList.remove('is-open');
+			contactToggle.setAttribute('aria-expanded', 'false');
+		};
 
 		const closeMenu = () => {
 			button.setAttribute('aria-expanded', 'false');
 			header.classList.remove('is-open');
+			closeContactDropdown();
 		};
 
 		button.addEventListener('click', () => {
@@ -128,7 +147,17 @@
 		});
 
 		navigation.querySelectorAll('a').forEach((link) => {
-			link.addEventListener('click', closeMenu);
+			if (link === contactToggle) {
+				link.addEventListener('click', (e) => {
+					e.preventDefault();
+					if (!contactSection || !contactToggle) return;
+					const isOpen = contactSection.classList.contains('is-open');
+					contactSection.classList.toggle('is-open', !isOpen);
+					contactToggle.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+				});
+			} else {
+				link.addEventListener('click', closeMenu);
+			}
 		});
 
 		document.addEventListener('keydown', (event) => {
@@ -140,6 +169,11 @@
 		document.addEventListener('click', (event) => {
 			if (!header.contains(event.target)) {
 				closeMenu();
+				return;
+			}
+
+			if (contactSection && !contactSection.contains(event.target)) {
+				closeContactDropdown();
 			}
 		});
 	})();
