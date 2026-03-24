@@ -1,3 +1,7 @@
+<div style="background-color: #a0b0a5; padding: 20px; display: flex; justify-content: center;">
+  <img src="src/assets/logo-transparent.png" alt="Logo Vegeto">
+</div>
+
 # ✍️ Comment ajouter du contenu
 
 Ordre recommande a chaque debut de session :
