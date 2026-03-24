@@ -60,19 +60,35 @@ layout: layouts/base
     {% endif %}
   </div>
 
+  {% assign has_testimonial_content = false %}
   {% if testimonial %}
+    {% if testimonial.quote != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+    {% if testimonial.author != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+    {% if testimonial.role != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+    {% if testimonial.image != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+  {% endif %}
+
+  {% if has_testimonial_content %}
     <div class="realisation-testimonial{% if cta %} realisation-testimonial--with-cta{% else %} realisation-testimonial--no-cta{% endif %}">
       <div class="testimonial-content">
-        {% if testimonial.image %}
+        {% if testimonial.image != blank %}
           <div class="testimonial-avatar">
             {% image testimonial.image, testimonial.author, 200, "200px" %}
           </div>
         {% endif %}
         <div>
-          <blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>
+          {% if testimonial.quote != blank %}<blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>{% endif %}
           <div class="testimonial-author">
             <div class="testimonial-info">
-              <p class="testimonial-name">{{ testimonial.author }}</p>
+              {% if testimonial.author != blank %}<p class="testimonial-name">{{ testimonial.author }}</p>{% endif %}
               {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
             </div>
           </div>

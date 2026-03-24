@@ -9,6 +9,11 @@ tags:
 cta:
   text: SAVEURS DE TAUX
   link: 'https://saveurs-de-taux.com/'
+testimonial:
+  quote: ''
+  image: ''
+  author: ''
+  role: ''
 date: 2020-01-15T23:00:00.000Z
 draft: false
 ---

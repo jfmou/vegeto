@@ -31,12 +31,17 @@ const getSocialImageUrl = async (src) => {
 };
 
 const imageShortcode = async (src, alt, widths = IMG_DEFAULT_WIDTHS, sizes = IMG_DEFAULT_SIZES) => {
+  if (typeof src !== "string" || !src.trim()) {
+    return "";
+  }
+
   // Handle single width value (convert to array)
   const widthsArray = Array.isArray(widths) ? widths : [widths];
   
-  let imageSrc = src;
-  if (src.startsWith('/assets')) {
-    imageSrc = 'src' + src;
+  const normalizedSrc = src.trim();
+  let imageSrc = normalizedSrc;
+  if (normalizedSrc.startsWith('/assets')) {
+    imageSrc = 'src' + normalizedSrc;
   }
 
   const metadata = await Image(imageSrc, {
@@ -47,7 +52,7 @@ const imageShortcode = async (src, alt, widths = IMG_DEFAULT_WIDTHS, sizes = IMG
   });
 
   return generateHTML(metadata, {
-    alt,
+    alt: typeof alt === "string" ? alt : "",
     sizes,
     loading: "lazy",
     decoding: "async",
