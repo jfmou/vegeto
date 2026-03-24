@@ -12,7 +12,7 @@
       "text": "dont les déjections riches en éléments organiques font office de source de nutriments pour les plantes.\n"
     },
     {
-      "title": "les bactéries",
+      "title": "les micro-organismes",
       "text": "qui ont un rôle d’intermédiaire en convertissant les effluents des poissons en nutriments assimilables par les plantes.\n"
     },
     {
@@ -27,7 +27,7 @@
     {
       "title": "Écologiques",
       "items": [
-        "Très faible utilisation d'eau et d'engrais,",
+        "Consommation minime d'eau et d'engrais,",
         "Absence totale de rejets dans l'environnement,",
         "Aucun antibiotique ni pesticide de synthèse,",
         "Principes basés sur le vivant et pratiques \"plus bio que le Bio\"."
@@ -43,39 +43,39 @@
       ]
     },
     {
-      "title": "Pédagogiques & sociaux",
+      "title": "Sociaux & pédagogiques ",
       "items": [
         "Production locale de poissons (rare dans nos territoires continentaux) et de fruits et légumes,",
         "Intensif en emploi par unité de surface,",
-        "Travail allegé et dans des conditions ergonomiques,",
+        "Travail allégé et dans des conditions ergonomiques,",
         "Outil pédagogique et vecteur de liens."
       ]
     }
   ],
-  "whyFooter1": "Enfin, il est possible d'**élever et de cultiver une énorme variété de poissons d'eau douce et de plantes !**\n",
-  "whyFooter2": "Du coté des freins, l'aquaponie est techniquement complexe, relativement coûteuse en investissements, et ne présente pas de modèle technico-économique type. Chaque projet est unique !\n",
+  "whyFooter1": "Enfin, il est possible d'**élever et de cultiver une énorme variété de poissons et de plantes !**\n",
+  "whyFooter2": "Du coté des freins, l'aquaponie est techniquement complexe, relativement important en investissements, et ne présente pas de modèle technico-économique type. Chaque projet est unique !\n",
   "whySourceUrl": "https://www.stockholmresilience.org/research/planetary-boundaries.html",
   "prestationsTitle": "Nos prestations",
-  "prestationsIntroContent": "Chaque projet étant unique, notre approche est de vous proposer des **solutions sur-mesure** selon vos envies d’aquaponie.\n\nDe l’idée à l’exploitation, du système d’agrément à la ferme commerciale, notre expertise se fonde sur un accompagnement à la carte.\n",
-  "prestationsFooter": "Nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : **agriculteurs en projet d’installation ou en activité, entreprises, associations, collectivités, particuliers…**\n",
+  "prestationsIntroContent": "À la fois bureau d'études, artisans et formateurs, nous pouvons mener chaque phase d'un projet d'aquaponie.\n\nChaque cas étant unique, notre approche est de vous proposer des **solutions sur-mesure** selon vos envies d’aquaponie.\nDe l’idée à l’exploitation, du système d’agrément à la ferme commerciale, notre expertise se fonde sur un accompagnement à la carte.\n",
+  "prestationsFooter": "Nous nous adressons à tous types de publics portant des valeurs écologiques et sociales : **agriculteurs en installation ou en activité, entreprises, associations, collectivités, particuliers…**\n",
   "prestations": [
     {
       "slug": "conception",
       "title": "Conception",
       "image": "/assets/Vegeto-homepage-prestations-conception.jpg",
       "imageAlt": "Illustration de la prestation Conception",
-      "paragraph1": "L’étape préliminaire nécessaire à tout projet d’ampleur ou à caractère innovant est une phase d’étude. Cette phase peut se décliner en une **pré-étude** au stade de l’idée et de la recherche de foncier ou de financement, en une **étude détaillée** au stade d’avant-projet, ou sous forme de **conseil**.\n",
-      "paragraph2": "Les livrables d’une étude comprennent généralement un volet de présentation du projet avec argumentaire, un volet technique avec conception détaillée et plans 2D, et un volet économique avec chiffrage des investissements basé sur devis réels et prévisionnel sommaire.\n",
-      "paragraph3": "Nous proposons également des supports de présentation en collaboration avec un designer graphique, des modélisations 3D, un plan d’affaire réalisé avec un cabinet d’expert-comptable, une assistance au dépôt de dossiers administratifs et de demandes de subventions…\n"
+      "paragraph1": "L’étape préliminaire nécessaire à tout projet de ferme ou à caractère innovant est une **phase** **d’étude**.\nCette phase peut se décliner en une **pré-étude** (étude de faisabilité) au stade de l’idée et de la recherche de foncier ou de financement, en une **étude détaillée** au stade d’avant-projet, ou sous forme de **conseil**.\n",
+      "paragraph2": "Les livrables d’une étude comprennent principalement un volet **technique** avec conception détaillée du projet et plans 2D, un volet **économique** avec chiffrage complet des investissements basé sur devis réels et tous les éléments d'un prévisionnel, et un volet de présentation du projet avec toutes les **explications** vous permettant de monter en compétences.\nNous proposons également des modélisations 3D, une assistance sur les dossiers administratifs et de subventions, un plan d’affaire complet avec cabinet d’expert-comptable…\n",
+      "paragraph3": "Le but final étant d'aboutir à un projet qui vous ressemble et prêt à être déployé en phase de travaux !\n"
     },
     {
       "slug": "installation",
       "title": "Installation",
       "image": "/assets/Vegeto-homepage-prestations-installation.jpg",
       "imageAlt": "Illustration de la prestation Installation",
-      "paragraph1": "**Notre cœur d’activité est l’installation de systèmes aquaponiques clé en main.** N’ayant jamais réalisé deux installations identiques, nous aimons nous adapter à vos attentes, que ce soit pour une grande serre commerciale ou une petite installation esthétique d’intérieur.\n",
-      "paragraph2": "Une prestation de réalisation comprend généralement la pré-fabrication en atelier puis le montage sur site, la mise en fonctionnement avec réglages, une formation sur le terrain, et la fourniture de fiches de pilotage, du petit matériel et des consommables.\n",
-      "paragraph3": "Nous proposons également d’assurer l’introduction du vivant et l’entretien complet ou le suivi de l’installation.\n"
+      "paragraph1": "Notre cœur d’activité est **l’installation de systèmes aquaponiques clé en main.** N’ayant jamais réalisé deux installations identiques, nous aimons nous adapter à vos attentes, que ce soit pour une grande serre commerciale ou une petite installation esthétique d’intérieur.\n",
+      "paragraph2": "Une prestation de réalisation comprend généralement **l'ensemble** **du** **chantier** en maître d'œuvre avec le montage complet sur site, la mise en fonctionnement de l'installation avec réglages, le petit matériel et les consommables, la formation sur le terrain et les documents de pilotage.\nNous proposons également d’assurer l’introduction du vivant, puis l’entretien complet ou la maintenance de l’installation.\n",
+      "paragraph3": "Et si vous disposez de compétences manuelles, nous pouvons également vous accompagner en assistance à maîtrise d'ouvrage.\n"
     },
     {
       "slug": "transmission",
@@ -83,12 +83,12 @@
       "image": "/assets/Vegeto-homepage-prestations-transmission.jpg",
       "imageAlt": "Illustration de la prestation Transmission",
       "paragraph1": "Une étape majeure de tout projet aquaponique est **l’acquisition de connaissances**, l’aquaponie étant un domaine nécessitant des compétences variées pour assurer à minima le bon fonctionnement d’un système.\n",
-      "paragraph2": "Depuis la création de Végéto, nous avons prodigué des centaines d’heures de formation en aquaponie, sous forme d’enseignement dans des établissements du supérieur, de formation à la carte pour des groupes d’initiés, ou d’atelier de sensibilisation sur notre site pour des groupes d’adultes ou de jeunes scolaires.\n",
-      "paragraph3": ""
+      "paragraph2": "Depuis la création de Végéto, nous avons prodigué plus de mille heures de formation en aquaponie sous forme d’enseignement dans des établissements du supérieur, de formation à la carte pour des groupes d’initiés, ou d’atelier de sensibilisation sur notre site.\n",
+      "paragraph3": "Nous veillons également à transmettre au maximum nos connaissances lors des prestations de conception et d'installation afin d'assurer aux porteurs de projet la plus grande autonomie possible.\n"
     }
   ],
   "realisationsTitle": "Nos réalisations",
-  "realisationsIntro": "Après plusieurs années d’activité, nous avons eu la chance de contribuer à développer l’aquaponie en nous engageant dans une très grande diversité de projets.\n",
+  "realisationsIntro": "Après bientôt dix ans d’activité, nous avons eu la chance de contribuer à développer l’aquaponie en nous engageant dans une très grande diversité de projets :\n",
   "realisationsCards": [
     {
       "title": "La Ferme Aquaponique du Pays de Gex",
@@ -157,10 +157,10 @@
     },
     {
       "link": "https://aquares.tech/",
-      "linkTitle": "Accéder au site d'aquaponie.net",
+      "linkTitle": "Accéder au site d'Aquares",
       "image": "/assets/aquares-0-1.png",
       "imageAlt": "Logo d'aquaponie.net",
-      "text": "*Fondateur de la première ferme aquaponique de France.*\n"
+      "text": "*Concepteur de nombreuses fermes aquaponiques en France.*\n"
     },
     {
       "link": "https://bioponi.com/",
