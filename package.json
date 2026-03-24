@@ -10,8 +10,10 @@
     "build-assets": "cp -a ./src/assets ./dist/",
     "dev": "npx tinacms dev -c \"npx eleventy --serve\"",
     "debug": "DEBUG=* npx eleventy",
+    "sync-content": "bash ./scripts/sync-content.sh",
     "save": "bash ./scripts/save-content.sh",
-    "publish": "bash ./scripts/publish-content.sh"
+    "publish": "bash ./scripts/publish-content.sh",
+    "cleanup": "bash ./scripts/cleanup-merged-content-branches.sh"
   },
   "repository": {
     "type": "git",
