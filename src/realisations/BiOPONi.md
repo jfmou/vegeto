@@ -20,7 +20,7 @@ draft: false
 
 **BiOPONi est un cabinet d’ingénierie dans le domaine de l’aquaponie professionnelle.** Fondé en 2018, BiOPONi compte aujourd’hui une quarantaine de projets aquaponiques à échelle commerciale accompagnés à travers le monde, pour la majorité en France métropolitaine mais également dans les DROM-COM, en Europe et en Afrique.
 
-En tant qu’organisme de formation, BiOPONi prodigue des formations en Aquaponie Professionnelle dans différents territoires à destination des futurs professionnels de l‘aquaponie, sur un format de trois jours dont deux jours de théorie avec la venue d‘intervenants professionnels du domaine et un jour de visite de la ferme aquaponique [Eauzons](https://www.eauzons.fr/).
+En tant qu’organisme de formation, BiOPONi prodigue des formations en Aquaponie Professionnelle dans différents territoires à destination des futurs professionnels de l‘aquaponie, sur un format de trois jours dont deux jours de théorie avec la venue d‘intervenants professionnels du domaine et un jour de visite de la ferme aquaponique *[Eauzons](https://www.eauzons.fr/)*.
 
 ![](/assets/vegeto-transmission-bioponi-2.jpg)![](/assets/vegeto-transmission-bioponi-3.jpg)![](/assets/vegeto-transmission-bioponi-4.jpg)
 

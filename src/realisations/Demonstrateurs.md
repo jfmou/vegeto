@@ -12,11 +12,11 @@ draft: false
 
 Au début de notre activité professionnelle, **nous avons conçu et fabriqué différentes installations aquaponiques** ayant pour but d’être des preuves de concept et de démontrer notre savoir-faire en plus de produire des poissons et des végétaux pour notre propre consommation. 
 
-Ces installations ont été exploité dans un premier temps en intérieur dans notre premier local près de Soissons et sont aujourd’hui sur notre nouveau site de l’Hermitage. Nous les avons également fréquemment déménagées dans les salons où nous participions pendant nos premières années d’activité !
+Ces installations ont été exploitées dans un premier temps en intérieur dans notre premier local près de Soissons et sont aujourd’hui sur notre site du tiers-lieu de l’Hermitage. Nous les avons également fréquemment déménagées dans les salons où nous participions pendant nos premières années d’activité !
 
 ![](/assets/vegeto-installation-demonstrateurs-2.jpg)![](/assets/vegeto-installation-demonstrateurs-3.jpg)![](/assets/vegeto-installation-demonstrateurs-4.jpg)
 
-Elles sont à l’heure actuelle toujours en fonctionnement et produisent également des poissons et des végétaux pour l’équipe et le café-cantine de l’Hermitage en plus d’avoir toujours leur rôle pédagogique.
+Elles sont à l’heure actuelle toujours en fonctionnement et produisent des poissons et des végétaux pour l’équipe et le café-cantine de l’Hermitage en plus d’avoir toujours leur rôle pédagogique.
 
 Nous avons pratiqué le maintien de nombreuses espèces de poissons : truites, carpes, tanches, esturgeons, goujons, gardons, ides, poissons rouges, perche arc-en-ciel, tilapias...
 

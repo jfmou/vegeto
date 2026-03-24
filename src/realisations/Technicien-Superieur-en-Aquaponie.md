@@ -24,4 +24,4 @@ Aquaponia a ainsi mis en place depuis 2020 deux formations professionnalisantes 
 
 ![](/assets/vegeto-transmission-tech-sup-2.jpg)![](/assets/vegeto-transmission-tech-sup-3.jpg)
 
-Ainsi, nous sommes intervenus plusieurs années auprès des apprenants techniciens pour l’enseignement du dimensionnement du rapport entre les boucles piscicoles et horticoles en plus de la présentation de nos activités et de nos projets.
+Ainsi, nous sommes intervenus plusieurs années auprès des apprenants techniciens sur le dimensionnement entre les boucles piscicoles et horticoles en plus de la présentation de nos activités et de nos projets.
