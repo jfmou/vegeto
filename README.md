@@ -1,5 +1,13 @@
 # ✍️ Comment ajouter du contenu
 
+Ordre recommande a chaque debut de session :
+
+1. `npm run sync-content`
+2. `npm run dev`
+3. modifier le contenu dans Tina
+4. `npm run save`
+5. `npm run publish`
+
 - [✍️ Comment ajouter du contenu](#️-comment-ajouter-du-contenu)
     - [1. un environement UNIX / OSX avec bash ou shell](#1-un-environement-unix--osx-avec-bash-ou-shell)
     - [2. node.js LTS](#2-nodejs-lts)
@@ -57,13 +65,14 @@
 
 ## 🌐 Récupérer la dernière version du site
 
-```sh
-$ git fetch --prune
-...
+Commencer toujours par cette commande avant de lancer des modifications, puis avant d'utiliser `npm run save` et `npm run publish` sur une nouvelle session de travail.
 
-$ git checkout origin/master -B master
+```sh
+$ npm run sync-content
 ...
 ```
+
+`npm run sync-content` recupere les changements depuis `origin`, nettoie les references obsoletes, supprime les branches locales `f/new-content-*` deja mergees, puis remet `master` a jour avec `origin/master`.
 
 ## 🤖 lancer le serveur
 
@@ -81,10 +90,12 @@ $ npm install && npm run dev
 ## 💾 les sauvegarder dans git (ouvrir une nouvelle interface Ubuntu en gardant la première ouverte)
 
 ```sh
-$ git fetch --prune
-$ git checkout origin/master -B master
 $ npm run save
 ```
+
+`npm run save` crée une nouvelle branche `f/new-content-...`, ajoute tous les changements et crée un commit.
+
+Cette commande s'utilise apres `npm run sync-content` et apres les modifications dans Tina.
 
 ## 🚀 les publier sur github
 
@@ -92,7 +103,21 @@ $ npm run save
 $ npm run publish
 ```
 
+`npm run publish` pousse uniquement la branche courante (pas `--all`).
+
+Cette commande s'utilise apres `npm run save`.
+
 ## ⛙ fusionner les modifications avec la base de code
 
 => [https://github.com/jfmou/vegeto/pulls](https://github.com/jfmou/vegeto/pulls) pour valider les modifications et les intégrer à la branche commune :)
 Onglet "Pull Request", créer pull request "New Pull Request", "Base:Master - Compare:new-content", ATTENDRE que CI "validate-pr" devienne vert, commenter "/deploy-beta" dans commentaires, ATTENDRE que GitHub me commente que c'est un succès, "merge pull request" - "confirm merge"
+
+## 🧹 nettoyer les branches locales deja mergees
+
+```sh
+$ npm run cleanup
+```
+
+`npm run cleanup` supprime uniquement les branches locales `f/new-content-*` deja integrees dans `origin/master`.
+
+En pratique, `npm run sync-content` lance deja ce nettoyage. Cette commande reste utile seulement si tu veux nettoyer sans faire la synchronisation complete.

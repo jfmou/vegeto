@@ -1,5 +1,5 @@
 ---
-title: La Ferme Hydroponique de Rose
+title: Ferme Hydroponique de Rose
 location: Vendée
 baseline: Étude de faisabilité
 mainImg: /assets/logo-transparent.png

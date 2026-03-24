@@ -1,5 +1,5 @@
 ---
-title: La Ferme du Sens
+title: Domaine du Sens
 location: Saône-et-Loire
 baseline: Étude d’avant-projet détaillé
 mainImg: /assets/vegeto-conception-ferme-sens-1.jpg

@@ -1,5 +1,5 @@
 ---
-title: Le Jardin de l'Abondance
+title: Jardin de l'Abondance
 location: Abidjan
 baseline: Conseil
 mainImg: /assets/Vegeto-conception-diaco-1.png

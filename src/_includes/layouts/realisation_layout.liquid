@@ -25,7 +25,9 @@ layout: layouts/base
         <div class="realisation-heading-copy">
           <h1>{{ title }}</h1>
           {% if location %}<p class="realisation-location">{{ location }}</p>{% endif %}
-          {% if tags %}
+          {% if baseline %}
+            <p class="realisation-tags">{{ baseline }}</p>
+          {% elsif tags %}
             <p class="realisation-tags">
               {% for tag in tags %}
                 {% if tag != "realisation" %}{{ tag }}{% endif %}
@@ -49,9 +51,10 @@ layout: layouts/base
 
     {% if cta %}
       <div class="realisation-cta">
-        <a href="{{ cta.link }}" class="cta-button" target="_blank" title="Découvrir {{ cta.text }}" rel="noopener noreferrer nofollow">
+        {% assign cta_label = cta.text | default: title %}
+        <a href="{{ cta.link }}" class="cta-button" target="_blank" title="Découvrir {{ cta_label }}" rel="noopener noreferrer nofollow">
           <span class="btn-top">EN SAVOIR PLUS SUR</span>
-          <span class="btn-bottom">{{ title }}</span>
+          <span class="btn-bottom">{{ cta_label }}</span>
         </a>
       </div>
     {% endif %}
