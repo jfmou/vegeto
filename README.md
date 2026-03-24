@@ -65,7 +65,7 @@ Ordre recommande a chaque debut de session :
 
 ## 🌐 Récupérer la dernière version du site
 
-Commencer toujours par cette commande avant de lancer des modifications, puis avant d'utiliser `npm run save` et `npm run publish` sur une nouvelle session de travail.
+Commencer toujours par cette commande avant de lancer des modifications.
 
 ```sh
 $ npm run sync-content
