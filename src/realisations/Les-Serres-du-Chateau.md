@@ -20,7 +20,7 @@ draft: false
 
 Les Serres du Château est une exploitation horticole annexe de l’Établissement Public Local d’Enseignement et de Formation Professionnelle Agricole de Ribécourt (Oise) comprenant un lycée horticole, une Unité de Formation par Apprentissage (UFA), un Centre de Formation Professionnelle et de Promotion Agricole pour adultes (CFPPA).
 
-L’exploitation produit des plantes ornementales, des plants, des fruits et des légumes avec notamment la vente sur site dans leur magasin de producteurs et la valorisation d’une partie des produits à la cantine scolaire.
+L’exploitation produit des plantes ornementales, des plants, des légumes et des fruits avec notamment la vente sur site dans leur magasin de producteurs et la valorisation d’une partie des produits à la cantine scolaire.
 
 ![](/assets/vegeto-installation-serre-ribecourt-2.jpg)![](/assets/vegeto-installation-serre-ribecourt-4.jpg)![](/assets/vegeto-installation-serre-ribecourt-5.jpg)
 
@@ -28,4 +28,4 @@ Nous avons été sollicités pour la construction d’un système aquaponique af
 
 L’installation a depuis été le support de centaines d’heures de cours et de formation aux apprenants de l’établissement.
 
-La rénovation de la boucle piscicole sera effectuée en 2023 et d’autres espèces piscicoles que des carpes colorées seront élevées (truites notamment).
+La refonte de la boucle piscicole et la rénovation de la boucle horticole a depuis été effectuée en 2025.

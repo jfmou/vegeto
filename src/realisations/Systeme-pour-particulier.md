@@ -23,7 +23,8 @@ draft: false
 
 Cette réalisation est une installation aquaponique clés en main à destination d’un couple de particulier en Vendée. 
 
-Le but de cette installation à leur domicile est d'être à la fois un outil d’auto-production alimentaire mais également de démonstration, le projet étant à terme la création d’une ferme aquaponique commerciale.
+Le but de cette installation à leur domicile est d'être à la fois un outil d’auto-production alimentaire mais également d'expérimentation et de démonstration.
+En effet, ce pilote a été une étape avant la création d’une ferme commerciale, pour de la production finalement en hydroponie.
 
 ![](/assets/vegeto-installation-particuliers-2.jpg)![](/assets/vegeto-installation-particuliers-3.jpg)![](/assets/vegeto-installation-particuliers-4.jpg)
 
