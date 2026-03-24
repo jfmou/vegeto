@@ -39,5 +39,5 @@ fi
 git push -u origin "$branch"
 
 echo ""
-echo "Branche publiée: $branch"
-echo "Ouvrir les PR: https://github.com/jfmou/vegeto/pulls"
+echo "✅ Branche publiée: $branch"
+echo "🔎 Ouvrir les PR: https://github.com/jfmou/vegeto/pulls"
