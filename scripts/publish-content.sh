@@ -29,11 +29,14 @@ if [[ "$branch" == "master" ]]; then
   exit 1
 fi
 
-ahead_count="$(git rev-list --count "origin/$branch..$branch" 2>/dev/null || echo 0)"
+if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+  ahead_count="$(git rev-list --count "origin/$branch..$branch")"
 
-if [[ "$ahead_count" == "0" ]]; then
-  echo "Aucun commit local en avance sur origin/$branch."
-  echo "Push quand même pour initialiser le tracking si besoin..."
+  if [[ "$ahead_count" == "0" ]]; then
+    echo "Aucun commit local en avance sur origin/$branch."
+  fi
+else
+  echo "Première publication de la branche '$branch' (absente sur origin)."
 fi
 
 git push -u origin "$branch"
