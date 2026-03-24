@@ -1,5 +1,5 @@
 ---
-title: Aquaponie Professionnelle – BiOPONi
+title: Aquaponie Professionnelle
 location: Monde
 baseline: Formation
 mainImg: /assets/vegeto-transmission-bioponi-1.jpg

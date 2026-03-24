@@ -1,7 +1,7 @@
 ---
 title: EFP - Centre de Formation
 location: Bruxelles
-baseline: Formation
+baseline: Enseignement supérieur
 mainImg: /assets/107956536_3072679272780513_2689113624868431692_n.jpg
 tags:
   - realisation

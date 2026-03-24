@@ -1,7 +1,7 @@
 ---
-title: UniLaSalle Beauvais – Terre & Science
+title: UniLaSalle – Terre & Science
 location: Beauvais
-baseline: Enseignement
+baseline: Enseignement supérieur
 mainImg: /assets/vegeto-transmission-unilasalle-1.jpg
 tags:
   - realisation

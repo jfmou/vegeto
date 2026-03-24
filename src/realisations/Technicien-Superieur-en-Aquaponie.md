@@ -1,7 +1,7 @@
 ---
-title: Technicien Supérieur en Aquaponie
+title: Technicien en Aquaponie
 location: Mayenne
-baseline: Enseignement
+baseline: Enseignement supérieur
 mainImg: /assets/vegeto-transmission-tech-sup-1.jpg
 tags:
   - realisation
