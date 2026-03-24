@@ -17,7 +17,7 @@ date: 2021-11-30T23:00:00.000Z
 draft: false
 ---
 
-**La Mère-Mitage est le café-cantine associatif du tiers-lieu L’Hermitage** au sein duquel notre entreprise est installée. C’est le lieu pivot du site accueillant les usagers et visiteurs du site pour un café, un repas ou une soirée conviviale en fonction de la programmation culturelle.
+**La Mère-Mitage est le café-cantine associatif du [tiers-lieu L’Hermitage](https://www.hermitagelelab.com/)** au sein duquel notre entreprise est installée. C’est le lieu pivot du site accueillant les usagers et visiteurs du site pour un café, un repas ou une soirée conviviale en fonction de la programmation culturelle.
 
 Un système aquaponique au design épuré y a été intégré afin d’ajouter une touche décorative avec notamment la culture de plantes grimpantes, de représenter les entrepreneurs du site, et de produire toute l’année des herbes aromatiques entrant dans la confection des repas proposés à un tarif solidaire.
 

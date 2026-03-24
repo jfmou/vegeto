@@ -21,6 +21,6 @@ Dans le cadre de sa politique RSE (Responsabilité Sociale des Entreprises), cet
 
 ![](/assets/vegeto-installation-l-oreal-2.jpg)![](/assets/vegeto-installation-l-oreal-4.jpg)![](/assets/vegeto-installation-l-oreal-3.jpg)
 
-Ce système aquaponique sur-mesure présente à la fois une dimension esthétique avec l’emploi de bois massif et la transparence du bac aménagé en bassin d’ornement, le tout sans tuyaux apparents, une dimension pédagogique avec un coffret technique transparent présentant les éléments de filtration, et une dimension productive avec la culture de plantes comestibles. L’ensemble de l’éclairage a été fourni par Floraled. 
+Ce système aquaponique sur-mesure présente à la fois une dimension esthétique avec l’emploi de bois massif et la transparence du bac aménagé en bassin d’ornement, le tout sans tuyaux apparents, une dimension pédagogique avec un coffret technique transparent présentant les éléments de filtration, et une dimension productive avec la culture de plantes comestibles. L’ensemble de l’éclairage a été fourni par *[Floraled](https://www.floraled.fr/)*. 
 
 La gestion de l’installation a été effectuée quelques mois par nos soins pour son bon lancement puis transférée à une entreprise d’agriculture urbaine plus locale.

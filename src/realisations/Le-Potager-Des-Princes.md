@@ -23,7 +23,7 @@ draft: false
 
 **Le Potager des Princes est un jardin-parc animalier de 3 hectares** à Chantilly dans l’Oise, ouvert au public depuis 2002 sous l’impulsion d’Yves Bienaimé également fondateur du Musée Vivant du Cheval de Chantilly.
 
-Le Potager des Princes abrite à la fois un ensemble de 25 jardins, des parcelles potagères et de verger, des animaux en semi-liberté avec des animations ludiques et éducatives ainsi qu’une programmation culturelle.
+Le parc abrite à la fois un ensemble de 25 jardins, des parcelles potagères et de verger, des animaux en semi-liberté avec des animations ludiques et éducatives ainsi qu’une programmation culturelle.
 
 ![](/assets/vegeto-installation-potager-princes-3.jpg)![](/assets/vegeto-installation-potager-princes-4.jpg)![](/assets/vegeto-installation-potager-princes-2.jpg)
 

@@ -20,7 +20,7 @@ draft: false
 
 Nous proposons **l’animation d’ateliers autour de l’aquaponie, destiné à tous types de publics**. Ces ateliers peuvent comprendre différents ateliers : Explication de l’aquaponie autour des systèmes aquaponiques sur site, prélèvement de boutures ou de fleurs à emporter, transplantation de jeunes plants dans les systèmes, et pêche et récole pour finir par un atelier de cuisine / transformation des produits aquaponiques à emporter chez soi !
 
-Aux précédents menus : Truite pêchée vivante et transformée en truite marinée aux herbes aromatiques récoltées minute, pesto de cresson de fontaine et oignon nouveaux, sirop de menthe, sauces pimentées, pickles…
+Aux précédents menus : Truite pêchée vivante et transformée en truite marinée aux herbes aromatiques récoltées minute, pesto de cresson de fontaine et oignon nouveaux, sirop de menthe et de basilic, sauces pimentées variées, pickles selon les productions…
 
 Également, nous proposons des ateliers orientés « fabrication » avec la réalisation collaborative en atelier d’une petite installation aquaponique à ramener ensuite chez vous. 
 

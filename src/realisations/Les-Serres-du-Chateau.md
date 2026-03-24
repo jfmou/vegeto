@@ -26,6 +26,6 @@ L’exploitation produit des plantes ornementales, des plants, des légumes et d
 
 Nous avons été sollicités pour la construction d’un système aquaponique afin d’être un support pédagogique et de produire des fruits et légumes destinés à la vente sur place et à la cantine scolaire. 
 
-L’installation a depuis été le support de centaines d’heures de cours et de formation aux apprenants de l’établissement.
+L’installation a depuis été un atout pour l'enseignement de centaines d’heures *[de cours et de formation](https://beta.vegeto-aquaponie.fr/realisations/centre-de-formation-ribecourt/)* aux apprenants de l’établissement.
 
-La refonte de la boucle piscicole et la rénovation de la boucle horticole a depuis été effectuée en 2025.
+*[La refonte de la boucle piscicole](https://beta.vegeto-aquaponie.fr/realisations/les-serres-du-chateau/)* et la rénovation de la boucle horticole a depuis été effectuée en 2025.
