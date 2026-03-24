@@ -43,4 +43,4 @@ git merge --ff-only origin/master
 
 echo ""
 echo "Synchronisation terminee: master est a jour avec origin/master."
-echo "Prochaine etape: npm run dev"
+echo "Prochaine etape: npm install && npm run dev"
