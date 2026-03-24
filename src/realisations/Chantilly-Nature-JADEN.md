@@ -10,7 +10,10 @@ cta:
   text: JADEN
   link: 'https://www.jadenchantilly.fr/'
 testimonial:
-  quote: 'Belle rencontre avec Raphaël et Guillaume de Végéto qui par leur expertise, leur écoute et leur disponibilité ont tout de suite compris nos besoins et conçu une installation aquaponique de 240m² juste magnifique.'
+  quote: |-
+    Un grand merci à Raphaël et à toute l’équipe de Végéto pour la réalisation de notre serre aquaponique de 240m². 
+    Leur expertise, leur sérieux et leur passion ont permis de donner vie à un projet durable, autonome et parfaitement adapté à nos besoins. 
+    Un accompagnement attentif et humain que nous recommandons les yeux fermés !
   image: /assets/vegeto-conception-jaden-team.png
   author: Charles Ancelin
   role: Co-fondateur de JADEN
