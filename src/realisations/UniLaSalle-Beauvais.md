@@ -6,7 +6,6 @@ mainImg: /assets/vegeto-transmission-unilasalle-1.jpg
 tags:
   - realisation
   - transmission
-  - installation
 cta:
   text: UNILASALLE BEAUVAIS
   link: 'https://beauvais.unilasalle.fr/'
@@ -21,7 +20,7 @@ draft: false
 
 **L’Institut** **Polytechnique** **UniLaSalle** est une **école** **d’ingénieurs** dans les domaines de l’agriculture, de l’agroalimentaire, de l’alimentation-santé, de l’environnement, de la géologie, de l’énergie et du numérique. Il dispose de quatre campus : Beauvais le site historique, Amiens, Rouen et Rennes.
 
-Dans le cadre de leurs études, les étudiants doivent choisir un module de vingt heures parmi une grande offre au cours de leur deuxième année d’enseignement. Ainsi, nous enseignons tous les ans un module d’aquaponie depuis 2022 à une trentaine d’étudiants sur le site de Beauvais.
+Dans le cadre de leurs études, les étudiants doivent choisir un module de vingt heures parmi une grande offre au cours de leur deuxième année d’enseignement. Ainsi, nous enseignons tous les ans depuis 2022 un module d’aquaponie à une trentaine d’étudiants sur le site de Beauvais.
 
 Le programme comprend une partie théorique, la visite de la *[Ferme Aquaponique De l'Abbaye](https://aquaponienormandie.com/)*, ferme aquaponique commerciale pionnière en France, et un travail par groupes de conception de systèmes aquaponiques divers et variés.
 

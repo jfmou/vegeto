@@ -24,4 +24,4 @@ En tant qu’organisme de formation, BiOPONi prodigue des formations en Aquaponi
 
 ![](/assets/vegeto-transmission-bioponi-2.jpg)![](/assets/vegeto-transmission-bioponi-3.jpg)![](/assets/vegeto-transmission-bioponi-4.jpg)
 
-Dans ce cadre, nous avons été partenaires de BiOPONi pendant plusieurs années en tant que co-formateur pendant toute la durée de chaque session de formation. 
+Dans ce cadre, nous avons été partenaires de BiOPONi lors d'une dizaine de formations, en tant que co-formateur pendant toute la durée de chaque session. 
