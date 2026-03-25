@@ -22,8 +22,8 @@ draft: false
 
 En cours de travaux, la ferme comprendra notamment une installation aquaponique commerciale de petite échelle pour la production de tilapias et de divers légumes d'ici fin 2026, à destination des habitants locaux.
 
-La première phase de conception ayant été réalisée en amont avec l'aide d'un architecte, un consultant aquacole et un consultant hydroponique locaux, nous avons été sollicités pour une prestation de conseil.
+![](/assets/Vegeto-conception-diaco-2.png)![](/assets/Vegeto-conception-diaco-3.png)![](/assets/Vegeto-conception-diaco-4.png)
+
+La première phase de conception ayant été réalisée en amont avec l'aide d'un architecte, d'un consultant aquacole et d'un consultant hydroponique locaux, nous avons été sollicités pour une prestation de conseil.
 
 Sur la base de documents fournis par l'association, notre travail a consisté en plusieurs séances d'échanges ainsi que la production de documents et de ressources didactiques afin d'aboutir à une modélisation 3D de l'installation avec le dimensionnement des différents éléments et aux choix des fournisseurs.
-
-![](/assets/Vegeto-conception-diaco-2.png)![](/assets/Vegeto-conception-diaco-3.png)![](/assets/Vegeto-conception-diaco-4.png)

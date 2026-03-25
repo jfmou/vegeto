@@ -22,12 +22,14 @@ date: 2017-06-30T22:00:00.000Z
 draft: false
 ---
 
-**L’Établissement et Service d'Aide par le Travail (ESAT) des étangs de Lachaussée est un établissement médico-social** dans la Meuse ayant pour objectif l'insertion sociale et professionnelle des adultes handicapés. 
+**L’Établissement et Service d'Aide par le Travail (ESAT) des étangs de Lachaussée** est **un établissement médico-social** dans la Meuse ayant pour objectif l'insertion sociale et professionnelle des adultes handicapés. 
 
-Situé au sein d'un site classé Réserve Naturelle avec un étang de 300 hectares, cet établissement mène historiquement une activité de pisciculture en étang, ainsi que diverses productions et de transformation alimentaire et de restauration sur le site. Une quarantaine de personnes en situation de handicap sont employées sur le site.
+Situé au sein d'un site classé Réserve Naturelle avec un étang de 300 hectares, cet établissement mène historiquement des activités de pisciculture en étang et de diverses autres productions agricoles, de transformation alimentaire et de restauration sur le site. 
+
+Leur intérêt pour l'aquaponie était ainsi de remplacer l’élevage de volailles et de lapin trop énergivores et le maraîchage en pleine terre pas assez ergonomique, tout en renforçant la cohérence avec les activités historiques du site.
 
 ![](/assets/vegeto-conception-etang-lachaussee-2.jpg)![](/assets/vegeto-conception-etang-lachaussee-3.jpg)![](/assets/vegeto-conception-etang-lachaussee-4.jpg)
 
-Le travail d’étude a porté sur la réhabilitation d'anciens bassins piscicoles non utilisés en un système aquaponique d’échelle commerciale avec des cultures végétales sous serre attenant aux bassins, ainsi que la création d'un système de culture de plantes aquatiques issues de la Réserve Naturelle. L’objectif était d’offrir une nouvelle activité économique en remplacement de l’élevage de volailles et de lapin en gardant une cohérence avec les activités historiques du site et les enjeux environnementaux, et ce dans des conditions de travail ergonomiques.
+Le travail d’étude a porté sur un système aquaponique d’échelle commerciale avec la réhabilitation d'anciens bassins piscicoles pour un élevage recirculé et des cultures végétales attenant aux bassins abritées sous serre, ainsi que la création en parallèle d'un système de culture de plantes aquatiques issues de la Réserve Naturelle. 
 
 L’ESAT des Etangs de Lachaussée a finalement développé depuis 2019 une activité de production de plantes hélophytes, une première dans le grand Est, à destination des particuliers et des professionnels. Des plantes hélophytes sont des plantes poussant au bord des étangs ou des marais dont le système racinaire est immergé et l’ensemble de la partie aérienne est au-dessus de l’eau.
