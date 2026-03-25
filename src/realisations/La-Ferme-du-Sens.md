@@ -1,5 +1,5 @@
 ---
-title: Domaine du Sens
+title: Le Domaine du Sens
 location: Saône-et-Loire
 baseline: Étude d’avant-projet détaillé
 mainImg: /assets/vegeto-conception-ferme-sens-1.jpg
@@ -21,13 +21,10 @@ draft: false
 
 Le Domaine du Sens est un terrain de 13 hectares entre forêt, prairie, étangs et sources d’eau au cœur de la Bresse en Saône-et-Loire en Région Bourgogne-Franche-Comté, et où l’ancienne ferme traditionnelle a été aménagée en maison d’hôtes.
 
-Abritant d’ores et déjà une micro ferme pédagogique, l’objectif des porteurs de projet est d’établir sur le domaine une ferme aquaponique commerciale.
-
-Le but de cette étude d’avant-projet détaillé est de concevoir le design et les éléments techniques de la serre aquaponique ainsi que de chiffrer le coût des investissements avec références fournisseurs et prix afférents, d’estimer les charges et les revenus en se basant sur les éléments fournis en amont, un compte de résultat indicatif, un calendrier jusqu’à l’état stationnaire… Également, les plans en deux dimensions et une modélisation en trois dimensions des installations ont été fournis. Enfin, le tout a été explicité dans un dossier rédactionnel.
+Abritant d’ores et déjà une micro ferme pédagogique, l’objectif des porteurs de projet était d’établir sur le domaine une ferme aquaponique commerciale couplée à une activité annexe de pépinière.
 
 ![](/assets/vegeto-conception-ferme-sens-2.jpg)![](/assets/vegeto-conception-ferme-sens-4.jpg)![](/assets/vegeto-conception-ferme-sens-3.jpg)
 
-Végéto a ainsi conçu une installation aquaponique de 1250m² comprenant un compartiment d’élevage piscicole, un compartiment de culture hydroponique comprenant des cultures en NFT, radeaux en eaux profondes et en gouttières suspendues, ainsi qu’un espace pépinière.
+Végéto a ainsi conçu une installation aquaponique de 1250m² comprenant un compartiment d’élevage de truites, un compartiment de culture hydroponique comprenant des cultures en NFT, en radeaux en eaux profondes et en gouttières suspendues pour des fraises, ainsi qu’un espace pépinière.
 
-Le volet actuel du projet porte en priorité sur la pépinière en 2024, avec
-un potentiel développement par la suite du volet aquaponique.
+Le projet actuel porte désormais en priorité sur la pépinière, avec un potentiel développement du volet aquaponique par la suite.
