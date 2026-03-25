@@ -9,6 +9,11 @@ tags:
 cta:
   text: L'EFP
   link: 'https://www.efp.be/'
+testimonial:
+  quote: 'Super reconnaissante d’avoir rencontré Raphaël au cours de cette formation. Il a nourri mon intérêt pour penser les alternatives de production alimentaire, et bon pédagogue qui plus est. L’installation hydroponique a permis d’intégrer l’apprentissage par l’expérience et par là-même de concrétiser la théorie d’une pratique qui paraît moins intuitive que le travail en pleine terre. Je recommande chaleureusement !'
+  image: /assets/Vegeto-installation-EFP-5-Team.jpeg
+  author: Éléonore
+  role: Apprenante en formation de maraîchage urbain 2024
 date: 2024-09-01T13:33:16.691Z
 draft: false
 ---
