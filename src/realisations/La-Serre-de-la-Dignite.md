@@ -26,14 +26,14 @@ draft: false
 
 Les Maisons de la Dignité est une association à but non lucratif menant diverses actions d’aide aux travailleurs précaires en situation de mal logement à Tours. 
 
-Si l’axe principal de l’association est la construction et la gestion d’un lieu de vie acquis en 2022, une ferme hydroponique a en parallèle été conçue puis installée en 2021. La Serre de la Dignité est ainsi une ressource pour l’association en constituant à la fois une activité économique et un lieu d’insertion et de rencontres.
+Si l’axe principal de l’association est la construction et la gestion de la Maison Gabriel, lieu de vie et d'activités acquis en 2022, une micro-ferme hydroponique a en parallèle été créée en 2021 dans une serre voisine mise à disposition. La Serre de la Dignité est ainsi une ressource pour l’association en constituant à la fois une activité économique et un lieu d’insertion et de rencontres.
 
 Au-delà de la production de végétaux variés (herbes aromatiques, légumes-feuille, légumes-fruits, fleurs comestibles…), la Serre de la Dignité propose diverses activités comme des visites guidées, des formations et ateliers pour les adultes et les enfants, des interventions de sensibilisation dans les collèges…
 
 ![](/assets/vegeto-conception-serre-dignite-4.jpg)![](/assets/vegeto-conception-serre-dignite-5.jpg)![](/assets/vegeto-conception-serre-dignite-2.jpg)
 
-Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de conseil, les porteurs de projet ayant déjà fourni un travail important en amont avec la rédaction d’un plan d’affaires et la détection du futur site de production. La prestation a notamment consisté en un amendement global du plan d’affaires avec un compte-rendu détaillé comprenant calculs de dimensionnement, plans d’aménagement de la serre, enrichissement du compte de résultat prévisionnel, recommandations d’ordre général, et des échanges téléphoniques.
+Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de conseil, les porteurs de projet ayant fourni un travail important en amont avec la production d'un plan d’affaires et la détection du futur site de production. La prestation a notamment consisté en un apport technique (dimensionnement, plans et chiffrage de l'installation), un amendement global du plan d’affaires et des recommandations d’ordre général.
 
 L’entreprise Terra Aquatica a ensuite poursuit l’accompagnement et la fourniture du matériel de culture.
 
-L’équipe de bénévoles de la Serre de la Dignité a ensuite entrepris le chantier d’installation des systèmes hydroponiques, et la serre est depuis en production !
+L’équipe de bénévoles de la Serre de la Dignité a ensuite entrepris le chantier d’installation des systèmes hydroponiques et a vécu plusieurs années de production. La majorité des systèmes ont désormais été déménagés au sein de la Résidence Gabriel.

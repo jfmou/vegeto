@@ -20,10 +20,16 @@ draft: false
 
 **La Ferme Aquaponique du Pays de Gex est une ferme aquaponique commerciale** située à Versonnex dans le Jura à la frontière suisse. 
 
-La serre de 2000m² produit des truites et ponctuellement des sandres ainsi que diverses espèces végétales, commercialisés brutes ou transformés, à destination des particuliers et des restaurateurs des alentours.
+La serre de 2000m² produit principalement des truites arc-en-ciel ainsi qu'une grande variété d'espèces végétales.
+
+Au delà des poissons et des plantes vendues brutes, un large éventail de produits transformés sont préparés dans leur laboratoire avec de la truite fumée, en gravlax, en verrines variées et sublimes, et du côté des plantes, notamment un véritable savoir-faire sur les sauces pimentées !
+
+Les produits sont commercialisés dans leur boutique et sur les marchés pour les particuliers, et livrés pour les restaurateurs des alentours.
+La ferme organise également régulièrement des portes ouvertes avec visites, animations et déjeuners de leurs spécialités.
+
 
 ![](/assets/vegeto-conception-pays-de-gex-3.jpg)![](/assets/vegeto-conception-pays-de-gex-2.jpg)![](/assets/vegeto-conception-pays-de-gex-4.jpg)
 
-Cette prestation d'étude nous a été commandée en 2019 par le porteur de projet pour la conception complète de la serre aquaponique déclinée en trois scénarios. Notre travail a été validé par Grégory Biton d'Aquares, pionner de l’aquaponie en France et concepteur de plusieurs fermes aquaponiques en France, qui a par la suite repris l'étude sur la serre et dimensionné les postes annexes, puis mené les travaux de réalisation de la ferme.
+Cette prestation d'étude nous a été commandée en 2019 au stade de l'idée par Michel Peter pour la conception complète de la serre aquaponique, et nous le remercions encore pour sa confiance à l'époque. L'étude de l'installation a été déclinée en trois grands scénarios détaillés. Notre travail a ensuite été validé et élargi sur les postes annexes de la serre par le bureau d'études Aquares, qui a ensuite mené les travaux de réalisation de la ferme.
 
-L’achat du terrain et l’ensemble des travaux ont eu lieu en 2020, et la Ferme Aquaponique du Pays de Gex a commencé ses premières productions en 2021 et poursuit son développement depuis !
+L’achat du terrain et l’ensemble des travaux ont eu lieu en 2020, la Ferme Aquaponique du Pays de Gex a démarré ses premières productions en 2021, et poursuit son développement depuis !
