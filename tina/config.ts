@@ -725,6 +725,32 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "realisationsPage",
+        label: "Page Réalisations",
+        path: "src/_data",
+        format: "json",
+        match: {
+          include: "realisationsPage",
+        },
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          {
+            type: "rich-text",
+            name: "intro",
+            label: "[Page Réalisations] Paragraphe d'introduction (riche)",
+            required: true,
+            parser: {
+              type: "markdown",
+            },
+          },
+        ],
+      },
     ],
   },
   search: {
