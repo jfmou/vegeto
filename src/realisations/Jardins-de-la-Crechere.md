@@ -19,7 +19,7 @@ La Créchère est une propriété de 6ha en Anjou comprenant 4ha de terres agric
 
 Forts d’une formation de *[Technicien Supérieur en Aquaponie](https://beta.vegeto-aquaponie.fr/realisations/technicien-superieur-en-aquaponie/)* et d’une expérience professionnelle de chefs d’entreprise pendant 20 ans, leur souhait a été de développer une ferme aquaponique.
 
-![](/assets/Vegeto_conception_Crechere_2.jpg)![](/assets/Vegeto_conception_Crechere_3.png)
+Dans ce cadre l’étude de faisabilité a été réalisée en co-construction avec les porteurs de projet en parallèle de leur validation de leur *[formation de Technicien Supérieur en Aquaponie](https://beta.vegeto-aquaponie.fr/realisations/technicien-superieur-en-aquaponie/)*. L’étude a ainsi porté sur deux scénarios avec le dimensionnement global des installations, l’estimation par gros postes des investissements, charges et produits de l’exploitation comprenant la transformation, des comptes de résultat prévisionnels sommaires, des plannings de production piscicoles et horticoles en collaboration avec les porteurs de projets, ainsi que des modélisations 3D et des schémas 2D avec plans de masse et de coupe.
 
 Dans ce cadre l’étude de faisabilité a été réalisée en co-construction avec les porteurs de projet en parallèle de leur validation de leur *[formation de Technicien Supérieur en Aquaponie](https://beta.vegeto-aquaponie.fr/realisations/technicien-superieur-en-aquaponie/)*. Nous avons ainsi conçu des exploitations aquaponiques de 500 et 1500m² comprenant un bâtiment d’élevage piscicole adapté à du saumon de fontaine et une serre de culture hydroponique en radeaux en eaux profondes pour du maraichage diversifié comprenant un espace d’accueil.
 

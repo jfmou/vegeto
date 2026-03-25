@@ -27,7 +27,7 @@ Un terrain de 4000m² situé au sein des Jardins Familiaux de l’Oise, associat
 
 ![](/assets/vegeto-conception-jaden-3.jpg)![](/assets/vegeto-conception-jaden-2.jpg)![](/assets/vegeto-conception-jaden-5.jpg)
 
-Végéto a ainsi conçu puis installé clés en main une installation aquaponique de 240m² comprenant un compartiment d’élevage piscicole extérieur et une *[serre Hélio](https://beta.vegeto-aquaponie.fr/serre-helio/)* hydroponique.
+Végéto a ainsi conçu puis installé clés en main une installation aquaponique de 240m² comprenant un compartiment d’élevage piscicole extérieur et une serre hydroponique.
 
 Nous avons également effectué les démarches administratives d'élevage, formé les responsables du projet, et suivi l'installation pendant un an avec de l'élevage de truites arc-en-ciel.
 
