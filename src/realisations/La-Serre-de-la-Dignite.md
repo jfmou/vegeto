@@ -32,7 +32,7 @@ Au-delà de la production de végétaux variés (herbes aromatiques, légumes-fe
 
 ![](/assets/vegeto-conception-serre-dignite-4.jpg)![](/assets/vegeto-conception-serre-dignite-5.jpg)![](/assets/vegeto-conception-serre-dignite-2.jpg)
 
-Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de conseil, les porteurs de projet ayant déjà fourni un travail important en amont avec la rédaction d’un plan d’affaires et la détection du futur site de production. La prestation a consisté en termes de livrables en un amendement du plan d’affaires avec un compte-rendu détaillé comprenant calculs de dimensionnement, plans d’aménagement de la serre, enrichissement du compte de résultat prévisionnel, recommandations d’ordre général, et des échanges téléphoniques.
+Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de conseil, les porteurs de projet ayant déjà fourni un travail important en amont avec la rédaction d’un plan d’affaires et la détection du futur site de production. La prestation a notamment consisté en un amendement global du plan d’affaires avec un compte-rendu détaillé comprenant calculs de dimensionnement, plans d’aménagement de la serre, enrichissement du compte de résultat prévisionnel, recommandations d’ordre général, et des échanges téléphoniques.
 
 L’entreprise Terra Aquatica a ensuite poursuit l’accompagnement et la fourniture du matériel de culture.
 
