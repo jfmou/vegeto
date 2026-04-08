@@ -9,6 +9,10 @@ tags:
 cta:
   text: L'EFP
   link: 'https://www.efp.be/'
+testimonial:
+  quote: 'En tant que maraîcher aujourd''hui installé, j''ai suivi un module de production hors-sol avec Raphaël pendant ma formation de maraîcher urbain. Sa pédagogie claire et structurée m''a apporté des bases solides, tout en m''aidant à prendre du recul sur les pratiques culturales. Je soutiens sa démarche sérieuse et adaptée aux enjeux actuels de l''agriculture.'
+  author: Xavier Rogge
+  role: Maraîcher et administrateur de l'ASBL Terre de lien
 date: 2025-02-01T19:26:19.916Z
 draft: false
 ---
