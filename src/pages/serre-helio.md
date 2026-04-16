@@ -24,35 +24,14 @@ permalink: /serre-helio/index.html
 layout: layouts/helio_page
 ---
 
-En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20 m² (à partir de 15 000 € HT), à partir de 4 m² et *[sans limite maximum](https://beta.vegeto-aquaponie.fr/realisations/chantilly-nature-jaden/)*.
+En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20m² (à partir de 15 000 € HT), à partir de 4m² et *[sans limite maximum](https://beta.vegeto-aquaponie.fr/realisations/chantilly-nature-jaden/)*.
 
 Composée de bois et de feuilles de polycarbonate transparentes entièrement recyclables, cette gamme de serre épurée est fabriquée en baie de Somme par des artisans spécialistes en ouvrage bois depuis 1923.
 
-Une serre aquaponique Hélio de 20 m² avec espace relaxation représente par exemple 4 m² de culture et 800 L de bassins.
+Une serre aquaponique Hélio de 20 m² avec espace relaxation représente par exemple 4m² de culture et 800L de bassins. La même surface de serre peut accueillir 8m² de culture et un bassin d’élevage extérieur à la serre pour une version plus orientée productive.
 
-[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE](#contact)
+[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE
 
-![Vue aérienne d'une serre Hélio dans une zone de culture](/assets/Vegeto-serre-helio-2.jpg)
 
-![Vue de la serre Hélio depuis le dessus](/assets/Vegeto-serre-helio-3.jpg)
 
-![Espace de vie et détente à l'intérieur d'une serre Hélio](/assets/Vegeto-serre-helio-4.jpg)
-
-![Cultures végétales en serre Hélio](/assets/Vegeto-serre-helio-5.jpg)
-
-![Serre Hélio avec cultures en pleine croissance](/assets/Vegeto-serre-helio-6.jpg)
-
-![Vue intérieure d'une serre Hélio avec plants de tomates](/assets/Vegeto-serre-helio-1.jpg)
-
-## Descriptif du matériel :
-
-* Serre Hélio : charpente mélèze, embase pin traité, vitrages polycarbonate recyclé transparent UV 2 mm, parquet en bois de classe 4, aération à la faîtière par vérins thermostatiques
-* Bois : chêne massif PEFC issu de forêts locales, traité à l’huile de lin et essence de térébenthine (autres essences disponibles)
-* Substrat : îles flottantes en liège ; billes d’argiles tamponnées
-* Bassin sur-mesure en PVC avec façade transparente en plexiglass
-* Liner EPDM épaisseur 1 mm
-* Filtres sous pression biologique
-* Bac de minéralisation
-* Pompe à eau
-* Pompe à air avec diffuseurs à air en PE et valves anti-retour
-* Compartiments de rangement
+](#contact)![](/assets/Vegeto-serre-helio-5.jpg)![](/assets/Vegeto-serre-helio-4.png)![](/assets/Vegeto-serre-helio-2.jpg)![](/assets/Vegeto-serre-helio-6.jpg)![](/assets/Vegeto-serre-helio-3.png)![](/assets/Vegeto-serre-helio-1.jpg)
