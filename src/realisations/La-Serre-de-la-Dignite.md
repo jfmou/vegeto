@@ -34,6 +34,6 @@ Au-delà de la production de végétaux variés (herbes aromatiques, légumes-fe
 
 Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de conseil, les porteurs de projet ayant fourni un travail important en amont avec la production d'un plan d’affaires et la détection du futur site de production. La prestation a notamment consisté en un apport technique (dimensionnement, plans et chiffrage de l'installation), un amendement global du plan d’affaires et des recommandations d’ordre général.
 
-L’entreprise Terra Aquatica a ensuite poursuit l’accompagnement et la fourniture du matériel de culture.
+L’entreprise Terra Aquatica a ensuite poursuivi l’accompagnement et la fourniture du matériel de culture.
 
 L’équipe de bénévoles de la Serre de la Dignité a ensuite entrepris le chantier d’installation des systèmes hydroponiques et a vécu plusieurs années de production. La majorité des systèmes ont désormais été déménagés au sein de la Résidence Gabriel.

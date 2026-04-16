@@ -24,4 +24,4 @@ Au sein du Pôle Alimentation, une formation de maraîcher urbain d’une durée
 
 Le module de Production Hors-sol d’une durée de 56 heures comprenait des cours magistraux, de la pratique sur le système hydroponique sur site, des interventions de spécialistes (William Texier de *[Terra Aquatica](https://terraaquatica.fr/)*, Marion Sarlé *[des Sourciers](https://lessourciers.com/fr/)*…) et de nombreuses visites de site (les fermes aquaponiques des 3 moutons et BIGH, producteurs de champignons...)
 
-La formation de maraîcher urbain a depuis été arrêtée en 2025 dû à des manques de financements publics.
+La formation de maraîcher urbain a depuis été arrêtée en 2025 en raison d'un manque de financements publics.

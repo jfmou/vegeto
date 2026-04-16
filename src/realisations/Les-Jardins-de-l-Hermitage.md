@@ -20,7 +20,7 @@ testimonial:
     Ne pas hésiter à leur faire appel dès l'amont de votre projet aquaponique !
   image: /assets/vegeto-conception-hermitage-team.png
   author: Michel Pernot Du Breuil
-  role: 'Fondateur de SENS à l’origine de la création des Jardins de l’Hermitage '
+  role: Fondateur de SENS à l’origine de la création des Jardins de l’Hermitage
 date: 2020-12-31T23:00:00.000Z
 draft: false
 ---
