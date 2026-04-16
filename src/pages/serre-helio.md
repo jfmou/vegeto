@@ -30,8 +30,6 @@ Composée de bois et de feuilles de polycarbonate transparentes entièrement rec
 
 Une serre aquaponique Hélio de 20 m² avec espace relaxation représente par exemple 4m² de culture et 800L de bassins. La même surface de serre peut accueillir 8m² de culture et un bassin d’élevage extérieur à la serre pour une version plus orientée productive.
 
-[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE
+\[CONTACTEZ-NOUS POUR DES AMÉNAGEMENTS SUR-MESURE]\(#contact)
 
-
-
-](#contact)![](/assets/Vegeto-serre-helio-5.jpg)![](/assets/Vegeto-serre-helio-4.png)![](/assets/Vegeto-serre-helio-2.jpg)![](/assets/Vegeto-serre-helio-6.jpg)![](/assets/Vegeto-serre-helio-3.png)![](/assets/Vegeto-serre-helio-1.jpg)
+![](/assets/Vegeto-serre-helio-5.jpg)![](/assets/Vegeto-serre-helio-4.png)![](/assets/Vegeto-serre-helio-2.jpg)![](/assets/Vegeto-serre-helio-6.jpg)![](/assets/Vegeto-serre-helio-3.png)![](/assets/Vegeto-serre-helio-1.jpg)
