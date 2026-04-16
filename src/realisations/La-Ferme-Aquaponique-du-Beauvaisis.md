@@ -13,7 +13,7 @@ testimonial:
     C’est pourquoi nous ne pouvons que les recommander pour la réalisation d’étude pour tous ceux qui souhaiteraient créer un projet.
   image: /assets/vegeto-conception-beauvesis-team.png
   author: Ariane et Gaëtan
-  role: 'Co-porteurs du projet de la Ferme Aquaponique du Beauvaisis '
+  role: Co-porteurs du projet de la Ferme Aquaponique du Beauvaisis
 date: 2021-02-28T23:00:00.000Z
 draft: false
 ---

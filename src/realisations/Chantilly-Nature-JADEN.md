@@ -23,7 +23,7 @@ draft: false
 
 Le **Jardin Aquaponique Durable et Ecocitoyen de la Nonette (JADEN) est un site de production et de sensibilisation à la protection de l’environnement et de la ressource en eau** porté par l’association Chantilly Nature en collaboration étroite avec la ville de Chantilly.
 
-Un terrain de 4000m² situé au sein des Jardins Familiaux de l’Oise, association historique de parcelles cultivées depuis de le 19ème siècle, est un lieu à la fois de démonstration de méthodes de production innovantes et durables avec notamment l’aquaponie et le maraîchage en sol vivant, un lieu de rencontre et de partage autour d’animations sur l’environnement, et un refuge écologique avec l’aménagement d’une mare pédagogique avec plateforme d’observation et l’implantation de zones végétales sanctuarisées.
+Un terrain de 4000m² situé au sein des Jardins Familiaux de l’Oise, association historique de parcelles cultivées depuis le 19ème siècle, est un lieu à la fois de démonstration de méthodes de production innovantes et durables avec notamment l’aquaponie et le maraîchage en sol vivant, un lieu de rencontre et de partage autour d’animations sur l’environnement, et un refuge écologique avec l’aménagement d’une mare pédagogique avec plateforme d’observation et l’implantation de zones végétales sanctuarisées.
 
 ![](/assets/vegeto-conception-jaden-3.jpg)![](/assets/vegeto-conception-jaden-2.jpg)![](/assets/vegeto-conception-jaden-5.jpg)
 

@@ -10,7 +10,7 @@ testimonial:
   quote: L’accompagnement de VEGETO a été un véritable soutien dans l’élaboration de mes projets. Une équipe disponible et à l’écoute qui m’a permis de développer mes idées en toute confiance.
   image: /assets/vegeto-conception-aqway-team.png
   author: Nadjet Dehlouz
-  role: 'Porteuse du projet Aqway '
+  role: Porteuse du projet Aqway
 date: 2021-05-31T22:00:00.000Z
 draft: false
 ---
@@ -22,6 +22,6 @@ La seconde phase a été la candidature d’Aqway à l’appel à projet Les Par
 
 ![](/assets/vegeto-conception-aqway-3.jpg)![](/assets/vegeto-conception-aqway-5.jpg)![](/assets/vegeto-conception-aqway-4.jpg)
 
-Végéto a alors mené une prstation d'étude de faisabilité avec la conception d'une serre aquaponique de 145m², constituant l’élément phare du projet intégré à un site de 1100m² à Paris contenant des parcelles où la qualité du sol est incompatible avec des cultures maraîchères. 
+Végéto a alors mené une préstation d'étude de faisabilité avec la conception d'une serre aquaponique de 145m², constituant l’élément phare du projet intégré à un site de 1100m² à Paris contenant des parcelles où la qualité du sol est incompatible avec des cultures maraîchères. 
 
 Le lauréat du concours a finalement été un autre projet de ferme florale.

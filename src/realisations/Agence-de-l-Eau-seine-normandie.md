@@ -13,7 +13,7 @@ testimonial:
   quote: 'J’ai trouvé que ce type de système aquaponique illustrait plutôt bien le fragile équilibre entre le cycle de l’eau et celui de la vie, aussi bien aquatique qu’en dehors de l’eau. Le fait de pouvoir réaliser cette installation avec des espèces locales de poissons a été un plus incontestable. La production végétale permet à de nombreuses personnes de découvrir certaines plantes et d’en récupérer des boutures. C’est un succès !'
   image: /assets/vegeto-installation-agence-eau-team.png
   author: Stéphane Duquénoy
-  role: 'Chef de service à l’origine du projet '
+  role: Chef de service à l’origine du projet
 date: 2020-08-31T22:00:00.000Z
 draft: false
 ---
