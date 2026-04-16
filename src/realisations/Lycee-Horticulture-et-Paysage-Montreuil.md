@@ -10,7 +10,7 @@ cta:
   text: LE LYCÉE DE L'HORTICULTURE ET DU PAYSAGE JEANNE BARET
   link: 'https://www.lyceehorticulture93.fr/'
 testimonial:
-  quote: 'Végéto nous a formulé une proposition sur-mesure, bien adaptée à nos besoins et a nous accompagné de très prêt dans la mise en œuvre de notre système. Un partenariat école-entreprise enthousiasmant.'
+  quote: 'Végéto nous a formulé une proposition sur-mesure, bien adaptée à nos besoins et a nous accompagné de très près dans la mise en œuvre de notre système. Un partenariat école-entreprise enthousiasmant.'
   author: Vianney Cottineau
   role: Enseignant Sciences et Techniques Horticoles
 date: 2024-11-01T15:56:28.936Z
