@@ -2,7 +2,7 @@
   "heroTagline": "**Végéto est une entreprise artisanale** donnant vie à tous types de projets dans le domaine de l'aquaponie\n",
   "aquaponieTitle": "Qu'est-ce que l'aquaponie ?",
   "aquaponieIntro": "**L'aquaponie est une forme d'agriculture écologiquement intensive qui combine l'aquaculture**, l'élevage de poissons ou d'autres espèces aquatiques, **et l'hydroponie**, la culture de végétaux hors-sol.\n",
-  "aquaponieSchematicIntro": "Inspirée de pratiques ancestrales, l'aquaponie vise à reproduire des processus et des intéractions biologiques observables dans un écosystème naturel.\n",
+  "aquaponieSchematicIntro": "Inspirée de pratiques ancestrales, l'aquaponie vise à reproduire des processus et des interactions biologiques observables dans un écosystème naturel.\n",
   "aquaponieSchematicLead": "Il s’agit d’un **système “fermé” (recirculé)** dans lequel cohabitent :\n",
   "aquaponieSchematicImage": "/assets/VEGETO_schema.jpg",
   "aquaponieSchematicImageAlt": "Schéma expliquant le fonctionnement de l'aquaponie",
@@ -53,7 +53,7 @@
     }
   ],
   "whyFooter1": "Enfin, il est possible d'**élever et de cultiver une énorme variété de poissons et de plantes !**\n",
-  "whyFooter2": "Du coté des freins, l'aquaponie est techniquement assez complexe, demande des investissements relativement importants, et ne présente pas de modèle technico-économique type.\nChaque projet est unique !\n",
+  "whyFooter2": "Du côté des freins, l'aquaponie est techniquement assez complexe, demande des investissements relativement importants, et ne présente pas de modèle technico-économique type.\nChaque projet est unique !\n",
   "whySourceUrl": "https://www.stockholmresilience.org/research/planetary-boundaries.html",
   "prestationsTitle": "Nos prestations",
   "prestationsIntroContent": "À la fois bureau d'études, artisans et formateurs, nous pouvons mener chaque phase d'un projet d'aquaponie.\n\nChaque cas étant unique, notre approche est de vous proposer des **solutions sur-mesure** selon vos envies d’aquaponie.\nDe l’idée à l’exploitation, du système d’agrément à la ferme commerciale, notre expertise se fonde sur un accompagnement à la carte.\n",

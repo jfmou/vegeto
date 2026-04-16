@@ -11,7 +11,7 @@ cta:
   link: 'https://ledomainedusens.fr/'
 testimonial:
   quote: |-
-    Nous tenions à exprimer toute notre gratitude et notre profonde satisfaction à la société Végéto pour le travail fournit et l'engagement sans faille tout au long de l'étude de projet d’aquaponie. Nous sommes convaincus que grâce à vos efforts, nous pourrons réaliser des avancements significatifs dans ce domaine passionnant.
+    Nous tenions à exprimer toute notre gratitude et notre profonde satisfaction à la société Végéto pour le travail fourni et l'engagement sans faille tout au long de l'étude de projet d’aquaponie. Nous sommes convaincus que grâce à vos efforts, nous pourrons réaliser des avancements significatifs dans ce domaine passionnant.
     En plus de la qualité professionnelle du service nous avons la chance d’avoir la qualité humaine ce qui devient de plus en plus rare de nos jours
   author: Ryad Hamiche et Lyeme Bouguerra
   role: Co-fondateurs de la Ferme du Sens

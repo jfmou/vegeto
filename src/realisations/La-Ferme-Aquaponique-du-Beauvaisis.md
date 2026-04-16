@@ -26,4 +26,4 @@ Cette prestation nous a été commandée par un couple de particuliers pour la c
 
 L’étude d’avant-projet détaillé a consisté à la livraison des tableaux de dimensionnement, des investissements chiffrés et sourcés avec devis joints, des charges et des produits, d’un compte de résultat et de tableaux de pilotage du compartiment piscicole, ainsi que des modélisations 3D, des plans 2D des circuits hydrauliques et d’aération, un rapport d'explicitation et une note sur les dispositifs de subvention.
 
-La Ferme Aquaponique du Beauvaisis a été décalée de par une heureuse nouvelle, mais le projet a depuis repris sa marche en avant !
+La Ferme Aquaponique du Beauvaisis a été décalée par une heureuse nouvelle, mais le projet a depuis repris sa marche en avant !
