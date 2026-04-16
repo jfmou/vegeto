@@ -23,7 +23,7 @@ Un champ ainsi encore inexploré à l’échelle commerciale est la faisabilité
 
 ![](/assets/vegeto-conception-cambresis-2.jpg)![](/assets/vegeto-conception-cambresis-3.jpg)![](/assets/vegeto-conception-cambresis-4.jpg)
 
-La première phase d’étude à consister à regarder la faisabilité technique de cette approche innovante en menant des recherches bibliographiques, des échanges avec des pionniers à petite échelle de « l’aquaponie ouverte », des analyses de l’eau d’élevage, afin d'aboutir à des propositions de design.
+La première phase d’étude a consisté à regarder la faisabilité technique de cette approche innovante en menant des recherches bibliographiques, des échanges avec des pionniers à petite échelle de « l’aquaponie ouverte », des analyses de l’eau d’élevage, afin d'aboutir à des propositions de design.
 Le second volet consiste en l’étude d’avant-projet détaillé de la ferme aquaponique, aboutissant à la validation du projet d’une serre de culture de 500m² connectée aux bacs d’élevage piscicoles. 
 
 Les travaux ont depuis été menés et la serre commence aujourd'hui sa production.
