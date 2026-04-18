@@ -5,23 +5,13 @@ seoDescription: 'Découvrez notre serre aquaponique Hélio clé en main : un mod
 mainImg: /assets/Vegeto-serre-helio.jpg
 heroImage: /assets/Vegeto-serre-helio.jpg
 heroImageAlt: Structure bois de la serre Hélio avec aménagement intérieur végétalisé
-characteristics:
-  title: CARACTÉRISTIQUES SERRE 20 M²
-  dimensions:
-    - '3,38 x 5,91 m'
-    - 'soit 19,9 m²'
-    - '2,54 m au faîtage'
-  weight:
-    - < 1200 kg à vide
-    - < 2800 kg en fonctionnement
-  fishTankVolume:
-    - 800 L
-    - 'poids maximal de poisson conseillé : 10 kg'
-  plantCount:
-    - 200 à 400 selon les espèces cultivées
-    - (4 m² de culture)
 permalink: /serre-helio/index.html
 layout: layouts/helio_page
+testimonial:
+  quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non molestie ante. Suspendisse mollis ex enim, tempor gravida nulla scelerisque ut'
+  image: /assets/Vegeto-homepage-qui-raphael.jpg
+  author: Jean-louis david
+  role: big boss
 ---
 
 En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20m² (à partir de 15 000 € HT), à partir de 4m² et *[sans limite maximum](https://beta.vegeto-aquaponie.fr/realisations/chantilly-nature-jaden/)*.

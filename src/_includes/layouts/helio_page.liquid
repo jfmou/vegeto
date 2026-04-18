@@ -18,63 +18,43 @@ layout: layouts/base
         <p class="helio-main-image">{% image heroImage, helioHeroAlt %}</p>
       {% endif %}
       {{ content }}
-      {% if characteristics %}
-        <blockquote class="helio-spec-card">
-          {% if characteristics.title %}<h3>{{ characteristics.title }}</h3>{% endif %}
-
-          {% if characteristics.dimensions and characteristics.dimensions.size > 0 %}
-            <p class="helio-spec-group helio-spec-group--dimensions">
-              <span class="helio-spec-label">DIMENSIONS</span>
-              {% for line in characteristics.dimensions %}
-                {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line | escape }}</span>
-                {% else %}
-                  <span class="helio-spec-sub">{{ line | escape }}</span>
-                {% endif %}
-              {% endfor %}
-            </p>
-          {% endif %}
-
-          {% if characteristics.weight and characteristics.weight.size > 0 %}
-            <p class="helio-spec-group helio-spec-group--weight">
-              <span class="helio-spec-label">POIDS</span>
-              {% for line in characteristics.weight %}
-                {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line | escape }}</span>
-                {% else %}
-                  <span class="helio-spec-sub">{{ line | escape }}</span>
-                {% endif %}
-              {% endfor %}
-            </p>
-          {% endif %}
-
-          {% if characteristics.fishTankVolume and characteristics.fishTankVolume.size > 0 %}
-            <p class="helio-spec-group helio-spec-group--volume">
-              <span class="helio-spec-label">VOLUME BAC POISSONS</span>
-              {% for line in characteristics.fishTankVolume %}
-                {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line | escape }}</span>
-                {% else %}
-                  <span class="helio-spec-sub">{{ line | escape }}</span>
-                {% endif %}
-              {% endfor %}
-            </p>
-          {% endif %}
-
-          {% if characteristics.plantCount and characteristics.plantCount.size > 0 %}
-            <p class="helio-spec-group helio-spec-group--plants">
-              <span class="helio-spec-label">NOMBRE DE PLANTS</span>
-              {% for line in characteristics.plantCount %}
-                {% if forloop.first %}
-                  <span class="helio-spec-main">{{ line | escape }}</span>
-                {% else %}
-                  <span class="helio-spec-sub">{{ line | escape }}</span>
-                {% endif %}
-              {% endfor %}
-            </p>
-          {% endif %}
-        </blockquote>
-      {% endif %}
     </div>
   </div>
+
+  {% assign has_testimonial_content = false %}
+  {% if testimonial %}
+    {% if testimonial.quote != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+    {% if testimonial.author != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+    {% if testimonial.role != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+    {% if testimonial.image != blank %}
+      {% assign has_testimonial_content = true %}
+    {% endif %}
+  {% endif %}
+
+  {% if has_testimonial_content %}
+    <div class="realisation-testimonial realisation-testimonial--no-cta">
+      <div class="testimonial-content">
+        {% if testimonial.image != blank %}
+          <div class="testimonial-avatar">
+            {% image testimonial.image, testimonial.author, 200, "200px" %}
+          </div>
+        {% endif %}
+        <div>
+          {% if testimonial.quote != blank %}<blockquote class="testimonial-quote">{{ testimonial.quote }}</blockquote>{% endif %}
+          <div class="testimonial-author">
+            <div class="testimonial-info">
+              {% if testimonial.author != blank %}<p class="testimonial-name">{{ testimonial.author }}</p>{% endif %}
+              {% if testimonial.role %}<p class="testimonial-role">{{ testimonial.role }}</p>{% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
 </div>

@@ -244,6 +244,35 @@ permalink: /assets/generated/style.css
     margin: 0;
     font-size: 14px;
     line-height: 1.4;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: start;
+    column-gap: 10px;
+  }
+
+  .contact-info-phones {
+    grid-template-columns: auto 1fr;
+  }
+
+  .contact-info-icon {
+    line-height: 1.4;
+  }
+
+  .contact-info-content {
+    min-width: 0;
+  }
+
+  .contact-phone-lines {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: start;
+    align-items: baseline;
+    column-gap: 10px;
+    row-gap: 4px;
+  }
+
+  .contact-phone-name {
+    white-space: nowrap;
   }
 
   .contact-info a {
@@ -405,6 +434,24 @@ permalink: /assets/generated/style.css
     margin-bottom: var(--main-p-spacing);
   }
 
+  /* Gallery images: consistent 1:1 aspect ratio regardless of source dimensions */
+  .static-page-body picture:has(+ picture) img,
+  .static-page-body picture + picture img,
+  .static-page-body picture + picture + picture img,
+  .static-page-body picture + picture + picture + picture img,
+  .static-page-body picture + picture + picture + picture + picture img,
+  .static-page-body picture + picture + picture + picture + picture + picture img,
+  .realisation-body picture:has(+ picture) img,
+  .realisation-body picture + picture img,
+  .realisation-body picture + picture + picture img,
+  .realisation-body picture + picture + picture + picture img,
+  .realisation-body picture + picture + picture + picture + picture img,
+  .realisation-body picture + picture + picture + picture + picture + picture img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    height: auto;
+  }
+
   @media screen and (min-width: 521px) {
     .static-page-body picture:has(+ picture),
     .static-page-body picture + picture,
@@ -457,7 +504,6 @@ permalink: /assets/generated/style.css
   .helio-page .helio-intro-copy > p {
     margin: 0;
     font-size: 22px;
-    font-family: 'Signika', arial, sans-serif;
     color: var(--main-active-color);
     line-height: 1.15;
     letter-spacing: 0.01em;
@@ -487,78 +533,9 @@ permalink: /assets/generated/style.css
     margin: 0;
   }
 
-  .helio-page .static-page-body > p:nth-of-type(2),
-  .helio-page .static-page-body > p:nth-of-type(3),
-  .helio-page .static-page-body > p:nth-of-type(4) {
-    max-width: 980px;
-    margin: 30px auto 0;
-    font-size: 18px;
-    line-height: 1.45;
-    color: var(--main-active-color);
-  }
-
-  .helio-page .static-page-body > p:nth-of-type(3),
-  .helio-page .static-page-body > p:nth-of-type(4) {
-    margin-top: 16px;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) {
-    text-align: center;
-    margin: 28px 0 42px;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) a {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-width: 300px;
-    margin: 0;
-    padding: 10px 18px 12px;
-    border: 2px solid var(--main-color);
-    color: var(--main-active-color);
-    background: transparent;
-    text-decoration: none;
-    font-size: 0;
-    line-height: 1;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) a::before {
-    content: "CONTACTEZ-NOUS";
+  .helio-page .static-page-body > p:not(.helio-main-image):has(> picture) picture,
+  .helio-page .static-page-body > p:not(.helio-main-image):has(> picture) img {
     display: block;
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: 1.1;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) a::after {
-    content: "POUR DES AMÉNAGEMENTS SUR-MESURE";
-    display: block;
-    margin-top: 2px;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    line-height: 1.1;
-    text-transform: uppercase;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) a:hover {
-    background-color: var(--main-color);
-    color: #fff;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) {
-    float: none;
-    width: 100%;
-    margin: 0 0 var(--main-default-spacing);
-    padding: 0;
-  }
-
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) picture,
-  .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) img {
-    display: block;
-    width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
   }
@@ -594,99 +571,18 @@ permalink: /assets/generated/style.css
     content: "• ";
   }
 
-  .helio-page .static-page-body > blockquote.helio-spec-card {
-    background: #e3e7ea;
-    padding: 22px 16px 14px;
-    color: #5e7482;
-    margin: 24px 0 0;
-    border: 0;
-    font-family: 'Signika', arial, sans-serif;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card h3 {
-    margin: 0 0 10px;
-    color: #4f6a7a;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group {
-    margin: 0;
-    padding: 11px 0 10px;
-    text-align: center;
-    color: #5f7584;
-    max-width: none;
-    position: relative;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group + .helio-spec-group {
-    border-top: 0;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group + .helio-spec-group::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 86%;
-    height: 1px;
-    transform: translateX(-50%);
-    background: rgba(95, 117, 132, 0.16);
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-label {
-    display: block;
-    margin-bottom: 4px;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    color: #4f6a7a;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-main {
-    display: block;
-    font-size: clamp(20px, 2.3vw, 40px);
-    font-weight: 700;
-    line-height: 1;
-    color: #4f6a7a;
-    letter-spacing: 0;
-    margin-top: 2px;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-sub {
-    display: block;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #5f7584;
-    letter-spacing: 0.003em;
-    margin-top: 1px;
-    text-transform: none;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group--plants .helio-spec-main {
-    font-size: clamp(18px, 1.95vw, 34px);
-    line-height: 1.02;
-  }
-
-  .helio-page .static-page-body > blockquote.helio-spec-card .helio-spec-group:last-child {
-    padding-bottom: 0;
-  }
-
   @media screen and (min-width: 521px) {
-    .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) {
+    .helio-page .static-page-body > p:not(.helio-main-image):has(> picture) picture {
       float: left;
-      width: 50%;
-      padding-right: calc(var(--main-default-spacing) / 2);
-      padding-left: calc(var(--main-default-spacing) / 2);
-      margin-right: 0;
+      width: calc(33.333% - calc(var(--main-default-spacing) * 2 / 3));
+      margin-right: var(--main-default-spacing);
+      margin-top: 0;
+      margin-left: 0;
       margin-bottom: var(--main-default-spacing);
+    }
+
+    .helio-page .static-page-body > p:not(.helio-main-image):has(> picture) picture:nth-of-type(3n) {
+      margin-right: 0;
     }
 
     .helio-page .static-page-intro--helio {
@@ -702,38 +598,10 @@ permalink: /assets/generated/style.css
   }
 
   @media screen and (min-width: 921px) {
-    .helio-page .static-page-body {
-      display: grid;
-      grid-template-columns: repeat(6, minmax(0, 1fr));
-      column-gap: var(--main-default-spacing);
-      row-gap: var(--main-default-spacing);
-      align-items: start;
-    }
-
-    .helio-page .static-page-body > * {
-      min-width: 0;
-    }
-
-    .helio-page .static-page-body > .helio-main-image,
-    .helio-page .static-page-body > p:nth-of-type(2),
-    .helio-page .static-page-body > p:nth-of-type(3),
-    .helio-page .static-page-body > p:nth-of-type(4),
-    .helio-page .static-page-body > p:has(a[href$="#contact"]) {
-      grid-column: 1 / -1;
-    }
-
     .helio-page .static-page-body > .helio-main-image {
       width: auto;
       margin-left: 0;
       margin-right: 0;
-      margin-bottom: 0;
-    }
-
-    .helio-page .static-page-body > p:nth-of-type(2),
-    .helio-page .static-page-body > p:nth-of-type(3),
-    .helio-page .static-page-body > p:nth-of-type(4) {
-      justify-self: center;
-      width: 100%;
     }
 
     .helio-page .static-page-intro--helio h1 {
@@ -742,29 +610,6 @@ permalink: /assets/generated/style.css
 
     .helio-page .helio-intro-copy > p {
       font-size: 28px;
-    }
-
-    .helio-page .static-page-body > p:has(a[href$="#contact"]) ~ p:has(picture, img) {
-      float: none;
-      width: auto;
-      padding-right: 0;
-      padding-left: 0;
-      margin: 0;
-      grid-column: span 2;
-    }
-
-    .helio-page .static-page-body > blockquote.helio-spec-card {
-      float: none;
-      width: auto;
-      margin: 0;
-      grid-column: 5 / 7;
-      grid-row: span 2;
-    }
-
-    .helio-page .static-page-body > h2,
-    .helio-page .static-page-body > ul {
-      grid-column: 1 / 5;
-      margin-right: 0;
     }
   }
 
@@ -1246,6 +1091,8 @@ permalink: /assets/generated/style.css
   .row.our-team-gallery img {
     display: block;
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
 
   .row.our-team-gallery .column + .column {
@@ -1313,6 +1160,14 @@ permalink: /assets/generated/style.css
   .footer-contact-block p {
     margin: 0 0 12px;
     max-width: none;
+  }
+
+  .footer-contact-block .contact-info a {
+    color: #fff;
+  }
+
+  .footer-contact-block .contact-info a:hover {
+    color: #fff;
   }
 
   .footer-contact-title {

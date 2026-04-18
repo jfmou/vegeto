@@ -531,47 +531,6 @@ export default defineConfig({
             required: false,
           },
           {
-            type: "object",
-            name: "characteristics",
-            label: "Bloc caractéristiques",
-            fields: [
-              {
-                type: "string",
-                name: "title",
-                label: "Titre du bloc",
-                required: false,
-              },
-              {
-                type: "string",
-                name: "dimensions",
-                label: "Dimensions (1 ligne par entrée)",
-                list: true,
-                required: false,
-              },
-              {
-                type: "string",
-                name: "weight",
-                label: "Poids (1 ligne par entrée)",
-                list: true,
-                required: false,
-              },
-              {
-                type: "string",
-                name: "fishTankVolume",
-                label: "Volume bac poissons (1 ligne par entrée)",
-                list: true,
-                required: false,
-              },
-              {
-                type: "string",
-                name: "plantCount",
-                label: "Nombre de plants (1 ligne par entrée)",
-                list: true,
-                required: false,
-              },
-            ],
-          },
-          {
             type: "string",
             name: "permalink",
             label: "Permalien",
@@ -594,6 +553,36 @@ export default defineConfig({
             name: "body",
             label: "Contenu",
             isBody: true,
+          },
+          {
+            label: 'Livre d\'or',
+            name: 'testimonial',
+            type: 'object',
+            fields: [
+              {
+                label: 'Citation',
+                name: 'quote',
+                type: 'string',
+                ui: {
+                  component: 'textarea',
+                },
+              },
+              {
+                label: "Image",
+                type: "image",
+                name: "image"
+              },
+              {
+                label: 'Auteur',
+                name: 'author',
+                type: 'string',
+              },
+              {
+                label: 'Rôle',
+                name: 'role',
+                type: 'string',
+              }
+            ],
           },
         ],
       },
