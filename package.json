@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@tinacms/cli": "^2.1.11",
-    "tinacms": "^3.6.3"
+    "tinacms": "^3.7.2"
   },
   "engines": {
     "node": ">=24.0.0"
