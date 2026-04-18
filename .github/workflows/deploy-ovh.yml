@@ -335,8 +335,8 @@ jobs:
       - name: Build and deploy production
         uses: ./.github/actions/build-and-sftp-deploy
         with:
-          build-command: npm run build
-          local-dir: ./dist
+          build-command: npm run build:prod
+          local-dir: ./www
           remote-dir: ${{ secrets.OVH_WWW_DIR }}
           host: ${{ secrets.OVH_HOST }}
           port: ${{ secrets.OVH_PORT }}

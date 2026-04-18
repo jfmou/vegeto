@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -rf ./dist/ && mkdir -p ./dist/assets/generated",
     "build": "npm run clean && npx eleventy",
+    "build:prod": "npm run build && mv ./dist/ ./www/",
     "build:beta": "ELEVENTY_NO_INDEX=true ELEVENTY_BUILD_TARGET=beta npm run build && mv ./dist/ ./beta/",
     "build-assets": "cp -a ./src/assets ./dist/",
     "dev": "npx tinacms dev -c \"npx eleventy --serve\"",

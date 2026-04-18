@@ -8,10 +8,10 @@ heroImageAlt: Structure bois de la serre Hélio avec aménagement intérieur vé
 permalink: /serre-helio/index.html
 layout: layouts/helio_page
 testimonial:
-  quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non molestie ante. Suspendisse mollis ex enim, tempor gravida nulla scelerisque ut'
-  image: /assets/Vegeto-homepage-qui-raphael.jpg
-  author: Jean-louis david
-  role: big boss
+  quote: ''
+  image: ''
+  author: ''
+  role: ''
 ---
 
 En partenariat avec le serriste français Hélio, nous proposons une serre aquaponique clé en main alliant productivité, esthétisme, ergonomie et espace de vie en fonction de vos aspirations. Modèle standard de 20m² (à partir de 15 000 € HT), à partir de 4m² et *[sans limite maximum](https://beta.vegeto-aquaponie.fr/realisations/chantilly-nature-jaden/)*.
