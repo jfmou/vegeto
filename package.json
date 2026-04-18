@@ -31,7 +31,7 @@
     "@codestitchofficial/eleventy-plugin-minify": "^1.1.3"
   },
   "devDependencies": {
-    "@tinacms/cli": "^2.1.11",
+    "@tinacms/cli": "^2.2.2",
     "tinacms": "^3.7.2"
   },
   "engines": {
