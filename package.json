@@ -1,6 +1,6 @@
 {
   "name": "vegeto",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "11ty powered vegeto website",
   "main": "index.js",
   "scripts": {
