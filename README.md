@@ -114,7 +114,7 @@ Cette commande s'utilise apres `npm run save`.
 ## ⛙ fusionner les modifications avec la base de code
 
 => [https://github.com/jfmou/vegeto/pulls](https://github.com/jfmou/vegeto/pulls) pour valider les modifications et les intégrer à la branche commune :)
-Onglet "Pull Request", créer pull request "New Pull Request", "Base:Master - Compare:new-content", ATTENDRE que CI "validate-pr" devienne vert, "merge pull request" - "confirm merge". Ensuite aller dans Actions, "Run workflow", et recliquer sur "run workflow de "master" à "beta", puis attendre que ça valide. Si béta OK alors "Run workflow", et recliquer sur "run workflow de "master" à "production" pour passer en prod.
+Onglet "Pull Request", créer pull request "New Pull Request", "Base:Master - Compare:new-content", ATTENDRE que CI "validate-pr" devienne vert, "merge pull request" - "confirm merge". Ensuite aller dans Actions, "Run workflow", et recliquer sur "run workflow de "master" à "beta", puis attendre que ça valide. Si béta OK alors recommencer "Run workflow", et recliquer sur "run workflow de "master" à "production" pour passer en prod.
 
 ## 🧹 nettoyer les branches locales deja mergees
 
