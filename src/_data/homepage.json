@@ -93,7 +93,7 @@
     {
       "title": "La Ferme Aquaponique du Pays de Gex",
       "link": "/realisations/la-ferme-aquaponique-du-pays-de-gex/",
-      "image": "/assets/Vegeto-homepage-nos-realisations-1.jpg",
+      "image": "/assets/vegeto-conception-ferme-aquaponique-pays-de-gex-2.jpg",
       "imageAlt": "Conception de la ferme de l'hermitage"
     },
     {
@@ -127,11 +127,11 @@
   "aboutIntro": "Nous sommes principalement trois collègues à mener les différents projets :\n**Raphaël Langaret**, ingénieur en biologie de l’Université de Technologie de Compiègne, **Guillaume Bourgeois**, associé historique et maire de notre village, et **Thomas Pierre**, diplômé Technicien en Aquaponie et artisan en chef.\n",
   "ourTeamImages": [
     {
-      "image": "/assets/Vegeto-homepage-qui-1.jpeg",
+      "image": "/assets/Vegeto-homepage-qui-raphael.jpg",
       "imageAlt": "Portrait de Raphaël Langaret"
     },
     {
-      "image": "/assets/Vegeto-homepage-qui-2.jpg",
+      "image": "/assets/Vegeto-homepage-qui-guillaume.jpg",
       "imageAlt": "Portrait de Guillaume Bourgeois"
     },
     {
@@ -158,14 +158,14 @@
     {
       "link": "https://aquares.tech/",
       "linkTitle": "Accéder au site d'Aquares",
-      "image": "/assets/aquares-0-1.png",
+      "image": "/assets/Logo_320x120px_AquaponieNet.jpg",
       "imageAlt": "Logo d'aquaponie.net",
       "text": "Concepteur de nombreuses fermes aquaponiques en France.\n"
     },
     {
       "link": "https://bioponi.com/",
       "linkTitle": "Accéder au site de BiOPONi",
-      "image": "/assets/Vegeto-homepage-logo-partenaire-4.png",
+      "image": "/assets/Logo Bioponi.jpeg",
       "imageAlt": "Logo de BiOPONi",
       "text": "Cabinet d’ingénierie en aquaponie professionnelle.\n"
     }
