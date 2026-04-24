@@ -1,5 +1,5 @@
 {
-  "heroTagline": "**Végéto est une entreprise artisanale** donnant vie à tous types de projets dans le domaine de l'aquaponie\n",
+  "heroTagline": "**Végéto₂ est une entreprise artisanale** donnant vie à tous types de projets dans le domaine de l'aquaponie\n",
   "aquaponieTitle": "Qu'est-ce que l'aquaponie ?",
   "aquaponieIntro": "**L'aquaponie est une forme d'agriculture écologiquement intensive qui combine l'aquaculture**, l'élevage de poissons ou d'autres espèces aquatiques, **et l'hydroponie**, la culture de végétaux hors-sol.\n",
   "aquaponieSchematicIntro": "Inspirée de pratiques ancestrales, l'aquaponie vise à reproduire des processus et des interactions biologiques observables dans un écosystème naturel.\n",
@@ -153,7 +153,7 @@
       "linkTitle": "Accéder au site de bioaquafarm",
       "image": "/assets/Logo_320x120px_BioaquaFarm.jpg",
       "imageAlt": "Logo de bioaquafarm",
-      "text": "Plus ancienne ferme aquaponique d'Europe en activité.\n"
+      "text": "Plus ancienne ferme aquaponique d'Europe.\n"
     },
     {
       "link": "https://aquares.tech/",
