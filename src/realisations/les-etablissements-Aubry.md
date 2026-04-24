@@ -17,7 +17,7 @@ Les Établissements Aubry est une entreprise horticole en Normandie ayant plus d
 
 En développement constant, l’exploitation a créé une filiale et installé une nouvelle serre de plus de 2000m² en 2024 afin d’augmenter les volumes de production maraîchère et de diversifier les types de production avec un élevage de truites.
 
-![](/assets/Vegeto-conception-Aubry-3.jpg)![](/assets/Vegeto-conception-Aubry-2.jpg)![](/assets/Vegeto-conception-Aubry-4.jpg)
+![](/assets/vegeto-conception-aubry-3.jpg)![](/assets/vegeto-conception-aubry-2.jpg)![](/assets/vegeto-conception-aubry-4.jpg)
 
 Un premier volet d’étude à plusieurs scénarios a été réalisé dans le but d’exploiter un circuit aquacole recirculé dans une chapelle de la serre permettant de cultiver des plantes maraichères dans le reste de la serre pendant la majorité de l’année hors printemps, la zone maraichère devant pouvoir alors basculer sur la production de plants maraichers.
 
