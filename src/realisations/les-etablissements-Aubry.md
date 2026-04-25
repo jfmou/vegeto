@@ -2,7 +2,7 @@
 title: Établissements Aubry
 location: Seine-Maritime
 baseline: Étude de faisabilité
-mainImg: src/assets/Vegeto-conception-Aubry-1.jpg
+mainImg:
 tags:
   - realisation
   - conception
