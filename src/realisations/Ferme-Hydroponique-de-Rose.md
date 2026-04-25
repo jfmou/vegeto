@@ -2,7 +2,7 @@
 title: Ferme Hydroponique de Rose
 location: Vendée
 baseline: Étude de faisabilité
-mainImg: /assets/logo-transparent.png
+mainImg: /assets/vegeto-conception-ferme-rose-1.jpg
 tags:
   - realisation
   - conception
@@ -26,4 +26,4 @@ La pré-étude a consisté à la livraison d’un dossier de présentation du pr
 
 A l’issue de la pré-étude, les porteurs de projet ont réussi à cibler puis acquérir du foncier correspondant au cahier des charges avec un terrain de 7500m² à moins de 5km de leur domicile et la ville de Pouzauges, raccordé à l’eau et à l’électricité.
 
-Les porteurs de projet ont ensuite réorienté le projet vers une ferme hydroponique, et La Ferme Hydroponique de Rose a depuis été créée. 
+Les porteurs de projet ont ensuite réorienté le projet vers une ferme hydroponique, et La Ferme Hydroponique de Rose a depuis été créée.
