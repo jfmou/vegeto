@@ -10,7 +10,7 @@ cta:
   text: Ets. Aubry
   link: 'https://etsaubry.com/'
 date: 2024-08-31T14:35:00.599Z
-draft: false
+draft: true
 ---
 
 Les Établissements Aubry est une entreprise horticole en Normandie ayant plus de 100 ans de savoir-faire familial transmis de génération en génération, avec des activités d’horticulture, de pépinière, de fleuriste au sein de plus de 15000m² de serres de production et de vente sur place.
