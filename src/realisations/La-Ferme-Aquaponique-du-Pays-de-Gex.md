@@ -27,7 +27,7 @@ Au delà des poissons et des plantes vendues brutes, un large éventail de produ
 Les produits sont commercialisés dans leur boutique et sur les marchés pour les particuliers, et livrés pour les restaurateurs des alentours.
 La ferme organise également régulièrement des portes ouvertes avec visites, animations et déjeuners de leurs spécialités.
 
-![](/assets/vegeto-conception-pays-de-gex-3.jpg)![](/assets/vegeto-conception-pays-de-gex-2.jpg)![](/assets/vegeto-conception-pays-de-gex-4.jpg)
+![](/assets/vegeto-conception-ferme-aquaponique-pays-de-gex-2.jpg)![](/assets/vegeto-conception-pays-de-gex-2.jpg)![](/assets/vegeto-conception-pays-de-gex-4.jpg)
 
 Cette prestation d'étude nous a été commandée en 2019 au stade de l'idée par Michel Peter pour la conception complète de la serre aquaponique, et nous le remercions encore pour sa confiance à l'époque. L'étude a été déclinée en trois grands scénarios détaillés, et l'installation aquaponique correspond aujourd'hui à notre dimensionnement.
 
