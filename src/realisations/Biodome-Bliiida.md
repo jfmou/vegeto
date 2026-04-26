@@ -14,6 +14,7 @@ testimonial:
     Raphaël et Guillaume nous ont permis de sauter le pas en toute confiance !
     Le dôme a été un superbe outil de médiation et de dégustation de melons, menthe, courges, ciboulette, sauge, piments...  
     Ils ont également formé une partie de notre équipe au soin des carpes, des plantes et des systèmes en montrant avec patience et pédagogie la cohérence et l'imbrication de ces ressources.
+  image: /assets/vegeto-installation-biodome-team-2.png
   author: Camille Pereira
   role: Ex-cheffe de projets culturels à BLIIIDA
 date: 2018-01-31T23:00:00.000Z
