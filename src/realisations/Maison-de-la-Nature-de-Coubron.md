@@ -25,7 +25,7 @@ draft: false
 
 L'installation est à vocation productive mais également pédagogique avec l'accueil de scolaires du département.
 
-![](/assets/vegeto-installation-maison-nature-4.jpg)![](/assets/vegeto-installation-maison-nature-3.jpg)![](/assets/vegeto-installation-maison-nature-5.jpg)
+![](/assets/vegeto-installation-maison-nature-4.jpg)![](/assets/vegeto-installation-maison-nature-2.jpg)![](/assets/vegeto-installation-maison-nature-3.jpg)
 
 Notre travail a été d'aménager deux serres de 50m² en aquaponie avec un système piscicole extérieur entre les deux serres. L'installation est accessible PMR. 
 

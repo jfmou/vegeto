@@ -17,6 +17,8 @@ draft: false
 
 Dans le cadre d’animations régulières sur un parcours extérieur ludique, nous avons été sollicités pour réaliser une installation aquaponique permettant d’illustrer les écosystèmes aquatiques et de produire des légumes pour les repas d’accueil.
 
+![](/assets/vegeto-installation-dreux-2.jpg)![](/assets/vegeto-installation-dreux-3.jpg)![](/assets/vegeto-installation-dreux-4.jpg)
+
 L’installation est composée d’un grand bassin abritant des espèces piscicoles présentes dans le plan d’eau (carpes, tanches, gardons…), et de cultures suspendues en “gouttières” afin de visualiser le chemin de l’eau.
 
 Le suivi de l’installation et les animations sont assurées par les PEP (Pupilles de l’Enseignement Public), association de solidarité pour l’enfance et gestionnaires du site, et nous effectuons un suivi de fond et la maintenance de l'installation à travers plusieurs interventions annuelles.
