@@ -22,6 +22,6 @@ draft: false
 
 Nous proposons des **formations à la carte pour accompagner vos projets de l‘idée à leur déploiement**. Les formations peuvent prendre place sur votre site ou au *[tiers-lieu de l‘Hermitage](https://www.hermitagelelab.com/)* ayant l‘avantage d‘héberger plusieurs *[exemples de systèmes aquaponiques](https://beta.vegeto-aquaponie.fr/realisations/demonstrateurs/)* réalisés par nos soins ainsi que d‘offrir des solutions de salle, de restauration, et d‘hébergement.
 
-Sur ce format, nous avons par exemple été sollicités par Lilotopia pour prodiguer une journée de formation sur-mesure à l‘aquaponie sur le site de l‘Hermitage avec un focus particulier sur le pilotage et l‘entretien d‘une installation, comprenant une partie théorique et une partie pratique. Possédant un système aquaponique sur leur site, le but a été de leur fournir l‘ensemble des clés essentielles pour être en capacité d‘améliorer et maximiser leur outil de production.
-
 ![](/assets/vegeto-transmission-perfectionnement-2.jpg)![](/assets/vegeto-transmission-perfectionnement-3.jpg)![](/assets/vegeto-transmission-perfectionnement-4.jpg)
+
+Sur ce format, nous avons par exemple été sollicités par Lilotopia pour prodiguer une journée de formation sur-mesure à l‘aquaponie sur le site de l‘Hermitage avec un focus particulier sur le pilotage et l‘entretien d‘une installation, comprenant une partie théorique et une partie pratique. Possédant un système aquaponique sur leur site, le but a été de leur fournir l‘ensemble des clés essentielles pour être en capacité d‘améliorer et maximiser leur outil de production.
