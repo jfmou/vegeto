@@ -2,7 +2,7 @@
 title: Chantilly Nature - JADEN
 location: Chantilly
 baseline: Sous abri
-mainImg: /assets/vegeto-installation-jaden-1.jpg
+mainImg: /assets/vegeto-installation-jaden-1-test.jpg
 tags:
   - realisation
   - installation
