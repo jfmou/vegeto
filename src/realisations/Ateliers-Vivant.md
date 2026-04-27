@@ -24,6 +24,6 @@ Aux précédents menus : Truite pêchée vivante et transformée en truite marin
 
 Également, nous proposons des ateliers orientés « fabrication » avec la réalisation collaborative en atelier d’une petite installation aquaponique à ramener ensuite chez vous. 
 
-![](/assets/vegeto-transmission-oriente-vivant-2.jpg)![](/assets/vegeto-transmission-oriente-vivant-4.jpg)![](/assets/vegeto-transmission-oriente-vivant-44.jpg)
+![](/assets/vegeto-transmission-oriente-vivant-2.jpg)![](/assets/vegeto-transmission-oriente-vivant-4.jpg)![](/assets/vegeto-transmission-oriente-vivant-444-crop.png)
 
 Dans le cadre de l’accueil de structures professionnelles au tiers-lieu de l’Hermitage, nous avons par exemple organisé des ateliers en demi-journée avec le WWF, la plateforme de crowfunding Ulule, l’association de développement de l’ESS AVISE, la société de conseil et d’ingénierie développement durable G-ON…
