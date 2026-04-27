@@ -2,7 +2,7 @@
 title: Formation sur-mesure – Initiation
 location: France
 baseline: Formation
-mainImg: /assets/vegeto-transmission-initiation-1.jpg
+mainImg: /assets/vegeto-transmission-formation-initiation-1-crop.jpg
 tags:
   - realisation
   - transmission
@@ -21,5 +21,7 @@ draft: false
 Nous proposons des **formations à la carte pour accompagner vos projets de l‘idée à leur déploiement**.
 
 Les formations peuvent prendre place sur votre site ou au *[tiers-lieu de l‘Hermitage](https://www.hermitagelelab.com/)* ayant l‘avantage d‘héberger plusieurs *[exemples de systèmes aquaponiques](https://beta.vegeto-aquaponie.fr/realisations/demonstrateurs/)* réalisés par nos soins ainsi que d‘offrir des solutions de salle, de restauration, et d‘hébergement.
+
+![](/assets/vegeto-transmission-formation-initiation-2-crop.jpeg)![](/assets/vegeto-transmission-formation-initiation-3-crop.jpg)![](/assets/vegeto-transmission-formation-initiation-4-crop.jpg)
 
 Sur ce format, nous avons par exemple été sollicités par l'association Le Dôme pour prodiguer une journée de formation sur-mesure à l‘aquaponie sur le site de l‘Hermitage avec un focus particulier sur le design et le dimensionnement d‘une installation. Souhaitant concevoir eux-mêmes leur installation aquaponique, le but a été de fournir l‘ensemble des clés essentielles pour être en capacité de développer leur projet dès les premières phases.

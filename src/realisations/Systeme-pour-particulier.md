@@ -1,5 +1,5 @@
 ---
-title: Système pour particulier
+title: Système pilote
 location: Vendée
 baseline: Sous abri et extérieur
 mainImg: /assets/vegeto-installation-particuliers-1.jpg
