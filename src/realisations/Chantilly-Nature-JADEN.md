@@ -2,7 +2,7 @@
 title: Chantilly Nature - JADEN
 location: Chantilly
 baseline: Sous abri
-mainImg: /assets/vegeto-installation-jaden-1-test.jpg
+mainImg: /assets/vegeto-installation-jaden-1-crop.jpg
 tags:
   - realisation
   - installation
@@ -25,7 +25,7 @@ Le **Jardin Aquaponique Durable et Ecocitoyen de la Nonette (JADEN) est un site 
 
 Un terrain de 4000m² situé au sein des Jardins Familiaux de l’Oise, association historique de parcelles cultivées depuis le 19ème siècle, est un lieu à la fois de démonstration de méthodes de production innovantes et durables avec notamment l’aquaponie et le maraîchage en sol vivant, un lieu de rencontre et de partage autour d’animations sur l’environnement, et un refuge écologique avec l’aménagement d’une mare pédagogique avec plateforme d’observation et l’implantation de zones végétales sanctuarisées.
 
-![](/assets/vegeto-installation-jaden-5.jpg)![](/assets/vegeto-installation-jaden-2.jpg)![](/assets/vegeto-installation-jaden-4.jpg)
+![](/assets/vegeto-installation-jaden-5-crop.jpg)![](/assets/vegeto-installation-jaden-2-crop.jpg)![](/assets/vegeto-installation-jaden-4-crop.jpg)
 
 Végéto a ainsi conçu puis installé clés en main une installation aquaponique de 240m² comprenant un compartiment d’élevage piscicole extérieur et une serre hydroponique.
 
