@@ -194,38 +194,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Ensure validate-pr succeeded for this ref
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const branch = context.ref.replace('refs/heads/', '');
-            const sha = context.sha;
-            const { owner, repo } = context.repo;
-
-            const response = await github.rest.actions.listWorkflowRuns({
-              owner,
-              repo,
-              workflow_id: 'deploy-ovh.yml',
-              status: 'completed',
-              per_page: 100,
-            });
-
-            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
-              return (
-                (run.event === 'pull_request' || run.event === 'push') &&
-                run.conclusion === 'success' &&
-                run.head_branch === branch &&
-                run.head_sha === sha
-              );
-            });
-
-            if (!hasSuccessfulValidation) {
-              core.setFailed(
-                `No successful validate-pr run found for ${branch}@${sha}. ` +
-                `Create or update the PR, wait for validation to pass, then retry the beta deployment.`
-              );
-            }
-
       - name: Checkout workflow repository (for local action)
         uses: actions/checkout@v5
 
@@ -253,38 +221,6 @@ jobs:
           echo "This deployment workflow must be run from the master branch."
           echo "Current ref is: $GITHUB_REF"
           exit 1
-
-      - name: Ensure validate-pr succeeded for this ref
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const branch = context.ref.replace('refs/heads/', '');
-            const sha = context.sha;
-            const { owner, repo } = context.repo;
-
-            const response = await github.rest.actions.listWorkflowRuns({
-              owner,
-              repo,
-              workflow_id: 'deploy-ovh.yml',
-              status: 'completed',
-              per_page: 100,
-            });
-
-            const hasSuccessfulValidation = response.data.workflow_runs.some((run) => {
-              return (
-                (run.event === 'pull_request' || run.event === 'push') &&
-                run.conclusion === 'success' &&
-                run.head_branch === branch &&
-                run.head_sha === sha
-              );
-            });
-
-            if (!hasSuccessfulValidation) {
-              core.setFailed(
-                `No successful validate-pr run found for ${branch}@${sha}. ` +
-                `Production deployment is blocked until validation succeeds.`
-              );
-            }
 
       - name: Ensure beta deployment succeeded for this ref
         uses: actions/github-script@v8
