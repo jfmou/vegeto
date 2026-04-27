@@ -2,7 +2,7 @@
 title: La Serre de la Dignité
 location: Tours
 baseline: Conseil
-mainImg: /assets/vegeto-conception-serre-dignite-1.jpg
+mainImg: /assets/vegeto-conception-serre-dignite-1-test.jpg
 tags:
   - realisation
   - conception
@@ -30,7 +30,7 @@ Si l’axe principal de l’association est la construction et la gestion de la 
 
 Au-delà de la production de végétaux variés (herbes aromatiques, légumes-feuille, légumes-fruits, fleurs comestibles…), la Serre de la Dignité propose diverses activités comme des visites guidées, des formations et ateliers pour les adultes et les enfants, des interventions de sensibilisation dans les collèges…
 
-![](/assets/vegeto-conception-serre-dignite-5.jpg)![](/assets/vegeto-conception-serre-dignite-2.jpg)![](/assets/vegeto-conception-serre-dignite-23.jpg)
+![](/assets/vegeto-conception-serre-dignite-5.jpg)![](/assets/vegeto-conception-serre-dignite-2.jpg)![](/assets/vegeto-conception-serre-dignite-2-test.jpg)
 
 Végéto a eu l’honneur d’accompagner ce projet en 2020 sous forme de conseil, les porteurs de projet ayant fourni un travail important en amont avec la production d'un plan d’affaires et la détection du futur site de production. La prestation a notamment consisté en un apport technique (dimensionnement, plans et chiffrage de l'installation), un amendement global du plan d’affaires et des recommandations d’ordre général.
 
