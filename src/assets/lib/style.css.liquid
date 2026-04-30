@@ -625,13 +625,79 @@ permalink: /assets/generated/style.css
     max-width: 420px;
   }
 
+  .home-hero-wrapper {
+    height: calc(100dvh - var(--header-default-height) - 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
   .home-intro-hero {
     align-items: center;
-    margin-bottom: 70px;
+    flex: 1;
+    min-height: 0;
+    margin-bottom: 0;
+  }
+
+  @keyframes hero-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+  }
+
+  .hero-scroll-arrow {
+    display: block;
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 0;
+    margin-bottom: 0;
+    animation: hero-bounce 1.6s ease-in-out infinite;
+    text-decoration: none;
+  }
+
+  .hero-scroll-arrow:hover {
+    color: var(--main-active-color);
+  }
+
+
+  .hero-scroll-arrow svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-scroll-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 38px;
+  }
+
+  .hero-scroll-label {
+    color: var(--main-active-color);
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 1.02rem;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    opacity: 0.85;
+    margin-bottom: 0;
+    text-align: center;
+    transition: color 0.3s;
+    pointer-events: none;
+    user-select: none;
+    animation: hero-bounce 1.6s ease-in-out infinite;
+    will-change: transform;
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home-intro-hero-visual {
     width: 100%;
+    min-height: 0;
+    overflow: hidden;
   }
 
   .home-intro-hero-copy {
@@ -669,15 +735,21 @@ permalink: /assets/generated/style.css
     color: var(--main-typo-color);
   }
 
+  .home-aquaponie-title {
+    scroll-margin-top: calc(var(--header-default-height) + 18px);
+  }
+
   .home-aquaponie-intro {
     margin-left: 0;
     margin-right: auto;
   }
 
   .home-intro-hero-visual .cover-image {
-    margin: 70px auto;
-    width: 100%;
+    margin: clamp(10px, 4dvh, 70px) auto;
+    max-height: 38vh;
+    width: auto;
     max-width: 420px;
+    object-fit: contain;
   }
 
   .top-separator {
@@ -1566,7 +1638,7 @@ permalink: /assets/generated/style.css
       display: grid;
       grid-template-columns: minmax(0, 430px) minmax(0, 1fr);
       gap: calc(var(--main-default-spacing) * 2);
-      margin-bottom: 70px;
+      margin-bottom: 0;
     }
 
     .home-intro-hero-visual {
@@ -1582,7 +1654,7 @@ permalink: /assets/generated/style.css
     }
 
     .home-intro-hero-visual .cover-image {
-      margin: 70px auto;
+      margin: clamp(10px, 4dvh, 70px) auto;
       width: 100%;
       max-width: 100%;
     }
